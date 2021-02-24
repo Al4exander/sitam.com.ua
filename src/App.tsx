@@ -1,23 +1,29 @@
 import React from 'react';
-import './App.css';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+} from "react-router-dom";
+import {Header} from "./pages/header/Header";
+import {HomePage} from "./pages/HomePage";
+import {Footer} from "./pages/Footer";
+import {Redirect} from "react-router";
+import 'antd/dist/antd.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+          <Header/>
+          <Switch>
+              <Route exact path='/'>
+                  <HomePage />
+              </Route>
+              <Route path={'*'}>
+                  <Redirect to='/' />
+              </Route>
+          </Switch>
+          <Footer/>
+      </Router>
   );
 }
 
