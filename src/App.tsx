@@ -6,9 +6,11 @@ import {
 } from "react-router-dom";
 import {Header} from "./pages/header/Header";
 import {HomePage} from "./pages/HomePage";
-import {Footer} from "./pages/Footer";
+import {Footer} from "./pages/footer/Footer";
 import {Redirect} from "react-router";
 import 'antd/dist/antd.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import './styles/main.css';
 
 function App() {
   return (

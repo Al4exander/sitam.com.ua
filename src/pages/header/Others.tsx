@@ -7,7 +7,7 @@ import {othersLinks} from "./constdata/OthersData";
 export function Others() {
   return (
       <div className="site-card-wrapper">
-          <Row gutter={16}>
+          <Row gutter={24}>
               {othersLinks.map((link: HeaderLinks, index, array) => {
                   return <>
                       <Col span={link.Col}>
