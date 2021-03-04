@@ -5,7 +5,7 @@ import {
     Route,
 } from "react-router-dom";
 import {Header} from "./pages/header/Header";
-import {HomePage} from "./pages/HomePage";
+import {HomePage} from "./pages/HomePage/HomePage";
 import {Footer} from "./pages/footer/Footer";
 import {Redirect} from "react-router";
 import 'antd/dist/antd.css';

@@ -1,0 +1,59 @@
+.ant-steps-item-description {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+
+    color: #000000;
+}
+.how-do-we-work-text {
+    font-family: Yanone Kaffeesatz;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 20px;
+    margin-top: 3em;
+    margin-bottom: 2em;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #4A4A4A;
+}
+.ant-steps-label-vertical .ant-steps-item-content .ant-steps-item-description {
+    text-align: left;
+    width: 300px;
+    max-width: 200px;
+    margin-top: 10px;
+}
+.ant-steps .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description {
+    color: #000000;
+}
+.ant-steps-label-vertical .ant-steps-item-subtitle {
+    margin-top: 5px;
+
+    font-family: Yanone Kaffeesatz;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+    /* or 75% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+.ml-p-10 {
+    margin-left: 2%;
+}

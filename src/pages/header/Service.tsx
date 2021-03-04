@@ -2,7 +2,7 @@ import React from 'react';
 import { Divider, Card, Col, Row, Space } from 'antd';
 import { Link } from "react-router-dom";
 import {Children, HeaderLinks} from "./Interfaces";
-import {serviceLinks} from "./constdata/ServiceData";
+import {serviceLinks} from "../../constdata/ServiceData";
 
 export function Service() {
   return (

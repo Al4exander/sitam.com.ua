@@ -1,7 +1,7 @@
 import React from 'react';
 import { Divider, Card, Col, Row, Space } from 'antd';
 import { Link } from "react-router-dom";
-import {montageDemontageLinks} from "./constdata/MontageDemontageData";
+import {montageDemontageLinks} from "../../constdata/MontageDemontageData";
 import {Children, HeaderLinks} from "./Interfaces";
 
 export function MontageDemontage() {

@@ -6,8 +6,7 @@ import {HeaderMenu} from "./Menu";
 export function HeaderText() {
     return (
         <>
-            <span className='col-12 header-text d-flex justify-content-center'>Поставщики услуг для</span>
-            <span className='col-12 header-text d-flex justify-content-center'>промышленных предприятий</span>
+            <span className='col-12 header-text d-flex justify-content-center'>Поставщики услуг для промышленных предприятий</span>
             <p className='col-12 under-header-text d-flex justify-content-center mb-5'>100+ выполненных проектов по всей Украине</p>
             <div className='col-12 under-header-row row d-flex justify-content-around'>
                 <p>Работы по монтажу и демонтажу</p>

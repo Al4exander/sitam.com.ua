@@ -2,7 +2,7 @@ import React from 'react';
 import { Divider, Card, Col, Row, Space } from 'antd';
 import { Link } from "react-router-dom";
 import {Children, HeaderLinks} from "./Interfaces";
-import {repairsLinks} from "./constdata/RepairsData";
+import {repairsLinks} from "../../constdata/RepairsData";
 
 
 export function Repairs() {
@@ -11,11 +11,11 @@ export function Repairs() {
           <Row gutter={16}>
               {repairsLinks.map((link: HeaderLinks, index, array) => {
                   return <>
-                      <Col span={link.Col}>
+                      <Col span={link.Col} key={index}>
                           <Card title={<span style={{whiteSpace: 'unset', overflow: 'unset'}}>{link.Type}</span>} bordered={false} key='montage/demontage_key'>
                               <Space direction="vertical" align="start">
-                                  {link.children.map((child: Children) => {
-                                      return <Link to={child.link}>{child.title}</Link>
+                                  {link.children.map((child: Children, index: number) => {
+                                      return <Link to={child.link} key={`${link.Type}-${index}`}>{child.title}</Link>
                                   })}
                               </Space>
                           </Card>
