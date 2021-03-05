@@ -35,40 +35,35 @@
     border-radius: 24px;
 }
 .address-box-text {
-    /* г. Харьков, Проспект Московский, 51, офис 5 Работаем по всей Украине! */
-
     position: absolute;
     width: inherit;
     height: inherit;
+    padding-right: 3%;
     padding-bottom: 10%;
-    padding-left: 10%;
 
     font-family: Jura;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 15px;
-    /* or 115% */
+
     display: flex;
     align-items: center;
     text-align: center;
 }
-
 .address-box-text-2 {
-    /* г. Харьков, Проспект Московский, 51, офис 5 Работаем по всей Украине! */
-
     position: absolute;
     width: inherit;
     height: inherit;
-    margin-top: 5%;
-    padding-left: 23%;
+    top: 25%;
+    padding-bottom: 5%;
 
     font-family: Jura;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 15px;
-    /* or 115% */
+
     display: flex;
     align-items: center;
     text-align: center;

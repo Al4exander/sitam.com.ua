@@ -8,10 +8,10 @@ import {ContactsAndAsk} from "../footer/ContactsAndAsk";
 export function HomePage() {
   return (
       <div>
-          <MainWays/>
-          <HowDoWeWork/>
-          <OurAdvantages/>
-          <ContactsAndAsk/>
+          {/*<MainWays/>*/}
+          {/*<HowDoWeWork/>*/}
+          {/*<OurAdvantages/>*/}
+          {/*<ContactsAndAsk/>*/}
           {/*<img src={Coworking}/>*/}
       </div>
   );

@@ -1,13 +1,14 @@
 .main-form {
     /*position: absolute;*/
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 
     border-radius: 52px;
     border: rgba(255, 255, 255, 0.5);
     border-width: 3px 7px 7px 4px;
     overflow-y: unset;
     overflow: unset;
+    margin-bottom: 10px;
 }
 .google-map {
     border-radius: 52px;
@@ -16,10 +17,9 @@
     position: absolute;
     width: 300px;
     height: 600px;
-    left: 70px;
+    left: 14%;
     min-width: 300px;
-    margin-left: 10%;
-    margin-top: 6%;
+    bottom: 5%;
 
     background: #FFFFFF;
     border-radius: 21px;
@@ -28,13 +28,34 @@
     position: absolute;
     width: 310px;
     height: 610px;
-    left: 70px;
-    margin-left: 10%;
-    margin-top: 6%;
+    left: 15%;
+    bottom: 3%;
 
     background: rgba(119, 141, 217, 0.35);
     filter: blur(15px);
     border-radius: 24px;
+}
+.ask-question-shadow {
+    position: absolute;
+    width: 39vw;
+    height: 49vh;
+    left: 47%;
+    bottom: 1%;
+
+    background: rgba(119, 141, 217, 0.35);
+    filter: blur(15px);
+    border-radius: 24px;
+}
+.ask-question {
+    position: absolute;
+    width: 40vw;
+    height: 48vh;
+    min-width: 300px;
+    left: 45%;
+    bottom: 5%;
+
+    background: #FFFFFF;
+    border-radius: 21px;
 }
 .contacts-header {
     width: 180px;
@@ -73,13 +94,15 @@
     height: 90px;
 
     background: #FAFBFF;
-    filter: blur(4px);
+    filter: blur(1px);
     border-radius: 24px;
 }
 .contact-cloud-shadow {
     position: absolute;
-    width: 280px;
-    height: 82px;
+    width: 90%;
+    height: 90%;
+    top: 10%;
+    left: 10%;
 
     background: rgba(255, 255, 255, 0.5);
     filter: blur(7px);
@@ -87,8 +110,10 @@
 }
 .contact-cloud-shadow-2 {
     position: absolute;
-    width: 287px;
-    height: 100px;
+    width: 90%;
+    height: 90%;
+    top: 20%;
+    left: 10%;
 
     background: rgba(119, 141, 217, 0.35);
     filter: blur(15px);
@@ -101,12 +126,197 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 15px;
-    top:25%;
-    left:7%;
+    top: 35%;
+    left: 7%;
 
     display: flex;
     align-items: center;
     text-align: center;
 
     color: #4A4A4A;
+}
+.input-field {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    top: 40%;
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+    border-radius: 52px;
+    border: none;
+    background: #FAFBFF;
+}
+.input-field:focus {
+    border: none;
+    outline: none;
+}
+.input-field::placeholder {
+    position: static;
+    width: 118px;
+    height: 22px;
+
+    font-family: Jura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #8C8C8C;
+    order: 0;
+    flex-grow: 1;
+    align-items: center;
+}
+.input-field-shadow {
+    position: absolute;
+    width: 26%;
+    height: 30px;
+    top: 42%;
+
+    background: rgba(119, 141, 217, 0.35);
+    filter: blur(15px);
+    border-radius: 24px;
+}
+.input-field-shadow-2 {
+    position: absolute;
+    width: 25%;
+    height: 20px;
+    top: 39%;
+
+    background: rgba(255, 255, 255, 0.5);
+    filter: blur(7px);
+    border-radius: 24px;
+}
+.ask-question-header {
+    margin-top: 1.5em;
+    font-family: Jura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 15px;
+    /* or 37% */
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+.ask-question-under-header {
+    font-family: Yanone Kaffeesatz;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+    margin-top: 1.5em;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-indent: 15px;
+
+    color: #19244D;
+}
+.message-input-field {
+    position: absolute;
+    width: 91%;
+    height: 24%;
+    top: 55%;
+    left: 5%;
+    padding-left: 20px;
+    padding-bottom: 10%;
+
+    border-radius: 24px;
+    border: none;
+    background: #FAFBFF;
+}
+.message-input-field-shadow {
+    position: absolute;
+    width: 90%;
+    height: 25%;
+    top: 57%;
+    left: 8%;
+
+    background: rgba(119, 141, 217, 0.35);
+    filter: blur(15px);
+    border-radius: 24px;
+}
+.message-input-field-shadow-2 {
+    position: absolute;
+    width: 90%;
+    height: 26%;
+    top: 60%;
+    left: 8%;
+
+    background: rgba(255, 255, 255, 0.5);
+    filter: blur(7px);
+    border-radius: 24px;
+}
+.message-input-field:focus {
+    border: none;
+    outline: none;
+}
+.message-input-field::placeholder {
+    position: static;
+    width: 118px;
+    height: 22px;
+    margin-bottom: 20px;
+
+    font-family: Jura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #8C8C8C;
+    order: 0;
+    flex-grow: 1;
+}
+.send-button {
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    bottom: 5%;
+    left: 40%;
+
+    background: #FAFBFF;
+    border: 1px solid #B2B1ED;
+    box-sizing: border-box;
+    border-radius: 24px;
+    outline: none;
+}
+.send-button:focus {
+    outline: none;
+}
+.send-button-outline {
+    position: absolute;
+    width: 22%;
+    height: 12%;
+    bottom: 4%;
+    left: 39%;
+
+    background: #FAFBFF;
+    border: 2px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+.send-button-shadow {
+    position: absolute;
+    width: 20%;
+    height: 12%;
+    bottom: 3%;
+    left: 38%;
+
+    background: rgba(255, 255, 255, 0.5);
+    filter: blur(7px);
+    border-radius: 24px;
+}
+.send-button-shadow-2 {
+    position: absolute;
+    width: 22%;
+    height: 12%;
+    bottom: 3%;
+    left: 40%;
+
+    background: rgba(119, 141, 217, 0.35);
+    filter: blur(15px);
+    border-radius: 24px;
 }
