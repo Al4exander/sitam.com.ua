@@ -16,7 +16,6 @@
     top: 4%;
     bottom: 13.35%;
 
-
     background: rgba(255, 255, 255, 0.5);
     filter: blur(4px);
     border-radius: 24px;
@@ -35,6 +34,9 @@
 .element-box-text {
     position: absolute;
 
+    top:10%;
+    left: 5%;
+    right: 2%;
     font-family: Jura;
     font-style: normal;
     font-weight: normal;
@@ -42,7 +44,6 @@
     line-height: 20px;
     /* or 133% */
 
-    display: flex;
     align-items: center;
     letter-spacing: 0.07em;
 

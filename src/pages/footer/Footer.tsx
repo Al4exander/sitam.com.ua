@@ -9,7 +9,7 @@ import {ContactsAndAsk} from "./ContactsAndAsk";
 export function Footer() {
   return (
       <div>
-          <MainWays/>
+          {/*<MainWays/>*/}
           <HowDoWeWork/>
           <OurAdvantages/>
           <FaqComponent/>

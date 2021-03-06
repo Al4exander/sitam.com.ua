@@ -1,18 +1,24 @@
 .second-faq-box {
-    left: 50%;
+    left: 40%;
+    top:2%;
     align-content: center;
 }
 .worker-image {
     object-fit: cover;
     object-position: 0 170px;
 }
-@media only screen and (max-width: 1000px) {
+.faq-input-img {
+    width: 64px;
+    height: 55px;
+}
+@media only screen and (max-width: 1024px) {
     .second-faq-box {
+        top: 0;
         left: 0;
     }
     .worker-image {
         object-fit: cover;
-        object-position: -80px 170px;
+        object-position: -125px 170px;
     }
 }
 .faq-header-text {
@@ -31,4 +37,13 @@
     letter-spacing: 0.03em;
 
     color: #4A4A4A;
+}
+.faq-text-button {
+    cursor: pointer;
+}
+.faq-text-button:hover {
+    color: #8C8C8C;
+}
+.faq-selected-item {
+    text-decoration: underline;
 }
