@@ -10,7 +10,7 @@ export interface IAdvantagesData {
     text: string;
 }
 
-export const ourAdvantagesFirstRowData: IAdvantagesData[] = [{
+export const ourAdvantagesData: IAdvantagesData[] = [{
     image: knowledge,
     text: 'У нас есть необходимые знания и опыт, а также высококвалифицированные сотрудники.'
 }, {
@@ -19,8 +19,7 @@ export const ourAdvantagesFirstRowData: IAdvantagesData[] = [{
 }, {
     image: backPackKnowledge,
     text: 'Имеются все необходимые разрешения, в соответствии с законодательством.'
-}];
-export const ourAdvantagesSecondRowData: IAdvantagesData[] = [{
+},{
     image: techKnowledge,
     text: 'Мы обладаем экономическим и техническим потенциалом для выполнения работ любой сложности.'
 }, {

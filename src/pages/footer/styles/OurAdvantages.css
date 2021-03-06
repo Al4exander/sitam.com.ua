@@ -23,3 +23,7 @@
 .ml-p-15 {
     margin-left: 15%;
 }
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}

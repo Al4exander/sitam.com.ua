@@ -5,7 +5,7 @@ import {WorkWithComponent} from "./WorkWIth";
 export function HomePage() {
   return (
       <div>
-          <WorkWithComponent/>
+          {/*<WorkWithComponent/>*/}
           {/*<img src={Coworking}/>*/}
       </div>
   );
