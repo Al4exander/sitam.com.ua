@@ -1,0 +1,50 @@
+.element-box-rectangle {
+    position: absolute;
+    left: 3.49%;
+    right: 3.16%;
+    top: 7.02%;
+    bottom: 7.9%;
+
+    background: #E4EAFA;
+    filter: blur(4px);
+    border-radius: 24px;
+}
+.element-box-shadow {
+    position: absolute;
+    left: 1.81%;
+    right: 2.44%;
+    top: 4%;
+    bottom: 13.35%;
+
+
+    background: rgba(255, 255, 255, 0.5);
+    filter: blur(4px);
+    border-radius: 24px;
+}
+.element-box-shadow-2 {
+    position: absolute;
+    left: 6.65%;
+    right: 0;
+    top: 13.19%;
+    bottom: 0;
+
+    background: rgba(119, 141, 217, 0.25);
+    filter: blur(15px);
+    border-radius: 24px;
+}
+.element-box-text {
+    position: absolute;
+
+    font-family: Jura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+
+    color: #171437;
+}

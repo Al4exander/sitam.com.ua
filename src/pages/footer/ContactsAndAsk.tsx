@@ -7,7 +7,7 @@ import {SendButton} from "./components/SendButton";
 
 export function ContactsAndAsk() {
   return (
-      <div className='col-12 d-flex justify-content-center'>
+      <div className='col-12 d-flex justify-content-center main-form-frame'>
           <div className='main-form' style={{backgroundImage:`url(${google_map})`}}>
               <div className='row'>
                   <div>
