@@ -2,10 +2,10 @@ import React from 'react';
 import Coworking from '../../svgFiles/Coworking.svg';
 import {WorkWithComponent} from "./WorkWIth";
 
-export function HomePage() {
+export function HomePage(props: any) {
   return (
       <div>
-          {/*<WorkWithComponent/>*/}
+          <WorkWithComponent smallSize={props.smallSize}/>
           {/*<img src={Coworking}/>*/}
       </div>
   );

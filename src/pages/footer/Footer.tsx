@@ -6,14 +6,14 @@ import {HowDoWeWork} from "./HowDoWeWork";
 import {OurAdvantages} from "./OurAdvantages";
 import {ContactsAndAsk} from "./ContactsAndAsk";
 
-export function Footer() {
+export function Footer(props: any) {
   return (
       <div>
           {/*<MainWays/>*/}
           <HowDoWeWork/>
           <OurAdvantages/>
           <FaqComponent/>
-          <ContactsAndAsk/>
+          {/*<ContactsAndAsk/>*/}
           <div className='footer d-flex justify-content-center'>2021 © Все права защищены «Sitam»</div>
       </div>
 

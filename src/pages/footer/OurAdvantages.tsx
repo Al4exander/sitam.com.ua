@@ -13,7 +13,7 @@ export function OurAdvantages() {
           <div className='col-12 row mx-auto'>
               {ourAdvantagesData.map((data: IAdvantagesData) => {
                   return <CardBlock
-                      className='col-lg-4 col-md-4 col-sm-6 card-horizontal'
+                      className='col-lg-4 col-md-12 col-sm-12 card-horizontal'
                       image={data.image}
                       textClassName={'advantages-text'}
                       text={data.text}

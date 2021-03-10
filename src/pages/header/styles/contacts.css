@@ -68,3 +68,13 @@
     align-items: center;
     text-align: center;
 }
+.contacts-social-net {
+    width: 100px;
+    height: 100px;
+}
+@media screen and (max-width: 600px) {
+    .contacts-social-net {
+        width: 75px;
+        height: 75px;
+    }
+}

@@ -3,7 +3,7 @@ import '../styles/ElementWithShadow.css'
 
 export function ElementWithShadow(props: any) {
   return (
-      <div className={`${props.className}`} style={{height: props.height}}>
+      <div className={`${props.className}`} style={{height: props.height, width: props.width}}>
           <div className='element-box-shadow'/>
           <div className='element-box-shadow-2'/>
           <div className='element-box-rectangle'/>

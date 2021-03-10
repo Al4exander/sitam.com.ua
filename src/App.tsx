@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {
     BrowserRouter as Router,
     Switch,
@@ -13,18 +13,35 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './styles/main.css';
 
 function App() {
-  return (
+    let [smallSize, setSmallSize] = useState(window.innerWidth < 800);
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    });
+
+    const handleResize = () => {
+        if(window.innerWidth < 800) {
+            !smallSize && setSmallSize(true);
+        } else {
+            smallSize && setSmallSize(false);
+        }
+    };
+
+    return (
       <Router>
-          <Header/>
+          <Header smallSize={smallSize}/>
           <Switch>
               <Route exact path='/'>
-                  <HomePage />
+                  <HomePage smallSize={smallSize}/>
               </Route>
               <Route path={'*'}>
                   <Redirect to='/' />
               </Route>
           </Switch>
-          <Footer/>
+          <Footer smallSize={smallSize}/>
       </Router>
   );
 }

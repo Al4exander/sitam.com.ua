@@ -1,14 +1,14 @@
 import React from 'react';
-import './styles/contacts.css';
-import youtube from '../../svgFiles/youtube.svg';
-import instagram from '../../svgFiles/instagram.svg';
-import linkedin from '../../svgFiles/linkedin.svg';
-import facebook from '../../svgFiles/facebook.svg';
+import './styles/Contacts.css';
+import youtube from '../../images/socialNets/youtube.png';
+import instagram from '../../images/socialNets/inst.png';
+import linkedin from '../../images/socialNets/ln.png';
+import facebook from '../../images/socialNets/fb.png';
 
-export function Contacts() {
+export function Contacts(props: any) {
     return (
         <div className='mt-5'>
-            <div className='container mx-auto row'>
+            {!props.smallSize ? <div className='container mx-auto row mb-5'>
                 <div className='container row col-lg-8 col-md-6 col-sm-12 d-flex justify-content-between'>
                     <div className="address col-lg-6 col-md-12 col-sm-12">
                         <div className="address-shadow"/>
@@ -25,23 +25,36 @@ export function Contacts() {
                         <p className="address-box-text-2 d-flex justify-content-center">+38 (067) 695 10 98</p>
                     </div>
                 </div>
-                <div className="row align-items-center col-lg-4 col-md-6 ml-md-3 mt-sm-5 mt-lg-0 mt-md-0 col-sm-12 d-flex justify-content-between">
-                    <div className='col-lg-2 col-sm-6'>
+                 <div className="row align-items-center col-lg-4 col-md-6 ml-md-3 ml-lg-0 ml-sm-0 mt-sm-5 mt-lg-0 mt-md-0 col-sm-12 d-flex justify-content-between">
+                    <div className='col-lg-2 col-sm-6 contacts-social-net'>
                         <a target='_blank' href='https://youtube.com'>
                             <img src={youtube}/>
                         </a>
                     </div>
-                    <div className='col-lg-2 col-sm-6'>
+                    <div className='col-lg-2 col-sm-6 contacts-social-net'>
                         <img src={linkedin}/>
                     </div>
-                    <div className='col-lg-2 col-sm-6'>
+                    <div className='col-lg-2 col-sm-6 contacts-social-net'>
                         <img src={facebook}/>
                     </div>
-                    <div className='col-lg-2 col-sm-6 mb-4'>
+                    <div className='col-lg-2 col-sm-6 contacts-social-net'>
                         <img src={instagram}/>
                     </div>
                 </div>
-            </div>
+            </div> : <div className="row col-12 d-flex justify-content-end">
+                <div className='col-3' >
+                    <img src={youtube} className='contacts-social-net'/>
+                </div>
+                <div className='col-3'>
+                    <img src={linkedin} className='contacts-social-net'/>
+                </div>
+                <div className='col-3' >
+                    <img src={facebook} className='contacts-social-net'/>
+                </div>
+                <div className='col-3' >
+                    <img src={instagram} className='contacts-social-net'/>
+                </div>
+            </div>}
         </div>
     );
 }

@@ -3,22 +3,14 @@
     top:2%;
     align-content: center;
 }
-.worker-image {
-    object-fit: cover;
-    object-position: 0 170px;
-}
 .faq-input-img {
     width: 64px;
     height: 55px;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 600px) {
     .second-faq-box {
         top: 0;
         left: 0;
-    }
-    .worker-image {
-        object-fit: cover;
-        object-position: -125px 170px;
     }
 }
 .faq-header-text {

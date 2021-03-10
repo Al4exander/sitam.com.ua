@@ -3,13 +3,17 @@ import './styles/Faq.css'
 import {ElementWithShadow} from "./components/ElementWithShadow";
 import {faqData, IFaqData} from "../../constdata/FaqData";
 import worker from '../../images/Worker.png';
-import WorkerWithout from '../../images/WorkerWithout.png';
+import workerWithout from '../../images/worker-cut.png';
 import FaqInput from '../../images/FaqInput.png';
 
+import { Collapse } from 'antd';
+
+const { Panel } = Collapse;
+
 export function FaqComponent() {
-    let [smallSize, setSmallSize] = useState(window.innerWidth < 1100 && window.innerWidth > 576);
+    let [smallSize, setSmallSize] = useState(window.innerWidth < 800);
     let [selectedRow, setSelectedRow] = useState(0);
-    let [workerDisplay, setWorkerDisplay] = useState(window.innerWidth < 1000);
+    let [workerDisplay, setWorkerDisplay] = useState(window.innerWidth < 1100);
 
     useEffect(() => {
         window.addEventListener('resize', handleResize);
@@ -19,12 +23,12 @@ export function FaqComponent() {
     });
 
     const handleResize = () => {
-        if(window.innerWidth < 1100 && window.innerWidth > 576) {
+        if(window.innerWidth < 800) {
             !smallSize && setSmallSize(true);
         } else {
             smallSize && setSmallSize(false);
         }
-        if(window.innerWidth < 700) {
+        if(window.innerWidth < 1100) {
             !workerDisplay && setWorkerDisplay(true);
         } else {
             workerDisplay && setWorkerDisplay(false);
@@ -38,30 +42,51 @@ export function FaqComponent() {
     };
 
     return (
-      <div className='ml-lg-5 ml-md-0 ml-sm-0'>
+      <div>
           <p className='faq-header-text mx-auto mt-5'>Часто задаваемые вопросы</p>
-          <div className='row container col-lg-10 col-sm-12 col-md-12 ml-lg-6 mx-lg-auto mx-sm-0 mx-md-0'>
-              <img
-                  className=' faq-input-img'
-                  src={FaqInput}
-              />
-              <div className='col-lg-4 col-md-4 col-sm-12'>
-                  <ElementWithShadow
-                      className='col-lg-12 col-sm-12 col-md-12'
-                      height='300px'
-                      text={clickedRows()}
-                      textClassName='row container'
+          <div className='row col-lg-12 col-sm-12 col-md-12 ml-lg-6 d-flex justify-content-end'>
+              { smallSize ?
+                  <div className='col-lg-12 col-md-12 col-sm-12'>
+                      <ElementWithShadow
+                          className='col-lg-12 col-sm-12 col-md-12'
+                          height='800px'
+                          text={<Collapse accordion defaultActiveKey='card-0' bordered={false} ghost>
+                              {
+                                  faqData.map((element: IFaqData, index: number) => {
+                                      return <Panel header={element.buttonText} key={`card-${index}`} showArrow={false}>
+                                          <p className='ml-2'>{element.text}</p>
+                                      </Panel>
+                                  })
+                              }
+                          </Collapse> }
+                          textClassName='row container'
+                      />
+                      <img
+                          className='col-12 worker-image'
+                          src={workerWithout}
+                      />
+                  </div>: <>
+                  <img
+                      className='faq-input-img'
+                      src={FaqInput}
                   />
-                  <ElementWithShadow
-                      className='col-lg-12 col-md-12 col-sm-12 mt-lg-5 mt-md-0 mt-sm-0 second-faq-box'
-                      height={smallSize ? '450px' : '300px'}
-                      text={faqData[selectedRow].text}
-                  />
-              </div>
-              {!workerDisplay && <img
-                  className='col-lg-7 col-md-7 col-sm-8 worker-image'
-                  src={worker}
-              />}
+                  <div className='col-lg-4 col-md-4 col-sm-12'>
+                      <ElementWithShadow
+                          className='col-lg-12 col-sm-12 col-md-12'
+                          height='300px'
+                          text={clickedRows()}
+                          textClassName='row container'
+                      />
+                      <ElementWithShadow
+                          className='col-lg-12 col-md-12 col-sm-12 second-faq-box'
+                          height={smallSize ? '450px' : '300px'}
+                          text={faqData[selectedRow].text}
+                      />
+                  </div>
+                      <img
+                      className='col-lg-6 col-md-6 col-sm-8 ml-5 pl-5 worker-image'
+                      src={worker}/>
+                  </>}
           </div>
       </div>
   );

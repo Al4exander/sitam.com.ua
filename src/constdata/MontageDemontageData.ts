@@ -1,56 +1,40 @@
 import {HeaderLinks} from "../pages/header/Interfaces";
 
 export const montageDemontageLinks: HeaderLinks[] = [{
-    Type: 'СТАНКИ',
-    Col: 4,
-    children: [{
-        link: '/installation-of-presses',
-        title: 'Монтаж прессов'
-    },{
-        link: '/installation-of-machines',
-        title: 'Монтаж станков'
-    },{
-        link: '/dismantling-of-machines',
-        title: 'Демонтаж станков'
-    },{
-        link: '/installation-of-technological-lines',
-        title: 'Монтаж технологических линий'
-    }]
-},{
-    Type: 'АГРОПРОМЫШЛЕННОСТЬ',
+    Type: 'Агропромышленность',
     Col: 4,
     children: [{
         link: '/silo-installation',
-        title: 'Монтаж силоса'
+        title: 'Монтаж , демонтаж силоса'
     },{
         link: '/bunker-manufacturing-and-installation',
         title: 'Изготовление и монтаж бункера'
     },{
         link: '/assembly-of-the-conveyor',
-        title: 'Монтаж конвейера (транспортера)'
-    },{
-        link: '/elevator-assembly-and-replacement',
-        title: 'Монтаж и замена нории'
+        title: 'Монтаж, демонтаж конвейера (скребкового, ленточного)'
     },{
         link: '/installation-of-containers',
-        title: 'Монтаж емкостей'
+        title: 'Изготовление и монтаж ёмкостей н/ж стали'
     },{
         link: '/disassembly-installation-of-miscella-distiller',
-        title: 'Демонтаж/Монтаж дистиллятора мисцелы'
+        title: 'Монтаж / демонтаж дистилятора'
+    },{
+        link: '/elevator-assembly-and-replacement',
+        title: 'Монтаж / демонтаж нории'
     },{
         link: '/installation-and-dismantling-of-car-scales',
         title: 'Монтаж и демонтаж вагонных весов'
+    },{
+        link: '/installation-of-granulators',
+        title: 'Монтаж грануляторов'
+    },{
+        link: '/installation-of-compresses',
+        title: 'Монтаж компрессов'
     }]
 },{
-    Type: 'ОТОПЛЕНИЕ, ВЕНТИЛЯЦИЯ И КОНДИЦИОНИРОВАНИЕ',
+    Type: 'Отопление и вентиляция',
     Col: 7,
     children: [{
-        link: '/air-duct-installation',
-        title: 'Монтаж воздуховодов'
-    },{
-        link: '/installation-of-ventilation',
-        title: 'Монтаж вентиляции'
-    },{
         link: '/installation-of-an-aspiration-system',
         title: 'Монтаж системы аспирации (пылеудаления)'
     },{
@@ -60,76 +44,57 @@ export const montageDemontageLinks: HeaderLinks[] = [{
         link: '/compressor-installation',
         title: 'Монтаж компрессора'
     },{
-        link: '/chiller-installation',
-        title: 'Монтаж чиллера'
-    },{
-        link: '/installation-of-refrigeration-equipment',
-        title: 'Монтаж холодильного оборудования'
-    },{
-        link: '/steam-boiler-installation',
-        title: 'Монтаж парового котла'
-    },{
-        link: '/installation-of-a-hot-water-boiler',
+        link: '/installation-and-repair-of-industrial-boilers',
         title: 'Монтаж водогрейного котла'
     },{
-        link: '/boiler-room-installation',
-        title: 'Монтаж котельной'
+        link: '/boiler-room-installation-repair',
+        title: 'Монтаж, ремонт котельной'
     }]
 },{
-    Type: 'ИНЖЕНЕРНЫЕ СЕТИ',
+    Type: 'Инженерные сети',
     Col: 4,
     children: [{
-        link: '/air-duct-installation',
-        title: 'Монтаж воздуховодов'
+        link: '/installation-dismantling-of-process-pipelines-heat-carriers-steam-water)',
+        title: 'Монтаж/ демонтаж технологических трубопроводов (теплоносителей, паро – водо)'
     },{
-        link: '/installation-of-ventilation',
-        title: 'Монтаж вентиляции'
-    },{
-        link: '/installation-of-an-aspiration-system',
-        title: 'Монтаж системы аспирации (пылеудаления)'
-    },{
-        link: '/cyclone-installation',
-        title: 'Установка циклона'
-    },{
-        link: '/compressor-installation',
-        title: 'Монтаж компрессора'
-    },{
-        link: '/chiller-installation',
-        title: 'Монтаж чиллера'
-    },{
-        link: '/installation-of-refrigeration-equipment',
-        title: 'Монтаж холодильного оборудования'
-    },{
-        link: '/steam-boiler-installation',
-        title: 'Монтаж парового котла'
-    },{
-        link: '/installation-of-a-hot-water-boiler',
-        title: 'Монтаж водогрейного котла'
-    },{
-        link: '/boiler-room-installation',
-        title: 'Монтаж котельной'
+        link: '/installation-replacement-of-power-control-electric-lines',
+        title: 'Монтаж / замена силовых, контрольных электромагистралей'
     }]
 },{
-    Type: 'ИНЖЕНЕРНЫЕ СЕТИ',
+    Type: 'Металлоконструкции',
     Col: 4,
     children: [{
-        link: '/installation-of-a-process-pipeline',
-        title: 'Монтаж технологического трубопровода'
+        link: '/installation-dismantling-of-process-pipelines-heat-carriers-steam-water)',
+        title: 'Монтаж/ демонтаж технологических трубопроводов (теплоносителей, паро – водо)'
     },{
-        link: '/dismantling-and-replacement-of-the-pipeline',
-        title: 'Демонтаж и замена трубопровода'
+        link: '/installation-replacement-of-power-control-electric-lines',
+        title: 'Монтаж / замена силовых, контрольных электромагистралей'
+    }]
+},{
+    Type: 'Оборудование',
+    Col: 4,
+    children: [{
+        link: '/repair-of-technological-equipment',
+        title: 'Ремонт  технологического оборудования.'
     },{
-        link: '/installation-of-tanks-rvs',
-        title: 'Монтаж резервуаров (РВС)'
+        link: '/installation-dismantling-relocation-relocation-of-technological-equipment',
+        title: 'Монтаж/ демонтаж/ перестановка /перемещение технологического оборудования.'
     },{
-        link: '/installation-of-tanks-rgs',
-        title: 'Монтаж резервуаров (РГС)'
+        link: '/installation-of-metalworking-equipment-machine-tools-foundation-installation-connection-commissioning',
+        title: 'Монтаж металлобрабатывающего оборудования, станков( фундамент, установка, подключение, пуско- наладочные работы)'
     },{
-        link: '/electric-installation-work',
-        title: 'Электромонтажные работы'
+        link: '/installation-of-pressing-equipment-foundation-installation-connection-commissioning',
+        title: 'Монтаж прессового оборудования( фундамент, установка, подключение, пуско- наладочные работы)'
+    }]
+},{
+    Type: 'Молниезащита',
+    Col: 4,
+    children: [{
+        link: '/design-project-approval-with-the-state-institution-of-emergency-situations',
+        title: 'Проектирование , согласование проекта с ГУ ГСЧС'
     },{
-        link: '/installation-of-power-transformers',
-        title: 'Монтаж силовых трансформаторов'
+        link: '/installation-use-of-european-level-components-commissioning',
+        title: 'Монтаж, использование комплектующих европейского уровня, сдача в эксплуатацию'
     }]
 }
 ];

@@ -1,0 +1,60 @@
+.dropdown-button-shadow {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+
+    background: rgba(255, 255, 255, 0.5);
+    filter: blur(7px);
+    border-radius: 24px;
+}
+.dropdown-button-shadow-2 {
+    position: absolute;
+    width: 180px;
+    height: 30px;
+
+    background: rgba(119, 141, 217, 0.35);
+    filter: blur(15px);
+    border-radius: 24px;
+}
+.dropdown-button-outer-line {
+    cursor: pointer;
+    position: absolute;
+    width: 195px;
+    height: 40px;
+
+    background: #E4EAFA;
+    border: 2px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+.align-center-full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.dropdown-button-inner-line {
+    cursor: pointer;
+    position: absolute;
+    width: 180px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border: 1px solid #B2B1ED;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+.dropdown-button-text {
+    position: absolute;
+    font-family: Yanone Kaffeesatz;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+    top: 25%;
+
+    color: #838383;
+}
