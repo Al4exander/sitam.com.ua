@@ -2,3 +2,12 @@
     /*font-family: Jura;*/
     /*src: url("../styles/Jura/static/Jura-Regular.ttf'");*/
 }
+.align-center-full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.align-center-semi {
+    align-items: center;
+}

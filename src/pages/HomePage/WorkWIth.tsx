@@ -13,7 +13,7 @@ import '../HomePage/styles/WorkWIth.css';
 export function WorkWithComponent(props: any) {
   return (
       <div>
-          <div className='centered'>
+          <div>
               {!props.smallSize ?
                   <div className='container row mx-lg-auto mx-md-0 mx-sm-0'>
                       <div className='col-lg-5 col-sm-6 col-md-8 '>

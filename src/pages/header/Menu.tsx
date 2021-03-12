@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import './styles/Menu.css';
-import {DropdownButton} from "./components/DropdownButton";
-import {MontageDemontage} from "./MontageDemontage";
+import {ShadowButton} from "./components/ShadowButton";
+import {MenuList} from "./MenuList";
+import {montageDemontageLinks} from "../../constdata/MontageDemontageData";
+import {repairsLinks} from "../../constdata/RepairsData";
 
 export function HeaderMenu() {
     let [dropdownOpen, setDropdownOpen] = useState(false);
@@ -26,7 +28,7 @@ export function HeaderMenu() {
     return (
         <div className='col-11 container ml-5 pl-5 mx-auto'>
             <div className="topnav" id="myTopnav">
-                <a key="main" className='col-2'>
+                <a href={'/'} key="main" className='col-2'>
                     Главная
                 </a>
                 <a key="uslugi" className={`col-2 ${dropdownOpen ? 'nav-active' : ''}`} onClick={openDropdown}>
@@ -51,11 +53,11 @@ export function HeaderMenu() {
                 <div className={`nav-dropdown ${dropdownClosing ? 'nav-inactive' : ''}`}>
                     <div className='row'>
                         <div className='row mt-4 col-lg-3 col-md-5 col-sm-4 max-height-5'>
-                            <DropdownButton onClick={() => setSelected(0)} text='Монтаж/демонтаж' className='col-12 mt-3 align-center-full'/>
-                            <DropdownButton onClick={() => setSelected(1)} text='Ремонт' className='col-12 mt-5 align-center-full'/>
+                            <ShadowButton onClick={() => setSelected(0)} text='Монтаж/демонтаж' className='col-12 mt-3 align-center-full'/>
+                            <ShadowButton onClick={() => setSelected(1)} text='Ремонт' className='col-12 mt-5 align-center-full'/>
                         </div>
                         <div className='row col-lg-9 col-md-7 col-sm-8 mt-1'>
-                            <MontageDemontage/>
+                            <MenuList links={!selected ? montageDemontageLinks : repairsLinks}/>
                         </div>
                     </div>
                 </div>

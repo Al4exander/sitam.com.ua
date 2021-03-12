@@ -3,41 +3,41 @@ import './styles/ContactsAndAsk.css'
 import google_map from '../../images/google_map.png'
 import {AskQuestionsInput} from "../../elements/inputFIeld/AskQuestionsInput";
 import {MessageField} from "./components/MessageField";
-import {SendButton} from "./components/SendButton";
+import {ShadowButton} from "../header/components/ShadowButton";
 
 export function ContactsAndAsk() {
   return (
       <div id="contacts" key='contacts' className='col-12 d-flex justify-content-center main-form-frame'>
-          <div className='main-form' style={{backgroundImage:`url(${google_map})`}}>
+          <div className='main-form w-100' style={{backgroundImage:`url(${google_map})`}}>
               <div className='row'>
-                  <div>
+                  <div className='contacts-top'>
                       <div className='shadow-contacts'/>
                       <div className='contacts'>
                           <div className='d-flex justify-content-center'>
-                              <p className='contacts-header '>Контакты</p>
+                              <p className='contacts-header'>Контакты</p>
                           </div>
                           <div className='d-flex justify-content-center'>
                               <p className='contacts-info'>Звоните! Наш менеджер проконсультирует вас по всем вопросам.</p>
                           </div>
-                          <div className='col-12'>
+                          <div className='col-12 align-center-full'>
                               <div className='contact-cloud-shadow'/>
                               <div className='contact-cloud-shadow-2'/>
                               <div className='contact-cloud'>
                               </div>
-                              <p className='contact-cloud-text ml-5'>
+                              <p className='contact-cloud-text'>
                                   +38 (067) 695 10 98
                               </p>
                           </div>
-                          <div className='col-12'>
+                          <div className='col-12 align-center-full'>
                               <div className='contact-cloud-shadow'/>
                               <div className='contact-cloud-shadow-2'/>
                               <div className='contact-cloud'>
                               </div>
-                              <p className='contact-cloud-text ml-5'>
+                              <p className='contact-cloud-text'>
                                   ----@gmail.com
                               </p>
                           </div>
-                          <div className='col-12'>
+                          <div className='col-12 align-center-full'>
                               <div className='contact-cloud-shadow'/>
                               <div className='contact-cloud-shadow-2'/>
                               <div className='contact-cloud'>
@@ -49,20 +49,18 @@ export function ContactsAndAsk() {
                       </div>
                   </div>
                   <div className='ask-question-shadow'/>
-                  <div className='ask-question'>
-                      <div className='d-flex justify-content-center'>
-                          <p className='ask-question-header'>Задать вопрос</p>
+                  <div className='ask-question d-flex flex-wrap'>
+                      <div className='align-center-full row col-12'>
+                          <div className='ask-question-header col-12'>Задать вопрос</div>
+                          <div className='ask-question-under-header align-center-full col-12'>Если у Вас есть вопросы, пожалуйста, напишите нам:</div>
                       </div>
-                      <div className='d-flex justify-content-center'>
-                          <p className='ask-question-under-header'>Если у Вас есть вопросы, пожалуйста, напишите нам:</p>
+                      <div className='col-12 row container w-100'>
+                          <AskQuestionsInput className='col-4' placeholder='Имя'/>
+                          <AskQuestionsInput className='col-4' placeholder='E-mail'/>
+                          <AskQuestionsInput className='col-4' placeholder='Тема письма'/>
                       </div>
-                      <div className='row justify-content-between'>
-                          <AskQuestionsInput left='5%' placeholder='Имя'/>
-                          <AskQuestionsInput left='38%' placeholder='E-mail'/>
-                          <AskQuestionsInput left='71%' placeholder='Тема письма'/>
-                      </div>
-                      <MessageField/>
-                      <SendButton/>
+                      <MessageField className='col-12 mb-4'/>
+                      <ShadowButton className='col-12 mb-1 mt-5 align-center-full' text='Отправить'/>
                   </div>
               </div>
           </div>

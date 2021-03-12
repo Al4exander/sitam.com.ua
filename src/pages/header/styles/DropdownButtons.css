@@ -27,12 +27,6 @@
     box-sizing: border-box;
     border-radius: 24px;
 }
-.align-center-full {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
 .dropdown-button-inner-line {
     cursor: pointer;
     position: absolute;

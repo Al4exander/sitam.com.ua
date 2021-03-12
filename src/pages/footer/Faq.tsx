@@ -48,6 +48,7 @@ export function FaqComponent() {
               { smallSize ?
                   <div className='col-lg-12 col-md-12 col-sm-12'>
                       <ElementWithShadow
+                          style={{paddingRight: "5px", paddingLeft: "5px"}}
                           className='col-lg-12 col-sm-12 col-md-12'
                           height='800px'
                           text={<Collapse accordion defaultActiveKey='card-0' bordered={false} ghost>

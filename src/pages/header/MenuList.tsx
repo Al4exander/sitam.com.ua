@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import {montageDemontageLinks} from "../../constdata/MontageDemontageData";
 import {Children, HeaderLinks} from "./Interfaces";
 
-export function MontageDemontage() {
+export function MenuList(props: {links: HeaderLinks[]}) {
   return (
       <div className="site-card-wrapper row">
-              {montageDemontageLinks.map((link: HeaderLinks, index, array) => {
+              {props.links.map((link: HeaderLinks, index, array) => {
                   return <>
                       <div className="card col-lg-3 col-md-6 col-sm-12 card-style" key={index}>
                           <div className="card-body">

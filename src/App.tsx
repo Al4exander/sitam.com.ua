@@ -11,6 +11,8 @@ import {Redirect} from "react-router";
 import 'antd/dist/antd.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/main.css';
+import {WithButtonsType} from "./pages/standartPages/twoImagesPage/WithButtonsType";
+import {siloInstallation} from "./constdata/pages/silo-installation";
 
 function App() {
     let [smallSize, setSmallSize] = useState(window.innerWidth < 800);
@@ -36,6 +38,9 @@ function App() {
           <Switch>
               <Route exact path='/'>
                   <HomePage smallSize={smallSize}/>
+              </Route>
+              <Route exact path='/silo-installation'>
+                  <WithButtonsType data={siloInstallation} smallSize={smallSize}/>
               </Route>
               <Route path={'*'}>
                   <Redirect to='/' />

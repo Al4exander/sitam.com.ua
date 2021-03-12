@@ -38,8 +38,7 @@
     position: absolute;
     width: inherit;
     height: inherit;
-    padding-right: 3%;
-    padding-bottom: 10%;
+    top: 20%;
 
     font-family: Jura;
     font-style: normal;
@@ -55,8 +54,7 @@
     position: absolute;
     width: inherit;
     height: inherit;
-    top: 25%;
-    padding-bottom: 5%;
+    top: 50%;
 
     font-family: Jura;
     font-style: normal;
@@ -71,10 +69,4 @@
 .contacts-social-net {
     width: 100px;
     height: 100px;
-}
-@media screen and (max-width: 600px) {
-    .contacts-social-net {
-        width: 75px;
-        height: 75px;
-    }
 }

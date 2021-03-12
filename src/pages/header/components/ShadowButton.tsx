@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/DropdownButtons.css';
 
-export function DropdownButton(props: any) {
+export function ShadowButton(props: {onClick?: () => any, className?: string, text?: string}) {
     return (
         <div className={props.className}>
             <div className='dropdown-button-shadow'/>
