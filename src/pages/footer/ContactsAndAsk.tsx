@@ -4,6 +4,7 @@ import google_map from '../../images/google_map.png'
 import {AskQuestionsInput} from "../../elements/inputFIeld/AskQuestionsInput";
 import {MessageField} from "./components/MessageField";
 import {ShadowButton} from "../header/components/ShadowButton";
+import {SendButton} from "./components/SendButton";
 
 export function ContactsAndAsk() {
   return (
@@ -60,7 +61,7 @@ export function ContactsAndAsk() {
                           <AskQuestionsInput className='col-4' placeholder='Тема письма'/>
                       </div>
                       <MessageField className='col-12 mb-4'/>
-                      <ShadowButton className='col-12 mb-1 mt-5 align-center-full' text='Отправить'/>
+                      <SendButton className='col-12 mb-1 mt-5 align-center-full'/>
                   </div>
               </div>
           </div>

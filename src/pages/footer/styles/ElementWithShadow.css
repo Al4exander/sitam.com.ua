@@ -1,9 +1,9 @@
 .element-box-rectangle {
     position: absolute;
-    left: 3.49%;
-    right: 3.16%;
-    top: 7.02%;
-    bottom: 7.9%;
+    left: 2.5%;
+    right: 2%;
+    top: 5.02%;
+    bottom: 2%;
 
     background: #E4EAFA;
     filter: blur(4px);
@@ -13,8 +13,8 @@
     position: absolute;
     left: 1.81%;
     right: 2.44%;
-    top: 4%;
-    bottom: 13.35%;
+    top: 3%;
+    bottom: 4%;
 
     background: rgba(255, 255, 255, 0.5);
     filter: blur(4px);
@@ -24,7 +24,7 @@
     position: absolute;
     left: 6.65%;
     right: 0;
-    top: 13.19%;
+    top: 15%;
     bottom: 0;
 
     background: rgba(119, 141, 217, 0.25);

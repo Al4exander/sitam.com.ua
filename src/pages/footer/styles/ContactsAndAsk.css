@@ -266,6 +266,48 @@
     order: 0;
     flex-grow: 1;
 }
+.send-button {
+    position: absolute;
+    width: 180px;
+    height: 33px;
+
+    background: #FAFBFF;
+    border: 1px solid #B2B1ED;
+    box-sizing: border-box;
+    border-radius: 24px;
+    outline: none;
+}
+.send-button:focus {
+    outline: none;
+}
+.send-button-outline {
+    position: absolute;
+    width: 195px;
+    height: 40px;
+
+    background: #FAFBFF;
+    border: 2px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+.send-button-shadow {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+
+    background: rgba(255, 255, 255, 0.5);
+    filter: blur(7px);
+    border-radius: 24px;
+}
+.send-button-shadow-2 {
+    position: absolute;
+    width: 186px;
+    height: 30px;
+
+    background: rgba(119, 141, 217, 0.35);
+    filter: blur(15px);
+    border-radius: 24px;
+}
 @media screen and (max-width: 800px) {
     .main-form {
         position: absolute;

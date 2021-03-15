@@ -7,8 +7,8 @@ import {HeaderText} from "./HeaderText";
 export function Header(props: any) {
     return (
         <>
-            <Contacts smallSize={props.smallSize}/>
-            <HeaderMenu/>
+            <Contacts {...props}/>
+            <HeaderMenu {...props}/>
             <HeaderText/>
         </>
     );

@@ -9,8 +9,9 @@
 }
 .dropdown-button-shadow-2 {
     position: absolute;
-    width: 180px;
+    width: 186px;
     height: 30px;
+    /*background: rgba(24, 75, 230, 0.35);*/
 
     background: rgba(119, 141, 217, 0.35);
     filter: blur(15px);

@@ -6,7 +6,7 @@ import {MenuList} from "./MenuList";
 import {montageDemontageLinks} from "../../constdata/MontageDemontageData";
 import {repairsLinks} from "../../constdata/RepairsData";
 
-export function HeaderMenu() {
+export function HeaderMenu(props: any) {
     let [dropdownOpen, setDropdownOpen] = useState(false);
     let [dropdownClosing, setDropdownClosing] = useState(false);
     let [selected, setSelected] = useState(0);
@@ -57,7 +57,7 @@ export function HeaderMenu() {
                             <ShadowButton onClick={() => setSelected(1)} text='Ремонт' className='col-12 mt-5 align-center-full'/>
                         </div>
                         <div className='row col-lg-9 col-md-7 col-sm-8 mt-1'>
-                            <MenuList links={!selected ? montageDemontageLinks : repairsLinks}/>
+                            <MenuList onClick={openDropdown} links={!selected ? montageDemontageLinks : repairsLinks}/>
                         </div>
                     </div>
                 </div>

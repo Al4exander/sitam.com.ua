@@ -11,11 +11,10 @@ import {Redirect} from "react-router";
 import 'antd/dist/antd.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/main.css';
-import {WithButtonsType} from "./pages/standartPages/twoImagesPage/WithButtonsType";
-import {siloInstallation} from "./constdata/pages/silo-installation";
+import {RoutesPage} from "./pages/routes/RoutesPage";
 
 function App() {
-    let [smallSize, setSmallSize] = useState(window.innerWidth < 800);
+    let [smallSize, setSmallSize] = useState(window.innerWidth < 850);
 
     useEffect(() => {
         window.addEventListener('resize', handleResize);
@@ -25,7 +24,7 @@ function App() {
     });
 
     const handleResize = () => {
-        if(window.innerWidth < 800) {
+        if(window.innerWidth < 850) {
             !smallSize && setSmallSize(true);
         } else {
             smallSize && setSmallSize(false);
@@ -39,9 +38,7 @@ function App() {
               <Route exact path='/'>
                   <HomePage smallSize={smallSize}/>
               </Route>
-              <Route exact path='/silo-installation'>
-                  <WithButtonsType data={siloInstallation} smallSize={smallSize}/>
-              </Route>
+              <RoutesPage smallSize={smallSize}/>
               <Route path={'*'}>
                   <Redirect to='/' />
               </Route>

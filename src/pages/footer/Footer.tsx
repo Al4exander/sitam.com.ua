@@ -9,7 +9,7 @@ export function Footer(props: any) {
   return (
       <div>
           <HowDoWeWork/>
-          <OurAdvantages/>
+          {/*<OurAdvantages/>*/}
           <FaqComponent/>
           <ContactsAndAsk/>
           <div className='footer d-flex justify-content-center'>2021 © Все права защищены «Sitam»</div>

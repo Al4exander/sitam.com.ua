@@ -50,6 +50,10 @@
     color: #000000;
 }
 @media screen and (max-width: 600px) {
+    .two-images-text-box-text {
+        font-size: 10px;
+        line-height: 15px;
+    }
     /*.two-images-text-box-box {*/
         /*width: 150px;*/
         /*height: 49px;*/

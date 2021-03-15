@@ -46,9 +46,9 @@ export function FaqComponent() {
           <p className='faq-header-text mx-auto mt-5'>Часто задаваемые вопросы</p>
           <div className='row col-lg-12 col-sm-12 col-md-12 ml-lg-6 d-flex justify-content-end'>
               { smallSize ?
-                  <div className='col-lg-12 col-md-12 col-sm-12'>
+                  <div className='col-lg-12 col-md-12 col-sm-12' style={{paddingRight: "0", paddingLeft: "0"}}>
                       <ElementWithShadow
-                          style={{paddingRight: "5px", paddingLeft: "5px"}}
+                          key='alone_element'
                           className='col-lg-12 col-sm-12 col-md-12'
                           height='800px'
                           text={<Collapse accordion defaultActiveKey='card-0' bordered={false} ghost>
@@ -73,12 +73,14 @@ export function FaqComponent() {
                   />
                   <div className='col-lg-4 col-md-4 col-sm-12'>
                       <ElementWithShadow
+                          key='first_element'
                           className='col-lg-12 col-sm-12 col-md-12'
                           height='300px'
                           text={clickedRows()}
                           textClassName='row container'
                       />
                       <ElementWithShadow
+                          key='second_element'
                           className='col-lg-12 col-md-12 col-sm-12 second-faq-box'
                           height={smallSize ? '450px' : '300px'}
                           text={faqData[selectedRow].text}

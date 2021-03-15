@@ -1,6 +1,22 @@
 import {HeaderLinks} from "../pages/header/Interfaces";
 
 export const montageDemontageLinks: HeaderLinks[] = [{
+    Type: 'Станки',
+    Col: 4,
+    children: [{
+        link: '/installation-of-presses',
+        title: 'Монтаж прессов'
+    },{
+        link: '/installation-of-machines',
+        title: 'Монтаж станков'
+    },{
+        link: '/dismantling-of-machines',
+        title: 'Демонтаж станков'
+    },{
+        link: '/installation-of-technological-lines',
+        title: 'Монтаж технологических линий'
+    }]
+},{
     Type: 'Агропромышленность',
     Col: 4,
     children: [{

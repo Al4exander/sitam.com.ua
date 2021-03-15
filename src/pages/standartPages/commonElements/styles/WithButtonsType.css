@@ -1,0 +1,9 @@
+.img-size {
+    max-width: 584px;
+}
+
+@media screen and (max-width: 600px) {
+    .img-size {
+        max-width: 350px;
+    }
+}
