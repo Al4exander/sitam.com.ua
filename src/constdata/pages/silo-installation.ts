@@ -9,12 +9,12 @@ export const siloInstallation = {
     pointRight,
     firstText: {
         small: {
-            height:530,
-            width:340
+            height: '530px',
+            width: '340px'
         },
         big: {
-            height:1250,
-            width:400
+            height: '1250px',
+            width: '400px'
         },
         text: `Монтаж сборных прессов производится по следующей схеме:
 
@@ -35,12 +35,12 @@ export const siloInstallation = {
     },
     secondText: {
         small: {
-            height:500,
-            width:340
+            height: '500px',
+            width: '340px'
         },
         big: {
-            height:1300,
-            width:600
+            height: '1300px',
+            width: '600px'
         },
         text: `Произведем монтаж гидравлического пресса, кривошипного пресса и гильотины различной конструкции и габаритов.
 

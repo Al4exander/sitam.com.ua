@@ -156,33 +156,18 @@
     align-items: center;
 }
 .input-field {
-    position: absolute;
     width: 180px;
-    height: 30px;
+    height: 43px;
     padding-left: 15px;
     padding-bottom: 5px;
 
-    border-radius: 52px;
+    border-radius: 24px;
     border: none;
     background: #FAFBFF;
-}
-.input-field-shadow {
-    position: absolute;
-    width: 180px;
-    height: 32px;
 
-    background: rgba(119, 141, 217, 0.35);
-    filter: blur(15px);
-    border-radius: 24px;
-}
-.input-field-shadow-2 {
-    position: absolute;
-    width: 180px;
-    height: 20px;
-
-    background: rgba(255, 255, 255, 0.5);
-    filter: blur(7px);
-    border-radius: 24px;
+    box-shadow:
+        -15px -12px 7px 0 rgba(255, 255, 255, 0.5),
+        5px 5px 15px 2px rgba(119, 141, 217, 0.35);
 }
 .ask-question-header {
     margin-top: 1em;
@@ -212,39 +197,16 @@
     color: #19244D;
 }
 .message-input-field {
-    position: absolute;
-    width: 91%;
-    height: 24%;
-    top: 55%;
-    left: 5%;
     padding-left: 20px;
     padding-bottom: 10%;
 
     border-radius: 24px;
     border: none;
     background: #FAFBFF;
-}
-.message-input-field-shadow {
-    position: absolute;
-    width: 90%;
-    height: 25%;
-    top: 57%;
-    left: 8%;
 
-    background: rgba(119, 141, 217, 0.35);
-    filter: blur(15px);
-    border-radius: 24px;
-}
-.message-input-field-shadow-2 {
-    position: absolute;
-    width: 90%;
-    height: 26%;
-    top: 60%;
-    left: 8%;
-
-    background: rgba(255, 255, 255, 0.5);
-    filter: blur(7px);
-    border-radius: 24px;
+    box-shadow:
+        -15px -12px 7px 0 rgba(255, 255, 255, 0.5),
+        5px 5px 15px 2px rgba(119, 141, 217, 0.35);
 }
 .message-input-field:focus {
     border: none;
@@ -281,7 +243,6 @@
     outline: none;
 }
 .send-button-outline {
-    position: absolute;
     width: 195px;
     height: 40px;
 
@@ -289,24 +250,10 @@
     border: 2px solid #F0F0F0;
     box-sizing: border-box;
     border-radius: 24px;
-}
-.send-button-shadow {
-    position: absolute;
-    width: 150px;
-    height: 30px;
 
-    background: rgba(255, 255, 255, 0.5);
-    filter: blur(7px);
-    border-radius: 24px;
-}
-.send-button-shadow-2 {
-    position: absolute;
-    width: 186px;
-    height: 30px;
-
-    background: rgba(119, 141, 217, 0.35);
-    filter: blur(15px);
-    border-radius: 24px;
+    box-shadow:
+            -20px -18px 7px 20px rgba(255, 255, 255, 0.5),
+            3px 0 8px 0 rgba(119, 141, 217, 0.35);
 }
 @media screen and (max-width: 800px) {
     .main-form {
@@ -461,25 +408,6 @@
         border-radius: 52px;
         border: none;
         background: #FAFBFF;
-    }
-    .input-field-shadow {
-        position: absolute;
-        width: 83px;
-        height: 36px;
-
-        background: rgba(119, 141, 217, 0.35);
-        filter: blur(15px);
-        border-radius: 24px;
-    }
-    .input-field-shadow-2 {
-        position: absolute;
-        width: 83px;
-        height: 36px;
-        left: 10px;
-
-        background: rgba(255, 255, 255, 0.5);
-        filter: blur(7px);
-        border-radius: 24px;
     }
     .ask-question-header {
         margin-top: 1em;

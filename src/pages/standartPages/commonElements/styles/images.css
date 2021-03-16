@@ -1,0 +1,46 @@
+.img-overlay-size {
+    position: absolute;
+    max-width: 666px;
+}
+.second-img-overlay-size {
+    position: absolute;
+    bottom: -100px;
+    right: 150px;
+
+    max-width: 584px;
+}
+.image-holder {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    border-radius: 29px;
+}
+.image-holder:before {
+    content:'';
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    width: 96%;
+    height: 96%;
+    border: 2px solid white;
+    border-radius: 29px;
+}
+@media screen and (max-width: 600px) {
+    .img-overlay-size {
+        max-width: 350px;
+    }
+}
+.img-size {
+    max-width: 584px;
+    /*border-radius: 29px;*/
+
+    /*padding:1px;*/
+    /*outline: 1px solid #FFFFFF;*/
+    /*outline-offset: -4px;*/
+}
+
+@media screen and (max-width: 600px) {
+    .img-size {
+        max-width: 350px;
+    }
+}

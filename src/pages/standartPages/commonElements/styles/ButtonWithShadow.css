@@ -1,48 +1,22 @@
 .two-images-button-box {
-    width: 281px;
+    cursor: pointer;
     height: 95px;
-}
-.two-images-button-shadow {
-    position: absolute;
-    width: 259px;
-    height: 90px;
-    top: -7px;
-    left: -1px;
-
-    background: rgba(255, 255, 255, 0.5);
-    filter: blur(7px);
-    border-radius: 24px;
-}
-.two-images-button-shadow-2 {
-    position: absolute;
-    width: 268px;
-    height: 82px;
-    left: 20px;
-    top: 15px;
-
-    background: rgba(119, 141, 217, 0.35);
-    filter: blur(15px);
-    border-radius: 24px;
-}
-.two-images-button-outer {
-    position: absolute;
-    width: 265px;
-    height: 88px;
+    margin-left: 20px;
 
     background: #FAFBFF;
-    border: 2px solid #F0F0F0;
-    box-sizing: border-box;
+    box-shadow:
+            -6px 0 7px 0 rgba(255, 255, 255, 0.5),
+            9px 12px 15px 2px rgba(119, 141, 217, 0.35);
     border-radius: 24px;
 }
-.two-images-button-inner {
+.two-images-button-box:after {
+    content:'';
     position: absolute;
-    width: 253px;
-    height: 65px;
-    top: 12px;
-    left: 20px;
-
+    left: 4%;
+    top: 5%;
+    width: 92%;
+    height: 90%;
     border: 1px solid #B2B1ED;
-    box-sizing: border-box;
     border-radius: 24px;
 }
 .two-images-button-text {
@@ -52,6 +26,8 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 22px;
+    padding-left: 4%;
+    padding-right: 4%;
     /* or 110% */
 
     display: flex;

@@ -53,15 +53,15 @@ export function ContactsAndAsk() {
                   <div className='ask-question d-flex flex-wrap'>
                       <div className='align-center-full row col-12'>
                           <div className='ask-question-header col-12'>Задать вопрос</div>
-                          <div className='ask-question-under-header align-center-full col-12'>Если у Вас есть вопросы, пожалуйста, напишите нам:</div>
+                          <div className='ask-question-under-header align-center-full col-12 mt-4'>Если у Вас есть вопросы, пожалуйста, напишите нам:</div>
                       </div>
-                      <div className='col-12 row container w-100'>
+                      <div className='col-12 row mt-3'>
                           <AskQuestionsInput className='col-4' placeholder='Имя'/>
                           <AskQuestionsInput className='col-4' placeholder='E-mail'/>
                           <AskQuestionsInput className='col-4' placeholder='Тема письма'/>
                       </div>
-                      <MessageField className='col-12 mb-4'/>
-                      <SendButton className='col-12 mb-1 mt-5 align-center-full'/>
+                      <MessageField className='col-12'/>
+                      <SendButton className='col-12 mb-1 align-center-full'/>
                   </div>
               </div>
           </div>

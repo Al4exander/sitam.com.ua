@@ -49,8 +49,8 @@ export function FaqComponent() {
                   <div className='col-lg-12 col-md-12 col-sm-12' style={{paddingRight: "0", paddingLeft: "0"}}>
                       <ElementWithShadow
                           key='alone_element'
-                          className='col-lg-12 col-sm-12 col-md-12'
-                          height='800px'
+                          className='col-lg-11 col-sm-11 col-md-11 col-12 ml-4'
+                          height='700px'
                           text={<Collapse accordion defaultActiveKey='card-0' bordered={false} ghost>
                               {
                                   faqData.map((element: IFaqData, index: number) => {
