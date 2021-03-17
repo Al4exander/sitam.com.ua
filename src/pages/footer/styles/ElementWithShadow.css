@@ -9,15 +9,8 @@
     margin-top: 2em;
     margin-bottom: 2em;
 }
-.element-box-rectangle:before {
-    filter: blur(4px);
-}
 .element-box-text {
-    position: absolute;
-
-    top:10%;
-    left: 5%;
-    right: 4%;
+    padding: 10px;
     font-family: Jura;
     font-style: normal;
     font-weight: normal;

@@ -17,16 +17,16 @@ export function TwoImagesTwoTextsType(props: any) {
             </div>
         </div> }
         {!props.smallSize ? <div className='row justify-content-center mt-5'>
-            <div className='col-xl-4 col-lg-6 col-md-5 col-sm-12 col-12'>
+            <div className='col-xl-4 col-lg-6 col-md-10 col-sm-12 col-12'>
                 <InnerBorderImage className='img-size' src={props.data.firstImage}/>
                 <TextBoxWithShadow className='col-12 mt-5'
                                    text={props.data.firstText.text}
                 />
             </div>
-            <TextBoxWithShadow className='col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 ml-lg-5 ml-md-5 ml-sm-0 ml-0'
+            <TextBoxWithShadow className='col-xl-5 col-lg-5 col-md-10 col-sm-12 col-12 ml-lg-5 ml-md-5 ml-sm-0 ml-0'
                                text={props.data.secondText.text}
             />
-            <div className='row col-10'>
+            <div className='row col-xl-10 col-lg-10 col-md-12 col-12'>
                 <div className='col-6'>
                     <img src={props.data.pointRight}/>
                 </div>
@@ -40,7 +40,7 @@ export function TwoImagesTwoTextsType(props: any) {
             </div>
             <TextBoxWithShadow
                 div
-                className='col-lg-5 col-md-5 col-sm-11 col-11 ml-lg-5 ml-md-5 ml-sm-0 ml-0 mt-2 mx-auto'
+                className='col-lg-5 col-md-10 col-sm-11 col-11 ml-lg-5 ml-md-5 ml-sm-0 ml-0 mt-2 mx-auto'
                 text={props.data.secondText.text}
             />
             <div className='col-sm-12 col-12 mt-2 d-flex justify-content-center'>

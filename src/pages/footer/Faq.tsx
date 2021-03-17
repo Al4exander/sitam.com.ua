@@ -50,7 +50,6 @@ export function FaqComponent() {
                       <ElementWithShadow
                           key='alone_element'
                           className='col-lg-11 col-sm-11 col-md-11 col-12 ml-4'
-                          height='700px'
                           text={<Collapse accordion defaultActiveKey='card-0' bordered={false} ghost>
                               {
                                   faqData.map((element: IFaqData, index: number) => {
@@ -75,14 +74,12 @@ export function FaqComponent() {
                       <ElementWithShadow
                           key='first_element'
                           className='col-lg-12 col-sm-12 col-md-12'
-                          height='300px'
                           text={clickedRows()}
                           textClassName='row container'
                       />
                       <ElementWithShadow
                           key='second_element'
                           className='col-lg-12 col-md-12 col-sm-12 second-faq-box'
-                          height={smallSize ? '450px' : '300px'}
                           text={faqData[selectedRow].text}
                       />
                   </div>

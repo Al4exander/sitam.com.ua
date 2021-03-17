@@ -11,22 +11,16 @@ export function Contacts(props: any) {
             {!props.smallSize ? <div className='container mx-auto row mb-5'>
                 <div className='container row col-lg-8 col-md-6 col-sm-12 d-flex justify-content-between'>
                     <div className="address col-lg-6 col-md-12 col-sm-12">
-                        <div className="address-shadow"/>
-                        <div className="address-shadow-2"/>
-                        <div className="address-box"/>
-                        <div className='align-center-full'>
-                            <p className="address-box-text">г. Харьков, Проспект Московский, 51, офис 5</p>
-                            <p className="address-box-text-2">Работаем по всей Украине!</p>
+                        <div className='address-inbox'/>
+                        <div className='row'>
+                            <p className="address-box-text col-12 align-center-full mt-3">г. Харьков, Проспект Московский, 51, офис 5</p>
+                            <p className="address-box-text col-12 align-center-full">Работаем по всей Украине!</p>
                         </div>
-
                     </div>
-                    <div className="address col-lg-5 mt-sm-5 mt-lg-0 mt-md-0 col-md-12 col-sm-12">
-                        <div className="address-shadow"/>
-                        <div className="address-shadow-2"/>
-                        <div className="address-box"/>
-                        <div className='align-center-full'>
-                            <p className="address-box-text d-flex justify-content-center">-----------------@gmail.com</p>
-                            <p className="address-box-text-2 d-flex justify-content-center">+38 (067) 695 10 98</p>
+                    <div className="address col-lg-5 mt-sm-5 mt-lg-0 mt-md-3 col-md-12 col-sm-12">
+                        <div className='row'>
+                            <p className="address-box-text col-12 align-center-full mt-3">-----------------@gmail.com</p>
+                            <p className="address-box-text col-12 align-center-full">+38 (067) 695 10 98</p>
                         </div>
                     </div>
                 </div>

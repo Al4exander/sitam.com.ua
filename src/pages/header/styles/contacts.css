@@ -1,44 +1,20 @@
 .address {
     height: 106px;
-}
-.address-shadow {
-    position: absolute;
-    left: 6.65%;
-    right: 0;
-    top: 13.19%;
-    bottom: 0;
+    /*background: #E4EAFA;*/
+    border-radius: 27px;
 
-    background: rgba(119, 141, 217, 0.25);
-    filter: blur(15px);
-    border-radius: 24px;
+    box-shadow:
+            -11px -11px 7px 0 rgba(255, 255, 255, 0.5),
+            12px 13px 15px 2px rgba(119, 141, 217, 0.25),
+            inset 0 0 20px 0 #e4ebfa;
 }
-.address-shadow-2 {
-    position: absolute;
-    left: 1.81%;
-    right: 2.44%;
-    top: 0;
-    bottom: 13.35%;
-
-    background: rgba(255, 255, 255, 0.5);
-    filter: blur(4px);
-    border-radius: 24px;
-}
-.address-box {
-    position: absolute;
-    left: 3.49%;
-    right: 3.16%;
-    top: 7.02%;
-    bottom: 7.9%;
-
-    background: #E4EAFA;
-    filter: blur(4px);
-    border-radius: 24px;
+.address-inbox {
+    filter: blur(1px);
+    z-index: -1;
 }
 .address-box-text {
-    position: absolute;
     width: inherit;
     height: inherit;
-    top: 20%;
 
     font-family: Jura;
     font-style: normal;
@@ -49,22 +25,8 @@
     display: flex;
     align-items: center;
     text-align: center;
-}
-.address-box-text-2 {
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    top: 50%;
-
-    font-family: Jura;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 15px;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
+    z-index: 10;
+    filter: blur(0);
 }
 .contacts-social-net {
     width: 100px;
