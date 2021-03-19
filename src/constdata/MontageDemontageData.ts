@@ -51,17 +51,14 @@ export const montageDemontageLinks: HeaderLinks[] = [{
     Type: 'Отопление и вентиляция',
     Col: 7,
     children: [{
-        link: '/installation-of-an-aspiration-system',
-        title: 'Монтаж системы аспирации (пылеудаления)'
-    },{
         link: '/cyclone-installation',
         title: 'Установка циклона'
     },{
         link: '/compressor-installation',
         title: 'Монтаж компрессора'
     },{
-        link: '/installation-and-repair-of-industrial-boilers',
-        title: 'Монтаж водогрейного котла'
+        link: '/installation-of-industrial-boilers',
+        title: 'Монтаж промышленных котлов'
     },{
         link: '/boiler-room-installation-repair',
         title: 'Монтаж, ремонт котельной'
@@ -72,6 +69,9 @@ export const montageDemontageLinks: HeaderLinks[] = [{
     children: [{
         link: '/installation-dismantling-of-process-pipelines-heat-carriers-steam-water)',
         title: 'Монтаж/ демонтаж технологических трубопроводов (теплоносителей, паро – водо)'
+    },{
+        link: '/dismantling-and-replacement-of-the-pipeline',
+        title: 'Демонтаж и замена трубопровода'
     },{
         link: '/installation-replacement-of-power-control-electric-lines',
         title: 'Монтаж / замена силовых, контрольных электромагистралей'
@@ -85,32 +85,6 @@ export const montageDemontageLinks: HeaderLinks[] = [{
     },{
         link: '/installation-replacement-of-power-control-electric-lines',
         title: 'Монтаж / замена силовых, контрольных электромагистралей'
-    }]
-},{
-    Type: 'Оборудование',
-    Col: 4,
-    children: [{
-        link: '/repair-of-technological-equipment',
-        title: 'Ремонт  технологического оборудования.'
-    },{
-        link: '/installation-dismantling-relocation-relocation-of-technological-equipment',
-        title: 'Монтаж/ демонтаж/ перестановка /перемещение технологического оборудования.'
-    },{
-        link: '/installation-of-metalworking-equipment-machine-tools-foundation-installation-connection-commissioning',
-        title: 'Монтаж металлобрабатывающего оборудования, станков( фундамент, установка, подключение, пуско- наладочные работы)'
-    },{
-        link: '/installation-of-pressing-equipment-foundation-installation-connection-commissioning',
-        title: 'Монтаж прессового оборудования( фундамент, установка, подключение, пуско- наладочные работы)'
-    }]
-},{
-    Type: 'Молниезащита',
-    Col: 4,
-    children: [{
-        link: '/design-project-approval-with-the-state-institution-of-emergency-situations',
-        title: 'Проектирование , согласование проекта с ГУ ГСЧС'
-    },{
-        link: '/installation-use-of-european-level-components-commissioning',
-        title: 'Монтаж, использование комплектующих европейского уровня, сдача в эксплуатацию'
     }]
 }
 ];

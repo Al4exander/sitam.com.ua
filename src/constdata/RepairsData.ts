@@ -1,25 +1,6 @@
 import {HeaderLinks} from '../pages/header/Interfaces';
 
 export const repairsLinks: HeaderLinks[] = [{
-    Type: 'ГИДРАВЛИКА',
-    Col: 4,
-    children: [{
-        link: '/repair-of-hydraulic-cylinders',
-        title: 'Ремонт гидроцилиндров'
-    },{
-        link: '/restoration-of-cylinders',
-        title: 'Восстановление цилиндров'
-    },{
-        link: '/hydraulic-pump-repair',
-        title: 'Ремонт гидронасоса'
-    },{
-        link: '/hydraulic-oil-change',
-        title: 'Замена гидравлического масла'
-    },{
-        link: '/hydraulic-motor-repair',
-        title: 'Ремонт гидромотора'
-    }]
-},{
     Type: 'ПРЕССОВОЕ ОБОРУДОВАНИЕ',
     Col: 5,
     children: [{
@@ -91,22 +72,6 @@ export const repairsLinks: HeaderLinks[] = [{
         title: 'Ремонт тостера (испаритель чанный)'
     },]
 },{
-    Type: 'ГРУЗОПОДЪЕМНОЕ ОБОРУДОВАНИЕ',
-    Col: 5,
-    children: [{
-        link: '/grapple-repair',
-        title: 'Ремонт грейфера'
-    },{
-        link: '/overhead-crane-repair',
-        title: 'Ремонт мостового крана'
-    },{
-        link: '/gantry-crane-repair',
-        title: 'Ремонт козлового крана'
-    },{
-        link: '/repair-of-crane-tracks',
-        title: 'Ремонт подкрановых путей'
-    }]
-},{
     Type: 'ПРОЧЕЕ',
     Col: 4,
     children: [{
@@ -122,5 +87,5 @@ export const repairsLinks: HeaderLinks[] = [{
         link: '/repair-of-a-car-dumper',
         title: 'Ремонт вагоноопрокидывателя'
     }]
-},
+}
 ];

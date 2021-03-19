@@ -7,19 +7,19 @@
 }
 .carousel-image.active-right {
     /*animation: drop-right 1s ease;*/
-    max-width: unset;
+    max-width: 566px;
     width: auto;
     opacity: 1;
 }
 .carousel-image.active-left {
     /*animation: drop-left 1s ease;*/
-    max-width: unset;
+    max-width: 566px;
     width: auto;
     opacity: 1;
 }
 .carousel-image.active-center {
     /*animation: drop-center 1s ease;*/
-    max-width: unset;
+    max-width: 566px;
     width: auto;
     opacity: 1;
 }

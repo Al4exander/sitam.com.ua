@@ -11,7 +11,6 @@ export function Contacts(props: any) {
             {!props.smallSize ? <div className='container mx-auto row mb-5'>
                 <div className='container row col-lg-8 col-md-6 col-sm-12 d-flex justify-content-between'>
                     <div className="address col-lg-6 col-md-12 col-sm-12">
-                        <div className='address-inbox'/>
                         <div className='row'>
                             <p className="address-box-text col-12 align-center-full mt-3">г. Харьков, Проспект Московский, 51, офис 5</p>
                             <p className="address-box-text col-12 align-center-full">Работаем по всей Украине!</p>

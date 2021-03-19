@@ -17,7 +17,7 @@ export function MainWays() {
               }, {
                   url: metalurg, text: 'Металлургические предприятия'
               }, {
-                  url: ShugarFactory, text: 'Cахарные заводы'
+                  url: ShugarFactory, text: 'Сахарные заводы'
               }]}/>
           </div>
       </div>
