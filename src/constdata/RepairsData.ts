@@ -72,6 +72,19 @@ export const repairsLinks: HeaderLinks[] = [{
         title: 'Ремонт тостера (испаритель чанный)'
     },]
 },{
+    Type: 'ОЧИСТКА И ЗАЩИТА',
+    Col: 8,
+    children: [{
+        link: "/silo-cleaning",
+        title: 'Очистка силоса'
+    },{
+        link: "/painting-corrosion-protection-of-the-tank",
+        title: 'Покраска (антикоррозионная защита) резервуара'
+    },{
+        link: "/crane-painting",
+        title: 'Покраска крана'
+    }]
+},{
     Type: 'ПРОЧЕЕ',
     Col: 4,
     children: [{

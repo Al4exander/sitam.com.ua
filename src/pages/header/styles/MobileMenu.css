@@ -1,0 +1,181 @@
+.top-nav-circle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:1020;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    background-color: #E4EAFA;
+    border-radius: 50%;
+
+    box-shadow:
+        -7px -7px 16px 0 #FFFFFF,
+        0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.top-nav-circle:before {
+    content:'';
+    position: absolute;
+    left: 7%;
+    top: 7%;
+    width: 86%;
+    height: 86%;
+    border: 1px solid white;
+    border-radius: 29px;
+    opacity: .5;
+    z-index: 1020;
+}
+.top-nav-mobile {
+    animation: menu-left .5s ease;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    background: #E4EAFA;
+    box-sizing: border-box;
+
+    background: rgba(255, 255, 255, 0.36);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-bottom-left-radius: 29px;
+    border-bottom-right-radius: 29px;
+    z-index: 1020;
+}
+
+.top-nav-mobile a.col-6{
+    font-family: Yanone Kaffeesatz;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+    /* or 75% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2570C8;
+}
+.top-nav-mobile a.col-6:hover{
+    text-decoration: none;
+    color: #26a3fd;
+}
+.top-nav-mobile .container {
+    height: 40vh;
+}
+.logo-name {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 15px;
+    /* or 44% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #6462B1;
+}
+.tag-remove::before {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    content: 'x';
+    color: #fff;
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+}
+.tag-remove:hover {
+    cursor: pointer;
+}
+.mob-nav-inactive {
+    animation: menu-hide-right .6s ease;
+}
+.services-header {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+
+    letter-spacing: 0.03em;
+
+    color: #4A4A4A;
+}
+.show-from-right {
+    animation: show-from-right .6s ease;
+}
+.show-from-top {
+    animation: menu-left .6s ease 0s;
+    bottom: 0; /* start out at position 0 */
+}
+.services-accordion-header {
+    font-family: Yanone Kaffeesatz;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+    /* or 75% */
+
+    letter-spacing: 0.05em;
+
+    color: #2570C8;
+}
+.services-accordion-text {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+
+    color: #000000;
+}
+.services-img {
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+@keyframes menu-left {
+    0% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes menu-hide-right {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+@keyframes show-from-right {
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes show-from-top {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

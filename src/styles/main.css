@@ -9,5 +9,7 @@
     text-align: center;
 }
 .align-center-semi {
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }

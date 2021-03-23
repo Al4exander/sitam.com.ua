@@ -47,7 +47,7 @@ export function ContactsAndAsk() {
                           <div className='ask-question-header col-12'>Задать вопрос</div>
                           <div className='ask-question-under-header align-center-full col-12 mt-4'>Если у Вас есть вопросы, пожалуйста, напишите нам:</div>
                       </div>
-                      <div className='col-12 row mt-3'>
+                      <div className='row mt-3 ml-1 mr-1'>
                           <AskQuestionsInput className='col-4' placeholder='Имя'/>
                           <AskQuestionsInput className='col-4' placeholder='E-mail'/>
                           <AskQuestionsInput className='col-4' placeholder='Тема письма'/>

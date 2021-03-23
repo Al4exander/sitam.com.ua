@@ -1,22 +1,6 @@
 import {HeaderLinks} from "../pages/header/Interfaces";
 
 export const montageDemontageLinks: HeaderLinks[] = [{
-    Type: 'Станки',
-    Col: 4,
-    children: [{
-        link: '/installation-of-presses',
-        title: 'Монтаж прессов'
-    },{
-        link: '/installation-of-machines',
-        title: 'Монтаж станков'
-    },{
-        link: '/dismantling-of-machines',
-        title: 'Демонтаж станков'
-    },{
-        link: '/installation-of-technological-lines',
-        title: 'Монтаж технологических линий'
-    }]
-},{
     Type: 'Агропромышленность',
     Col: 4,
     children: [{
@@ -46,6 +30,22 @@ export const montageDemontageLinks: HeaderLinks[] = [{
     },{
         link: '/installation-of-compresses',
         title: 'Монтаж компрессов'
+    }]
+},{
+    Type: 'Станки',
+    Col: 4,
+    children: [{
+        link: '/installation-of-presses',
+        title: 'Монтаж прессов'
+    },{
+        link: '/installation-of-machines',
+        title: 'Монтаж станков'
+    },{
+        link: '/dismantling-of-machines',
+        title: 'Демонтаж станков'
+    },{
+        link: '/installation-of-technological-lines',
+        title: 'Монтаж технологических линий'
     }]
 },{
     Type: 'Отопление и вентиляция',
@@ -85,6 +85,35 @@ export const montageDemontageLinks: HeaderLinks[] = [{
     },{
         link: '/installation-replacement-of-power-control-electric-lines',
         title: 'Монтаж / замена силовых, контрольных электромагистралей'
+    },{
+        link: "/welding-works",
+        title: 'Сварочные работы'
+    },{
+        link: "/manufacturing-and-installation-of-metal-structures",
+        title: 'Изготовление и монтаж металлоконструкций'
+    }]
+},{
+    Type: 'Молниезащита',
+    Col: 4,
+    children: [{
+        link: '/design-project-approval-with-the-state-institution-of-emergency-situations',
+        title: 'Проектирование , согласование проекта с ГУ ГСЧС'
+    },{
+        link: '/installation-use-of-european-level-components-commissioning',
+        title: 'Монтаж, использование комплектующих европейского уровня, сдача в эксплуатацию'
+    },{
+        link: '/production-and-installation-of-containers-for-the-food-industry',
+        title: 'Изготовление и монтаж ёмкостей для пищевой промышленности',
+    }]
+},{
+    Type: 'ТЕПЛОИЗОЛЯЦИЯ',
+    Col: 7,
+    children: [{
+        link: "/thermal-insulation-of-the-tank",
+        title: 'Теплоизоляция резервуара'
+    },{
+        link: "/thermal-insulation-of-the-pipeline",
+        title: 'Теплоизоляция трубопровода'
     }]
 }
 ];

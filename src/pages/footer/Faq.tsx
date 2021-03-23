@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import './styles/Faq.css'
 import {ElementWithShadow} from "./components/ElementWithShadow";
 import {faqData, IFaqData} from "../../constdata/FaqData";
@@ -10,30 +10,8 @@ import { Collapse } from 'antd';
 
 const { Panel } = Collapse;
 
-export function FaqComponent() {
-    let [smallSize, setSmallSize] = useState(window.innerWidth < 800);
+export function FaqComponent(props: any) {
     let [selectedRow, setSelectedRow] = useState(0);
-    let [workerDisplay, setWorkerDisplay] = useState(window.innerWidth < 1100);
-
-    useEffect(() => {
-        window.addEventListener('resize', handleResize);
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    });
-
-    const handleResize = () => {
-        if(window.innerWidth < 800) {
-            !smallSize && setSmallSize(true);
-        } else {
-            smallSize && setSmallSize(false);
-        }
-        if(window.innerWidth < 1100) {
-            !workerDisplay && setWorkerDisplay(true);
-        } else {
-            workerDisplay && setWorkerDisplay(false);
-        }
-    };
 
     const clickedRows = () => {
         return faqData.map((element: IFaqData, index: number) => {
@@ -42,18 +20,18 @@ export function FaqComponent() {
     };
 
     return (
-      <div>
+      <>
           <p className='faq-header-text mx-auto mt-5'>Часто задаваемые вопросы</p>
           <div className='row col-lg-12 col-sm-12 col-md-12 ml-lg-6 d-flex justify-content-end'>
-              { smallSize ?
+              { props.smallSize ?
                   <div className='col-lg-12 col-md-12 col-sm-12' style={{paddingRight: "0", paddingLeft: "0"}}>
                       <ElementWithShadow
-                          key='alone_element'
-                          className='col-lg-11 col-sm-11 col-md-11 col-12 ml-4'
-                          text={<Collapse accordion defaultActiveKey='card-0' bordered={false} ghost>
+                          key={1}
+                          className='col-lg-11 col-sm-11 col-md-11 col-11 ml-4'
+                          text={<Collapse accordion defaultActiveKey='0' bordered={false} ghost>
                               {
                                   faqData.map((element: IFaqData, index: number) => {
-                                      return <Panel header={element.buttonText} key={`card-${index}`} showArrow={false}>
+                                      return <Panel header={element.buttonText} key={index} showArrow={false}>
                                           <p className='ml-2'>{element.text}</p>
                                       </Panel>
                                   })
@@ -72,13 +50,13 @@ export function FaqComponent() {
                   />
                   <div className='col-lg-4 col-md-4 col-sm-12'>
                       <ElementWithShadow
-                          key='first_element'
+                          key={1}
                           className='col-lg-12 col-sm-12 col-md-12'
                           text={clickedRows()}
                           textClassName='row container'
                       />
                       <ElementWithShadow
-                          key='second_element'
+                          key={2}
                           className='col-lg-12 col-md-12 col-sm-12 second-faq-box'
                           text={faqData[selectedRow].text}
                       />
@@ -88,6 +66,6 @@ export function FaqComponent() {
                       src={worker}/>
                   </>}
           </div>
-      </div>
+      </>
   );
 }

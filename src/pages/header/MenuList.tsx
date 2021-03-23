@@ -6,8 +6,7 @@ export function MenuList(props: {links: HeaderLinks[], onClick: any}) {
   return (
       <div className="site-card-wrapper row">
               {props.links.map((link: HeaderLinks, index, array) => {
-                  return <>
-                      <div className="card col-lg-3 col-md-6 col-sm-12 card-style" key={index}>
+                  return <div className="card col-lg-3 col-md-6 col-sm-12 card-style" key={index}>
                           <div className="card-body">
                               <h6 className="card-title card-header-text-style">{link.Type}</h6>
                               <div className="card-text row">
@@ -17,7 +16,6 @@ export function MenuList(props: {links: HeaderLinks[], onClick: any}) {
                               </div>
                           </div>
                       </div>
-                  </>
               })}
       </div>
   );
