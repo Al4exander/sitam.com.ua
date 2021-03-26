@@ -31,6 +31,7 @@
     left: 0;
     top: 0;
     width: 100%;
+    height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
 
@@ -40,13 +41,17 @@
     background: rgba(255, 255, 255, 0.36);
     border: 1px solid #FFFFFF;
     backdrop-filter: blur(10px);
-    /* Note: backdrop-filter has minimal browser support */
+    -webkit-backdrop-filter: blur(10px);
 
     border-bottom-left-radius: 29px;
     border-bottom-right-radius: 29px;
     z-index: 1020;
 }
-
+@-moz-document url-prefix() {
+    .top-nav-mobile {
+        background: rgba(228, 234, 250, 0.9);
+    }
+}
 .top-nav-mobile a.col-6{
     font-family: Yanone Kaffeesatz;
     font-style: normal;
@@ -57,7 +62,6 @@
 
     display: flex;
     align-items: center;
-    text-align: center;
     color: #2570C8;
 }
 .top-nav-mobile a.col-6:hover{
@@ -81,17 +85,40 @@
 
     color: #6462B1;
 }
-.tag-remove::before {
+.close {
     position: absolute;
-    top: 1%;
-    right: 1%;
-    content: 'x';
-    color: #fff;
-    font-weight: 300;
-    font-family: Arial, sans-serif;
+    right: 20px;
+    top: 15px;
+    width: 15px;
+    height: 15px;
+    opacity: 0.3;
+    text-shadow: -7px -7px 16px 0 #002cff;
 }
-.tag-remove:hover {
+.close:hover {
     cursor: pointer;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background-color: #333;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+.arrow-left {
+    border: solid #a3c5ee;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    float: left;
 }
 .mob-nav-inactive {
     animation: menu-hide-right .6s ease;
@@ -111,7 +138,7 @@
 .show-from-right {
     animation: show-from-right .6s ease;
 }
-.show-from-top {
+.show-from-left {
     animation: menu-left .6s ease 0s;
     bottom: 0; /* start out at position 0 */
 }
@@ -144,7 +171,9 @@
 .services-img {
     top: 0;
     left: 0;
+    width: 100%;
     position: fixed;
+    z-index: 100;
 }
 
 @keyframes menu-left {

@@ -3,11 +3,11 @@ import Coworking from '../../svgFiles/Coworking.svg';
 import {WorkWithComponent} from "./WorkWIth";
 import {MainWays} from "./MainWays";
 
-export function HomePage(props: any) {
+export function HomePage() {
   return (
       <div>
-          <WorkWithComponent smallSize={props.smallSize}/>
-          <MainWays/>
+          <WorkWithComponent/>
+          {/*<MainWays/>*/}
           {/*<img src={Coworking}/>*/}
       </div>
   );

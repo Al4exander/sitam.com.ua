@@ -1,20 +1,25 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {
     BrowserRouter as Router,
-    Switch,
+    Routes,
     Route,
+    Navigate
 } from "react-router-dom";
 import {Header} from "./pages/header/Header";
 import {HomePage} from "./pages/HomePage/HomePage";
 import {Footer} from "./pages/footer/Footer";
-import {Redirect} from "react-router";
 import 'antd/dist/antd.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/main.css';
-import {RoutesPage} from "./pages/routes/RoutesPage";
+import {SizeContext} from "./lib/sizeContext";
+import {oilPressingLineInstallation} from "./constdata/pages/oil-pressing-line-installation";
+import {oilExtractionLineInstallation} from "./constdata/pages/oil-extraction-line-installation";
+import {siloInstallation} from "./constdata/pages/silo-installation";
+import {OneImageTwoTextsSmallType} from "./pages/standartPages/oneImagePage/OneImageTwoTextsSmallType";
+import {TwoImagesTwoTextsType} from "./pages/standartPages/twoImagesPage/TwoImagesTwoTextsType";
 
 function App() {
-    let [smallSize, setSmallSize] = useState(window.innerWidth < 850);
+    const [smallSize, setSmallSize] = useContext(SizeContext);
 
     useEffect(() => {
         window.addEventListener('resize', handleResize);
@@ -33,17 +38,25 @@ function App() {
 
     return (
       <Router>
-          <Header smallSize={smallSize}/>
-          <Switch>
-              <Route exact path='/'>
-                  <HomePage smallSize={smallSize}/>
+          <Header/>
+          <Routes>
+              <Route path='/'>
+                  <HomePage/>
               </Route>
-              <RoutesPage smallSize={smallSize}/>
+              <Route path='/silo-installation'>
+                  <TwoImagesTwoTextsType data={siloInstallation}/>
+              </Route>
+              <Route path='/oil-pressing-line-installation'>
+                  <TwoImagesTwoTextsType data={oilPressingLineInstallation}/>
+              </Route>
+              <Route path='/oil-extraction-line-installation'>
+                  <OneImageTwoTextsSmallType data={oilExtractionLineInstallation}/>
+              </Route>
               <Route path={'*'}>
-                  <Redirect to='/' />
+                  <Navigate to='/' />
               </Route>
-          </Switch>
-          <Footer smallSize={smallSize}/>
+          </Routes>
+          <Footer/>
       </Router>
   );
 }

@@ -42,15 +42,15 @@ export function MobileMenu() {
 
     return (
         <>
-            {mobDropdown && servicesSelected && !dropdownClosing && <img className='services-img' src={Plumbs}/>}
+            {mobDropdown && servicesSelected && !dropdownClosing && <img className='show-from-left services-img' src={Plumbs}/>}
             {!mobDropdown ? <div className='top-nav-circle' onClick={openMobDropdown}/> :
                 <div className={`top-nav-mobile ${dropdownClosing ? 'mob-nav-inactive' : ''}`}>
                     <header className='logo-name mt-2 ml-4'>
                         <img src={logoIcon}/>
                         <span className='ml-3'>Sitam</span>
-                        <div className='tag-remove' onClick={openMobDropdown}/>
+                        <div className='close' onClick={openMobDropdown}/>
                     </header>
-                    {!servicesSelected ? <div className='row container m-3'>
+                    {!servicesSelected ? <div className='row container m-3 show-from-right'>
                         <Link to={'/'} key='main' className='col-6'>
                             Главная
                         </Link>
@@ -70,14 +70,17 @@ export function MobileMenu() {
                             Контакты
                         </Link>
                     </div> : <>
-                                <div className='row m-3 align-center-semi show-from-right'>
-                                    <span className='services-header col-12'>Услуги</span>
+                                <div className='row m-3 align-center-semi show-from-left'>
+                                    <span className='services-header col-12'>
+                                        <div className='arrow-left' onClick={() => setServicesSelected(false)}/>
+                                        Услуги
+                                    </span>
                                     <div className='row col-12 mt-3'>
-                                        <ShadowButton onClick={() => setSelected(1)} text='Монтаж/демонтаж' className={`col-6 align-center-full ${selected === 1 ? 'active' : ''}`}/>
-                                        <ShadowButton onClick={() => setSelected(2)} text='Ремонт' className={`col-6 align-center-full ${selected === 2 ? 'active' : ''}`}/>
+                                        <ShadowButton onClick={() => setSelected(1)} text='Монтаж/демонтаж' className={`col-6 align-center-full pl-1 ${selected === 1 ? 'active' : ''}`}/>
+                                        <ShadowButton onClick={() => setSelected(2)} text='Ремонт' className={`col-6 align-center-full pr-1 ${selected === 2 ? 'active' : ''}`}/>
                                     </div>
                                 </div>
-                                {(selected === 1 || selected === 2) && <Collapse className='show-from-top ml-5' accordion defaultActiveKey='0' bordered={false} ghost>
+                                {(selected === 1 || selected === 2) && <Collapse className='show-from-left ml-3' accordion defaultActiveKey='0' bordered={false} ghost>
                                     {
                                         (selected === 1 ? montageDemontageLinks : repairsLinks).map((element: HeaderLinks, index: number) => {
                                             return <Panel className='services-accordion-header col-12'
@@ -97,7 +100,7 @@ export function MobileMenu() {
                                 </Collapse>
                                 }
                         </>}
-                    {!servicesSelected && <Icons iconClassName='col-4 col-sm-3' className='col-6 row align-center-full'/>}
+                    {!servicesSelected && <Icons iconClassName='col-4 col-sm-3' className='col-6 row align-center-full show-from-right'/>}
                 </div>}
         </>
   );

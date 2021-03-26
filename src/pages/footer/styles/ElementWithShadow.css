@@ -15,7 +15,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 26px;
+    line-height: 20px;
     /* or 133% */
 
     align-items: center;
@@ -25,14 +25,12 @@
 }
 @media screen and (max-width: 600px) {
     .element-box-text {
-        top: 1%;
-        left: 5%;
-        right: 4%;
+        padding: 2px;
         font-family: Jura;
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
-        line-height: 26px;
+        font-size: 14px;
+        line-height: 20px;
 
         color: #171437;
     }

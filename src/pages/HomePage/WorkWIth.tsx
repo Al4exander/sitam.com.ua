@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import astarta from '../../images/workWithUs/astarta.png';
 import cygnet from '../../images/workWithUs/cygnet.png';
 import emc from '../../images/workWithUs/emc.png';
@@ -9,12 +9,15 @@ import nibulon from '../../images/workWithUs/nibulon.png';
 import Coworking from '../../svgFiles/Coworking.svg';
 import workWithFull from '../../images/workWithUs/work-with-full.png';
 import '../HomePage/styles/WorkWIth.css';
+import {SizeContext} from "../../lib/sizeContext";
 
-export function WorkWithComponent(props: any) {
+export function WorkWithComponent() {
+  const [smallSize] = useContext(SizeContext);
+
   return (
       <div>
           <div>
-              {!props.smallSize ?
+              {!smallSize ?
                   <div className='container row mx-lg-auto mx-md-0 mx-sm-0'>
                       <div className='col-lg-5 col-sm-6 col-md-8 '>
                           <img className='work-with-us-img' src={Coworking}/>

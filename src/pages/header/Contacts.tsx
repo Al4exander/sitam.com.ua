@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import './styles/Contacts.css';
 import {Icons} from "./components/socialContacts/Icons";
+import {SizeContext} from "../../lib/sizeContext";
 
-export function Contacts(props: any) {
+export function Contacts() {
+    const [smallSize] = useContext(SizeContext);
+
     return (
         <div className='mt-5'>
-            {!props.smallSize && <div className='container mx-auto row mb-5'>
+            {!smallSize && <div className='container mx-auto row mb-5'>
                 <div className='row col-lg-7 col-md-8 d-flex justify-content-between'>
                     <div className="address col-lg-6 col-md-12">
                         <div className='row'>

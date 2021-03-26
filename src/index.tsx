@@ -2,10 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {SizeProvider} from "./lib/sizeContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <SizeProvider>
+        <App />
+      </SizeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

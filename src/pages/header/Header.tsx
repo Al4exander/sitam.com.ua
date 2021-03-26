@@ -4,11 +4,11 @@ import {Contacts} from "./Contacts";
 import {HeaderMenu} from "./Menu";
 import {HeaderText} from "./HeaderText";
 
-export function Header(props: any) {
+export function Header() {
     return (
         <>
-            <Contacts {...props}/>
-            <HeaderMenu {...props}/>
+            <Contacts />
+            <HeaderMenu />
             <HeaderText/>
         </>
     );

@@ -1,52 +1,52 @@
-import React from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {TextBoxWithShadow} from "../commonElements/TextBoxWithShadow";
 import '../commonElements/styles/Common.css';
 import '../commonElements/styles/images.css';
 import GirlWithPhone from '../../../images/GirlWithPhone.png';
+import {SizeContext} from "../../../lib/sizeContext";
+import {InnerBorderImage} from "../commonElements/InnerBorderImage";
+import {TwoImagesElement} from "../commonElements/TwoImagesElement";
 
 export function OneImageTwoTextsSmallType(props: any) {
-  return (
+  const [smallSize] = useContext(SizeContext);
+
+    return (
     <div>
         <div className='d-flex justify-content-center page-title-text'>{props.data.title}</div>
-        {!props.smallSize ? <div className='row mx-auto'>
-            <TextBoxWithShadow className='col-12 mt-5 mx-auto'
-                               height={props.data.firstText.big.height}
-                               width={props.data.firstText.big.width}
+        {!smallSize ? <>
+                        <TextBoxWithShadow className='col-10 mx-auto mt-4'
                                text={props.data.firstText.text}
-            />
-            <div className='row col-12 image-holder'>
-                <TextBoxWithShadow className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 ml-lg-5 ml-md-5 ml-sm-0 ml-0'
-                                   height={props.data.secondText.big.height}
-                                   width={props.data.secondText.big.width}
-                                   text={props.data.secondText.text}
+                        />
+                <section className='col-10 mx-auto row mt-5'>
+                     <TextBoxWithShadow className='col-4 mr-5'
+                                       text={props.data.secondText.text}
+                     />
+                    <TwoImagesElement className='col-xl-5 col-lg-7 col-md-5 ml-lg-0 ml-xl-5 ml-md-0 ml-0'
+                                      first={props.data.firstImage}
+                                      second={GirlWithPhone}
+                                      maxSize={false}
+                    />
+                </section>
+            </> :
+            <section className='mx-auto mt-4'>
+                <TextBoxWithShadow
+                    style={{ paddingLeft: 0}}
+                    div
+                    className='col-11 mt-3 mx-auto'
+                    text={props.data.firstText.text}
                 />
-                <div className='col-xl-7 col-lg-8 col-md-6 col-sm-12 col-12 mx-auto mt-5 image-holder'>
-                    <img className='img-overlay-size col-6' src={props.data.firstImage}/>
-                    <img className='second-img-overlay-size' src={GirlWithPhone}/>
+                <div className='mt-4 col-sm-12 col-12 mt-2 d-flex justify-content-center'>
+                    <TwoImagesElement first={props.data.firstImage}
+                                      second={GirlWithPhone}
+                    />
                 </div>
-            </div>
-        </div> : <div className='justify-content-center mt-4'>
-            <TextBoxWithShadow
-                style={{ paddingLeft: 0}}
-                div
-                className='col-12 mt-3 mx-auto'
-                height={props.data.firstText.small.height}
-                width={props.data.firstText.small.width}
-                text={props.data.firstText.text}
-            />
-            <div className='col-xl-7 col-lg-8 col-md-6 col-sm-12 col-12 mx-auto mt-5 image-holder'>
-                <img className='img-overlay-size col-6' src={props.data.firstImage}/>
-                <img className='second-img-overlay-size' src={GirlWithPhone}/>
-            </div>
-            <TextBoxWithShadow
-                style={{ paddingLeft: 0}}
-                div
-                className='col-lg-5 col-md-5 col-sm-12 col-12 ml-lg-5 ml-md-5 ml-sm-0 ml-0 mt-2 mx-auto'
-                height={props.data.secondText.small.height}
-                width={props.data.secondText.small.width}
-                text={props.data.secondText.text}
-            />
-        </div>}
+                <TextBoxWithShadow
+                    style={{ paddingLeft: 0}}
+                    div
+                    className='col-11 ml-lg-5 ml-md-5 ml-sm-0 ml-0 mt-2 mx-auto'
+                    text={props.data.secondText.text}
+                />
+            </section>}
     </div>
 );
 }

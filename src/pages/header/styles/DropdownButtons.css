@@ -41,3 +41,13 @@
 
     color: #838383;
 }
+@media screen and (max-width: 600px) {
+    .dropdown-button-outer-line {
+        width: 155px;
+        height: 37px;
+    }
+    .dropdown-button-inner-line {
+        width: 140px;
+        height: 30px;
+    }
+}

@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {ButtonWithShadow} from "../commonElements/ButtonWithShadow";
 import {TextBoxWithShadow} from "../commonElements/TextBoxWithShadow";
 import '../commonElements/styles/images.css';
 import '../commonElements/styles/Common.css';
 import {InnerBorderImage} from "../commonElements/InnerBorderImage";
+import {SizeContext} from "../../../lib/sizeContext";
 
 export function TwoImagesTwoTextsType(props: any) {
+  const [smallSize] = useContext(SizeContext);
+
   return (
     <div>
         <div className='d-flex justify-content-center page-title-text mb-5'>{props.data.title}</div>
@@ -16,7 +19,7 @@ export function TwoImagesTwoTextsType(props: any) {
                 })}
             </div>
         </div> }
-        {!props.smallSize ? <div className='row justify-content-center mt-5'>
+        {!smallSize ? <div className='row justify-content-center mt-5'>
             <div className='col-xl-4 col-lg-6 col-md-10 col-sm-12 col-12'>
                 <InnerBorderImage className='img-size' src={props.data.firstImage}/>
                 <TextBoxWithShadow className='col-12 mt-5'

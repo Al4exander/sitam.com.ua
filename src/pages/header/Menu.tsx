@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import ReactDOM from 'react-dom';
 import {ShadowButton} from './components/ShadowButton';
 import {MenuList} from './MenuList';
@@ -7,12 +7,14 @@ import {repairsLinks} from '../../constdata/RepairsData';
 import {Link} from "react-router-dom";
 import './styles/Menu.css';
 import {MobileMenu} from "./MobileMenu";
+import {SizeContext} from "../../lib/sizeContext";
 
-export function HeaderMenu(props: any) {
+export function HeaderMenu() {
     let [dropdownOpen, setDropdownOpen] = useState(false);
     let [dropdownClosing, setDropdownClosing] = useState(false);
     let [selected, setSelected] = useState(0);
     let [sticky, setSticky] = useState(false);
+    const [smallSize] = useContext(SizeContext);
 
     const scrollToContactsAndAsk = () => {
         const contactsRef = ReactDOM.findDOMNode(document.getElementById('contacts'));
@@ -57,7 +59,7 @@ export function HeaderMenu(props: any) {
     };
 
     return (
-        !props.smallSize ? <div className={`col-11 container ml-5 pl-5 mx-auto ${sticky ? 'sticky-top' : ''}`}>
+        !smallSize ? <div className={`col-11 container ml-5 pl-5 mx-auto ${sticky ? 'sticky-top' : ''}`}>
             <div className='topnav align-center-full' id='myTopnav'>
                 <Link to={'/'} key='main' className='col-2'>
                     Главная

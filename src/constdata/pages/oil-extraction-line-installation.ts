@@ -1,10 +1,8 @@
 import firstImage from '../../images/oil-extraction-line-installation/firstImage.png';
-import pointRight from '../../images/Point_right.png';
 
 export const oilExtractionLineInstallation = {
     title: 'Монтаж линии экстракции масла',
     firstImage,
-    pointRight,
     firstText: {
         small: {
             height: '600px',
@@ -29,18 +27,32 @@ export const oilExtractionLineInstallation = {
         text: `Монтаж линии экстракции (экстракционного цеха) может включать:
 
 Монтаж транспортера;
+
 Монтаж скребкового конвейера;
+
 Монтаж экстрактора;
+
 Монтаж пресса;
+
 Монтаж гранулятора;
+
 Монтаж насосов;
+
 Монтаж тостера (чанный испаритель);
+
 Монтаж дистиллятора;
+
 Монтаж сушилка-охладителя шрота;
+
 Моетаж фильтров;
+
 Монтаж жаровни;
+
 Монтаж конденсаторов;
+
 Монтаж резервуаров, емкостей, колонн, отстойников;
+
 Монтаж теплообменника, экономайзера, бойлера;
+
 и др оборудования.`
 }};

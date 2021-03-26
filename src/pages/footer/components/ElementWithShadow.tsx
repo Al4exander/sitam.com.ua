@@ -1,14 +1,19 @@
 import React from 'react';
 import '../styles/ElementWithShadow.css'
 
-export function ElementWithShadow(props: any) {
+export const ElementWithShadow: React.FC<IElementWithShadow> = ({className, text, textClassName}) => {
   return (
-      <div className={`element-box-rectangle ${props.className}`}
-           style={{width: props.width, ...props.style}}
+      <div className={`element-box-rectangle ${className}`}
       >
-          <div className={props.textClassName}>
-              <div className='element-box-text'>{props.text}</div>
+          <div className={textClassName}>
+              <div className='element-box-text'>{text}</div>
           </div>
       </div>
   );
+};
+
+interface IElementWithShadow {
+    className?: string;
+    text?: any;
+    textClassName?: string;
 }
