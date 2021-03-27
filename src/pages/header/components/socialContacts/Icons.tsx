@@ -12,7 +12,7 @@ export const Icons: React.FC<IIcons> = ({className, size, iconClassName}) => {
             <a href='https://t.me/1' target='_blank' rel='noopener noreferrer' className={iconClassName}>
                 <img src={telegram} style={{height: `${size}px`, width:`${size}px`, marginLeft: '4px'}}/>
             </a>
-            <a className={iconClassName} target='_blank' rel='noopener noreferrer' href='https://wa.me/+?text=Здравствуйте,%20я%20по%20поводу'>
+            <a target='_blank' rel='noopener noreferrer' href='https://wa.me/+?text=Здравствуйте,%20я%20по%20поводу'  className={iconClassName}>
                 <img src={whatsapp} style={{height: `${size}px`, width:`${size}px`}}/>
             </a>
         </div>

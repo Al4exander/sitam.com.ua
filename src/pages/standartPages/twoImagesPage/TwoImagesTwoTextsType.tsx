@@ -12,14 +12,14 @@ export function TwoImagesTwoTextsType(props: any) {
   return (
     <div>
         <div className='d-flex justify-content-center page-title-text mb-5'>{props.data.title}</div>
-        {props.data.buttons && props.data.buttons.length && <div className='row justify-content-center ml-lg-0 ml-sm-5 ml-md-0'>
-            <div className='row col-lg-9 col-md-8 col-sm-12 col-12 d-flex justify-content-center'>
+        {props.data.buttons && props.data.buttons.length && <div className='row justify-content-center'>
+            <div className='row col-12 d-flex justify-content-center'>
                 {props.data.buttons.map((button: any) => {
-                    return <ButtonWithShadow className='col-xl-2 col-lg-6 col-md-6 col-sm-5 col-5 mt-2' text={button.text}/>;
+                    return <ButtonWithShadow className='col-xl-2 col-lg-5 col-md-4 col-sm-4 col-5 mt-2' text={button.text}/>;
                 })}
             </div>
         </div> }
-        {!smallSize ? <div className='row justify-content-center mt-5'>
+        {!smallSize ? <div className='d-flex flex-wrap justify-content-center mt-5'>
             <div className='col-xl-4 col-lg-6 col-md-10 col-sm-12 col-12'>
                 <InnerBorderImage className='img-size' src={props.data.firstImage}/>
                 <TextBoxWithShadow className='col-12 mt-5'
