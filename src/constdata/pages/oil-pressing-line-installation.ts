@@ -1,8 +1,8 @@
 import firstImage from '../../images/pages/oil-pressing-line-installation/firstImage.png';
 import secondImage from '../../images/pages/oil-pressing-line-installation/secondImage.png';
-import pointRight from '../../images/common/Point_right.png';
 
 export const oilPressingLineInstallation = {
+    url: '/oil-pressing-line-installation',
     buttons: [{
         text: 'Монтаж линии прессования масла',
         url: ''
@@ -31,16 +31,7 @@ export const oilPressingLineInstallation = {
     title: 'Монтаж линии прессования масла',
     firstImage,
     secondImage,
-    pointRight,
     firstText: {
-        small: {
-            height: '630px',
-            width: '340px'
-        },
-        big: {
-            height: '900px',
-            width: '400px'
-        },
         text: `Реконструкция маслоэкстракционного завода:
         
 Строительно-монтажные работы;
@@ -76,14 +67,6 @@ export const oilPressingLineInstallation = {
 Сопровождение пуско-наладочных работ.`
     },
     secondText: {
-        small: {
-            height: '1150px',
-            width: '340px'
-        },
-        big: {
-            height: '1300px',
-            width: '600px'
-        },
         text: `Наша компания выполняет все виды общестроительных работ, работ по изготовлению и монтажу связанных со строительством и реконструкцией масло-экстракционных заводов.
         
 Монтаж оборудования маслоэкстракционного завода может включать:

@@ -1,21 +1,13 @@
 import firstImage from '../../images/pages/silo-installation/firstImage.jpg';
 import secondImage from '../../images/pages/silo-installation/secondImage.jpeg';
-import pointRight from '../../images/common/Point_right.png';
 
 export const siloInstallation = {
+    url: '/silo-installation',
+    type: 2,
     title: 'Монтаж линии прессования масла',
     firstImage,
     secondImage,
-    pointRight,
     firstText: {
-        small: {
-            height: '530px',
-            width: '340px'
-        },
-        big: {
-            height: '1250px',
-            width: '400px'
-        },
         text: `Монтаж сборных прессов производится по следующей схеме:
 
 Изучение технического задания, выезд на объект;
@@ -34,14 +26,6 @@ export const siloInstallation = {
 После завершения наладки производят проверку станка согласно свидетельству о приемке на соответствие техническим характеристикам, после чего составляется соответствующий акт о выполненных ПНР. По результатам проведения пусконаладочных работ оборудование сдается заказчику в эксплуатацию с соответствующее паспортным характеристиками.`
     },
     secondText: {
-        small: {
-            height: '500px',
-            width: '340px'
-        },
-        big: {
-            height: '1300px',
-            width: '600px'
-        },
         text: `Произведем монтаж гидравлического пресса, кривошипного пресса и гильотины различной конструкции и габаритов.
 
 Монтаж прессового оборудования и прессовых линий может включать:

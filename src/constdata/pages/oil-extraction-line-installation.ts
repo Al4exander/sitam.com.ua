@@ -1,29 +1,15 @@
 import firstImage from '../../images/pages/oil-extraction-line-installation/firstImage.png';
 
 export const oilExtractionLineInstallation = {
+    url: '/oil-extraction-line-installation',
+    type: 1,
     title: 'Монтаж линии экстракции масла',
     firstImage,
     firstText: {
-        small: {
-            height: '600px',
-            width: '354px'
-        },
-        big: {
-            height: '130px',
-            width: '95%'
-        },
         text: `Выполним монтаж и замену/демонтаж конвейеров (транспортеров) и другого промышленного оборудования на профессиональном уровне. На все виды работ организация имеет необходимые разрешения и свидетельства.
 Наша компнаия произведет монтаж оборудование для экстракции масла (отжима) масличных культур: семена подсолнечника, бобы сои, пальмовые косточки, семена хлопка, арахис, и др`
     },
     secondText: {
-        small: {
-            height: '600px',
-            width: '354px'
-        },
-        big: {
-            height: '700px',
-            width: '400px'
-        },
         text: `Монтаж линии экстракции (экстракционного цеха) может включать:
 
 Монтаж транспортера;

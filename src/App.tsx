@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext, useEffect} from 'react';
 import {
     BrowserRouter as Router,
     Routes,
@@ -12,11 +12,17 @@ import 'antd/dist/antd.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/main.css';
 import {SizeContext} from "./lib/sizeContext";
-import {oilPressingLineInstallation} from "./constdata/pages/oil-pressing-line-installation";
-import {oilExtractionLineInstallation} from "./constdata/pages/oil-extraction-line-installation";
-import {siloInstallation} from "./constdata/pages/silo-installation";
 import {OneImageTwoTextsSmallType} from "./pages/standartPages/oneImagePage/OneImageTwoTextsSmallType";
 import {TwoImagesTwoTextsType} from "./pages/standartPages/twoImagesPage/TwoImagesTwoTextsType";
+import {ThreeTwoImagesTwoTextsType} from "./pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType";
+import {
+    siloInstallation,
+    oilExtractionLineInstallation,
+    oilPressingLineInstallation,
+    bunkerManufacturingAndInstallation,
+    assemblyOfTheConveyor,
+    installationOfContainers
+} from './constdata/pages';
 
 function App() {
     const [smallSize, setSmallSize] = useContext(SizeContext);
@@ -43,14 +49,26 @@ function App() {
               <Route path='/'>
                   <HomePage/>
               </Route>
-              <Route path='/silo-installation'>
+              <Route path={siloInstallation.url}>
                   <TwoImagesTwoTextsType data={siloInstallation}/>
               </Route>
-              <Route path='/oil-pressing-line-installation'>
+              <Route path={oilPressingLineInstallation.url}>
                   <TwoImagesTwoTextsType data={oilPressingLineInstallation}/>
               </Route>
-              <Route path='/oil-extraction-line-installation'>
+              <Route path={oilExtractionLineInstallation.url}>
                   <OneImageTwoTextsSmallType data={oilExtractionLineInstallation}/>
+              </Route>
+              <Route path={bunkerManufacturingAndInstallation.url}>
+                  <OneImageTwoTextsSmallType data={bunkerManufacturingAndInstallation}/>
+              </Route>
+              <Route path={assemblyOfTheConveyor.url}>
+                  <ThreeTwoImagesTwoTextsType data={assemblyOfTheConveyor}/>
+              </Route>
+              <Route path={assemblyOfTheConveyor.url}>
+                  <ThreeTwoImagesTwoTextsType data={assemblyOfTheConveyor}/>
+              </Route>
+              <Route path={installationOfContainers.url}>
+                  <ThreeTwoImagesTwoTextsType data={installationOfContainers}/>
               </Route>
               <Route path={'*'}>
                   <Navigate to='/' />

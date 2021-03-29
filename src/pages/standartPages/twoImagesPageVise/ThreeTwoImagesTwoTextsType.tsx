@@ -5,9 +5,8 @@ import '../commonElements/styles/Images.css';
 import '../commonElements/styles/Common.css';
 import {InnerBorderImage} from "../commonElements/InnerBorderImage";
 import {SizeContext} from "../../../lib/sizeContext";
-import pointRight from '../../../images/common/Point_right.png';
 
-export function TwoImagesTwoTextsType(props: any) {
+export function ThreeTwoImagesTwoTextsType(props: any) {
   const [smallSize] = useContext(SizeContext);
 
   return (
@@ -22,21 +21,19 @@ export function TwoImagesTwoTextsType(props: any) {
         </div> }
         {!smallSize ? <div className='d-flex flex-wrap justify-content-center mt-5'>
             <div className='col-xl-4 col-lg-6 col-md-10 col-sm-12 col-12'>
-                <InnerBorderImage className='img-size' src={props.data.firstImage}/>
-                <TextBoxWithShadow className='col-12 mt-5'
+                <TextBoxWithShadow className='col-12 mb-5'
                                    text={props.data.firstText.text}
                 />
+                <InnerBorderImage className='img-size' src={props.data.firstImage}/>
+                <div className='mt-3'>
+                    {props.data.thirdImage && <InnerBorderImage className='img-size' src={props.data.thirdImage}/>}
+                </div>
             </div>
-            <TextBoxWithShadow className='col-xl-5 col-lg-5 col-md-10 col-sm-12 col-12 ml-lg-5 ml-md-5 ml-sm-0 ml-0'
-                               text={props.data.secondText.text}
-            />
-            <div className='row col-xl-10 col-lg-10 col-md-12 col-12'>
-                <div className='col-6'>
-                    <img src={pointRight}/>
-                </div>
-                <div className='col-lg-5 col-md-4 col-sm-12 col-12 mt-5'>
-                    <InnerBorderImage className='img-size' src={props.data.secondImage}/>
-                </div>
+            <div className='col-xl-5 col-lg-5 col-md-10 col-sm-12 col-12 ml-lg-5 ml-md-5 ml-sm-0 ml-0'>
+                <InnerBorderImage className='img-size' src={props.data.secondImage}/>
+                <TextBoxWithShadow className='col-12 mt-5'
+                                   text={props.data.secondText.text}
+                />
             </div>
         </div> : <div className='justify-content-center mt-4'>
             <div className='col-sm-12 col-12 d-flex justify-content-center'>
@@ -45,7 +42,7 @@ export function TwoImagesTwoTextsType(props: any) {
             <TextBoxWithShadow
                 div
                 className='col-lg-5 col-md-10 col-sm-11 col-11 ml-lg-5 ml-md-5 ml-sm-0 ml-0 mt-2 mx-auto'
-                text={props.data.secondText.text}
+                text={props.data.firstText.text}
             />
             <div className='col-sm-12 col-12 mt-2 d-flex justify-content-center'>
                 <InnerBorderImage className='img-size' src={props.data.secondImage}/>
@@ -53,8 +50,11 @@ export function TwoImagesTwoTextsType(props: any) {
             <TextBoxWithShadow
                 div
                 className='col-11 mt-3 mx-auto'
-                text={props.data.firstText.text}
+                text={props.data.secondText.text}
             />
+            <div className='col-sm-12 col-12 mt-2 d-flex justify-content-center'>
+                {props.data.thirdImage && <InnerBorderImage className='img-size' src={props.data.thirdImage}/>}
+            </div>
         </div>}
     </div>
 );
