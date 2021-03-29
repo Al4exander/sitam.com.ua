@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/images.css';
+import './styles/Images.css';
 
 export function InnerBorderImage(props: any) {
   return (

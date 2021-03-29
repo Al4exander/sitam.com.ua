@@ -1,10 +1,27 @@
-import React, {useContext} from 'react';
+import React, {useContext, useRef} from 'react';
 import './styles/Contacts.css';
 import {Icons} from "./components/socialContacts/Icons";
 import {SizeContext} from "../../lib/sizeContext";
+import {Tooltip, message}from "antd";
+
+import { CopyOutlined } from '@ant-design/icons';
 
 export function Contacts() {
     const [smallSize] = useContext(SizeContext);
+    const emailRef = useRef<HTMLAnchorElement>(null);
+    const phoneRef = useRef<HTMLAnchorElement>(null);
+
+    const copyToClipboard = async (ref: any) => {
+        console.log(ref);
+        const selection = window.getSelection();
+        const range = document.createRange();
+        range.selectNodeContents(ref.current);
+        selection!.removeAllRanges();
+        selection!.addRange(range);
+        document.execCommand('copy');
+        selection!.removeAllRanges();
+        await message.success('Скопировано');
+    };
 
     return (
         <div className='mt-5'>
@@ -16,10 +33,24 @@ export function Contacts() {
                             <p className="address-box-text col-12 align-center-full">Работаем по всей Украине!</p>
                         </div>
                     </div>
-                    <div className="address col-lg-5 mt-sm-5 mt-lg-0 mt-md-3 col-md-12 col-sm-12">
+                    <div className="address col-lg-5 mt-sm-5 mt-lg-0 mt-md-3 col-md-12 col-sm-12 pl-4">
                         <div className='row'>
-                            <p className="address-box-text col-12 align-center-full mt-3">-----------------@gmail.com</p>
-                            <p className="address-box-text col-12 align-center-full">+38 (067) 695 10 98</p>
+                            <div className='col-12 align-center-full mt-3 address-box-text'>
+                                <a id='contacts-copy-email' href={'mailto:sitam.office@gmail.com'} ref={emailRef as React.RefObject<HTMLAnchorElement>}>sitam.office@gmail.com</a>
+                                <span className='ml-2'>
+                                    <Tooltip title='Скопировать e-mail' placement='top'>
+                                        <CopyOutlined onClick={() => copyToClipboard(emailRef)}/>
+                                    </Tooltip>
+                                </span>
+                            </div>
+                            <div className='col-12 align-center-full address-box-text mt-3'>
+                                <a href={'tel:380676951098'} ref={phoneRef as React.RefObject<HTMLAnchorElement>}>+38 (067) 695 10 98</a>
+                                <span className='ml-2'>
+                                    <Tooltip title='Скопировать номер телефона' placement='bottom'>
+                                        <CopyOutlined onClick={() => copyToClipboard(phoneRef)}/>
+                                    </Tooltip>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>

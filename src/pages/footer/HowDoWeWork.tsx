@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import { Steps } from 'antd';
 import '../footer/styles/HowDoWeWork.css';
-import circleIcon from '../../images/Circle.svg';
+import circleIcon from '../../images/common/Circle.svg';
 
 const { Step } = Steps;
 

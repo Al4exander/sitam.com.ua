@@ -1,8 +1,8 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {TextBoxWithShadow} from "../commonElements/TextBoxWithShadow";
 import '../commonElements/styles/Common.css';
-import '../commonElements/styles/images.css';
-import GirlWithPhone from '../../../images/GirlWithPhone.png';
+import '../commonElements/styles/Images.css';
+import GirlWithPhone from '../../../images/common/GirlWithPhone.png';
 import {SizeContext} from "../../../lib/sizeContext";
 import {InnerBorderImage} from "../commonElements/InnerBorderImage";
 import {TwoImagesElement} from "../commonElements/TwoImagesElement";

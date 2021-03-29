@@ -1,6 +1,6 @@
-import firstImage from '../../images/silo-installation/firstImage.jpg';
-import secondImage from '../../images/silo-installation/secondImage.jpeg';
-import pointRight from '../../images/Point_right.png';
+import firstImage from '../../images/pages/silo-installation/firstImage.jpg';
+import secondImage from '../../images/pages/silo-installation/secondImage.jpeg';
+import pointRight from '../../images/common/Point_right.png';
 
 export const siloInstallation = {
     title: 'Монтаж линии прессования масла',

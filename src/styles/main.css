@@ -13,3 +13,9 @@
     justify-content: center;
     text-align: center;
 }
+.align-center-semi-d {
+    text-align: left;
+}
+.ant-message {
+    z-index: 1021;
+}

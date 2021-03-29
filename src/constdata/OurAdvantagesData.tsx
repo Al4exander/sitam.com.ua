@@ -1,9 +1,9 @@
-import knowledge from '../images/knowledge.svg';
-import timeKnowledge from '../images/time_knowledge.svg';
-import backPackKnowledge from '../images/back_pack_knowledge.svg';
-import techKnowledge from '../images/tech_knowledge.svg';
-import dateKnowledge from '../images/date_knowledge.svg';
-import handsKnowledge from '../images/hands_knowledge.svg';
+import knowledge from '../images/common/knowledge.svg';
+import timeKnowledge from '../images/common/time_knowledge.svg';
+import backPackKnowledge from '../images/common/back_pack_knowledge.svg';
+import techKnowledge from '../images/common/tech_knowledge.svg';
+import dateKnowledge from '../images/common/date_knowledge.svg';
+import handsKnowledge from '../images/common/hands_knowledge.svg';
 
 export interface IAdvantagesData {
     image: string;

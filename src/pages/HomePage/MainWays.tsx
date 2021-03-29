@@ -1,8 +1,8 @@
 import React from 'react';
 import {ImagesCarousel} from "../../elements/ImagesCarousel/ImagesCarousel";
-import manufacture from '../../images/manufacture.jpg';
-import metalurg from '../../images/metalurg.jpg';
-import ShugarFactory from '../../images/ShugarFactory.jpg';
+import manufacture from '../../images/common/manufacture.jpg';
+import metalurg from '../../images/common/metalurg.jpg';
+import ShugarFactory from '../../images/common/ShugarFactory.jpg';
 import '../HomePage/styles/MainWays.css';
 
 export function MainWays() {

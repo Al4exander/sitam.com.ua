@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import '../commonElements/styles/Common.css';
-import '../commonElements/styles/images.css';
+import './styles/Images.css';
 import {SizeContext} from "../../../lib/sizeContext";
 import {InnerBorderImage} from "./InnerBorderImage";
 

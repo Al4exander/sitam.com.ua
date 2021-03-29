@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import {ButtonWithShadow} from "../commonElements/ButtonWithShadow";
 import {TextBoxWithShadow} from "../commonElements/TextBoxWithShadow";
-import '../commonElements/styles/images.css';
+import '../commonElements/styles/Images.css';
 import '../commonElements/styles/Common.css';
 import {InnerBorderImage} from "../commonElements/InnerBorderImage";
 import {SizeContext} from "../../../lib/sizeContext";

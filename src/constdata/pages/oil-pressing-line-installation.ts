@@ -1,6 +1,6 @@
-import firstImage from '../../images/oil-pressing-line-installation/firstImage.png';
-import secondImage from '../../images/oil-pressing-line-installation/secondImage.png';
-import pointRight from '../../images/Point_right.png';
+import firstImage from '../../images/pages/oil-pressing-line-installation/firstImage.png';
+import secondImage from '../../images/pages/oil-pressing-line-installation/secondImage.png';
+import pointRight from '../../images/common/Point_right.png';
 
 export const oilPressingLineInstallation = {
     buttons: [{

@@ -1,4 +1,4 @@
-import firstImage from '../../images/oil-extraction-line-installation/firstImage.png';
+import firstImage from '../../images/pages/oil-extraction-line-installation/firstImage.png';
 
 export const oilExtractionLineInstallation = {
     title: 'Монтаж линии экстракции масла',

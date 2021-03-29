@@ -4,12 +4,12 @@ import {ShadowButton} from './components/ShadowButton';
 import {montageDemontageLinks} from '../../constdata/MontageDemontageData';
 import {repairsLinks} from '../../constdata/RepairsData';
 import {Link} from "react-router-dom";
-import logoIcon from '../../images/LOGO.png';
+import logoIcon from '../../images/common/LOGO.png';
 import './styles/MobileMenu.css';
 import {Icons} from "./components/socialContacts/Icons";
 import { Collapse } from 'antd';
 import {Children, HeaderLinks} from "./Interfaces";
-import Plumbs from '../../images/Plumbs.png';
+import Plumbs from '../../images/common/Plumbs.png';
 import {mainWaysData} from "../../constdata/MainWaysData";
 
 const { Panel } = Collapse;
@@ -81,10 +81,10 @@ export function MobileMenu() {
 
     const mainWaysJSX = <section className='row m-3 align-center-semi show-from-right'>
         <span className='services-header col-12'>
-            <div className='arrow-left' onClick={() => setServicesSelected(false)}/>
+            <div className='arrow-left' onClick={() => setMainWaysSelected(false)}/>
             Основные направления
         </span>
-        <div className='row container col-12 mt-3'>
+        <div className='row container align-center-semi-d col-12 mt-3'>
             {mainWaysData.map((child: Children) => <Link to={child.link} className='col-6' onClick={handleLinkSelection}>{child.title}</Link>)}
         </div>
     </section>;

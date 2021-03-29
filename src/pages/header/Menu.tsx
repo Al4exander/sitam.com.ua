@@ -36,7 +36,6 @@ export function HeaderMenu() {
                 dropdownOpen && openDropdown();
             }
         } else {
-            console.log('i close');
             !/dropdown-button/.test(e.target.className) && dropdownOpen && openDropdown();
         }
     };

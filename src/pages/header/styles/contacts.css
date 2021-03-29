@@ -22,8 +22,23 @@
     display: flex;
     align-items: center;
     text-align: center;
-    z-index: 10;
-    filter: blur(0);
+    color: inherit;
+}
+.address-box-text span {
+    visibility: hidden;
+}
+.address-box-text:hover span {
+    visibility: visible;
+}
+.address-box-text span:hover {
+    transform: scale(1.1);
+}
+.address-box-text a {
+    color: inherit;
+}
+.address-box-text a:hover, a.address-box-text:hover {
+    color: #393638;
+    text-underline: none;
 }
 .contacts-social-net {
     width: 100px;
