@@ -6,3 +6,4 @@ export * from './assembly-of-the-conveyor';
 export * from './installation-of-containers';
 export * from './oil-cleaning-line-installation';
 export * from './oil-pressing-line-installation';
+export * from './installation-of-machines';

@@ -1,6 +1,7 @@
 import firstImage from '../../images/pages/installation-of-containers/firstImage.jpg';
 import secondImage from '../../images/pages/installation-of-containers/secondImage.jpg';
 import thirdImage from '../../images/pages/installation-of-containers/thirdImage.jpg';
+import {PageTemplates} from "../../pages/standartPages/enum";
 
 export const installationOfContainers = {
     url: '/installation-of-containers',
@@ -8,6 +9,7 @@ export const installationOfContainers = {
     firstImage,
     secondImage,
     thirdImage,
+    type: PageTemplates.ThreeTwoImagesTwoTextsType,
     firstText: {
         text: `Выполним монтаж стеклопластиковых и металлических емкостей различных видов и назначения:
 

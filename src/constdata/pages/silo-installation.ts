@@ -1,12 +1,13 @@
 import firstImage from '../../images/pages/silo-installation/firstImage.jpg';
 import secondImage from '../../images/pages/silo-installation/secondImage.jpeg';
+import {PageTemplates} from "../../pages/standartPages/enum";
 
 export const siloInstallation = {
     url: '/silo-installation',
-    type: 2,
     title: 'Монтаж линии прессования масла',
     firstImage,
     secondImage,
+    type: PageTemplates.TwoImagesTwoTextsType,
     firstText: {
         text: `Монтаж сборных прессов производится по следующей схеме:
 

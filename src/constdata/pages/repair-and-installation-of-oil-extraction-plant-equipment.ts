@@ -1,5 +1,6 @@
 import firstImage from '../../images/pages/repair-and-installation-of-oil-extraction-plant-equipment/firstImage.png';
 import secondImage from '../../images/pages/repair-and-installation-of-oil-extraction-plant-equipment/secondImage.png';
+import {PageTemplates} from "../../pages/standartPages/enum";
 
 export const repairAndInstallationOfOilExtractionPlantEquipment = {
     url: '/repair-and-installation-of-oil-extraction-plant-equipment',
@@ -28,6 +29,7 @@ export const repairAndInstallationOfOilExtractionPlantEquipment = {
         text: 'Монтаж линии сушки фосфатидов',
         url: ''
     }],
+    type: PageTemplates.TwoImagesTwoTextsType,
     manufacturers: {
         text: 'На данный момент «Sitam» имеет большой опыт монтажа и демонтажа конвейеров (транспортеров) самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей: ТСЦм, TЦС, КСЦ, КЦ-С, ТрЦС, К4-УТФ, КС, ТКНЦ и других производителей в т.ч. отечественных.',
     },

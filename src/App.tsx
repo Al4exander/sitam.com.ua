@@ -25,11 +25,24 @@ import {
     assemblyOfTheConveyor,
     installationOfContainers,
     oilPressingLineInstallation,
-    oilCleaningLineInstallation
+    oilCleaningLineInstallation,
+    installationOfMachines
 } from './constdata/pages';
+import {PageTemplates} from "./pages/standartPages/enum";
+import {TwoImagesTwoTextsBigType} from "./pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType";
 
 function App() {
     const [smallSize, setSmallSize] = useContext(SizeContext);
+    const data = [siloInstallation,
+        oilExtractionLineInstallation,
+        repairAndInstallationOfOilExtractionPlantEquipment,
+        bunkerManufacturingAndInstallation,
+        assemblyOfTheConveyor,
+        installationOfContainers,
+        oilPressingLineInstallation,
+        oilCleaningLineInstallation,
+        installationOfMachines,
+    ];
 
     useEffect(() => {
         window.addEventListener('resize', handleResize);
@@ -46,6 +59,23 @@ function App() {
         }
     };
 
+    const determineElementType = (element: any) => {
+        switch (element.type) {
+            case PageTemplates.TwoImagesTwoTextsType:
+                return <TwoImagesTwoTextsType data={element}/>;
+            case PageTemplates.OneImageOneTextType:
+                return <OneImageOneTextType data={element}/>;
+            case PageTemplates.OneImageTwoTextsSmallType:
+                return <OneImageTwoTextsSmallType data={element}/>;
+            case PageTemplates.TwoImagesOneTextType:
+                return <TwoImagesOneTextType data={element}/>;
+            case PageTemplates.ThreeTwoImagesTwoTextsType:
+                return <ThreeTwoImagesTwoTextsType data={element}/>;
+            case PageTemplates.TwoImagesTwoTextsBigType:
+                return <TwoImagesTwoTextsBigType data={element}/>;
+        }
+    };
+
     return (
       <Router>
           <Header/>
@@ -53,33 +83,11 @@ function App() {
               <Route path='/'>
                   <HomePage/>
               </Route>
-              <Route path={siloInstallation.url}>
-                  <TwoImagesTwoTextsType data={siloInstallation}/>
-              </Route>
-              <Route path={repairAndInstallationOfOilExtractionPlantEquipment.url}>
-                  <TwoImagesTwoTextsType data={repairAndInstallationOfOilExtractionPlantEquipment}/>
-              </Route>
-              <Route path={oilCleaningLineInstallation.url}>
-                  <TwoImagesOneTextType data={oilCleaningLineInstallation}/>
-              </Route>
-              <Route path={oilPressingLineInstallation.url}>
-                  <OneImageOneTextType data={oilPressingLineInstallation}/>
-              </Route>
-              <Route path={oilExtractionLineInstallation.url}>
-                  <OneImageTwoTextsSmallType data={oilExtractionLineInstallation}/>
-              </Route>
-              <Route path={bunkerManufacturingAndInstallation.url}>
-                  <OneImageTwoTextsSmallType data={bunkerManufacturingAndInstallation}/>
-              </Route>
-              <Route path={assemblyOfTheConveyor.url}>
-                  <ThreeTwoImagesTwoTextsType data={assemblyOfTheConveyor}/>
-              </Route>
-              <Route path={assemblyOfTheConveyor.url}>
-                  <ThreeTwoImagesTwoTextsType data={assemblyOfTheConveyor}/>
-              </Route>
-              <Route path={installationOfContainers.url}>
-                  <ThreeTwoImagesTwoTextsType data={installationOfContainers}/>
-              </Route>
+              {data.map((element: any) => {
+                  return <Route path={element.url}>
+                      {determineElementType(element)}
+                  </Route>
+              })}
               <Route path={'*'}>
                   <Navigate to='/' />
               </Route>

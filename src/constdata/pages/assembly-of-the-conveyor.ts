@@ -1,9 +1,11 @@
 import secondImage from '../../images/pages/assembly-of-the-conveyor/firstImage.jpg';
 import firstImage from '../../images/pages/assembly-of-the-conveyor/secondImage.jpg';
+import {PageTemplates} from "../../pages/standartPages/enum";
 
 export const assemblyOfTheConveyor = {
     url: '/assembly-of-the-conveyor',
     title: 'Монтаж и замена конвейера (транспортера)',
+    type: PageTemplates.ThreeTwoImagesTwoTextsType,
     firstImage,
     secondImage,
     firstText: {

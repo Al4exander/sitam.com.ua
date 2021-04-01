@@ -1,9 +1,11 @@
 import image from '../../images/pages/oil-pressing-line-installation/image.jpg';
+import {PageTemplates} from "../../pages/standartPages/enum";
 
 export const oilPressingLineInstallation = {
     url: '/oil-pressing-line-installation',
     title: 'Ремонт и монтаж оборудования маслоэкстракционного завода',
     image,
+    type: PageTemplates.OneImageOneTextType,
     manufacturers: {
         text: 'На данный момент «Sitam» имеет большой опыт монтажа и демонтажа конвейеров (транспортеров) самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей: ТСЦм, TЦС, КСЦ, КЦ-С, ТрЦС, К4-УТФ, КС, ТКНЦ и других производителей в т.ч. отечественных.'
     },

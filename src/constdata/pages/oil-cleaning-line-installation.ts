@@ -1,11 +1,13 @@
 import firstImage from '../../images/pages/oil-cleaning-line-installation/firstImage.jpg';
 import secondImage from '../../images/pages/oil-cleaning-line-installation/secondImage.jpg';
+import {PageTemplates} from "../../pages/standartPages/enum";
 
 export const oilCleaningLineInstallation = {
     url: '/oil-cleaning-line-installation',
     title: 'Монтаж линии очистки масла',
     firstImage,
     secondImage,
+    type: PageTemplates.TwoImagesOneTextType,
     text: `Реконструкция маслоэкстракционного завода:
         
 Строительно-монтажные работы;

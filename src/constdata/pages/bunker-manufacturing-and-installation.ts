@@ -1,9 +1,11 @@
 import firstImage from '../../images/pages/bunker-manufacturing-and-installation/firstImage.jpg';
+import {PageTemplates} from "../../pages/standartPages/enum";
 
 export const bunkerManufacturingAndInstallation = {
     url: '/bunker-manufacturing-and-installation',
     title: 'Изготовление и монтаж бункера',
     firstImage,
+    type: PageTemplates.OneImageTwoTextsSmallType,
     firstText: {
         text: `Выполняем монтаж бункера и транспортного оборудования зернохранилищ силосного типа на профессиональном уровне. На все виды работ организация имеет необходимые разрешения и свидетельства.`
     },
