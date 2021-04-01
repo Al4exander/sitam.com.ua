@@ -15,13 +15,17 @@ import {SizeContext} from "./lib/sizeContext";
 import {OneImageTwoTextsSmallType} from "./pages/standartPages/oneImagePage/OneImageTwoTextsSmallType";
 import {TwoImagesTwoTextsType} from "./pages/standartPages/twoImagesPage/TwoImagesTwoTextsType";
 import {ThreeTwoImagesTwoTextsType} from "./pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType";
+import {OneImageOneTextType} from "./pages/standartPages/oneImagePage/OneImageOneTextType";
+import {TwoImagesOneTextType} from "./pages/standartPages/twoImagesPage/TwoImagesOneTextType";
 import {
     siloInstallation,
     oilExtractionLineInstallation,
-    oilPressingLineInstallation,
+    repairAndInstallationOfOilExtractionPlantEquipment,
     bunkerManufacturingAndInstallation,
     assemblyOfTheConveyor,
-    installationOfContainers
+    installationOfContainers,
+    oilPressingLineInstallation,
+    oilCleaningLineInstallation
 } from './constdata/pages';
 
 function App() {
@@ -52,8 +56,14 @@ function App() {
               <Route path={siloInstallation.url}>
                   <TwoImagesTwoTextsType data={siloInstallation}/>
               </Route>
+              <Route path={repairAndInstallationOfOilExtractionPlantEquipment.url}>
+                  <TwoImagesTwoTextsType data={repairAndInstallationOfOilExtractionPlantEquipment}/>
+              </Route>
+              <Route path={oilCleaningLineInstallation.url}>
+                  <TwoImagesOneTextType data={oilCleaningLineInstallation}/>
+              </Route>
               <Route path={oilPressingLineInstallation.url}>
-                  <TwoImagesTwoTextsType data={oilPressingLineInstallation}/>
+                  <OneImageOneTextType data={oilPressingLineInstallation}/>
               </Route>
               <Route path={oilExtractionLineInstallation.url}>
                   <OneImageTwoTextsSmallType data={oilExtractionLineInstallation}/>

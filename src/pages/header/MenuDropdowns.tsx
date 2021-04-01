@@ -21,7 +21,7 @@ export const MenuDropdowns: React.FC<IMenuDropdowns> = ({dropdownClosing, openDr
     const mainWaysJSX = mainWaysData.map((child: Children) => <Link to={child.link} className='col-3'> <h6 className="card-header-text-style">{child.title}</h6> </Link>);
 
     return (
-       menuItem === 1 ? <div key='dropdownContent' className='mt-2'>
+       menuItem === 1 ? <div className='mt-2'>
             <div className={`nav-dropdown ${dropdownClosing ? 'nav-inactive' : ''}`}>
                 <div className='row'>
                     <div className='row mt-4 col-lg-3 col-md-5 col-sm-4 max-height-5'>

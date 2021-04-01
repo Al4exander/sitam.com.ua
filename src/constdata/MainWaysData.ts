@@ -1,7 +1,7 @@
 import {Children} from "../pages/header/Interfaces";
 
 export const mainWaysData: Children[] = [{
-    link: '/oil-pressing-line-installation',
+    link: '/repair-and-installation-of-oil-extraction-plant-equipment',
     title: 'Маслоэкстракционные заводы'
 },{
     link: '/sugar-factories',

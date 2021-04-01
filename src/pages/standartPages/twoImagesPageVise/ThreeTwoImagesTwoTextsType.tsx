@@ -5,13 +5,14 @@ import '../commonElements/styles/Images.css';
 import '../commonElements/styles/Common.css';
 import {InnerBorderImage} from "../commonElements/InnerBorderImage";
 import {SizeContext} from "../../../lib/sizeContext";
+import {Manufacturers} from "../commonElements/Manufacturers";
 
 export function ThreeTwoImagesTwoTextsType(props: any) {
   const [smallSize] = useContext(SizeContext);
 
   return (
     <div>
-        <div className='d-flex justify-content-center page-title-text mb-5'>{props.data.title}</div>
+        <header className='d-flex justify-content-center page-title-text mb-5'>{props.data.title}</header>
         {props.data.buttons && props.data.buttons.length && <div className='row justify-content-center'>
             <div className='row col-12 d-flex justify-content-center'>
                 {props.data.buttons.map((button: any) => {
@@ -35,6 +36,7 @@ export function ThreeTwoImagesTwoTextsType(props: any) {
                                    text={props.data.secondText.text}
                 />
             </div>
+            {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
         </div> : <div className='justify-content-center mt-4'>
             <div className='col-sm-12 col-12 d-flex justify-content-center'>
                 <InnerBorderImage className='img-size' src={props.data.firstImage}/>
@@ -55,6 +57,7 @@ export function ThreeTwoImagesTwoTextsType(props: any) {
             <div className='col-sm-12 col-12 mt-2 d-flex justify-content-center'>
                 {props.data.thirdImage && <InnerBorderImage className='img-size' src={props.data.thirdImage}/>}
             </div>
+            {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
         </div>}
     </div>
 );

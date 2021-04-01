@@ -15,11 +15,6 @@
     position: relative;
     border-radius: 29px;
 }
-.image-box {
-    display: inline-block;
-    position: relative;
-    border-radius: 29px;
-}
 .image-holder:before {
     content:'';
     position: absolute;
@@ -30,6 +25,15 @@
     border: 2px solid white;
     border-radius: 29px;
 }
+.image-box {
+    display: inline-block;
+    position: relative;
+    border-radius: 29px;
+}
+.img-size {
+    max-width: 584px;
+}
+
 @media screen and (max-width: 600px) {
     .img-overlay-size {
         max-width: 350px;
@@ -41,7 +45,6 @@
         max-width: 150px;
     }
 }
-
 @media screen and (max-width: 850px) and (min-width: 600px){
     .second-img-overlay-size {
         /*display: none;*/
@@ -50,12 +53,15 @@
         max-width: 250px;
     }
 }
-.img-size {
-    max-width: 584px;
-}
 
 @media screen and (max-width: 600px) {
     .img-size {
         max-width: 350px;
+        max-height: 500px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .img-size {
+        max-width: 450px;
     }
 }

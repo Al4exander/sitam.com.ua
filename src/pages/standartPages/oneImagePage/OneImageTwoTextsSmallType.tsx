@@ -1,11 +1,11 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext} from 'react';
 import {TextBoxWithShadow} from "../commonElements/TextBoxWithShadow";
 import '../commonElements/styles/Common.css';
 import '../commonElements/styles/Images.css';
 import GirlWithPhone from '../../../images/common/GirlWithPhone.png';
 import {SizeContext} from "../../../lib/sizeContext";
-import {InnerBorderImage} from "../commonElements/InnerBorderImage";
 import {TwoImagesElement} from "../commonElements/TwoImagesElement";
+import {Manufacturers} from "../commonElements/Manufacturers";
 
 export function OneImageTwoTextsSmallType(props: any) {
   const [smallSize] = useContext(SizeContext);
@@ -27,6 +27,7 @@ export function OneImageTwoTextsSmallType(props: any) {
                                       maxSize={false}
                     />
                 </section>
+                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
             </> :
             <section className='mx-auto mt-4'>
                 <TextBoxWithShadow
@@ -46,6 +47,7 @@ export function OneImageTwoTextsSmallType(props: any) {
                     className='col-11 ml-lg-5 ml-md-5 ml-sm-0 ml-0 mt-2 mx-auto'
                     text={props.data.secondText.text}
                 />
+                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
             </section>}
     </div>
 );

@@ -9,7 +9,7 @@ export const TwoImagesElement: React.FC<ITwoImagesElement> = ({first, second, cl
 
   return (
       <section className={className}>
-          <div className={`image-box`}>
+          <div className='image-box'>
               <InnerBorderImage className={maxSize && 'img-size'} src={first}/>
               <img className='second-img-overlay-size' src={second}/>
           </div>
