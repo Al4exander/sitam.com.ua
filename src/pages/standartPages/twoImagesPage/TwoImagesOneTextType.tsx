@@ -28,7 +28,7 @@ export function TwoImagesOneTextType(props: any) {
             </section>
             :
             <section className='mx-auto mt-4'>
-                <div className='mt-4'>
+                <div className='mt-4 d-flex justify-content-center'>
                     <InnerBorderImage className='img-size' src={props.data.firstImage}/>
                 </div>
                 <TextBoxWithShadow
@@ -37,7 +37,7 @@ export function TwoImagesOneTextType(props: any) {
                     className='col-11 mt-3 mx-auto'
                     text={props.data.text}
                 />
-                <div className='mt-4'>
+                <div className='mt-4 d-flex justify-content-center'>
                     <InnerBorderImage className='img-size' src={props.data.secondImage}/>
                 </div>
                 {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
