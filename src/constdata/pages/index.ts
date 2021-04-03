@@ -1,9 +1,21 @@
-export * from './oil-extraction-line-installation';
-export * from './repair-and-installation-of-oil-extraction-plant-equipment';
-export * from './silo-installation';
-export * from './bunker-manufacturing-and-installation';
-export * from './assembly-of-the-conveyor';
-export * from './installation-of-containers';
-export * from './oil-cleaning-line-installation';
-export * from './oil-pressing-line-installation';
-export * from './installation-of-machines';
+import {siloInstallation} from "./silo-installation";
+import {oilExtractionLineInstallation} from "./oil-extraction-line-installation";
+import {repairAndInstallationOfOilExtractionPlantEquipment} from "./repair-and-installation-of-oil-extraction-plant-equipment";
+import {bunkerManufacturingAndInstallation} from "./bunker-manufacturing-and-installation";
+import {assemblyOfTheConveyor} from "./assembly-of-the-conveyor";
+import {installationOfContainers} from "./installation-of-containers";
+import {oilPressingLineInstallation} from "./oil-pressing-line-installation";
+import {oilCleaningLineInstallation} from "./oil-cleaning-line-installation";
+import {installationOfMachines} from "./installation-of-machines";
+
+export const data = [
+    siloInstallation,
+    oilExtractionLineInstallation,
+    repairAndInstallationOfOilExtractionPlantEquipment,
+    bunkerManufacturingAndInstallation,
+    assemblyOfTheConveyor,
+    installationOfContainers,
+    oilPressingLineInstallation,
+    oilCleaningLineInstallation,
+    installationOfMachines
+];

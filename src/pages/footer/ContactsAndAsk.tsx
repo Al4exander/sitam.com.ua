@@ -1,13 +1,18 @@
-import React, {useState} from 'react';
+import React, {useContext, useRef, useState} from 'react';
 import './styles/ContactsAndAsk.css'
-import google_map from '../../images/common/google_map.png'
 import {AskQuestionsInput} from "../../elements/inputFIeld/AskQuestionsInput";
 import {MessageField} from "./components/MessageField";
 import {SendButton} from "./components/SendButton";
 import {sendMail} from "./MailFunctions";
-import {message} from "antd";
+import {Tooltip, message} from "antd";
+import map from '../../images/common/map.png'
+import smallMap from '../../images/common/small_map.png'
+import {SizeContext} from "../../lib/sizeContext";
+import { CopyOutlined } from '@ant-design/icons';
 
 export function ContactsAndAsk() {
+    const [smallSize] = useContext(SizeContext);
+
     let [name, setName] = useState('');
     let [email, setEmail] = useState('');
     let [subject, setSubject] = useState('');
@@ -19,26 +24,54 @@ export function ContactsAndAsk() {
     const handleSubjectChange = (e: any) => setSubject(e.target.value);
     const handleTextMessageChange = (e: any) => setTextMessage(e.target.value);
 
-    const handleSendClick = async () => {
-        setLoading(true);
-        await sendMail({
-            name,
-            email,
-            subject,
-            textMessage
-        });
-        setLoading(false);
-        setName('');
-        setEmail('');
-        setSubject('');
-        setTextMessage('');
+    const emailRef = useRef<HTMLAnchorElement>(null);
+    const phoneRef = useRef<HTMLAnchorElement>(null);
 
-        await message.success('Ваше письмо успешно отправлено!');
+    const mapLink = 'https://www.google.com/maps/place/Московский+просп.,+51,+Харьков,+Харьковская+область,+61000/@49.9880973,36.2488262,17z/data=!4m5!3m4!1s0x4127a092e6348827:0xaf2b56c5bd388dde!8m2!3d49.9897357!4d36.2499913';
+
+    const handleSendClick = async () => {
+        if(name) {
+            if(email) {
+                if(subject) {
+                    if(textMessage) {
+                        setLoading(true);
+                        await sendMail({
+                            name,
+                            email,
+                            subject,
+                            textMessage
+                        });
+                        setLoading(false);
+                        setName('');
+                        setEmail('');
+                        setSubject('');
+                        setTextMessage('');
+
+                        await message.success('Ваше письмо успешно отправлено!');
+                    } else await message.error('Поле "Сообщение" должно быть заполнено');
+                } else await message.error('Поле "Тема письма" должно быть заполнено');
+            } else await message.error('Поле "E-mail" должно быть заполнено');
+        } else await message.error('Поле "Имя" должно быть заполнено');
+    };
+
+    const handleMapClick = (e: any) => {
+        if(e.target.className === 'main-form') window.open(mapLink);
+    };
+
+    const copyToClipboard = async (ref: any) => {
+        const selection = window.getSelection();
+        const range = document.createRange();
+        range.selectNodeContents(ref.current);
+        selection!.removeAllRanges();
+        selection!.addRange(range);
+        document.execCommand('copy');
+        selection!.removeAllRanges();
+        await message.success('Скопировано');
     };
 
     return (
       <div id="contacts" key='contacts' className='col-12 d-flex justify-content-center main-form-frame'>
-          <div className='main-form w-100' style={{backgroundImage:`url(${google_map})`}}>
+          <div className='main-form' style={{backgroundImage:`url(${smallSize ? smallMap : map})`}} onMouseDown={handleMapClick}>
               <div className='row'>
                   <div className='contacts-top'>
                       <div className='contacts'>
@@ -51,14 +84,24 @@ export function ContactsAndAsk() {
                           <div className='col-12'>
                               <div className='contact-cloud  align-center-full'>
                                   <p className='contact-cloud-text'>
-                                      +38 (067) 695 10 98
+                                      <a href={'tel:380676951098'} ref={phoneRef as React.RefObject<HTMLAnchorElement>}>+38 (067) 695 10 98</a>
+                                          <span className='ml-2'>
+                                        <Tooltip title='Скопировать номер телефона' placement='bottom'>
+                                            <CopyOutlined onClick={() => copyToClipboard(phoneRef)}/>
+                                        </Tooltip>
+                                    </span>
                                   </p>
                               </div>
                           </div>
                           <div className='col-12'>
                               <div className='contact-cloud  align-center-full'>
                                   <p className='contact-cloud-text'>
-                                      sitam.office@gmail.com
+                                      <a id='contacts-copy-email' href={'mailto:sitam.office@gmail.com'} ref={emailRef as React.RefObject<HTMLAnchorElement>}>sitam.office@gmail.com</a>
+                                      <span className='ml-2'>
+                                    <Tooltip title='Скопировать e-mail' placement='top'>
+                                        <CopyOutlined onClick={() => copyToClipboard(emailRef)}/>
+                                    </Tooltip>
+                                </span>
                                   </p>
                               </div>
                           </div>

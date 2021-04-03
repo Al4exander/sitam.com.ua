@@ -85,7 +85,10 @@ export function MobileMenu() {
             Основные направления
         </span>
         <div className='row container align-center-semi-d col-12 mt-3'>
-            {mainWaysData.map((child: Children) => <Link to={child.link} className='col-6' onClick={handleLinkSelection}>{child.title}</Link>)}
+            {mainWaysData.map((child: Children, index: number) => <Link to={child.link}
+                                                                        className='col-6'
+                                                                        key={index}
+                                                                        onClick={handleLinkSelection}>{child.title}</Link>)}
         </div>
     </section>;
 

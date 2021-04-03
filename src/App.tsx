@@ -17,32 +17,12 @@ import {TwoImagesTwoTextsType} from "./pages/standartPages/twoImagesPage/TwoImag
 import {ThreeTwoImagesTwoTextsType} from "./pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType";
 import {OneImageOneTextType} from "./pages/standartPages/oneImagePage/OneImageOneTextType";
 import {TwoImagesOneTextType} from "./pages/standartPages/twoImagesPage/TwoImagesOneTextType";
-import {
-    siloInstallation,
-    oilExtractionLineInstallation,
-    repairAndInstallationOfOilExtractionPlantEquipment,
-    bunkerManufacturingAndInstallation,
-    assemblyOfTheConveyor,
-    installationOfContainers,
-    oilPressingLineInstallation,
-    oilCleaningLineInstallation,
-    installationOfMachines
-} from './constdata/pages';
+import { data as routesData } from './constdata/pages';
 import {PageTemplates} from "./pages/standartPages/enum";
 import {TwoImagesTwoTextsBigType} from "./pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType";
 
 function App() {
     const [smallSize, setSmallSize] = useContext(SizeContext);
-    const data = [siloInstallation,
-        oilExtractionLineInstallation,
-        repairAndInstallationOfOilExtractionPlantEquipment,
-        bunkerManufacturingAndInstallation,
-        assemblyOfTheConveyor,
-        installationOfContainers,
-        oilPressingLineInstallation,
-        oilCleaningLineInstallation,
-        installationOfMachines,
-    ];
 
     useEffect(() => {
         window.addEventListener('resize', handleResize);
@@ -83,7 +63,7 @@ function App() {
               <Route path='/'>
                   <HomePage/>
               </Route>
-              {data.map((element: any) => {
+              {routesData.map((element: any) => {
                   return <Route path={element.url}>
                       {determineElementType(element)}
                   </Route>

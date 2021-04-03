@@ -7,8 +7,8 @@ export const SendButton: React.FC<ISendButton> = ({className, onClick, loading})
   return (
       <div className={className}>
           <div className='send-button-outline' />
-          <button className='send-button' onClick={onClick}>
-              {loading ? <><Spin size="small" /> Отправляем</> : 'Отправить'}
+          <button className='send-button align-center-full' onClick={onClick} disabled={loading}>
+              {loading ? <><Spin size="small" className='m-2'/>Отправляем</> : 'Отправить'}
           </button>
       </div>
   );

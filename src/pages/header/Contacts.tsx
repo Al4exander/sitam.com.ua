@@ -12,7 +12,6 @@ export function Contacts() {
     const phoneRef = useRef<HTMLAnchorElement>(null);
 
     const copyToClipboard = async (ref: any) => {
-        console.log(ref);
         const selection = window.getSelection();
         const range = document.createRange();
         range.selectNodeContents(ref.current);
