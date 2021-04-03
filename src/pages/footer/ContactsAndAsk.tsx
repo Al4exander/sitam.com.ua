@@ -83,9 +83,9 @@ export function ContactsAndAsk() {
                           </div>
                           <div className='col-12'>
                               <div className='contact-cloud  align-center-full'>
-                                  <p className='contact-cloud-text'>
+                                  <p className='contact-cloud-text ml-3'>
                                       <a href={'tel:380676951098'} ref={phoneRef as React.RefObject<HTMLAnchorElement>}>+38 (067) 695 10 98</a>
-                                          <span className='ml-2'>
+                                      <span className='ml-2'>
                                         <Tooltip title='Скопировать номер телефона' placement='bottom'>
                                             <CopyOutlined onClick={() => copyToClipboard(phoneRef)}/>
                                         </Tooltip>
@@ -95,7 +95,7 @@ export function ContactsAndAsk() {
                           </div>
                           <div className='col-12'>
                               <div className='contact-cloud  align-center-full'>
-                                  <p className='contact-cloud-text'>
+                                  <p className='contact-cloud-text ml-4'>
                                       <a id='contacts-copy-email' href={'mailto:sitam.office@gmail.com'} ref={emailRef as React.RefObject<HTMLAnchorElement>}>sitam.office@gmail.com</a>
                                       <span className='ml-2'>
                                     <Tooltip title='Скопировать e-mail' placement='top'>
@@ -136,11 +136,11 @@ export function ContactsAndAsk() {
                                              onChange={handleSubjectChange}
                           />
                       </div>
-                      <MessageField className='col-12'
+                      <MessageField className='col-12 mb-3 mb-xl-0 mb-lg-0 mb-sm-0 mb-md-0'
                                     value={textMessage}
                                     onChange={handleTextMessageChange}
                       />
-                      <SendButton loading={loading} onClick={handleSendClick} className='col-12 mb-1 mt-2 align-center-full'/>
+                      <SendButton loading={loading} onClick={handleSendClick} className='col-12 align-center-full'/>
                   </div>
               </div>
           </div>

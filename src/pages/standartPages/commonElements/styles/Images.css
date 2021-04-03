@@ -56,11 +56,11 @@
 
 @media screen and (max-width: 600px) {
     .img-size {
-        max-width: 350px;
+        max-width: 320px;
         max-height: 500px;
     }
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1600px) and (min-width: 601px){
     .img-size {
         max-width: 450px;
     }
