@@ -1,8 +1,7 @@
 {
-  "name": "sitam.in.ua",
-  "version": "0.1.0",
+  "name": "sitam.tech",
+  "version": "1.0.0",
   "homepage": "http://sitam.tech",
-  "private": true,
   "devDependencies": {
     "@ant-design/icons": "^4.5.0",
     "@testing-library/jest-dom": "4.2.4",
