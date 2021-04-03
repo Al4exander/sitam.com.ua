@@ -140,7 +140,7 @@ export function ContactsAndAsk() {
                                     value={textMessage}
                                     onChange={handleTextMessageChange}
                       />
-                      <SendButton loading={loading} onClick={handleSendClick} className='col-12 mb-1 align-center-full'/>
+                      <SendButton loading={loading} onClick={handleSendClick} className='col-12 mb-1 mt-2 align-center-full'/>
                   </div>
               </div>
           </div>

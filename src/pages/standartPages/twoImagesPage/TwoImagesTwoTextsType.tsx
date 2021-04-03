@@ -21,7 +21,7 @@ export function TwoImagesTwoTextsType(props: any) {
         {props.data.buttons && props.data.buttons.length &&
             <section className='flex-wrap container d-flex justify-content-center'>
                 {props.data.buttons.map((button: any) => {
-                    return <ButtonWithShadow className='col-xl-3 col-lg-5 col-md-5 col-sm-5 col-5 mt-2'
+                    return <ButtonWithShadow className='col-xl-3 col-lg-5 col-md-5 col-sm-5 col-6 mt-2'
                                              text={button.text}
                                              onClick={() => navigate(button.url)}
                     />;
