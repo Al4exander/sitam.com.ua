@@ -5,6 +5,7 @@ import '../commonElements/styles/Images.css';
 import {SizeContext} from "../../../lib/sizeContext";
 import {InnerBorderImage} from "../commonElements/InnerBorderImage";
 import {Manufacturers} from "../commonElements/Manufacturers";
+import {SubButtons} from "../commonElements/SubButtons";
 
 export function OneImageOneTextType(props: any) {
   const [smallSize] = useContext(SizeContext);
@@ -12,6 +13,9 @@ export function OneImageOneTextType(props: any) {
     return (
     <div>
         <div className='align-center-full page-title-text'>{props.data.title}</div>
+        {props.data.buttons && props.data.buttons.length && <section className='mt-2'>
+            <SubButtons buttons={props.data.buttons}/>
+        </section>}
         {!smallSize ? <section className='col-10 col-lg-12 col-md-12 mx-lg-auto mx-md-0 row mt-5 d-lg-flex justify-content-center'>
                      <TextBoxWithShadow className='col-5 col-md-5 col-lg-6 col-xl-5 mr-5'
                                        text={props.data.text}

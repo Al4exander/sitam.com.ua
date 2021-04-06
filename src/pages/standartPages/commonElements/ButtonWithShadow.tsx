@@ -5,7 +5,7 @@ export function ButtonWithShadow(props: {text: string, className?: string, onCli
   return (
       <span className={props.className}>
           <div className={`two-images-button-box align-center-full col-12`} onClick={props.onClick}>
-              <div className='two-images-button-text '>
+              <div className='two-images-button-text'>
                 {props.text}
               </div>
           </div>
