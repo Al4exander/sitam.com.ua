@@ -1,4 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/sitamtec/public_html/
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
