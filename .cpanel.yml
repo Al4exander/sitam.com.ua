@@ -3,8 +3,8 @@ deployment:
     - export DEPLOYPATH=/home2/sitamtec/public_html/
     - /bin/cp /build/static $DEPLOYPATH
     - /bin/cp /build/asset-manifest.json $DEPLOYPATH
-    - /bin/cp favicon.ico $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp logo.png $DEPLOYPATH
-    - /bin/cp manifest.json $DEPLOYPATH
-    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp /build/favicon.ico $DEPLOYPATH
+    - /bin/cp /build/index.html $DEPLOYPATH
+    - /bin/cp /build/logo.png $DEPLOYPATH
+    - /bin/cp /build/manifest.json $DEPLOYPATH
+    - /bin/cp /build/robots.txt $DEPLOYPATH
