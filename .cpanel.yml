@@ -1,4 +1,10 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/sitamtec/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp build/static $DEPLOYPATH
+    - /bin/cp asset-manifest.json $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp logo.png $DEPLOYPATH
+    - /bin/cp manifest.json $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
