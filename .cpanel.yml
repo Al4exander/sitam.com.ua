@@ -1,5 +1,4 @@
 deployment:
   tasks:
-    - npm -v
     - export DEPLOYPATH=/home2/sitamtec/public_html/
     - /bin/cp -R build/* $DEPLOYPATH
