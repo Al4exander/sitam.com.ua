@@ -4,7 +4,7 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 
 export const dismantlingOfMachines = {
     url: '/dismantling-of-machines',
-    title: 'Думонтаж силоса',
+    title: 'Демонтаж станков',
     firstImage,
     secondImage,
     type: PageTemplates.TwoImagesTwoTextsBigType,

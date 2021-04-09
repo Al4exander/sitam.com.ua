@@ -4,7 +4,7 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 
 export const compressorInstallation = {
     url: '/compressor-installation',
-    title: 'Ломоперерабатывающие предприятия',
+    title: 'Монтаж компрессора',
     firstImage,
     secondImage,
     manufacturers: {
