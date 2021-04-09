@@ -13,6 +13,7 @@ export function TwoImagesOneTextType(props: any) {
     return (
     <div>
         <div className='align-center-full page-title-text'>{props.data.title}</div>
+        <div className='container page-under-title-text mb-4 mt-3'>{props.data.underTitle}</div>
         {props.data.buttons && props.data.buttons.length && <section className='mt-2'>
             <SubButtons buttons={props.data.buttons}/>
         </section>}

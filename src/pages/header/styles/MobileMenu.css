@@ -57,7 +57,6 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 15px;
-    /* or 75% */
 
     display: flex;
     align-items: center;
@@ -76,7 +75,6 @@
     font-weight: normal;
     font-size: 34px;
     line-height: 15px;
-    /* or 44% */
 
     display: flex;
     align-items: center;
@@ -132,7 +130,6 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    /* or 125% */
 
     letter-spacing: 0.03em;
 
@@ -161,7 +158,6 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 15px;
-    /* or 75% */
 
     letter-spacing: 0.05em;
 
@@ -173,7 +169,6 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
-    /* or 143% */
 
     display: flex;
     align-items: center;

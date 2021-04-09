@@ -4,7 +4,6 @@
     font-weight: normal;
     font-size: 15px;
     line-height: 20px;
-    /* or 133% */
 
     display: flex;
     align-items: center;
@@ -48,7 +47,6 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 15px;
-    /* or 75% */
 
     display: flex;
     align-items: center;
@@ -63,7 +61,6 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 15px;
-    /* or 75% */
 
     letter-spacing: 0.05em;
 

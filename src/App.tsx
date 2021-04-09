@@ -20,6 +20,7 @@ import {TwoImagesOneTextType} from "./pages/standartPages/twoImagesPage/TwoImage
 import { data as routesData } from './constdata/pages';
 import {PageTemplates} from "./pages/standartPages/enum";
 import {TwoImagesTwoTextsBigType} from "./pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType";
+import {TwoImagesOneTextBigType} from "./pages/standartPages/twoImagesPage/TwoImagesOneTextBigType";
 
 function App() {
     const [smallSize, setSmallSize] = useContext(SizeContext);
@@ -53,6 +54,8 @@ function App() {
                 return <ThreeTwoImagesTwoTextsType data={element}/>;
             case PageTemplates.TwoImagesTwoTextsBigType:
                 return <TwoImagesTwoTextsBigType data={element}/>;
+            case PageTemplates.TwoImagesOneTextBigType:
+                return <TwoImagesOneTextBigType data={element}/>;
         }
     };
 

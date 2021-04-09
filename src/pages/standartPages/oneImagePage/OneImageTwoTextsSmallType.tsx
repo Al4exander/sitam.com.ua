@@ -27,7 +27,9 @@ export function OneImageTwoTextsSmallType(props: any) {
                                       maxSize={false}
                     />
                 </section>
-                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
+                <footer className='d-flex justify-content-center'>
+                    {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
+                </footer>
             </> :
             <section className='mx-auto mt-4'>
                 <TextBoxWithShadow

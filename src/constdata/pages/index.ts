@@ -1,4 +1,4 @@
-import {siloInstallation} from "./silo-installation";
+import {installationOfPresses} from "./installation-of-presses";
 import {oilExtractionLineInstallation} from "./oil-extraction-line-installation";
 import {repairAndInstallationOfOilExtractionPlantEquipment} from "./repair-and-installation-of-oil-extraction-plant-equipment";
 import {bunkerManufacturingAndInstallation} from "./bunker-manufacturing-and-installation";
@@ -12,9 +12,18 @@ import {installationOfIndustrialEquipment} from "./installation-of-industrial-eq
 import {scrapProcessingEnterprises} from "./scrap-processing-enterprises";
 import {installationOfTechnologicalLines} from "./installation-of-technological-lines";
 import {repairOfPressingEquipment} from "./repair-of-pressing-equipment";
+import {disassemblyInstallationOfMiscellaDistiller} from "./disassembly-installation-of-miscella-distiller";
+import {elevatorAssemblyAndReplacement} from "./elevator-assembly-and-replacement";
+import {installationAndDismantlingOfCarScales} from "./installation-and-dismantling-of-car-scales";
+import {siloInstallation} from "./silo-installation";
+import {dismantlingOfMachines} from "./dismantling-of-machines";
+import {cycloneInstallation} from "./cyclone-installation";
+import {compressorInstallation} from "./compressor-installation";
+import {installationOfIndustrialBoilers} from "./installation-of-industrial-boilers";
+import {boilerEoomInstallationRepair} from "./boiler-room-installation-repair";
 
 export const data = [
-    siloInstallation,
+    installationOfPresses,
     oilExtractionLineInstallation,
     repairAndInstallationOfOilExtractionPlantEquipment,
     bunkerManufacturingAndInstallation,
@@ -27,5 +36,14 @@ export const data = [
     installationOfIndustrialEquipment,
     scrapProcessingEnterprises,
     installationOfTechnologicalLines,
-    repairOfPressingEquipment
+    repairOfPressingEquipment,
+    disassemblyInstallationOfMiscellaDistiller,
+    elevatorAssemblyAndReplacement,
+    installationAndDismantlingOfCarScales,
+    siloInstallation,
+    dismantlingOfMachines,
+    cycloneInstallation,
+    compressorInstallation,
+    installationOfIndustrialBoilers,
+    boilerEoomInstallationRepair
 ];

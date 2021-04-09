@@ -25,13 +25,17 @@ export function ThreeTwoImagesTwoTextsType(props: any) {
                 <TextBoxWithShadow className='col-12 mb-5'
                                    text={props.data.firstText.text}
                 />
-                <InnerBorderImage className='img-size' src={props.data.firstImage}/>
+                <div className='d-flex justify-content-center'>
+                    <InnerBorderImage className='img-size' src={props.data.firstImage}/>
+                </div>
                 <div className='mt-3'>
                     {props.data.thirdImage && <InnerBorderImage className='img-size' src={props.data.thirdImage}/>}
                 </div>
             </div>
             <div className='col-xl-5 col-lg-5 col-md-10 col-sm-12 col-12 ml-lg-5 ml-md-5 ml-sm-0 ml-0'>
-                <InnerBorderImage className='img-size' src={props.data.secondImage}/>
+                <div className='d-flex justify-content-center'>
+                    <InnerBorderImage className='img-size' src={props.data.secondImage}/>
+                </div>
                 <TextBoxWithShadow className='col-12 mt-5'
                                    text={props.data.secondText.text}
                 />
