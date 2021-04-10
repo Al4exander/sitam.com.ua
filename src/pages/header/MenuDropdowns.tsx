@@ -18,7 +18,7 @@ export const MenuDropdowns: React.FC<IMenuDropdowns> = ({dropdownClosing, openDr
         openDropdown();
     };
 
-    const mainWaysJSX = mainWaysData.map((child: Children) => <Link to={child.link} className='col-3'> <h6 className="card-header-text-style">{child.title}</h6> </Link>);
+    const mainWaysJSX = mainWaysData.map((child: Children) => <Link to={child.link} className='col-3' onClick={handleLinkSelection}> <h6 className="card-header-text-style">{child.title}</h6> </Link>);
 
     return (
        menuItem === 1 ? <div className='mt-2'>
