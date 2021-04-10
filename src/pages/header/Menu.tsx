@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext, useEffect, useRef, useState} from 'react';
 import ReactDOM from 'react-dom';
 import {Link} from "react-router-dom";
 import './styles/Menu.css';
@@ -12,10 +12,16 @@ export function HeaderMenu() {
     let [sticky, setSticky] = useState(false);
     let [menuItem, setMenuItem] = useState(0);
     const [smallSize] = useContext(SizeContext);
+    const menuRef = useRef<HTMLAnchorElement>(null);
 
     const scrollToContactsAndAsk = () => {
         const contactsRef = ReactDOM.findDOMNode(document.getElementById('contacts'));
         (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    };
+
+    const scrollToTop = () => {
+        const contactsRef = ReactDOM.findDOMNode(document.getElementById('text-start'));
+        (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
 
     useEffect(() => {
@@ -29,14 +35,8 @@ export function HeaderMenu() {
     });
 
     const handleClickOutside = (e: any) => {
-        if(e.target.id && /services|main-ways/.test(e.target.id)){
-            if(/services/.test(e.target.id) && menuItem === 1) {
-                dropdownOpen && openDropdown();
-            } else if(/main-ways/.test(e.target.id) && menuItem === 2) {
-                dropdownOpen && openDropdown();
-            }
-        } else {
-            !/dropdown-button/.test(e.target.className) && dropdownOpen && openDropdown();
+        if (menuRef.current && !menuRef.current.contains(e.target)) {
+            dropdownOpen && openDropdown();
         }
     };
 
@@ -72,9 +72,9 @@ export function HeaderMenu() {
     };
 
     return (
-        !smallSize ? <section className={`col-11 container ml-5 pl-5 mx-auto ${sticky ? 'sticky-top' : ''}`}>
+        !smallSize ? <section className={`col-11 container ml-5 pl-5 mx-auto ${sticky ? 'sticky-top' : ''}`} ref={menuRef}>
             <nav className='topnav align-center-full' id='myTopnav'>
-                <Link to={'/'} key='main' className='col-2'>
+                <Link to={'/'} key='main' className='col-2' onClick={scrollToTop}>
                     Главная
                 </Link>
                 <a id='services' key='services' className={`col-2 ${dropdownOpen ? 'nav-active' : ''}`} onClick={() => handleItemSelection(1)}>

@@ -16,7 +16,7 @@
     font-family: Yanone Kaffeesatz;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 25px;
 
     display: flex;
@@ -25,4 +25,9 @@
     letter-spacing: 0.07em;
 
     color: #000000;
+}
+@media screen and (max-width: 600px) {
+    .page-under-title-text {
+        font-size: 14px;
+    }
 }

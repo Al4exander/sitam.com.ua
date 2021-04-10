@@ -21,6 +21,20 @@ import {cycloneInstallation} from "./cyclone-installation";
 import {compressorInstallation} from "./compressor-installation";
 import {installationOfIndustrialBoilers} from "./installation-of-industrial-boilers";
 import {boilerEoomInstallationRepair} from "./boiler-room-installation-repair";
+import {installationDismantlingOfProcessPipelinesHeatCarriersSteamWater} from "./installation-dismantling-of-process-pipelines-heat-carriers-steam-water";
+import {dismantlingAndReplacementOfThePipeline} from "./dismantling-and-replacement-of-the-pipeline";
+import {weldingWorks} from "./welding-works";
+import {thermalInsulationOfTheTank} from "./thermal-insulation-of-the-tank";
+import {thermalInsulationOfThePipeline} from "./thermal-insulation-of-the-pipeline";
+import {hydraulicPress} from "./hydraulic-press";
+import {modernizationOfTheHydraulicPress} from "./modernization-of-the-hydraulic-press";
+import {wastePaperPress} from "./waste-paper-press";
+import {pressCompactor} from "./press-compactor";
+import {pressShears} from "./press-shears";
+import {modernizationOfTheShearPress} from "./modernization-of-the-shear-press";
+import {guillotinePressShears} from "./guillotine-press-shears";
+import {repairOfABalerForScrapMetal} from "./repair-of-a-baler-for-scrap-metal";
+import {bendingPress} from "./bending-press";
 
 export const data = [
     installationOfPresses,
@@ -45,5 +59,19 @@ export const data = [
     cycloneInstallation,
     compressorInstallation,
     installationOfIndustrialBoilers,
-    boilerEoomInstallationRepair
+    boilerEoomInstallationRepair,
+    installationDismantlingOfProcessPipelinesHeatCarriersSteamWater,
+    dismantlingAndReplacementOfThePipeline,
+    weldingWorks,
+    thermalInsulationOfTheTank,
+    thermalInsulationOfThePipeline,
+    hydraulicPress,
+    modernizationOfTheHydraulicPress,
+    wastePaperPress,
+    pressCompactor,
+    pressShears,
+    modernizationOfTheShearPress,
+    guillotinePressShears,
+    repairOfABalerForScrapMetal,
+    bendingPress
 ];

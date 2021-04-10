@@ -67,7 +67,7 @@ export const montageDemontageLinks: HeaderLinks[] = [{
     Type: 'Инженерные сети',
     Col: 4,
     children: [{
-        link: '/installation-dismantling-of-process-pipelines-heat-carriers-steam-water)',
+        link: '/installation-dismantling-of-process-pipelines-heat-carriers-steam-water',
         title: 'Монтаж/ демонтаж технологических трубопроводов (теплоносителей, паро – водо)'
     },{
         link: '/dismantling-and-replacement-of-the-pipeline',
@@ -80,17 +80,14 @@ export const montageDemontageLinks: HeaderLinks[] = [{
     Type: 'Металлоконструкции',
     Col: 4,
     children: [{
-        link: '/installation-dismantling-of-process-pipelines-heat-carriers-steam-water)',
-        title: 'Монтаж/ демонтаж технологических трубопроводов (теплоносителей, паро – водо)'
-    },{
-        link: '/installation-replacement-of-power-control-electric-lines',
-        title: 'Монтаж / замена силовых, контрольных электромагистралей'
-    },{
         link: "/welding-works",
         title: 'Сварочные работы'
     },{
         link: "/manufacturing-and-installation-of-metal-structures",
         title: 'Изготовление и монтаж металлоконструкций'
+    },{
+        link: '/production-and-installation-of-containers-for-the-food-industry',
+        title: 'Изготовление и монтаж ёмкостей для пищевой промышленности'
     }]
 },{
     Type: 'Молниезащита',

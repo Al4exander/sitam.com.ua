@@ -11,7 +11,7 @@ export const MenuList: React.FC<IMenuList> = ({links, onClick}) => {
                               <h6 className="card-title card-header-text-style">{link.Type}</h6>
                               <div className="card-text row">
                                   {link.children.map((child: Children, childIndex: number) => {
-                                      return <Link onClick={onClick} className='col-12 card-text-style' to={child.link} key={childIndex}>{child.title}</Link>
+                                      return <Link onClick={onClick} className='col-12 mt-1 card-text-style' to={child.link} key={childIndex}>{child.title}</Link>
                                   })}
                               </div>
                           </div>

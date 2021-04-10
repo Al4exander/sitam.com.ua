@@ -27,6 +27,12 @@ export function MobileMenu() {
         (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     };
 
+    const scrollToTop = () => {
+        openMobDropdown();
+        const contactsRef = ReactDOM.findDOMNode(document.getElementById('text-start'));
+        (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
     const openMobDropdown = () => {
         mobDropdown ? setTimeout(() => {
             setMobDropdown(!mobDropdown);
@@ -105,7 +111,7 @@ export function MobileMenu() {
                     {servicesSelected ? servicesJSX :
                         mainWaysSelected ? mainWaysJSX :
                             <div className='row container m-3 show-from-right'>
-                                <Link to={'/'} key='main' className='col-6'>
+                                <Link to={'/'} key='main' className='col-6' onClick={scrollToTop}>
                                     Главная
                                 </Link>
                                 <a key='services' className={`col-6 ${mobDropdown ? 'nav-active' : ''}`} onClick={() => setServicesSelected(true)}>
