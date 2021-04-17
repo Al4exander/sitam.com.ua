@@ -35,6 +35,8 @@ import {modernizationOfTheShearPress} from "./modernization-of-the-shear-press";
 import {guillotinePressShears} from "./guillotine-press-shears";
 import {repairOfABalerForScrapMetal} from "./repair-of-a-baler-for-scrap-metal";
 import {bendingPress} from "./bending-press";
+import {designProjectApprovalWithTheStateInstitutionOfEmergencySituations} from "./design-project-approval-with-the-state-institution-of-emergency-situations";
+import {installationOfGranulators} from "./installation-of-granulators";
 
 export const data = [
     installationOfPresses,
@@ -73,5 +75,7 @@ export const data = [
     modernizationOfTheShearPress,
     guillotinePressShears,
     repairOfABalerForScrapMetal,
-    bendingPress
+    bendingPress,
+    designProjectApprovalWithTheStateInstitutionOfEmergencySituations,
+    installationOfGranulators
 ];

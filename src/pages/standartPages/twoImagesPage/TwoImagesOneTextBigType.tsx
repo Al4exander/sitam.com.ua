@@ -25,18 +25,18 @@ export function TwoImagesOneTextBigType(props: any) {
                      </section>
                     <div>
                         <div className='d-flex justify-content-center'>
-                            <InnerBorderImage className='img-size' src={props.data.firstImage}/>
+                            <InnerBorderImage className='img-size' src={props.data.firstImage} alt={props.data.title}/>
                         </div>
                         <div className='mt-4 d-flex justify-content-center'>
-                            <InnerBorderImage className='img-size' src={props.data.secondImage}/>
+                            <InnerBorderImage className='img-size' src={props.data.secondImage} alt={props.data.title}/>
                         </div>
                     </div>
-                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
+                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
             </section>
             :
             <section className='mx-auto mt-4'>
                 <div className='mt-4 d-flex justify-content-center'>
-                    <InnerBorderImage className='img-size' src={props.data.firstImage}/>
+                    <InnerBorderImage className='img-size' src={props.data.firstImage} alt={props.data.title}/>
                 </div>
                 <TextBoxWithShadow
                     style={{ paddingLeft: 0}}
@@ -45,9 +45,9 @@ export function TwoImagesOneTextBigType(props: any) {
                     text={props.data.text}
                 />
                 <div className='mt-4 d-flex justify-content-center'>
-                    <InnerBorderImage className='img-size' src={props.data.secondImage}/>
+                    <InnerBorderImage className='img-size' src={props.data.secondImage} alt={props.data.title}/>
                 </div>
-                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
+                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
             </section>}
     </div>
 );

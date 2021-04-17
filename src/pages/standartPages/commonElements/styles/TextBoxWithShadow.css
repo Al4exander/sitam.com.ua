@@ -21,21 +21,22 @@
 
     color: #000000;
 }
+
 @media screen and (max-width: 600px) {
     .two-images-text-box-text {
-        font-size: 10px;
+        font-size: 14px;
         line-height: 15px;
     }
 
     .text-box-shadowed h5 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .text-box-shadowed h4 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .text-box-shadowed h3 {
-        font-size: 18px;
+        font-size: 20px;
     }
 }

@@ -4,11 +4,11 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 
 export const boilerEoomInstallationRepair = {
     url: '/boiler-room-installation-repair',
+    title: 'Монтаж и ремонт котельной',
     type: PageTemplates.TwoImagesTwoTextsType,
     manufacturers: {
         text: '«Sitam» имеет большой опыт работы по монтажа различных типов промышленных котельных: газовых, дизельных, электрических или твердотопливных, различных марок и конфигураций (PROTHERM, VAILLANT, BUDERUS, BOSCH, BAXI, KENTATSU FURST, VIESSMANN, NAVIEN, STROPUVA, LOOS, ICI, FERROLI, OILON, WEISHAUPT, SAACKE, BROEN, NAVAL, ADL, NEMEN, VEXVE, GRUNDFOS, WILO, KSB, KRAL, ALLWEILER, SEPARTEC, JURBY WATER TECH, HENGINEERING, НВР, BWT, SWEP, ALFA-LAVAL POTOK, ETSS, UNICAL, CIB UNIGAS, ELCO и др.)',
     },
-    title: 'Монтаж и ремонт котельной',
     underTitle: '«Sitam» Выполним монтаж технологических линий, конвейеров, транспортеров, инженерных и технологических систем, и другого технологического оборудования промышленного производства на профессиональном уровне. На все виды работ организация имеет необходимые разрешения и свидетельства.',
     firstImage,
     secondImage,

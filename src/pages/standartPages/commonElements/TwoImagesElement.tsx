@@ -1,16 +1,13 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import '../commonElements/styles/Common.css';
 import './styles/Images.css';
-import {SizeContext} from "../../../lib/sizeContext";
 import {InnerBorderImage} from "./InnerBorderImage";
 
-export const TwoImagesElement: React.FC<ITwoImagesElement> = ({first, second, className, maxSize = true}) => {
-  const [smallSize] = useContext(SizeContext);
-
+export const TwoImagesElement: React.FC<ITwoImagesElement> = ({first, second, className, alt, maxSize = true}) => {
   return (
       <section className={className}>
           <div className='image-box'>
-              <InnerBorderImage className={maxSize && 'img-size'} src={first}/>
+              <InnerBorderImage className={maxSize ? 'img-size': ''} src={first} alt={alt}/>
               <img className='second-img-overlay-size' src={second}/>
           </div>
       </section>
@@ -20,6 +17,7 @@ export const TwoImagesElement: React.FC<ITwoImagesElement> = ({first, second, cl
 interface ITwoImagesElement {
     first: any;
     second: any;
+    alt: string;
     className?: string;
     maxSize?: boolean;
 }

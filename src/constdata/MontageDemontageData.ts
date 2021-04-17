@@ -98,9 +98,6 @@ export const montageDemontageLinks: HeaderLinks[] = [{
     },{
         link: '/installation-use-of-european-level-components-commissioning',
         title: 'Монтаж, использование комплектующих европейского уровня, сдача в эксплуатацию'
-    },{
-        link: '/production-and-installation-of-containers-for-the-food-industry',
-        title: 'Изготовление и монтаж ёмкостей для пищевой промышленности',
     }]
 },{
     Type: 'ТЕПЛОИЗОЛЯЦИЯ',

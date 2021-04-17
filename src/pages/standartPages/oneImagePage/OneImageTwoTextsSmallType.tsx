@@ -25,10 +25,11 @@ export function OneImageTwoTextsSmallType(props: any) {
                                       first={props.data.firstImage}
                                       second={GirlWithPhone}
                                       maxSize={false}
+                                      alt={props.data.title}
                     />
                 </section>
                 <footer className='d-flex justify-content-center'>
-                    {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
+                    {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
                 </footer>
             </> :
             <section className='mx-auto mt-4'>
@@ -41,6 +42,7 @@ export function OneImageTwoTextsSmallType(props: any) {
                 <div className='mt-4 col-sm-12 col-12 mt-2 d-flex justify-content-center'>
                     <TwoImagesElement first={props.data.firstImage}
                                       second={GirlWithPhone}
+                                      alt={props.data.title}
                     />
                 </div>
                 <TextBoxWithShadow
@@ -49,7 +51,7 @@ export function OneImageTwoTextsSmallType(props: any) {
                     className='col-11 ml-lg-5 ml-md-5 ml-sm-0 ml-0 mt-2 mx-auto'
                     text={props.data.secondText.text}
                 />
-                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
+                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
             </section>}
     </div>
 );

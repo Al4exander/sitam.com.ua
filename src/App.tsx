@@ -66,8 +66,8 @@ function App() {
               <Route path='/'>
                   <HomePage/>
               </Route>
-              {routesData.map((element: any) => {
-                  return <Route path={element.url}>
+              {routesData.map((element: any, index: number) => {
+                  return <Route path={element.url} key={index}>
                       {determineElementType(element)}
                   </Route>
               })}

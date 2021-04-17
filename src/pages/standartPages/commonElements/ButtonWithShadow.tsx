@@ -1,15 +1,21 @@
 import React from 'react';
 import './styles/ButtonWithShadow.css';
+import {Link} from "react-router-dom";
 
-export function ButtonWithShadow(props: {text: string, className?: string, onClick?: any}) {
+export const ButtonWithShadow: React.FC<ButtonWithShadowProps> = ({text, className, url}) => {
   return (
-      <span className={props.className}>
-          <div className={`two-images-button-box align-center-full col-12`} onClick={props.onClick}>
+      <span className={className}>
+          <Link className={`two-images-button-box align-center-full col-12`} to={url}>
               <div className='two-images-button-text'>
-                {props.text}
+                {text}
               </div>
-          </div>
+          </Link>
       </span>
   );
-}
+};
 
+interface ButtonWithShadowProps {
+    text: string;
+    url: string;
+    className?: string;
+}

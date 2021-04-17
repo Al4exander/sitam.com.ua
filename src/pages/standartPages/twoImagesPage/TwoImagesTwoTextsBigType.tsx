@@ -20,19 +20,19 @@ export function TwoImagesTwoTextsBigType(props: any) {
                             text={props.data.firstText.text}
                         />
                         <div className='mt-4 d-flex justify-content-center'>
-                            <InnerBorderImage className='img-size' src={props.data.firstImage}/>
+                            <InnerBorderImage className='img-size' src={props.data.firstImage} alt={props.data.title}/>
                         </div>
                     </section>
                     <section className='col-5'>
                         <div className='d-flex justify-content-center'>
-                            <InnerBorderImage className='img-size' src={props.data.secondImage}/>
+                            <InnerBorderImage className='img-size' src={props.data.secondImage} alt={props.data.title}/>
                         </div>
                         <TextBoxWithShadow
                             className='mt-4'
                             text={props.data.secondText.text}
                         />
                     </section>
-                    {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
+                    {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
                 </section>
                 :
                 <section className='mx-auto mt-4'>
@@ -43,7 +43,7 @@ export function TwoImagesTwoTextsBigType(props: any) {
                         text={props.data.firstText.text}
                     />
                     <div className='mt-4 d-flex justify-content-center'>
-                        <InnerBorderImage className='img-size' src={props.data.firstImage}/>
+                        <InnerBorderImage className='img-size' src={props.data.firstImage} alt={props.data.title}/>
                     </div>
                     <TextBoxWithShadow
                         style={{ paddingLeft: 0}}
@@ -52,9 +52,9 @@ export function TwoImagesTwoTextsBigType(props: any) {
                         text={props.data.secondText.text}
                     />
                     <div className='mt-4 d-flex justify-content-center'>
-                        <InnerBorderImage className='img-size' src={props.data.secondImage}/>
+                        <InnerBorderImage className='img-size' src={props.data.secondImage} alt={props.data.title}/>
                     </div>
-                    {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
+                    {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
                 </section>}
         </div>
 );

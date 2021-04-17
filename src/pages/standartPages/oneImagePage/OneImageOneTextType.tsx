@@ -21,9 +21,9 @@ export function OneImageOneTextType(props: any) {
                                        text={props.data.text}
                      />
                     <div>
-                        <InnerBorderImage className='img-size' src={props.data.image}/>
+                        <InnerBorderImage className='img-size' src={props.data.image} alt={props.data.title}/>
                     </div>
-                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
+                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
             </section>
             :
             <section className='mx-auto mt-4'>
@@ -34,9 +34,9 @@ export function OneImageOneTextType(props: any) {
                     text={props.data.text}
                 />
                 <div className='mt-4 d-flex justify-content-center'>
-                    <InnerBorderImage className='img-size' src={props.data.image}/>
+                    <InnerBorderImage className='img-size' src={props.data.image} alt={props.data.title}/>
                 </div>
-                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text}/>}
+                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
             </section>}
     </div>
 );
