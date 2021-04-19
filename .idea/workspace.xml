@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.d45f50f3.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$лниезащита.docx" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="enum.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/standartPages/enum.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assembly-of-the-conveyor.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/constdata/pages/assembly-of-the-conveyor.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="design-project-approval-with-the-state-institution-of-emergency-situations.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/constdata/pages/design-project-approval-with-the-state-institution-of-emergency-situations.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#125#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="installation-of-granulators.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-granulators.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="72" selection-start-column="72" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneImageOneTextType.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageOneTextType.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoImagesTwoTextsType.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoImagesElement.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/standartPages/commonElements/TwoImagesElement.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneImageTwoTextsSmallType.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/constdata/pages/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>**</find>
+      <find />
+      <find>page-under-title-text</find>
+      <find>@m</find>
+      <find>Металлоконст</find>
+      <find>text-box-shadowed</find>
+      <find>Ремонт</find>
+      <find>Интек</find>
+      <find>Толкатель</find>
+      <find>Мульда</find>
+      <find>Прочее</find>
+      <find>clickout</find>
+      <find>;</find>
+      <find>mainways</find>
+      <find>useNav</find>
+      <find>two-images-text-box-text</find>
+      <find>Молн</find>
+      <find>&lt;Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images}/&gt;</find>
+      <find>&lt;InnerBorderImage className='img-size' src={props.data.image}/&gt;</find>
+      <find>&lt;InnerBorderImage className='img-size' src={props.data.firstImage}/&gt;</find>
+      <find>&lt;InnerBorderImage className='img-size' src={props.data.thirdImage}/&gt;</find>
+      <find>&lt;InnerBorderImage className='img-size' src={props.data.secondImage}/&gt;</find>
+      <find>design-project-approval-with-the-state-institution-of-emergency-situations</find>
+      <find>alt={props.data.alt</find>
+      <find>&lt;a</find>
+      <find>•</find>
+      <find>InnerBorderImage</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>&lt;Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/&gt;</replace>
+      <replace>&lt;InnerBorderImage className='img-size' src={props.data.image} alt={props.data.alt}/&gt;</replace>
+      <replace>&lt;InnerBorderImage className='img-size' src={props.data.firstImage} alt={props.data.alt}/&gt;</replace>
+      <replace>&lt;InnerBorderImage className='img-size' src={props.data.thirdImage} alt={props.data.alt}/&gt;</replace>
+      <replace>&lt;InnerBorderImage className='img-size' src={props.data.secondImage} alt={props.data.alt}/&gt;</replace>
+      <replace>alt={props.data.title</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\projects\citam.com.ua\node_modules\antd\lib\menu\style</dir>
+      <dir>E:\projects\citam.com.ua\src</dir>
+      <dir>E:\projects\citam.com.ua\src\constdata\pages</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/pages/header/MobileMenu.tsx" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/installation-of-presses.ts" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/commonElements/styles/Common.css" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/installation-replacement-of-power-control-electric-lines.ts" />
+        <option value="$PROJECT_DIR$/src/pages/header/MenuList.tsx" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/welding-works.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/thermal-insulation-of-the-tank.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/thermal-insulation-of-the-pipeline.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/modernization-of-the-hydraulic-press.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/waste-paper-press.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/press-compactor.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/press-shears.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/modernization-of-the-shear-press.ts" />
+        <option value="$PROJECT_DIR$/src/pages/header/Menu.tsx" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/repair-of-a-baler-for-scrap-metal.ts" />
+        <option value="$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/commonElements/ButtonWithShadow.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/commonElements/SubButtons.tsx" />
+        <option value="$PROJECT_DIR$/src/App.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/commonElements/styles/TextBoxWithShadow.css" />
+        <option value="$PROJECT_DIR$/src/constdata/MontageDemontageData.ts" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextBigType.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextType.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/commonElements/InnerBorderImage.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageOneTextType.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType.tsx" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/installation-of-industrial-equipment.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/installation-of-industrial-boilers.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/installation-of-containers.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/installation-dismantling-of-process-pipelines-heat-carriers-steam-water.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/installation-and-dismantling-of-car-scales.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/hydraulic-press.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/guillotine-press-shears.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/elevator-assembly-and-replacement.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/dismantling-of-machines.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/dismantling-and-replacement-of-the-pipeline.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/disassembly-installation-of-miscella-distiller.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/cyclone-installation.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/compressor-installation.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/bunker-manufacturing-and-installation.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/boiler-room-installation-repair.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/bending-press.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/assembly-of-the-conveyor.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/design-project-approval-with-the-state-institution-of-emergency-situations.ts" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/commonElements/Manufacturers.tsx" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/index.ts" />
+        <option value="$PROJECT_DIR$/src/constdata/pages/installation-of-granulators.ts" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/commonElements/TwoImagesElement.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="32" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="constdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="installation-of-granulators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="thermal-insulation-of-the-tank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="standartPages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="standartPages" type="462c0819:PsiDirectoryNode" />
+              <item name="commonElements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="standartPages" type="462c0819:PsiDirectoryNode" />
+              <item name="twoImagesPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.prettier" value="E:\projects\citam.com.ua\node_modules\prettier" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\citam.com.ua\src\constdata\pages" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\installation-of-industrial-boilers" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\dismantling-of-machines" />
+      <recent name="E:\projects\citam.com.ua\src\pages\standartPages\twoImagesPage" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\installation-and-dismantling-of-car-scales" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\projects\citam.com.ua\src\images\pages\installation-of-granulators" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\design-project-approval-with-the-state-institution-of-emergency-situations" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\bending-press" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\repair-of-a-baler-for-scrap-metal" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\guillotine-press-shears" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.build" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="" />
+      <created>1613745472343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613745472343</updated>
+      <workItem from="1613745473603" duration="3147000" />
+      <workItem from="1613815932330" duration="679000" />
+      <workItem from="1613816642201" duration="8000" />
+      <workItem from="1613816666474" duration="2143000" />
+      <workItem from="1613981228121" duration="413000" />
+      <workItem from="1614157065538" duration="18220000" />
+      <workItem from="1614239266712" duration="599000" />
+      <workItem from="1614322663742" duration="599000" />
+      <workItem from="1614593415917" duration="7092000" />
+      <workItem from="1614667665288" duration="23046000" />
+      <workItem from="1614709155267" duration="3996000" />
+      <workItem from="1614757310953" duration="15039000" />
+      <workItem from="1614846216840" duration="27728000" />
+      <workItem from="1614932617815" duration="26844000" />
+      <workItem from="1615023043744" duration="15011000" />
+      <workItem from="1615048566819" duration="18578000" />
+      <workItem from="1615110347533" duration="3194000" />
+      <workItem from="1615274387934" duration="599000" />
+      <workItem from="1615288993869" duration="19760000" />
+      <workItem from="1615359128553" duration="1456000" />
+      <workItem from="1615390564810" duration="1638000" />
+      <workItem from="1615395366884" duration="2762000" />
+      <workItem from="1615407137282" duration="4819000" />
+      <workItem from="1615412792897" duration="6000" />
+      <workItem from="1615446407013" duration="615000" />
+      <workItem from="1615471149201" duration="3976000" />
+      <workItem from="1615492677585" duration="54000" />
+      <workItem from="1615578938232" duration="11277000" />
+      <workItem from="1615628348433" duration="5886000" />
+      <workItem from="1615790213754" duration="613000" />
+      <workItem from="1615814416393" duration="13092000" />
+      <workItem from="1615843719885" duration="4090000" />
+      <workItem from="1615877817507" duration="21156000" />
+      <workItem from="1615928896772" duration="4792000" />
+      <workItem from="1615967808840" duration="13829000" />
+      <workItem from="1616151407756" duration="5644000" />
+      <workItem from="1616396543105" duration="6326000" />
+      <workItem from="1616406970899" duration="4049000" />
+      <workItem from="1616482899869" duration="24732000" />
+      <workItem from="1616569185714" duration="598000" />
+      <workItem from="1616595294485" duration="624000" />
+      <workItem from="1616605366775" duration="2151000" />
+      <workItem from="1616660799831" duration="5647000" />
+      <workItem from="1616704847521" duration="5646000" />
+      <workItem from="1616746334410" duration="11534000" />
+      <workItem from="1616778584042" duration="1445000" />
+      <workItem from="1616793490386" duration="4663000" />
+      <workItem from="1616839835470" duration="6134000" />
+      <workItem from="1616962484875" duration="5828000" />
+      <workItem from="1616997075041" duration="13460000" />
+      <workItem from="1617021553561" duration="6812000" />
+      <workItem from="1617175117938" duration="4063000" />
+      <workItem from="1617259012759" duration="11040000" />
+      <workItem from="1617278248044" duration="779000" />
+      <workItem from="1617344006388" duration="599000" />
+      <workItem from="1617435213751" duration="15370000" />
+      <workItem from="1617605903233" duration="1809000" />
+      <workItem from="1617691023182" duration="584000" />
+      <workItem from="1617696514881" duration="5629000" />
+      <workItem from="1617731605663" duration="8338000" />
+      <workItem from="1617774899749" duration="1222000" />
+      <workItem from="1617806575361" duration="2172000" />
+      <workItem from="1617861041770" duration="598000" />
+      <workItem from="1617868747357" duration="1197000" />
+      <workItem from="1617951859910" duration="20000" />
+      <workItem from="1617996946609" duration="7167000" />
+      <workItem from="1618046482082" duration="10596000" />
+      <workItem from="1618212319120" duration="599000" />
+      <workItem from="1618296144160" duration="599000" />
+      <workItem from="1618391095559" duration="1214000" />
+      <workItem from="1618465666240" duration="65000" />
+      <workItem from="1618482824763" duration="626000" />
+      <workItem from="1618649166079" duration="6506000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1613818708988</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613818708988</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add links to pages">
+      <created>1614186126017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614186126017</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add a lot of staff">
+      <created>1614888834836</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614888834836</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: ask question form finished">
+      <created>1614951467188</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614951467189</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: work with us and change styles for responsive">
+      <created>1615031810783</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615031810783</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix: fix styles for faq">
+      <created>1615056400471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615056400471</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: size fixes">
+      <created>1615407419629</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615407419629</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add new two images page">
+      <created>1615590768659</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615590768659</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix: update new two images page">
+      <created>1615834731611</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615834731611</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: update styles to box-shadow instead of numerous divs">
+      <created>1615915508798</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615915508798</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: update styles to box-shadow instead of numerous divs">
+      <created>1615974601252</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615974601252</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: added menu button for mobile and menu started">
+      <created>1616155978695</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616155978695</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: add mainWays links&#10;fix: change styles">
+      <created>1616845973618</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616845973618</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix: move images to common directory, styles changes">
+      <created>1617037669261</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617037669261</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: added new page element for 3 images and some pages">
+      <created>1617041749706</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1617041749706</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: add some pages and new pages layouts">
+      <created>1617269214217</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1617269214218</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: add PageTemplates types and use it as array">
+      <created>1617273203746</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1617273203746</updated>
+    </task>
+    <task id="LOCAL-00018" summary="some fixes and minor improvements">
+      <created>1617441040415</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1617441040415</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add deploy file">
+      <created>1617443126857</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1617443126857</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add built version">
+      <created>1617443910337</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1617443910337</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add .htaccess file">
+      <created>1617444724001</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1617444724001</updated>
+    </task>
+    <task id="LOCAL-00022" summary="change build">
+      <created>1617445181035</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1617445181035</updated>
+    </task>
+    <task id="LOCAL-00023" summary="change build">
+      <created>1617446987419</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1617446987419</updated>
+    </task>
+    <task id="LOCAL-00024" summary="change build">
+      <created>1617448085928</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1617448085928</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fixes">
+      <created>1617450592736</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617450592736</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fixes">
+      <created>1617450938807</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1617450938807</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fixes">
+      <created>1617722322442</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1617722322442</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fixes">
+      <created>1617722894661</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1617722894661</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fixes">
+      <created>1617723283285</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1617723283285</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fixes">
+      <created>1617723385020</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1617723385020</updated>
+    </task>
+    <task id="LOCAL-00031" summary="try commit">
+      <created>1617723611067</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1617723611067</updated>
+    </task>
+    <task id="LOCAL-00032" summary="try another yml file">
+      <created>1617731948275</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1617731948275</updated>
+    </task>
+    <task id="LOCAL-00033" summary="try another yml file">
+      <created>1617732206790</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1617732206790</updated>
+    </task>
+    <task id="LOCAL-00034" summary="try another yml file">
+      <created>1617732227383</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1617732227383</updated>
+    </task>
+    <task id="LOCAL-00035" summary="try another yml file">
+      <created>1617734148363</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1617734148363</updated>
+    </task>
+    <task id="LOCAL-00036" summary="try another yml file">
+      <created>1617734294562</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1617734294562</updated>
+    </task>
+    <task id="LOCAL-00037" summary="revert">
+      <created>1617734372457</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1617734372457</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat: add main ways pages">
+      <created>1617744588873</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1617744588873</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat: added some more pages">
+      <created>1618003162350</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1618003162350</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fix titles">
+      <created>1618003673247</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1618003673247</updated>
+    </task>
+    <task id="LOCAL-00041" summary="feat: add new pages&#10;fix: changes to menu appearance">
+      <created>1618057316568</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1618057316568</updated>
+    </task>
+    <task id="LOCAL-00042" summary="fixes and adding new pages">
+      <created>1618656090460</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1618656090460</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="462841000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.24973656" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33072627" />
+      <window_info id="Structure" order="1" sideWeight="0.50083196" side_tool="true" weight="0.24973656" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32849163" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../domainlist.library.autotest/src/enums/enums.js" />
+        <option value="$PROJECT_DIR$/../domainlist.library.autotest/tests/IntegrationTests/domainListApi.spec.js" />
+        <option value="$PROJECT_DIR$/../domainlist.library.autotest/src/types/types.js" />
+        <option value="$PROJECT_DIR$/../domainlist.library.autotest/src/ApiRequest.js" />
+        <option value="$PROJECT_DIR$/../domainlist.library.autotest/src/index.js" />
+        <option value="$PROJECT_DIR$/../domainlist.library.autotest/src/DomainListApi.js" />
+        <option value="$PROJECT_DIR$/../domainlist.library.autotest/src/constants.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="fix: fix styles for faq" />
+    <MESSAGE value="fix: size fixes" />
+    <MESSAGE value="feat: add new two images page" />
+    <MESSAGE value="fix: update new two images page" />
+    <MESSAGE value="fix: update styles to box-shadow instead of numerous divs" />
+    <MESSAGE value="feat: added menu button for mobile and menu started" />
+    <MESSAGE value="feat: add mainWays links&#10;fix: change styles" />
+    <MESSAGE value="fix: move images to common directory, styles changes" />
+    <MESSAGE value="feat: added new page element for 3 images and some pages" />
+    <MESSAGE value="feat: add some pages and new pages layouts" />
+    <MESSAGE value="feat: add PageTemplates types and use it as array" />
+    <MESSAGE value="some fixes and minor improvements" />
+    <MESSAGE value="add deploy file" />
+    <MESSAGE value="add built version" />
+    <MESSAGE value="add .htaccess file" />
+    <MESSAGE value="change build" />
+    <MESSAGE value="fixes" />
+    <MESSAGE value="try commit" />
+    <MESSAGE value="try another yml file" />
+    <MESSAGE value="revert" />
+    <MESSAGE value="feat: add main ways pages" />
+    <MESSAGE value="feat: added some more pages" />
+    <MESSAGE value="fix titles" />
+    <MESSAGE value="feat: add new pages&#10;fix: changes to menu appearance" />
+    <MESSAGE value="fixes and adding new pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes and adding new pages" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/thermal-insulation-of-the-pipeline.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/thermal-insulation-of-the-tank.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/waste-paper-press.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/welding-works.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/press-compactor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/press-shears.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/header/Menu.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/repair-of-a-baler-for-scrap-metal.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/modernization-of-the-shear-press.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/MainWaysData.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/commonElements/ButtonWithShadow.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/oil-pressing-line-installation.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/repair-of-pressing-equipment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/commonElements/SubButtons.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/commonElements/styles/TextBoxWithShadow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/commonElements/TextBoxWithShadow.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/lib/react-app.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/MontageDemontageData.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="95" column="90" selection-start-line="95" selection-start-column="90" selection-end-line="95" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextBigType.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="49" column="137" selection-start-line="49" selection-start-column="137" selection-end-line="49" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextType.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/commonElements/InnerBorderImage.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-industrial-equipment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-industrial-boilers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-containers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-dismantling-of-process-pipelines-heat-carriers-steam-water.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-and-dismantling-of-car-scales.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/hydraulic-press.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/guillotine-press-shears.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/elevator-assembly-and-replacement.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/dismantling-of-machines.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/dismantling-and-replacement-of-the-pipeline.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/disassembly-installation-of-miscella-distiller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/cyclone-installation.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/compressor-installation.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/bunker-manufacturing-and-installation.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/boiler-room-installation-repair.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/bending-press.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/commonElements/Manufacturers.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="126" selection-start-line="17" selection-start-column="126" selection-end-line="17" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/design-project-approval-with-the-state-institution-of-emergency-situations.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/assembly-of-the-conveyor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/enum.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-granulators.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="72" selection-start-column="72" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageOneTextType.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/commonElements/TwoImagesElement.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
