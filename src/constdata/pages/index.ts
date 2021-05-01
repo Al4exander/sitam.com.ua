@@ -37,6 +37,18 @@ import {repairOfABalerForScrapMetal} from "./repair-of-a-baler-for-scrap-metal";
 import {bendingPress} from "./bending-press";
 import {designProjectApprovalWithTheStateInstitutionOfEmergencySituations} from "./design-project-approval-with-the-state-institution-of-emergency-situations";
 import {installationOfGranulators} from "./installation-of-granulators";
+import {siloRepair} from "./silo-repair";
+import {elevatorRepair} from "./elevator-repair";
+import {noriiRepair} from "./norii-repair";
+import {scraperConveyorConveyorRepair} from "./scraper-conveyor-conveyor-repair";
+import {beltConveyorRepair} from "./belt-conveyor-repair";
+import {repairOfaGrainDryer} from "./repair-of-a-grain-dryer";
+import {moldRepair} from "./mold-repair";
+import {reconstructionOfTheMealFeedLine} from "./reconstruction-of-the-meal-feed-line";
+import {repairOfTheDryerCoolerOfMeal} from "./repair-of-the-dryer-cooler-of-meal";
+import {repairOfTheSeedCrusher} from "./repair-of-the-seed-crusher";
+import {oilShopBrazierRepair} from "./oil-shop-brazier-repair";
+import {toasterRepairVatEvaporator} from "./toaster-repair-vat-evaporator";
 
 export const data = [
     installationOfPresses,
@@ -77,5 +89,17 @@ export const data = [
     repairOfABalerForScrapMetal,
     bendingPress,
     designProjectApprovalWithTheStateInstitutionOfEmergencySituations,
-    installationOfGranulators
+    installationOfGranulators,
+    siloRepair,
+    elevatorRepair,
+    noriiRepair,
+    scraperConveyorConveyorRepair,
+    beltConveyorRepair,
+    repairOfaGrainDryer,
+    moldRepair,
+    reconstructionOfTheMealFeedLine,
+    repairOfTheDryerCoolerOfMeal,
+    repairOfTheSeedCrusher,
+    oilShopBrazierRepair,
+    toasterRepairVatEvaporator
 ];

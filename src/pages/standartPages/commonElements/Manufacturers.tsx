@@ -15,7 +15,7 @@ export const Manufacturers: React.FC<IManufacturers> = ({ children, className, t
             </span>
             <section className='row mt-3 d-flex justify-content-center'>
                 {images && images.length ? images.map((image, index) => {
-                    return <a className='manuf-img mr-2' target='_blank' rel='noopener noreferrer' href={image.url} key={index}>
+                    return <a className='manuf-img mr-2 d-flex justify-content-center' target='_blank' rel='noopener noreferrer' href={image.url} key={index}>
                             <img src={image.src}/>
                     </a>
                 }) : <>

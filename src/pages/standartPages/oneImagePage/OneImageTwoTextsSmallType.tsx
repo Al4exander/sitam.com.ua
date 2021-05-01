@@ -24,7 +24,7 @@ export function OneImageTwoTextsSmallType(props: any) {
                     <TwoImagesElement className='col-xl-5 col-lg-7 col-md-5 ml-lg-0 ml-xl-5 ml-md-0 ml-0'
                                       first={props.data.firstImage}
                                       second={GirlWithPhone}
-                                      maxSize={false}
+                                      maxSize={props.data.maxSize || false}
                                       alt={props.data.title}
                     />
                 </section>

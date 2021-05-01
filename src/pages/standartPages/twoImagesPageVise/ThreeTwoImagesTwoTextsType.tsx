@@ -13,6 +13,7 @@ export function ThreeTwoImagesTwoTextsType(props: any) {
   return (
     <div>
         <header className='d-flex justify-content-center page-title-text mb-5'>{props.data.title}</header>
+        <div className='container page-under-title-text mb-4 mt-3'>{props.data.underTitle}</div>
         {props.data.buttons && props.data.buttons.length && <div className='row justify-content-center'>
             <SubButtons buttons={props.data.buttons}/>
         </div> }
