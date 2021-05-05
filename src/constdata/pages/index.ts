@@ -49,6 +49,9 @@ import {repairOfTheDryerCoolerOfMeal} from "./repair-of-the-dryer-cooler-of-meal
 import {repairOfTheSeedCrusher} from "./repair-of-the-seed-crusher";
 import {oilShopBrazierRepair} from "./oil-shop-brazier-repair";
 import {toasterRepairVatEvaporator} from "./toaster-repair-vat-evaporator";
+import {siloCleaning} from "./silo-cleaning";
+import {paintingCorrosionProtectionOfTheTank} from "./painting-corrosion-protection-of-the-tank";
+import {cranePainting} from "./crane-painting";
 
 export const data = [
     installationOfPresses,
@@ -101,5 +104,8 @@ export const data = [
     repairOfTheDryerCoolerOfMeal,
     repairOfTheSeedCrusher,
     oilShopBrazierRepair,
-    toasterRepairVatEvaporator
+    toasterRepairVatEvaporator,
+    siloCleaning,
+    paintingCorrosionProtectionOfTheTank,
+    cranePainting
 ];
