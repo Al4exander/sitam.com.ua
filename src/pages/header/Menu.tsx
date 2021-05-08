@@ -86,7 +86,7 @@ export function HeaderMenu() {
                 <a key='projects' className='col-2'>
                     Проекты
                 </a>
-                <a key='tender' className='col-2'>
+                <a key='tender' className='col-2' href='mailto:sitam.office@gmail.com'>
                     У Вас тендер?
                 </a>
                 <Link to='#contacts' key='contacts' className='col-2' onClick={scrollToContactsAndAsk}>

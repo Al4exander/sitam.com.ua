@@ -52,6 +52,15 @@ import {toasterRepairVatEvaporator} from "./toaster-repair-vat-evaporator";
 import {siloCleaning} from "./silo-cleaning";
 import {paintingCorrosionProtectionOfTheTank} from "./painting-corrosion-protection-of-the-tank";
 import {cranePainting} from "./crane-painting";
+import {processPipelineRepair} from "./process-pipeline-repair";
+import {repairOfSteelTanks} from "./repair-of-steel-tanks";
+import {coolingTowerRepair} from "./cooling-tower-repair";
+import {repairOfaCarDumper} from "./repair-of-a-car-dumper";
+import {installationOfOilHydrationAndNeutralizationLine} from "./installation-of-oil-hydration-and-neutralization-line";
+import {installationOfOilAdsorptionBleachingLine} from "./installation-of-oil-adsorption-bleaching-line";
+import {installationOfOilWinterizationFreezingLine} from "./installation-of-oil-winterization-freezing-line";
+import {installationOfOilRefiningAndDeodorizationLine} from "./installation-of-oil-refining-and-deodorization-line";
+import {installationOfAPhosphatideDryingLine} from "./installation-of-a-phosphatide-drying-line";
 
 export const data = [
     installationOfPresses,
@@ -107,5 +116,15 @@ export const data = [
     toasterRepairVatEvaporator,
     siloCleaning,
     paintingCorrosionProtectionOfTheTank,
-    cranePainting
+    cranePainting,
+    processPipelineRepair,
+    repairOfSteelTanks,
+    coolingTowerRepair,
+    repairOfaCarDumper,
+    installationOfOilHydrationAndNeutralizationLine,
+    installationOfOilAdsorptionBleachingLine,
+    installationOfOilWinterizationFreezingLine,
+    installationOfOilRefiningAndDeodorizationLine,
+    installationOfAPhosphatideDryingLine,
+
 ];

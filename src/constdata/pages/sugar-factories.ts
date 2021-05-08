@@ -3,44 +3,44 @@ import secondImage from '../../images/pages/sugar-factories/secondImage.jpg';
 import {PageTemplates} from "../../pages/standartPages/enum";
 
 export const sugarFactories = {
-    url: '/sugar-factories',
-    title: 'Сахарные заводы',
+    url:'/sugar-factories',
+    title:'Сахарные заводы',
     firstImage,
     secondImage,
     type: PageTemplates.TwoImagesTwoTextsType,
     buttons: [{
         text: 'Моечный комплекс',
-        url: ''
+        url: 'Washing complex'
     },{
         text: 'Жомосушильный комплекс',
-        url: ''
+        url: 'Zhomodushilny complex'
     },{
         text: 'Диффузионное отделение',
-        url: ''
+        url: 'Diffusion department'
     },{
         text: 'Продуктовое отделение',
-        url: ''
+        url: 'Grocery department'
     },{
         text: 'Кристализационное отделение',
-        url: ''
+        url: 'Crystallization department'
     },{
         text: 'Известково-обжигательное отделение',
-        url: ''
+        url: 'Lime-burning department'
     },{
         text: 'Сахаросушильный комплекс',
-        url: ''
+        url: 'Sugar drying complex'
     },{
         text: 'Свеклоперерабатывающее отделение',
-        url: ''
+        url: 'Beet processing department'
     },{
         text: 'Выпарная станция',
-        url: ''
+        url: 'Evaporation station'
     },{
         text: 'Станция фильтрования',
-        url: ''
+        url: 'Filtration station'
     },{
         text: 'Сокоочистное отделение',
-        url: ''
+        url: 'Juice department '
     }],
     firstText: {
         text: `####  Наша компания выполнит работы связанные со строительством завода по переработке сахара.

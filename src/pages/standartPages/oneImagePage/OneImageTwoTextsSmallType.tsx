@@ -14,9 +14,9 @@ export function OneImageTwoTextsSmallType(props: any) {
     <div>
         <div className='d-flex justify-content-center page-title-text'>{props.data.title}</div>
         {!smallSize ? <>
-                        <TextBoxWithShadow className='col-10 mx-auto mt-4'
+                {props.data.firstText && <TextBoxWithShadow className='col-10 mx-auto mt-4 d-flex justify-content-center'
                                text={props.data.firstText.text}
-                        />
+                        />}
                 <section className='col-10 mx-auto row mt-5'>
                      <TextBoxWithShadow className='col-4 mr-5'
                                        text={props.data.secondText.text}
@@ -33,12 +33,12 @@ export function OneImageTwoTextsSmallType(props: any) {
                 </footer>
             </> :
             <section className='mx-auto mt-4'>
-                <TextBoxWithShadow
+                {props.data.firstText && <TextBoxWithShadow
                     style={{ paddingLeft: 0}}
                     div
                     className='col-11 mt-3 mx-auto'
                     text={props.data.firstText.text}
-                />
+                />}
                 <div className='mt-4 col-sm-12 col-12 mt-2 d-flex justify-content-center'>
                     <TwoImagesElement first={props.data.firstImage}
                                       second={GirlWithPhone}

@@ -15,19 +15,19 @@ export const repairAndInstallationOfOilExtractionPlantEquipment = {
         url: '/oil-cleaning-line-installation'
     },{
         text: 'Монтаж линии гидратации и нейтрализации масла',
-        url: ''
+        url: '/installation-of-oil-hydration-and-neutralization-line'
     },{
         text: 'Монтаж линии адсорбции (отбеливания) масла',
-        url: ''
+        url: '/installation-of-oil-adsorption-bleaching-line'
     },{
         text: 'Монтаж линии винтеризации масла (вымораживания)',
-        url: ''
+        url: '/installation-of-oil-winterization-freezing-line'
     },{
         text: 'Монтаж линии рафинации и дезодорации масла',
-        url: ''
+        url: '/installation-of-oil-refining-and-deodorization-line'
     },{
         text: 'Монтаж линии сушки фосфатидов',
-        url: ''
+        url: '/installation-of-a-phosphatide-drying-line'
     }],
     type: PageTemplates.TwoImagesTwoTextsType,
     manufacturers: {
