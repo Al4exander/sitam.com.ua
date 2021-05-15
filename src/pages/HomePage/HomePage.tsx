@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {WorkWithComponent} from "./WorkWIth";
 
 export function HomePage() {
-  return (
+
+    useEffect(() => {
+        document.title = 'Sitam';
+    }, []);
+
+    return (
       <div>
           <WorkWithComponent/>
       </div>

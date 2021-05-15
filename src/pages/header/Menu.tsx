@@ -6,7 +6,7 @@ import {MobileMenu} from "./MobileMenu";
 import {SizeContext} from "../../lib/sizeContext";
 import {MenuDropdowns} from "./MenuDropdowns";
 
-export function HeaderMenu() {
+export const HeaderMenu = () => {
     let [dropdownOpen, setDropdownOpen] = useState(false);
     let [dropdownClosing, setDropdownClosing] = useState(false);
     let [sticky, setSticky] = useState(false);
@@ -96,4 +96,4 @@ export function HeaderMenu() {
             {dropdownOpen && <MenuDropdowns dropdownClosing={dropdownClosing} menuItem={menuItem} openDropdown={openDropdown}/>}
         </section> : <MobileMenu/>
   );
-}
+};

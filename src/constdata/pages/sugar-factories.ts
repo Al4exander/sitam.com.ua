@@ -10,37 +10,37 @@ export const sugarFactories = {
     type: PageTemplates.TwoImagesTwoTextsType,
     buttons: [{
         text: 'Моечный комплекс',
-        url: 'Washing complex'
+        url: '/washing-complex'
     },{
         text: 'Жомосушильный комплекс',
-        url: 'Zhomodushilny complex'
+        url: '/zhomodushilny-complex'
     },{
         text: 'Диффузионное отделение',
-        url: 'Diffusion department'
+        url: '/diffusion-department'
     },{
         text: 'Продуктовое отделение',
-        url: 'Grocery department'
+        url: '/grocery-department'
     },{
         text: 'Кристализационное отделение',
-        url: 'Crystallization department'
+        url: '/crystallization-department'
     },{
         text: 'Известково-обжигательное отделение',
-        url: 'Lime-burning department'
+        url: '/lime-burning-department'
     },{
         text: 'Сахаросушильный комплекс',
-        url: 'Sugar drying complex'
+        url: '/sugar-drying-complex'
     },{
         text: 'Свеклоперерабатывающее отделение',
-        url: 'Beet processing department'
+        url: '/beet-processing-department'
     },{
         text: 'Выпарная станция',
-        url: 'Evaporation station'
+        url: '/evaporation-station'
     },{
         text: 'Станция фильтрования',
-        url: 'Filtration station'
+        url: '/filtration-station'
     },{
-        text: 'Сокоочистное отделение',
-        url: 'Juice department '
+        text: 'Станция дефекосатурации (сокоочистное отделение)',
+        url: '/juice-department'
     }],
     firstText: {
         text: `####  Наша компания выполнит работы связанные со строительством завода по переработке сахара.

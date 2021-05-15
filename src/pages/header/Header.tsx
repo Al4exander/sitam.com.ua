@@ -4,7 +4,7 @@ import {Contacts} from "./Contacts";
 import {HeaderMenu} from "./Menu";
 import {HeaderText} from "./HeaderText";
 
-export function Header() {
+export const Header = () => {
     return (
         <>
             <Contacts />
@@ -12,4 +12,4 @@ export function Header() {
             <HeaderText/>
         </>
     );
-}
+};

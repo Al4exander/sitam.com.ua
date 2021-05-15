@@ -9,7 +9,7 @@ import './styles/Menu.css';
 import {mainWaysData} from "../../constdata/MainWaysData";
 import {Children} from "./Interfaces";
 
-export const MenuDropdowns: React.FC<IMenuDropdowns> = ({dropdownClosing, openDropdown, menuItem}) => {
+export const MenuDropdowns: React.FC<Props> = ({dropdownClosing, openDropdown, menuItem}) => {
     let [selected, setSelected] = useState(0);
 
     const handleLinkSelection = () => {
@@ -44,7 +44,7 @@ export const MenuDropdowns: React.FC<IMenuDropdowns> = ({dropdownClosing, openDr
   );
 };
 
-interface IMenuDropdowns {
+type Props = {
     openDropdown: any;
     dropdownClosing: boolean;
     menuItem: number;

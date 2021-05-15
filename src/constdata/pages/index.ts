@@ -61,6 +61,17 @@ import {installationOfOilAdsorptionBleachingLine} from "./installation-of-oil-ad
 import {installationOfOilWinterizationFreezingLine} from "./installation-of-oil-winterization-freezing-line";
 import {installationOfOilRefiningAndDeodorizationLine} from "./installation-of-oil-refining-and-deodorization-line";
 import {installationOfAPhosphatideDryingLine} from "./installation-of-a-phosphatide-drying-line";
+import {washingComplex} from "./washing-complex";
+import {zhomodushilnyComplex} from "./zhomodushilny-complex";
+import {diffusionDepartment} from "./diffusion-department";
+import {groceryDepartment} from "./grocery-department";
+import {crystallizationDepartment} from "./crystallization-department";
+import {limeBurningDepartment} from "./lime-burning-department";
+import {sugarDryingComplex} from "./sugar-drying-complex";
+import {beetProcessingDepartment} from "./beet-processing-department";
+import {evaporationStation} from "./evaporation-station";
+import {filtrationStation} from "./filtration-station";
+import {juiceDepartment} from "./juice-department";
 
 export const data = [
     installationOfPresses,
@@ -126,5 +137,15 @@ export const data = [
     installationOfOilWinterizationFreezingLine,
     installationOfOilRefiningAndDeodorizationLine,
     installationOfAPhosphatideDryingLine,
-
+    washingComplex,
+    zhomodushilnyComplex,
+    diffusionDepartment,
+    groceryDepartment,
+    crystallizationDepartment,
+    limeBurningDepartment,
+    sugarDryingComplex,
+    beetProcessingDepartment,
+    evaporationStation,
+    filtrationStation,
+    juiceDepartment
 ];

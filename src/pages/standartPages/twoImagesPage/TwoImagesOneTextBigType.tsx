@@ -1,4 +1,4 @@
-import React, {useContext,} from 'react';
+import React, {useContext, useEffect,} from 'react';
 import {TextBoxWithShadow} from "../commonElements/TextBoxWithShadow";
 import '../commonElements/styles/Common.css';
 import '../commonElements/styles/Images.css';
@@ -8,7 +8,11 @@ import {Manufacturers} from "../commonElements/Manufacturers";
 import {SubButtons} from "../commonElements/SubButtons";
 
 export function TwoImagesOneTextBigType(props: any) {
-  const [smallSize] = useContext(SizeContext);
+    const [smallSize] = useContext(SizeContext);
+
+    useEffect(() => {
+        document.title = `Sitam - ${props.data.title}`;
+    }, []);
 
     return (
     <div>
