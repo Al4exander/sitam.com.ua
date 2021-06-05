@@ -44,29 +44,18 @@ export function FaqComponent() {
                           </Collapse> }
                           textClassName='row container'
                       />
-                      <img
-                          className='col-12 worker-image'
-                          src={workerWithout}
-                      />
                   </div>: <>
-                  <img
-                      className='faq-input-img'
-                      src={FaqInput}
-                  />
-                  <div className='col-lg-4 col-md-4 col-sm-12'>
+                  <div className='col-lg-11 col-md-12 col-sm-12 row justify-content-center'>
                       <ElementWithShadow
-                          className='col-lg-12 col-sm-12 col-md-12'
+                          className='col-lg-4 col-sm-12 col-md-5 mr-5'
                           text={clickedRows()}
                           textClassName='row container'
                       />
                       <ElementWithShadow
-                          className='col-lg-12 col-md-12 col-sm-12 second-faq-box'
+                          className='col-lg-4 col-md-5 col-sm-12'
                           text={faqData[selectedRow].text}
                       />
                   </div>
-                      <img
-                      className='col-lg-6 col-md-6 col-sm-8 ml-5 pl-5 worker-image'
-                      src={worker}/>
                   </>}
           </div>
       </>

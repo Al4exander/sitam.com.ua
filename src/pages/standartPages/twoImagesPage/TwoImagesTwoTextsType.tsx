@@ -32,10 +32,7 @@ export function TwoImagesTwoTextsType(props: any) {
             <TextBoxWithShadow className='col-xl-5 col-lg-5 col-md-10 col-sm-12 col-12 ml-xl-5 ml-lg-5 ml-md-5 ml-sm-0 ml-0'
                                text={props.data.secondText.text}
             />
-            <div className='row col-xl-10 col-lg-10 col-md-12 col-12'>
-                <div className='col-5'>
-                    <img src={pointRight}/>
-                </div>
+            <div className='row col-xl-10 col-lg-10 col-md-12 col-12 justify-content-center'>
                 <div className='col-lg-5 col-md-4 col-sm-12 col-12 mt-5 ml-xl-5 ml-lg-5 ml-md-5 ml-sm-0 ml-0 d-flex justify-content-center'>
                     <InnerBorderImage className='img-size' src={props.data.secondImage} alt={props.data.title}/>
                 </div>

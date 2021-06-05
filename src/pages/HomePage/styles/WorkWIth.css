@@ -1,3 +1,16 @@
-.work-with-us-img-full {
-    width: 100%;
+.work-with-us-img {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .work-with-us-img {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .work-with-us-img {
+        max-width: 150px;
+        margin-left: 10px;
+    }
 }

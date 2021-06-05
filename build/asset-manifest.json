@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0317185.chunk.css",
-    "main.js": "/static/js/main.a02ccf8e.chunk.js",
-    "main.js.map": "/static/js/main.a02ccf8e.chunk.js.map",
+    "main.css": "/static/css/main.a1a2bf6b.chunk.css",
+    "main.js": "/static/js/main.4f0bb3a7.chunk.js",
+    "main.js.map": "/static/js/main.4f0bb3a7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c9503c.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c9503c.js.map",
     "static/css/2.e624827e.chunk.css": "/static/css/2.e624827e.chunk.css",
-    "static/js/2.b5fa068a.chunk.js": "/static/js/2.b5fa068a.chunk.js",
-    "static/js/2.b5fa068a.chunk.js.map": "/static/js/2.b5fa068a.chunk.js.map",
+    "static/js/2.f93554c2.chunk.js": "/static/js/2.f93554c2.chunk.js",
+    "static/js/2.f93554c2.chunk.js.map": "/static/js/2.f93554c2.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.e624827e.chunk.css.map": "/static/css/2.e624827e.chunk.css.map",
-    "static/css/main.b0317185.chunk.css.map": "/static/css/main.b0317185.chunk.css.map",
-    "static/js/2.b5fa068a.chunk.js.LICENSE.txt": "/static/js/2.b5fa068a.chunk.js.LICENSE.txt",
+    "static/css/main.a1a2bf6b.chunk.css.map": "/static/css/main.a1a2bf6b.chunk.css.map",
+    "static/js/2.f93554c2.chunk.js.LICENSE.txt": "/static/js/2.f93554c2.chunk.js.LICENSE.txt",
     "static/media/1.0078c2b4.jpeg": "/static/media/1.0078c2b4.jpeg",
     "static/media/1.053feaf2.jpg": "/static/media/1.053feaf2.jpg",
     "static/media/1.07093afb.jpg": "/static/media/1.07093afb.jpg",
@@ -106,11 +106,6 @@
     "static/media/3.a79e5efa.png": "/static/media/3.a79e5efa.png",
     "static/media/3.e6156233.png": "/static/media/3.e6156233.png",
     "static/media/Circle.a61275cf.svg": "/static/media/Circle.a61275cf.svg",
-    "static/media/Coworking.a87b8f03.svg": "/static/media/Coworking.a87b8f03.svg",
-    "static/media/GirlWithPhone.063bd4b8.png": "/static/media/GirlWithPhone.063bd4b8.png",
-    "static/media/Plumbs.2c5763c1.png": "/static/media/Plumbs.2c5763c1.png",
-    "static/media/Point_right.ed6d6a25.png": "/static/media/Point_right.ed6d6a25.png",
-    "static/media/Worker.5a2ed5fa.png": "/static/media/Worker.5a2ed5fa.png",
     "static/media/astarta.0a0c852e.png": "/static/media/astarta.0a0c852e.png",
     "static/media/back_pack_knowledge.843c962e.svg": "/static/media/back_pack_knowledge.843c962e.svg",
     "static/media/cygnet.5c04b11d.png": "/static/media/cygnet.5c04b11d.png",
@@ -156,15 +151,13 @@
     "static/media/thirdImage.7f3a1170.jpg": "/static/media/thirdImage.7f3a1170.jpg",
     "static/media/time_knowledge.6b8b5faf.svg": "/static/media/time_knowledge.6b8b5faf.svg",
     "static/media/viber.7a3dde53.svg": "/static/media/viber.7a3dde53.svg",
-    "static/media/whatsapp.88cc410d.svg": "/static/media/whatsapp.88cc410d.svg",
-    "static/media/work-with-full.3771cb99.png": "/static/media/work-with-full.3771cb99.png",
-    "static/media/worker-cut.1984c8eb.png": "/static/media/worker-cut.1984c8eb.png"
+    "static/media/whatsapp.88cc410d.svg": "/static/media/whatsapp.88cc410d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.63c9503c.js",
     "static/css/2.e624827e.chunk.css",
-    "static/js/2.b5fa068a.chunk.js",
-    "static/css/main.b0317185.chunk.css",
-    "static/js/main.a02ccf8e.chunk.js"
+    "static/js/2.f93554c2.chunk.js",
+    "static/css/main.a1a2bf6b.chunk.css",
+    "static/js/main.4f0bb3a7.chunk.js"
   ]
 }

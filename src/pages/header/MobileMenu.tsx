@@ -100,7 +100,6 @@ export function MobileMenu() {
 
     return (
         <>
-            {mobDropdown && servicesSelected && !dropdownClosing && <img className='show-from-right services-img' src={Plumbs}/>}
             {!mobDropdown ? <div className='top-nav-circle' onClick={openMobDropdown}/> :
                 <div className={`top-nav-mobile ${dropdownClosing ? 'mob-nav-inactive' : ''}`}>
                     <header className='logo-name mt-2 ml-4'>

@@ -6,6 +6,7 @@ import GirlWithPhone from '../../../images/common/GirlWithPhone.png';
 import {SizeContext} from "../../../lib/sizeContext";
 import {TwoImagesElement} from "../commonElements/TwoImagesElement";
 import {Manufacturers} from "../commonElements/Manufacturers";
+import {InnerBorderImage} from "../commonElements/InnerBorderImage";
 
 export function OneImageTwoTextsSmallType(props: any) {
   const [smallSize] = useContext(SizeContext);
@@ -25,12 +26,9 @@ export function OneImageTwoTextsSmallType(props: any) {
                      <TextBoxWithShadow className='col-lg-4 col-xl-5 col-md-6 col-6 mr-5'
                                        text={props.data.secondText.text}
                      />
-                    <TwoImagesElement className='col-xl-5 col-lg-7 col-md-5 ml-lg-0 ml-xl-5 ml-md-0 ml-0'
-                                      first={props.data.firstImage}
-                                      second={GirlWithPhone}
-                                      maxSize={props.data.maxSize || false}
-                                      alt={props.data.title}
-                    />
+                    <div className='col-xl-5 col-lg-7 col-md-5 ml-lg-0 ml-xl-5 ml-md-0 ml-0'>
+                        <InnerBorderImage className='img-size' src={props.data.firstImage} alt={props.data.title}/>
+                    </div>
                 </section>
                 <footer className='d-flex justify-content-center'>
                     {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
@@ -44,10 +42,7 @@ export function OneImageTwoTextsSmallType(props: any) {
                     text={props.data.firstText.text}
                 />}
                 <div className='mt-4 col-sm-12 col-12 mt-2 d-flex justify-content-center'>
-                    <TwoImagesElement first={props.data.firstImage}
-                                      second={GirlWithPhone}
-                                      alt={props.data.title}
-                    />
+                    <InnerBorderImage className='img-size' src={props.data.firstImage} alt={props.data.title}/>
                 </div>
                 <TextBoxWithShadow
                     style={{ paddingLeft: 0}}

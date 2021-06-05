@@ -5,100 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.b0317185.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.b0317185.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.a02ccf8e.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.a02ccf8e.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/1.14314a0e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/1.2c874c6e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/1.48e616ec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/1.680a7634.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/1.681e19e3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/1.771aeb0e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/1.84275e7a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/1.acf93845.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/1.c8c21ac2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/1.f50e8714.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/1.fa9e73d1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/2.4ba873d3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/2.7738ed47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/2.98c26b1a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constdata/pages/beet-processing-department.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constdata/pages/crystallization-department.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constdata/pages/diffusion-department.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constdata/pages/evaporation-station.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constdata/pages/filtration-station.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constdata/pages/grocery-department.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constdata/pages/juice-department.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constdata/pages/lime-burning-department.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constdata/pages/sugar-drying-complex.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constdata/pages/washing-complex.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constdata/pages/zhomodushilny-complex.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/beet-processing-department/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/crystallization-department/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/diffusion-department/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/diffusion-department/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/evaporation-station/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/filtration-station/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/grocery-department/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/juice-department/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/lime-burning-department/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/lime-burning-department/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/sugar-drying-complex/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/sugar-drying-complex/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/washing-complex/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pages/zhomodushilny-complex/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/gallery/rotor/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/gallery/rotor/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/gallery/rotor/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/gallery/rotor/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/gallery/rotor/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/gallery/rotor/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/gallery/rotor/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/gallery/rotor/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/gallery/rotor/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.11a061b5.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.11a061b5.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.b27a88fc.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.b27a88fc.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/silo-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/silo-repair.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/sugar-factories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/sugar-factories.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/commonElements/styles/Images.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/commonElements/styles/Images.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageOneTextType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageOneTextType.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/WorkWIth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/WorkWIth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/styles/WorkWIth.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/styles/WorkWIth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/Faq.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/Faq.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/header/MobileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/MobileMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/header/styles/MobileMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/styles/MobileMenu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextBigType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextBigType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -115,86 +40,8 @@
       <file leaf-file-name="App.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sugar-factories.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constdata/pages/sugar-factories.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="39" column="33" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filtration-station.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/constdata/pages/filtration-station.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#69#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwoImagesOneTextBigType.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextBigType.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwoImagesTwoTextsBigType.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreeTwoImagesTwoTextsType.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwoImagesOneTextType.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextType.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OneImageTwoTextsSmallType.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OneImageOneTextType.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageOneTextType.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -202,8 +49,86 @@
       <file leaf-file-name="TwoImagesTwoTextsType.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="229">
+              <caret line="34" column="91" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HowDoWeWork.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/footer/HowDoWeWork.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Faq.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/footer/Faq.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobileMenu.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/header/MobileMenu.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="103" column="47" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobileMenu.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/header/styles/MobileMenu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElementWithShadow.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/footer/styles/ElementWithShadow.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkWIth.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/HomePage/WorkWIth.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkWIth.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/HomePage/styles/WorkWIth.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -220,19 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>installation-of-oil-winterization-freezing-line</find>
-      <find>Монтаж линии адсорбции (отбеливания) масла</find>
-      <find>installation-of-oil-refining-and-deodorization-line</find>
-      <find>У вас</find>
-      <find>У Вас тендер?</find>
-      <find>: '.*',</find>
-      <find>url: ''</find>
-      <find>url:</find>
-      <find>url: .*</find>
-      <find>'Washing complex'</find>
-      <find>'.*'\n</find>
-      <find>Моечный</find>
-      <find>1098</find>
       <find>context</find>
       <find>nav-inactive</find>
       <find>mob-nav-inactive</find>
@@ -248,8 +160,21 @@
       <find>beet-processing-department</find>
       <find>evaporation-station</find>
       <find>;</find>
-      <find>Моечный</find>
       <find>filtration-station</find>
+      <find>HTMLDivEl</find>
+      <find>zhomodushilny-complex</find>
+      <find>footer</find>
+      <find>Как мы работаем</find>
+      <find>workwith</find>
+      <find>how-do-we-work-text</find>
+      <find>col-4</find>
+      <find>col-sm-6</find>
+      <find>@media</find>
+      <find>how-do-we-work-text</find>
+      <find>element-box-text</find>
+      <find>twoImagesTwo</find>
+      <find>Услуги</find>
+      <find>top-nav-mobile</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -274,11 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/constdata/pages/repair-of-the-seed-crusher.ts" />
-        <option value="$PROJECT_DIR$/src/constdata/pages/oil-shop-brazier-repair.ts" />
-        <option value="$PROJECT_DIR$/src/constdata/pages/oil-pressing-line-installation.ts" />
-        <option value="$PROJECT_DIR$/src/constdata/pages/toaster-repair-vat-evaporator.ts" />
-        <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/src/constdata/pages/silo-cleaning.ts" />
         <option value="$PROJECT_DIR$/src/constdata/pages/belt-conveyor-repair.ts" />
         <option value="$PROJECT_DIR$/src/constdata/pages/painting-corrosion-protection-of-the-tank.ts" />
@@ -296,7 +216,6 @@
         <option value="$PROJECT_DIR$/src/constdata/pages/installation-of-oil-winterization-freezing-line.ts" />
         <option value="$PROJECT_DIR$/src/constdata/pages/installation-of-oil-adsorption-bleaching-line.ts" />
         <option value="$PROJECT_DIR$/src/constdata/pages/installation-of-a-phosphatide-drying-line.ts" />
-        <option value="$PROJECT_DIR$/src/pages/header/MobileMenu.tsx" />
         <option value="$PROJECT_DIR$/src/pages/header/components/socialContacts/Icons.tsx" />
         <option value="$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx" />
         <option value="$PROJECT_DIR$/src/pages/header/Menu.tsx" />
@@ -315,16 +234,22 @@
         <option value="$PROJECT_DIR$/src/constdata/pages/evaporation-station.ts" />
         <option value="$PROJECT_DIR$/src/constdata/pages/juice-department.ts" />
         <option value="$PROJECT_DIR$/src/constdata/pages/index.ts" />
-        <option value="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx" />
         <option value="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageOneTextType.tsx" />
         <option value="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx" />
         <option value="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextType.tsx" />
         <option value="$PROJECT_DIR$/src/pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType.tsx" />
         <option value="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType.tsx" />
         <option value="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextBigType.tsx" />
         <option value="$PROJECT_DIR$/src/constdata/pages/sugar-factories.ts" />
         <option value="$PROJECT_DIR$/src/constdata/pages/filtration-station.ts" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx" />
+        <option value="$PROJECT_DIR$/src/constdata/OurAdvantagesData.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/HomePage/styles/WorkWIth.css" />
+        <option value="$PROJECT_DIR$/src/pages/HomePage/WorkWIth.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/footer/Faq.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/header/MobileMenu.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/header/styles/MobileMenu.css" />
       </list>
     </option>
   </component>
@@ -368,41 +293,7 @@
               <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
               <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constdata" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="elements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="thermal-insulation-of-the-tank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
@@ -416,29 +307,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="HomePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="standartPages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="standartPages" type="462c0819:PsiDirectoryNode" />
-              <item name="commonElements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="citam.com.ua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citam.com.ua" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="standartPages" type="462c0819:PsiDirectoryNode" />
-              <item name="twoImagesPage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -464,19 +332,19 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\projects\citam.com.ua\src\images\footer" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\juice-department" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\filtration-station" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\evaporation-station" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\beet-processing-department" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\projects\citam.com.ua\src\constdata\pages" />
       <recent name="E:\projects\citam.com.ua\src\images\pages\installation-of-industrial-boilers" />
       <recent name="E:\projects\citam.com.ua\src\images\pages\dismantling-of-machines" />
       <recent name="E:\projects\citam.com.ua\src\pages\standartPages\twoImagesPage" />
       <recent name="E:\projects\citam.com.ua\src\images\pages\installation-and-dismantling-of-car-scales" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\projects\citam.com.ua\src\images\pages\juice-department" />
-      <recent name="E:\projects\citam.com.ua\src\images\pages\filtration-station" />
-      <recent name="E:\projects\citam.com.ua\src\images\pages\evaporation-station" />
-      <recent name="E:\projects\citam.com.ua\src\images\pages\beet-processing-department" />
-      <recent name="E:\projects\citam.com.ua\src\images\pages\sugar-drying-complex" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -621,7 +489,12 @@
       <workItem from="1620929940864" duration="1983000" />
       <workItem from="1620974823147" duration="23000" />
       <workItem from="1620983446836" duration="2067000" />
-      <workItem from="1621074729775" duration="5427000" />
+      <workItem from="1621074729775" duration="6052000" />
+      <workItem from="1621239075458" duration="760000" />
+      <workItem from="1621325378271" duration="141000" />
+      <workItem from="1622103643101" duration="1208000" />
+      <workItem from="1622145156563" duration="322000" />
+      <workItem from="1622827579194" duration="6099000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1613818708988</created>
@@ -945,14 +818,22 @@
       <option name="project" value="LOCAL" />
       <updated>1620486789069</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="added new files, added title for each page">
+      <created>1621080183415</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1621080183415</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="501103000" />
+    <option name="totallyTimeSpent" value="510258000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="32" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.24973656" />
@@ -961,9 +842,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.2301676" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.2301676" />
       <window_info id="Structure" order="1" sideWeight="0.50083196" side_tool="true" weight="0.24973656" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -975,23 +856,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32849163" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32849163" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -1025,7 +906,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="fix: update styles to box-shadow instead of numerous divs" />
     <MESSAGE value="feat: added menu button for mobile and menu started" />
     <MESSAGE value="feat: add mainWays links&#10;fix: change styles" />
     <MESSAGE value="fix: move images to common directory, styles changes" />
@@ -1050,7 +930,8 @@
     <MESSAGE value="new files" />
     <MESSAGE value="added new files" />
     <MESSAGE value="added new files, changed tg" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new files, changed tg" />
+    <MESSAGE value="added new files, added title for each page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new files, added title for each page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1058,114 +939,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/constdata/pages/repair-and-installation-of-oil-extraction-plant-equipment.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-oil-hydration-and-neutralization-line.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/footer/OurAdvantages.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/footer/styles/OurAdvantages.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/header/HeaderText.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-oil-adsorption-bleaching-line.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-oil-winterization-freezing-line.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-oil-refining-and-deodorization-line.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-a-phosphatide-drying-line.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/header/components/socialContacts/Icons.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/sizeContext.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/css/main.11a061b5.chunk.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret column="6431" selection-start-column="6431" selection-end-column="6431" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/header/styles/MobileMenu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="149" column="26" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/header/MobileMenu.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="104" column="85" selection-start-line="104" selection-start-column="68" selection-end-line="104" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/header/styles/Menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1198,9 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1208,19 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constdata/pages/zhomodushilny-complex.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#72#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1245,9 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1269,9 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#72#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,9 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1303,9 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1313,9 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#70#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1330,9 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1340,9 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1350,9 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#72#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1367,41 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/enum.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageOneTextType.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -1433,30 +1131,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/constdata/pages/sugar-factories.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="629">
           <caret line="39" column="33" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/constdata/pages/filtration-station.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#69#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/gallery/rotor/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageOneTextType.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="27" column="110" lean-forward="true" selection-start-line="27" selection-start-column="110" selection-end-line="27" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/pages/zhomodushilny-complex.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/enum.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="44" column="111" selection-start-line="44" selection-start-column="111" selection-end-line="44" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/footer/styles/Faq.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/footer/Footer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/footer/OurAdvantages.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constdata/OurAdvantagesData.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/footer/HowDoWeWork.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/css/main.b0317185.chunk.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret column="8633" selection-start-column="8633" selection-end-column="8633" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/HomePage/WorkWIth.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/footer/styles/ElementWithShadow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/HomePage/styles/WorkWIth.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/footer/components/ElementWithShadow.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="34" column="91" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/footer/Faq.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/header/MobileMenu.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="103" column="47" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/header/styles/MobileMenu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
