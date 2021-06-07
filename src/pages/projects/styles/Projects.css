@@ -1,0 +1,31 @@
+.project-text {
+    position: absolute;
+    color: white;
+    text-shadow: #000000 1px 0 10px;
+    cursor: pointer;
+}
+.project-img {
+    max-width: 250px;
+    height: 180px;
+    -webkit-box-shadow: 7px 5px 45px 0px rgba(34, 60, 80, 0.28);
+    -moz-box-shadow: 7px 5px 45px 0px rgba(34, 60, 80, 0.28);
+    box-shadow: 7px 5px 45px 0px rgba(34, 60, 80, 0.28);
+    border-radius: 26px;
+    opacity: 0.5;
+}
+.project-container:hover .project-img {
+    opacity: 1;
+    cursor: pointer;
+}
+.project-container:hover .project-text {
+    text-decoration: underline;
+}
+.gallery {
+    -webkit-box-shadow: 7px 5px 45px 0 rgba(34, 60, 80, 0.28);
+    -moz-box-shadow: 7px 5px 45px 0 rgba(34, 60, 80, 0.28);
+    box-shadow: 7px 5px 45px 0 rgba(34, 60, 80, 0.28);
+    border-radius: 26px;
+}
+.project-selected .project-img{
+    opacity: 1;
+}

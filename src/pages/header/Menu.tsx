@@ -83,9 +83,9 @@ export const HeaderMenu = () => {
                 <a id='main-ways' key='main-ways' className='col-2' onClick={() => handleItemSelection(2)}>
                     Основные направления
                 </a>
-                <a key='projects' className='col-2'>
+                <Link to={'/projects'} key='projects' className='col-2' onClick={scrollToTop}>
                     Проекты
-                </a>
+                </Link>
                 <a key='tender' className='col-2' href='mailto:sitam.office@gmail.com'>
                     У Вас тендер?
                 </a>

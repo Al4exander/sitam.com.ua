@@ -21,6 +21,7 @@ import { data as routesData } from './constdata/pages';
 import {PageTemplates} from "./pages/standartPages/enum";
 import {TwoImagesTwoTextsBigType} from "./pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType";
 import {TwoImagesOneTextBigType} from "./pages/standartPages/twoImagesPage/TwoImagesOneTextBigType";
+import {Projects} from "./pages/projects/Projects";
 
 function App() {
     const [smallSize, setSmallSize] = useContext(SizeContext);
@@ -71,6 +72,9 @@ function App() {
                       {determineElementType(element)}
                   </Route>
               })}
+              <Route path='/projects'>
+                  <Projects/>
+              </Route>
               <Route path={'*'}>
                   <Navigate to='/' />
               </Route>
