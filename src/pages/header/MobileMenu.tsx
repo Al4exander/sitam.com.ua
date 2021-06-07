@@ -119,9 +119,9 @@ export function MobileMenu() {
                                 <a key='industries' className='col-6' onClick={() => setMainWaysSelected(true)}>
                                     Основные направления
                                 </a>
-                                <a key='projects' className='col-6'>
+                                <Link to={'/projects'} key='projects' className='col-6' onClick={scrollToTop}>
                                     Проекты
-                                </a>
+                                </Link>
                                 <a key='tender' className='col-6' href='mailto:sitam.office@gmail.com'>
                                     У Вас тендер?
                                 </a>
