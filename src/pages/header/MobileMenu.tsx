@@ -104,7 +104,7 @@ export function MobileMenu() {
                 <div className={`top-nav-mobile ${dropdownClosing ? 'mob-nav-inactive' : ''}`}>
                     <header className='logo-name mt-2 ml-4'>
                         <img src={logoIcon}/>
-                        <span className='ml-3'>Sitam</span>
+                        <span className='ml-3'>Ситам</span>
                         <div className='close' onClick={openMobDropdown}/>
                     </header>
                     {servicesSelected ? servicesJSX :

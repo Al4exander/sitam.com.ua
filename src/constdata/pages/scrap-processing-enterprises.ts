@@ -10,13 +10,13 @@ export const scrapProcessingEnterprises = {
     type: PageTemplates.TwoImagesOneTextType,
     buttons: [{
         text: 'Ремонт грейфера, перегружателя',
-        url: ''
+        url: '/repair-of-grab-reloader'
     },{
         text: 'Ремонт пресс ножниц',
-        url: ''
+        url: '/press-shears'
     },{
         text: 'Ремонт пакетировочного пресса для металлолома',
-        url: ''
+        url: '/repair-of-a-baler-for-scrap-metal'
     }],
     text: `Наша компания выполнит ремонт ломоперерабатываюего оборудования предприятий (приемных пунктов) по заготовке и переработке лома черных и цветных металлов.
 

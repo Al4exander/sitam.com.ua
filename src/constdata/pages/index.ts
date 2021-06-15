@@ -72,6 +72,11 @@ import {beetProcessingDepartment} from "./beet-processing-department";
 import {evaporationStation} from "./evaporation-station";
 import {filtrationStation} from "./filtration-station";
 import {juiceDepartment} from "./juice-department";
+import {installationOfAProcessPipeline} from "./industrial-relocation-of-the-plant";
+import {installationOfMachine} from "./installation-of-machine";
+import {installationOfTransformersAndPowerEquipment} from "./installation-of-transformers-and-power-equipment";
+import {installationOfLiftingEquipment} from "./installation-of-lifting-equipment";
+import {repairOfGrabReloader} from "./repair-of-grab-reloader";
 
 export const data = [
     installationOfPresses,
@@ -147,5 +152,11 @@ export const data = [
     beetProcessingDepartment,
     evaporationStation,
     filtrationStation,
-    juiceDepartment
+    juiceDepartment,
+    installationOfAProcessPipeline,
+    installationOfMachine,
+    installationOfTransformersAndPowerEquipment,
+    installationOfLiftingEquipment,
+    repairOfGrabReloader,
+
 ];

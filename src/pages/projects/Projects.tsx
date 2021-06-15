@@ -34,6 +34,7 @@ export function Projects() {
                                       text={project.text}
                                       onClick={() => setSelectedProject(index)}
                                       selected={selectedProject === index}
+                                      key={index}
                       />
                   })}
               </div>

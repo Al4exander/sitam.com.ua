@@ -22,6 +22,7 @@ import {PageTemplates} from "./pages/standartPages/enum";
 import {TwoImagesTwoTextsBigType} from "./pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType";
 import {TwoImagesOneTextBigType} from "./pages/standartPages/twoImagesPage/TwoImagesOneTextBigType";
 import {Projects} from "./pages/projects/Projects";
+import {Tender} from "./pages/Tender/Tender";
 
 function App() {
     const [smallSize, setSmallSize] = useContext(SizeContext);
@@ -74,6 +75,9 @@ function App() {
               })}
               <Route path='/projects'>
                   <Projects/>
+              </Route>
+              <Route path='/tender'>
+                  <Tender/>
               </Route>
               <Route path={'*'}>
                   <Navigate to='/' />

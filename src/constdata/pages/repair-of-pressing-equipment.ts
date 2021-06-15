@@ -8,25 +8,25 @@ export const repairOfPressingEquipment = {
     type: PageTemplates.OneImageOneTextType,
     buttons: [{
         text: 'Ремонт гидравлического пресса',
-        url: ''
+        url: '/hydraulic-press'
     },{
         text: 'Ремонт пресс ножниц',
-        url: ''
+        url: '/press-shears'
     },{
         text: 'Ремонт пакетировочного пресса для металлолома',
-        url: ''
+        url: '/repair-of-a-baler-for-scrap-metal'
     },{
         text: 'Ремонт пресса для макулатуры и вторсырья',
-        url: ''
+        url: '/waste-paper-press'
     },{
         text: 'Ремонт листогибочного пресса',
-        url: ''
+        url: '/bending-press'
     },{
         text: 'Ремонт гильотинных ножниц',
-        url: ''
+        url: '/guillotine-press-shears'
     },{
         text: 'Ремонт пресс компактора',
-        url: ''
+        url: '/press-compactor'
     }],
     text: `Наша компания выполнит ремонт и обслуживание прессового оборудования предприятий по металлобработке и переработке металлолома и вторсырья.
 

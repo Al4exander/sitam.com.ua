@@ -12,7 +12,7 @@ export function Footer() {
           <OurAdvantages/>
           <FaqComponent />
           <ContactsAndAsk/>
-          <div className='footer d-flex justify-content-center'>2021 © Все права защищены «Sitam»</div>
+          <div className='footer d-flex justify-content-center'>2021 © Все права защищены «Ситам»</div>
       </div>
   );
 }

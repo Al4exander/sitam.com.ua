@@ -13,6 +13,9 @@
     border-radius: 26px;
     opacity: 0.5;
 }
+.project-container:not(:first-child) {
+    margin-top: 15px;
+}
 .project-container:hover .project-img {
     opacity: 1;
     cursor: pointer;

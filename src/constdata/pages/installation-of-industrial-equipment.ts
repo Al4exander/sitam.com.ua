@@ -10,49 +10,49 @@ export const installationOfIndustrialEquipment = {
     type: PageTemplates.TwoImagesOneTextType,
     buttons: [{
         text: 'Промышленный переезд завода',
-        url: ''
+        url: '/'
     },{
         text: 'Монтаж технологического трубопровода',
-        url: ''
+        url: '/installation-of-a-process-pipeline'
     },{
         text: 'Монтаж станков',
-        url: ''
+        url: '/installation-of-machine'
     },{
         text: 'Монтаж прессов',
-        url: ''
+        url: '/installation-of-presses'
     },{
         text: 'Монтаж емкостного оборудования',
-        url: ''
+        url: '/installation-of-containers'
     },{
         text: 'Монтаж оборудования для обработки полимеров (ТПА)',
-        url: ''
+        url: '/'
     },{
         text: 'Монтаж полиграфического оборудования',
-        url: ''
+        url: '/'
     },{
         text: 'Монтаж трансформаторов и энергетического оборудования',
-        url: ''
+        url: '/installation-of-transformers-and-power-equipment'
     },{
         text: 'Монтаж грузоподъемного оборудования',
-        url: ''
+        url: '/installation-of-lifting-equipment'
     },{
         text: 'Монтаж конвейеров и транспортеров',
-        url: ''
+        url: '/assembly-of-the-conveyor'
     },{
         text: 'Монтаж горного оборудования',
-        url: ''
+        url: '/'
     },{
         text: 'Монтаж промышленных печей',
-        url: ''
+        url: '/'
     },{
         text: 'Монтаж металлургического оборудования',
-        url: ''
+        url: '/'
     },{
         text: 'Монтаж технологических линий',
-        url: ''
+        url: '/installation-of-technological-lines'
     },{
         text: 'Монтаж прочего оборудования',
-        url: ''
+        url: '/'
     }],
     text: `Наша компания выполнит комплекс услуг по монтажу и демонтажу вашего промышленного оборудования при промышленном переезде, открытии новых технологических линий и цехов, приемке нового оборудования и запуск его в эксплуатацию.
 
