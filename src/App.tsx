@@ -23,8 +23,9 @@ import {TwoImagesTwoTextsBigType} from "./pages/standartPages/twoImagesPage/TwoI
 import {TwoImagesOneTextBigType} from "./pages/standartPages/twoImagesPage/TwoImagesOneTextBigType";
 import {Projects} from "./pages/projects/Projects";
 import {Tender} from "./pages/Tender/Tender";
+import {Sitemap} from "./Sitemap";
 
-function App() {
+export const App = () => {
     const [smallSize, setSmallSize] = useContext(SizeContext);
 
     useEffect(() => {
@@ -79,6 +80,9 @@ function App() {
               <Route path='/tender'>
                   <Tender/>
               </Route>
+              {/*<Route path='sitemap'>*/}
+                  {/*<Sitemap/>*/}
+              {/*</Route>*/}
               <Route path={'*'}>
                   <Navigate to='/' />
               </Route>
@@ -86,6 +90,4 @@ function App() {
           <Footer/>
       </Router>
   );
-}
-
-export default App;
+};

@@ -1,10 +1,10 @@
 import React, {useContext, useRef} from 'react';
-import './styles/Contacts.css';
 import {Icons} from "./components/socialContacts/Icons";
 import {SizeContext} from "../../lib/sizeContext";
 import {Tooltip, message}from "antd";
-
 import { CopyOutlined } from '@ant-design/icons';
+
+import './styles/Contacts.css';
 
 export function Contacts() {
     const [smallSize] = useContext(SizeContext);
