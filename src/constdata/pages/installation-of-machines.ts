@@ -6,7 +6,7 @@ export const installationOfMachines = {
     url: '/installation-of-machines',
     type: PageTemplates.TwoImagesTwoTextsBigType,
     manufacturers: {
-        text: 'На данный момент ООО «СИТАМ» имеет большой опыт монтажа станков самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей:CNC(YZC), Hegenscheidt MFD(RQQ), DANOBAT(TT/TTB, CL/CIH, IDS), Sirmu-MT, CORREA, ARAMIS, Kalafat, Skoda, ДИП, Haas (ST), SIMPAC (MCL), TRUMATIC, WKV, KNUTH, AMADA и др. и других производителей в т.ч. отечественных.',
+        text: 'ООО «СИТАМ» имеет большой опыт монтажа станков самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей:CNC(YZC), Hegenscheidt MFD(RQQ), DANOBAT(TT/TTB, CL/CIH, IDS), Sirmu-MT, CORREA, ARAMIS, Kalafat, Skoda, ДИП, Haas (ST), SIMPAC (MCL), TRUMATIC, WKV, KNUTH, AMADA и др. и других производителей в т.ч. отечественных.',
     },
     title: 'Монтаж станков',
     underTitle: 'ООО «СИТАМ» Выполним ремонтные и монтажные работы оборудования маслоэкстракционного завода и другого промышленного оборудования на профессиональном уровне.\n' +

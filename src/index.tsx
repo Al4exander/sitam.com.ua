@@ -7,7 +7,7 @@ import {SizeProvider} from "./lib/sizeContext";
 ReactDOM.render(
   <React.StrictMode>
       <SizeProvider>
-        <App />
+          <App />
       </SizeProvider>
   </React.StrictMode>,
   document.getElementById('root')

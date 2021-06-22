@@ -6,7 +6,7 @@ export const installationOfOilWinterizationFreezingLine = {
     title: 'Монтаж линии винтеризации масла (вымораживания)',
     firstImage,
     manufacturers: {
-        text: 'На данный момент ООО «СИТАМ» имеет большой опыт монтажа линии винтеризации масла (вымораживания)',
+        text: 'ООО «СИТАМ» имеет большой опыт монтажа линии винтеризации масла (вымораживания)',
     },
     maxSize: true,
     type: PageTemplates.OneImageTwoTextsSmallType,

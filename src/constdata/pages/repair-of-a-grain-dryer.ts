@@ -8,7 +8,7 @@ export const repairOfaGrainDryer = {
     firstImage,
     secondImage,
     manufacturers: {
-        text: 'На данный момент ООО «СИТАМ» имеет большой опыт ремонта и монтажа элеваторного оборудования, включая силосы, нории, конвейеры, зерносепараторы и зерносушилки разных производителей: Fratelli Pedrotti, Agrex, Mecmar, Metalmont, Frame, Bonfanti, Ravaro, Scolari, Strahl, Petcus, Araj, Chelik, Mepu, Neuero, Riela, Ozsu, ДСП и др.',
+        text: 'ООО «СИТАМ» имеет большой опыт ремонта и монтажа элеваторного оборудования, включая силосы, нории, конвейеры, зерносепараторы и зерносушилки разных производителей: Fratelli Pedrotti, Agrex, Mecmar, Metalmont, Frame, Bonfanti, Ravaro, Scolari, Strahl, Petcus, Araj, Chelik, Mepu, Neuero, Riela, Ozsu, ДСП и др.',
     },
     type: PageTemplates.TwoImagesTwoTextsType,
     firstText: {

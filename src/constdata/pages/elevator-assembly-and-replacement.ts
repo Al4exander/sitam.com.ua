@@ -8,7 +8,7 @@ export const elevatorAssemblyAndReplacement = {
     firstImage,
     secondImage,
     manufacturers: {
-        text: 'На данный момент компания ООО «СИТАМ»  имеет большой опыт монтажа норий самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей:Fratelli Pedrotti, Agrex, Mecmar, Metalmont, Frame, Bonfanti, Ravaro, Scolari, Strahl, Petcus, Araj, Chelik, Mepu, Neuero, Riela, Ozsu, ДСП и др. и других производителей в т.ч. отечественных.'
+        text: 'компания ООО «СИТАМ»  имеет большой опыт монтажа норий самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей:Fratelli Pedrotti, Agrex, Mecmar, Metalmont, Frame, Bonfanti, Ravaro, Scolari, Strahl, Petcus, Araj, Chelik, Mepu, Neuero, Riela, Ozsu, ДСП и др. и других производителей в т.ч. отечественных.'
     },
     type: PageTemplates.ThreeTwoImagesTwoTextsType,
     firstText: {

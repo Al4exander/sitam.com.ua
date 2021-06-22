@@ -6,16 +6,18 @@ import {SizeContext} from "../../../lib/sizeContext";
 import '../commonElements/styles/Images.css';
 import '../commonElements/styles/Common.css';
 import {Manufacturers} from "../commonElements/Manufacturers";
+import {Helmet} from "react-helmet";
 
 export function TwoImagesTwoTextsBigType(props: any) {
     const [smallSize] = useContext(SizeContext);
 
-    useEffect(() => {
-        document.title = `Sitam - ${props.data.title}`;
-    }, []);
-
     return (
         <div>
+            <Helmet>
+                <title>{props.data.title} | Ситам</title>
+                <meta name="description" content={`${props.data.manufacturers ? props.data.manufacturers.text.slice(0, 296) :
+                    props.data.underTitle ? props.data.underTitle.slice(0, 296) : props.data.firstText.text.replace(/#/g, '').slice(0, 296)}...`} />
+            </Helmet>
             <div className='align-center-full page-title-text'>{props.data.title}</div>
             <div className='container page-under-title-text mb-4 mt-3'>{props.data.underTitle}</div>
             {!smallSize ? <section className='col-10 col-lg-12 col-md-12 mx-lg-auto mx-md-0 row mt-5 d-flex justify-content-center'>

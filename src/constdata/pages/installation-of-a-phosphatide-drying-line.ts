@@ -6,7 +6,7 @@ export const installationOfAPhosphatideDryingLine = {
     title: 'Монтаж линии сушки фосфатидов',
     firstImage,
     manufacturers: {
-        text: 'На данный момент ООО «СИТАМ» имеет большой опыт монтажа линии сушки фосфатидов',
+        text: 'ООО «СИТАМ» имеет большой опыт монтажа линии сушки фосфатидов',
     },
     type: PageTemplates.OneImageTwoTextsSmallType,
     secondText: {

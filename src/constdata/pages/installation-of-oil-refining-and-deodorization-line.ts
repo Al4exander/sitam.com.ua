@@ -6,7 +6,7 @@ export const installationOfOilRefiningAndDeodorizationLine = {
     title: 'Монтаж линии дезодорации',
     firstImage,
     manufacturers: {
-        text: 'На данный момент ООО «СИТАМ» имеет большой опыт монтажа линии дезодорации',
+        text: 'ООО «СИТАМ» имеет большой опыт монтажа линии дезодорации',
     },
     type: PageTemplates.OneImageTwoTextsSmallType,
     secondText: {

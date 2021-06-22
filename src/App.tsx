@@ -24,6 +24,7 @@ import {TwoImagesOneTextBigType} from "./pages/standartPages/twoImagesPage/TwoIm
 import {Projects} from "./pages/projects/Projects";
 import {Tender} from "./pages/Tender/Tender";
 import {Sitemap} from "./Sitemap";
+import {Helmet} from "react-helmet";
 
 export const App = () => {
     const [smallSize, setSmallSize] = useContext(SizeContext);
@@ -63,7 +64,13 @@ export const App = () => {
     };
 
     return (
-      <Router>
+    <>
+        <Helmet>
+            <title>Поставщики услуг для промышленных предприятий | Ситам</title>
+            <meta name="description" content="Ремонт и техническое обслуживание | Работы по монтажу и демонтажу | Изготовление металлоконструкций | Строительные работы и др." />
+            <link rel="canonical" href="http://www.sitam.tech"/>
+        </Helmet>
+        <Router>
           <Header/>
           <Routes>
               <Route path='/'>
@@ -88,6 +95,7 @@ export const App = () => {
               </Route>
           </Routes>
           <Footer/>
-      </Router>
+        </Router>
+    </>
   );
 };
