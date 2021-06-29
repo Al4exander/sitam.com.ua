@@ -68,7 +68,7 @@ export const App = () => {
         <Helmet>
             <title>Поставщики услуг для промышленных предприятий | Ситам</title>
             <meta name="description" content="Ремонт и техническое обслуживание | Работы по монтажу и демонтажу | Изготовление металлоконструкций | Строительные работы и др." />
-            <link rel="canonical" href="http://www.sitam.tech"/>
+            <link rel="canonical" href="http://sitam.tech"/>
         </Helmet>
         <Router>
           <Header/>
