@@ -17,6 +17,7 @@ export function OneImageOneTextType(props: any) {
             <title>{props.data.title} | Ситам</title>
             <meta name="description" content={`${props.data.manufacturers ? props.data.manufacturers.text.slice(0, 296) :
                 props.data.underTitle ? props.data.underTitle.slice(0, 296) : props.data.firstText.text.replace(/#/g, '').slice(0, 296)}...`} />
+            <link rel="canonical" href={`http://www.sitam.tech/${props.data.url}`}/>
         </Helmet>
         <div className='align-center-full page-title-text'>{props.data.title}</div>
         {props.data.buttons && props.data.buttons.length && <section className='mt-2'>
