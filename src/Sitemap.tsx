@@ -2,7 +2,7 @@ import React from 'react';
 import {data} from './constdata/pages';
 
 export const Sitemap = () => {
-    const PUBLIC_URL = 'http://www.sitam.tech';
+    const PUBLIC_URL = 'http://sitam.tech';
     const date = new Date();
     interface SitemapRoute {
         route: string;
