@@ -17,7 +17,7 @@ export function TwoImagesOneTextType(props: any) {
             <title>{props.data.title} | Ситам</title>
             <meta name="description" content={`${props.data.manufacturers ? props.data.manufacturers.text.slice(0, 296) :
                 props.data.underTitle ? props.data.underTitle.slice(0, 296) : props.data.text.replace(/#/g, '').slice(0, 296)}...`} />
-            <link rel="canonical" href={`http://www.sitam.tech/${props.data.url}`}/>
+            <link rel="canonical" href={`https://sitam.tech${props.data.url}`}/>
         </Helmet>
         <div className='align-center-full page-title-text'>{props.data.title}</div>
         <div className='container page-under-title-text mb-4 mt-3'>{props.data.underTitle}</div>
