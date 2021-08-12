@@ -87,9 +87,9 @@ export const App = () => {
               <Route path='/tender'>
                   <Tender/>
               </Route>
-              <Route path='/sitemap'>
-                  <Sitemap/>
-              </Route>
+              {/*<Route path='/sitemap'>*/}
+                  {/*<Sitemap/>*/}
+              {/*</Route>*/}
               <Route path={'*'}>
                   <Navigate to='/' />
               </Route>
