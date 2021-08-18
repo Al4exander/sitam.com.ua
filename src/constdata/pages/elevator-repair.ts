@@ -6,6 +6,7 @@ export const elevatorRepair = {
     url: '/elevator-repair',
     title: 'Ремонт элеваторов',
     type: PageTemplates.TwoImagesTwoTextsType,
+    keywords: 'ремонт,замена,элеватор,силос,бункер',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт установки силосов и бункеров для зерна, муки, цемента, песка и т.д различных типов (конусные, с плоским дном), объема, габаритов и комплектующих.',
     },

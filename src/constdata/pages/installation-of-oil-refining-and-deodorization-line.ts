@@ -5,6 +5,7 @@ export const installationOfOilRefiningAndDeodorizationLine = {
     url: '/installation-of-oil-refining-and-deodorization-line',
     title: 'Монтаж линии дезодорации',
     firstImage,
+    keywords: 'монтаж,дезодорация,линия,рафинация',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт монтажа линии дезодорации',
     },

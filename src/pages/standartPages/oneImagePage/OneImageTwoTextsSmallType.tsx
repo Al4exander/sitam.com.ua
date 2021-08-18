@@ -8,18 +8,14 @@ import {TwoImagesElement} from "../commonElements/TwoImagesElement";
 import {Manufacturers} from "../commonElements/Manufacturers";
 import {InnerBorderImage} from "../commonElements/InnerBorderImage";
 import {Helmet} from "react-helmet";
+import {HelmetComponent} from "../../../elements/HelmetComponent";
 
 export function OneImageTwoTextsSmallType(props: any) {
   const [smallSize] = useContext(SizeContext);
 
     return (
     <div>
-        <Helmet>
-            <title>{props.data.title} | Ситам</title>
-            <meta name="description" content={`${props.data.manufacturers ? props.data.manufacturers.text.slice(0, 296) :
-                props.data.underTitle ? props.data.underTitle.slice(0, 296) : props.data.firstText.text.replace(/#/g, '').slice(0, 296)}...`} />
-            <link rel="canonical" href={`https://sitam.tech${props.data.url}`}/>
-        </Helmet>
+        <HelmetComponent data={props.data}/>
         <div className='d-flex justify-content-center page-title-text'>{props.data.title}</div>
         {!smallSize ? <>
                 {props.data.firstText && <TextBoxWithShadow className='col-10 mx-auto mt-4 d-flex justify-content-center'

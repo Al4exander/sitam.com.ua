@@ -5,6 +5,7 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 export const modernizationOfTheHydraulicPress = {
     url: '/modernization-of-the-hydraulic-press',
     type: PageTemplates.TwoImagesTwoTextsType,
+    keywords: 'модернизации,реконструкция,гидравлический,пресс',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт модернизации и ремонта рамных и колонных гидропрессов самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей: LAEIS (Лайс) HPF, ITALPRESSE, Beckwood Press, glomac, П-6332Б, ONA-PRESS, Jelsingrad Smeral, дг2434а, «БЛИСС», «Schloemann», П237, Б6234, П3236, ДО242 и других производителей в т.ч. отечественных',
     },

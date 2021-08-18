@@ -9,6 +9,7 @@ export const installationOfContainers = {
     firstImage,
     secondImage,
     thirdImage,
+    keywords: 'монтаж,установка,стеклопластиковые,емкости,емкостные',
     type: PageTemplates.ThreeTwoImagesTwoTextsType,
     firstText: {
         text: `Выполним монтаж стеклопластиковых и металлических емкостей различных видов и назначения:

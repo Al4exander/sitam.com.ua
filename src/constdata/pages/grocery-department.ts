@@ -5,6 +5,7 @@ export const groceryDepartment = {
     url: '/grocery-department',
     title: 'Монтаж оборудования продуктового отделения',
     firstImage,
+    keywords: 'монтаж,демонтаж,ремонт,замена,продуктовое,отделение',
     type: PageTemplates.OneImageTwoTextsSmallType,
     maxSize: true,
     firstText: {

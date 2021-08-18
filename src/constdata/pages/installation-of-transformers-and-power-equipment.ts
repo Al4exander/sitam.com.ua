@@ -8,6 +8,7 @@ export const installationOfTransformersAndPowerEquipment = {
     title: 'Установка силовых трансформаторов',
     firstImage,
     secondImage,
+    keywords: 'монтаж,масляных,силовых,трансформаторов,подстанций,маслоприемник',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт монтаж масляных силовых трансформаторов различных конфигураций и напряжения.',
     },

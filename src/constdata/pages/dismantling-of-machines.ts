@@ -7,6 +7,7 @@ export const dismantlingOfMachines = {
     title: 'Демонтаж станков',
     firstImage,
     secondImage,
+    keywords: 'демонтаж,замена,сверлильный,фрезерный,муфтонарезные,станки,токарный',
     type: PageTemplates.TwoImagesTwoTextsBigType,
     underTitle: `ООО «СИТАМ» Выполним демонтаж станков и другого промышленного оборудования на профессиональном уровне. На все виды работ организация имеет необходимые разрешения и свидетельства.`,
     firstText: {

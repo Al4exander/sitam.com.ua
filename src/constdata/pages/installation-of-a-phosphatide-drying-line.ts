@@ -5,6 +5,7 @@ export const installationOfAPhosphatideDryingLine = {
     url: '/installation-of-a-phosphatide-drying-line',
     title: 'Монтаж линии сушки фосфатидов',
     firstImage,
+    keywords: 'монтаж,линия,сушка,фосфатиды',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт монтажа линии сушки фосфатидов',
     },

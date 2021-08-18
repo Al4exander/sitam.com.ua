@@ -5,6 +5,7 @@ export const installationOfOilWinterizationFreezingLine = {
     url: '/installation-of-oil-winterization-freezing-line',
     title: 'Монтаж линии винтеризации масла (вымораживания)',
     firstImage,
+    keywords: 'монтаж,винтеризации,масло,вымораживание',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт монтажа линии винтеризации масла (вымораживания)',
     },

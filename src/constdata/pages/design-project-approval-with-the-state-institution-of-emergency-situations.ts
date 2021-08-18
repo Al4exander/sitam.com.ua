@@ -14,6 +14,7 @@ export const designProjectApprovalWithTheStateInstitutionOfEmergencySituations =
             url: 'https://www.leolightman.com'
         }]
     },
+    keywords: 'монтаж,молниезащита,заземление,ГС ЧС,молния,защитный контур',
     firstImage,
     secondImage,
     firstText: {

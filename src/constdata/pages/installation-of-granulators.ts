@@ -10,6 +10,7 @@ export const installationOfGranulators = {
     firstImage,
     secondImage,
     thirdImage,
+    keywords: 'монтаж,установка,демонтаж,гранулятор,пресс',
     firstText: {
         text: `#### Произведем демонтаж монтаж старого гранулятора и монтаж нового.
         

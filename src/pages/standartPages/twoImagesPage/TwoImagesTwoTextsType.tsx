@@ -10,18 +10,14 @@ import '../commonElements/styles/Common.css';
 import {Manufacturers} from "../commonElements/Manufacturers";
 import {SubButtons} from "../commonElements/SubButtons";
 import {Helmet} from "react-helmet";
+import {HelmetComponent} from "../../../elements/HelmetComponent";
 
 export function TwoImagesTwoTextsType(props: any) {
   const [smallSize] = useContext(SizeContext);
 
   return (
     <div>
-        <Helmet>
-            <title>{props.data.title} | Ситам</title>
-            <meta name="description" content={`${props.data.manufacturers ? props.data.manufacturers.text.slice(0, 296) :
-                props.data.underTitle ? props.data.underTitle.slice(0, 296) : props.data.firstText.text.replace(/#/g, '').slice(0, 296)}...`} />
-            <link rel="canonical" href={`https://sitam.tech${props.data.url}`}/>
-        </Helmet>
+        <HelmetComponent data={props.data}/>
         <div className='d-flex justify-content-center page-title-text mb-4 mt-2'>{props.data.title}</div>
         <div className='container page-under-title-text mb-4'>{props.data.underTitle}</div>
         {props.data.buttons && props.data.buttons.length && <SubButtons buttons={props.data.buttons}/>}

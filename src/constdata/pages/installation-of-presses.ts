@@ -7,6 +7,7 @@ export const installationOfPresses = {
     title: 'Монтаж прессов',
     firstImage,
     secondImage,
+    keywords: 'монтаж,прессы,гидравлический,кривошипный,гильотины',
     type: PageTemplates.TwoImagesTwoTextsBigType,
     underTitle: 'ООО «СИТАМ» Выполним монтаж прессов и другого промышленного оборудования на профессиональном уровне. На все виды работ организация имеет необходимые разрешения и свидетельства',
     firstText: {
