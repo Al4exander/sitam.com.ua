@@ -7,6 +7,7 @@ export const oilCleaningLineInstallation = {
     title: 'Монтаж линии очистки масла',
     firstImage,
     secondImage,
+    keywords: 'реконструкция,ремонт,монтаж,маслоэкстракционный,завод,строительство',
     type: PageTemplates.TwoImagesOneTextType,
     text: `Реконструкция маслоэкстракционного завода:
         

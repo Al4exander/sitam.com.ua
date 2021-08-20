@@ -5,6 +5,7 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 export const scraperConveyorConveyorRepair = {
     url: '/scraper-conveyor-conveyor-repair',
     title: 'Ремонт скребкового конвейера (транспортера)',
+    keywords: 'ремонт,скребковый,конвейер,транспортер',
     type: PageTemplates.ThreeTwoImagesTwoTextsType,
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт ремонта транспортеров самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей: ТСЦм, TЦС, КСЦ, КЦ-С, ТрЦС, К4-УТФ, КС и других производителей в т.ч. отечественных.',

@@ -1,4 +1,4 @@
-import React, {useContext, useEffect,} from 'react';
+import React, {useContext,} from 'react';
 import {TextBoxWithShadow} from "../commonElements/TextBoxWithShadow";
 import '../commonElements/styles/Common.css';
 import '../commonElements/styles/Images.css';
@@ -6,7 +6,6 @@ import {SizeContext} from "../../../lib/sizeContext";
 import {InnerBorderImage} from "../commonElements/InnerBorderImage";
 import {Manufacturers} from "../commonElements/Manufacturers";
 import {SubButtons} from "../commonElements/SubButtons";
-import {Helmet} from "react-helmet";
 import {HelmetComponent} from "../../../elements/HelmetComponent";
 
 export function OneImageOneTextType(props: any) {

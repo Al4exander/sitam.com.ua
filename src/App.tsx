@@ -25,6 +25,7 @@ import {Projects} from "./pages/projects/Projects";
 import {Tender} from "./pages/Tender/Tender";
 import {Sitemap} from "./Sitemap";
 import {Helmet} from "react-helmet";
+import {ShowMenuProvider} from "./lib/showMenuContext";
 
 export const App = () => {
     const [smallSize, setSmallSize] = useContext(SizeContext);
@@ -70,32 +71,34 @@ export const App = () => {
             <meta name="description" content="Ремонт и техническое обслуживание | Работы по монтажу и демонтажу | Изготовление металлоконструкций | Строительные работы и др." />
             <link rel="canonical" href="https://sitam.tech"/>
         </Helmet>
-        <Router>
-          <Header/>
-          <Routes>
-              <Route path='/'>
-                  <HomePage/>
-              </Route>
-              {routesData.map((element: any, index: number) => {
-                  return <Route path={element.url} key={index}>
-                      {determineElementType(element)}
+        <ShowMenuProvider>
+            <Router>
+              <Header/>
+              <Routes>
+                  <Route path='/'>
+                      <HomePage/>
                   </Route>
-              })}
-              <Route path='/projects'>
-                  <Projects/>
-              </Route>
-              <Route path='/tender'>
-                  <Tender/>
-              </Route>
-              {/*<Route path='/sitemap'>*/}
-                  {/*<Sitemap/>*/}
-              {/*</Route>*/}
-              <Route path={'*'}>
-                  <Navigate to='/' />
-              </Route>
-          </Routes>
-          <Footer/>
-        </Router>
+                  {routesData.map((element: any, index: number) => {
+                      return <Route path={element.url} key={index}>
+                          {determineElementType(element)}
+                      </Route>
+                  })}
+                  <Route path='/projects'>
+                      <Projects/>
+                  </Route>
+                  <Route path='/tender'>
+                      <Tender/>
+                  </Route>
+                  {/*<Route path='/sitemap'>*/}
+                      {/*<Sitemap/>*/}
+                  {/*</Route>*/}
+                  <Route path={'*'}>
+                      <Navigate to='/' />
+                  </Route>
+              </Routes>
+              <Footer/>
+            </Router>
+        </ShowMenuProvider>
     </>
   );
 };

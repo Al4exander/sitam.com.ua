@@ -1,7 +1,7 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext, useRef, useState} from 'react';
 import '../HomePage/styles/WorkWIth.css';
 import {SizeContext} from "../../lib/sizeContext";
-import ImageGallery from 'react-image-gallery';
+import ImageGallery, {ReactImageGalleryItem} from 'react-image-gallery';
 import {Project} from "./Project";
 import {rotor} from "../../images/gallery/rotor";
 import {steeplejack} from "../../images/gallery/steeplejack";
@@ -12,17 +12,31 @@ export function Projects() {
   const projects = [rotor, steeplejack];
   let [selectedProject, setSelectedProject] = useState<number | undefined>();
   let [smallSize] = useContext(SizeContext);
+  let carouselRef = useRef<any>();
 
-  const mapImages = () => {
+  const mapImages = (): ReactImageGalleryItem[] => {
       if(selectedProject !== undefined) {
           return projects[selectedProject].images.map((image: any) => {
               return {
                   original: image,
-                  thumbnail: image
+                  thumbnail: image,
               }
           })
       } else return [];
   };
+
+  const onProjectSelect = (index: number) => {
+      setTimeout(() => {
+          if(carouselRef && carouselRef.current) {
+              carouselRef.current.fullScreen();
+          }
+      }, 10);
+      setSelectedProject(index);
+  }
+
+  const onScreenClose = (state: boolean) => {
+      setSelectedProject((prev) => !state ? undefined : prev);
+  }
 
   return (
       <div>
@@ -32,15 +46,19 @@ export function Projects() {
                   {projects.map((project, index) => {
                       return <Project src={project.thumb}
                                       text={project.text}
-                                      onClick={() => setSelectedProject(index)}
+                                      onClick={() => onProjectSelect(index)}
                                       selected={selectedProject === index}
                                       key={index}
                       />
                   })}
               </div>
               {selectedProject !== undefined && <ImageGallery items={mapImages()}
-                                                              additionalClass={cx('container mt-3 gallery', {'p-5': !smallSize, 'p-2': smallSize})}
+                                                              ref={carouselRef}
+                                                              additionalClass={cx('container  mt-3 gallery', {'p-5': !smallSize, 'p-2': smallSize})}
                                                               thumbnailPosition={smallSize ? 'bottom' : 'left'}
+                                                              useBrowserFullscreen={true}
+                                                              onScreenChange={onScreenClose}
+                                                              lazyLoad={true}
               />}
           </div>
       </div>

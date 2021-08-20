@@ -5,6 +5,7 @@ import './styles/Menu.css';
 import {MobileMenu} from "./MobileMenu";
 import {SizeContext} from "../../lib/sizeContext";
 import {MenuDropdowns} from "./MenuDropdowns";
+import {ShowMenuContext} from "../../lib/showMenuContext";
 
 export const HeaderMenu = () => {
     let [dropdownOpen, setDropdownOpen] = useState(false);
@@ -13,6 +14,7 @@ export const HeaderMenu = () => {
     let [menuItem, setMenuItem] = useState(0);
     const [smallSize] = useContext(SizeContext);
     const menuRef = useRef<HTMLAnchorElement>(null);
+    const [showMenu] = useContext(ShowMenuContext);
 
     const scrollToContactsAndAsk = () => {
         const contactsRef = ReactDOM.findDOMNode(document.getElementById('contacts'));
@@ -71,29 +73,33 @@ export const HeaderMenu = () => {
         }
     };
 
-    return (
-        !smallSize ? <section className={`col-11 container ml-5 pl-5 mx-auto ${sticky ? 'sticky-top' : ''}`} ref={menuRef}>
-            <nav className='topnav align-center-full' id='myTopnav'>
-                <Link to={'/'} key='main' className='col-2' onClick={scrollToTop}>
-                    Главная
-                </Link>
-                <a id='services' key='services' className={`col-2 ${dropdownOpen ? 'nav-active' : ''}`} onClick={() => handleItemSelection(1)}>
-                    Услуги
-                </a>
-                <a id='main-ways' key='main-ways' className='col-2' onClick={() => handleItemSelection(2)}>
-                    Основные направления
-                </a>
-                <Link to={'/projects'} key='projects' className='col-2' onClick={scrollToTop}>
-                    Проекты
-                </Link>
-                <a key='tender' className='col-2' href='mailto:sitam.office@gmail.com'>
-                    У Вас тендер?
-                </a>
-                <Link to='#contacts' key='contacts' className='col-2' onClick={scrollToContactsAndAsk}>
-                    Контакты
-                </Link>
-            </nav>
-            {dropdownOpen && <MenuDropdowns dropdownClosing={dropdownClosing} menuItem={menuItem} openDropdown={openDropdown}/>}
-        </section> : <MobileMenu/>
-  );
+    if(showMenu) {
+        return (
+            !smallSize ? <section className={`col-11 container ml-5 pl-5 mx-auto ${sticky ? 'sticky-top' : ''}`} ref={menuRef}>
+                <nav className='topnav align-center-full' id='myTopnav'>
+                    <Link to={'/'} key='main' className='col-2' onClick={scrollToTop}>
+                        Главная
+                    </Link>
+                    <a id='services' key='services' className={`col-2 ${dropdownOpen ? 'nav-active' : ''}`} onClick={() => handleItemSelection(1)}>
+                        Услуги
+                    </a>
+                    <a id='main-ways' key='main-ways' className='col-2' onClick={() => handleItemSelection(2)}>
+                        Основные направления
+                    </a>
+                    <Link to={'/projects'} key='projects' className='col-2' onClick={scrollToTop}>
+                        Проекты
+                    </Link>
+                    <a key='tender' className='col-2' href='mailto:sitam.office@gmail.com'>
+                        У Вас тендер?
+                    </a>
+                    <Link to='#contacts' key='contacts' className='col-2' onClick={scrollToContactsAndAsk}>
+                        Контакты
+                    </Link>
+                </nav>
+                {dropdownOpen && <MenuDropdowns dropdownClosing={dropdownClosing} menuItem={menuItem} openDropdown={openDropdown}/>}
+            </section> : <MobileMenu/>
+        );
+    }
+
+    return null;
 };

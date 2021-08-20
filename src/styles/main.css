@@ -15,3 +15,7 @@
 .ant-message {
     z-index: 1021;
 }
+
+html {
+    scroll-behavior: smooth;
+}

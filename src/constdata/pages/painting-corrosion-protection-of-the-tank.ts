@@ -5,6 +5,7 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 export const paintingCorrosionProtectionOfTheTank = {
     url: '/painting-corrosion-protection-of-the-tank',
     title: 'Покраска - антикоррозионная защита резервуаров',
+    keywords: 'ремонт,зачистка,покраска,антикоррозионный,защита,резервуар',
     type: PageTemplates.TwoImagesTwoTextsType,
     manufacturers: {
         text: 'ООО «СИТАМ»  имеет большой опыт зачистки резервуаров самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей: РГС и других производителей в т.ч. отечественных.',

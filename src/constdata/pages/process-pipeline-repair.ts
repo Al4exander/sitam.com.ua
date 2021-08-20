@@ -5,6 +5,7 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 export const processPipelineRepair = {
     url: '/process-pipeline-repair',
     type: PageTemplates.TwoImagesTwoTextsBigType,
+    keywords: 'ремонт,технологический,трубопровод,реконструкция,водоснабжение',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт ремонта и замены трубопровода самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей: Е, КСВа (ЭКО), ВК, КВГ, ТВГ, КСВ и других производителей в т.ч. отечественных.',
     },

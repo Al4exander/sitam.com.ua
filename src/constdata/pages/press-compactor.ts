@@ -5,6 +5,7 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 export const pressCompactor = {
     url: '/press-compactor',
     type: PageTemplates.TwoImagesTwoTextsBigType,
+    keywords: 'ремонт,пресс,компактор,вторсырье',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт ремонта моноблочных, стационарных пресс-компакторов (в том числе шнековых). В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей:SPB 20 E, Ecopolymer,Europress,Ecopress,Avermann,Pressor,Ecomp,HSM,KOSPA,Husmann,Werner & Weber и других производителей в т.ч. отечественных',
     },

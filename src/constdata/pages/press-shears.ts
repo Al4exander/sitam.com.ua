@@ -6,6 +6,7 @@ export const pressShears = {
     url: '/press-shears',
     title: 'Ремонт пресс ножниц',
     firstImage,
+    keywords: 'ремонт,пресс,ножницы,металлолом',
     secondImage,
     type: PageTemplates.TwoImagesTwoTextsBigType,
     manufacturers: {

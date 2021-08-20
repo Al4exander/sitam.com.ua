@@ -30,6 +30,7 @@ export const repairAndInstallationOfOilExtractionPlantEquipment = {
         url: '/installation-of-a-phosphatide-drying-line'
     }],
     type: PageTemplates.TwoImagesTwoTextsType,
+    keywords: 'ремонт,монтаж,маслоэкстракционный,завод,реконструкция',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт монтажа и демонтажа конвейеров (транспортеров) самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей: ТСЦм, TЦС, КСЦ, КЦ-С, ТрЦС, К4-УТФ, КС, ТКНЦ и других производителей в т.ч. отечественных.',
     },

@@ -5,6 +5,7 @@ export const oilExtractionLineInstallation = {
     url: '/oil-extraction-line-installation',
     title: 'Монтаж линии экстракции масла',
     firstImage,
+    keywords: 'ремонт,монтаж,демонтаж,линия,экстракция,масло',
     type: PageTemplates.OneImageTwoTextsSmallType,
     firstText: {
         text: `Выполним монтаж и замену/демонтаж конвейеров (транспортеров) и другого промышленного оборудования на профессиональном уровне. На все виды работ организация имеет необходимые разрешения и свидетельства.

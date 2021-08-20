@@ -13,7 +13,7 @@
     "@types/react-dom": "^17.0.1",
     "@types/react-helmet": "^6.1.1",
     "@types/react-router-dom": "^5.1.7",
-    "antd": "4.10.3",
+    "antd": "4.16.12",
     "body-parser": "1.19.0",
     "bootstrap": "4.4.1",
     "classnames": "^2.3.1",

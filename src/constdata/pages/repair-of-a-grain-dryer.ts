@@ -7,6 +7,7 @@ export const repairOfaGrainDryer = {
     title: 'Ремонт и обслуживание зерносушилки',
     firstImage,
     secondImage,
+    keywords: 'ремонт,обслуживание,зерносушилка,очищение,замена',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт ремонта и монтажа элеваторного оборудования, включая силосы, нории, конвейеры, зерносепараторы и зерносушилки разных производителей: Fratelli Pedrotti, Agrex, Mecmar, Metalmont, Frame, Bonfanti, Ravaro, Scolari, Strahl, Petcus, Araj, Chelik, Mepu, Neuero, Riela, Ozsu, ДСП и др.',
     },

@@ -16,7 +16,7 @@ export const Project: React.FC<Props> = ({src, text, onClick, selected}) => {
             <img src={src} className='project-img'/>
             <span className='project-text'>
               {text}
-          </span>
+            </span>
         </div>
     );
 };

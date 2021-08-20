@@ -5,9 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/showMenuContext.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/mold-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/mold-repair.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/norii-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/norii-repair.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/oil-cleaning-line-installation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/oil-cleaning-line-installation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/oil-extraction-line-installation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/oil-extraction-line-installation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/oil-pressing-line-installation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/oil-pressing-line-installation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/oil-shop-brazier-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/oil-shop-brazier-repair.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/painting-corrosion-protection-of-the-tank.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/painting-corrosion-protection-of-the-tank.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/press-compactor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/press-compactor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/press-shears.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/press-shears.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/process-pipeline-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/process-pipeline-repair.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/reconstruction-of-the-meal-feed-line.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/reconstruction-of-the-meal-feed-line.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-and-installation-of-oil-extraction-plant-equipment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-and-installation-of-oil-extraction-plant-equipment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-a-baler-for-scrap-metal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-a-baler-for-scrap-metal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-a-car-dumper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-a-car-dumper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-a-grain-dryer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-a-grain-dryer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-grab-reloader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-grab-reloader.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-pressing-equipment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-pressing-equipment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-steel-tanks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-steel-tanks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-the-dryer-cooler-of-meal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-the-dryer-cooler-of-meal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-the-seed-crusher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-the-seed-crusher.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/scrap-processing-enterprises.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/scrap-processing-enterprises.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/scraper-conveyor-conveyor-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/scraper-conveyor-conveyor-repair.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/silo-cleaning.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/silo-cleaning.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/silo-installation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/silo-installation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/silo-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/silo-repair.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/sugar-drying-complex.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/sugar-drying-complex.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/sugar-factories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/sugar-factories.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/thermal-insulation-of-the-pipeline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/thermal-insulation-of-the-pipeline.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/thermal-insulation-of-the-tank.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/thermal-insulation-of-the-tank.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/toaster-repair-vat-evaporator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/toaster-repair-vat-evaporator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/washing-complex.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/washing-complex.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/waste-paper-press.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/waste-paper-press.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/welding-works.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/welding-works.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/zhomodushilny-complex.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/zhomodushilny-complex.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/header/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/Project.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/styles/Projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/styles/Projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/commonElements/InnerBorderImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/commonElements/InnerBorderImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageOneTextType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageOneTextType.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +263,7 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -238,11 +281,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\citam.com.ua\src\lib" />
       <recent name="E:\projects\citam.com.ua\src\elements" />
       <recent name="E:\projects\citam.com.ua\src" />
       <recent name="E:\projects\citam.com.ua\src\pages" />
       <recent name="E:\projects\citam.com.ua\src\constdata\pages" />
-      <recent name="E:\projects\citam.com.ua\src\pages\projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\projects\citam.com.ua\public" />
@@ -442,21 +485,7 @@
       <workItem from="1629317094442" duration="5581000" />
       <workItem from="1629357714543" duration="885000" />
       <workItem from="1629376907440" duration="239000" />
-      <workItem from="1629472823281" duration="1114000" />
-    </task>
-    <task id="LOCAL-00020" summary="add built version">
-      <created>1617443910337</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1617443910337</updated>
-    </task>
-    <task id="LOCAL-00021" summary="add .htaccess file">
-      <created>1617444724001</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1617444724001</updated>
+      <workItem from="1629472823281" duration="12774000" />
     </task>
     <task id="LOCAL-00022" summary="change build">
       <created>1617445181035</created>
@@ -787,7 +816,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629473104885</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="fix: add yandex meta">
+      <created>1629474333395</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1629474333395</updated>
+    </task>
+    <task id="LOCAL-00070" summary="fix: add google analytics">
+      <created>1629475119083</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1629475119083</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -854,8 +897,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="revert" />
-    <MESSAGE value="feat: add main ways pages" />
     <MESSAGE value="feat: added some more pages" />
     <MESSAGE value="fix titles" />
     <MESSAGE value="feat: add new pages&#10;fix: changes to menu appearance" />
@@ -879,7 +920,9 @@
     <MESSAGE value="fix: add meta" />
     <MESSAGE value="fix: change to https" />
     <MESSAGE value="fix: fix typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: fix typo" />
+    <MESSAGE value="fix: add yandex meta" />
+    <MESSAGE value="fix: add google analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: add google analytics" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">
