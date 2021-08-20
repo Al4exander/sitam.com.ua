@@ -4,139 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/src/constdata/pages/silo-repair.ts" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="installation-of-oil-refining-and-deodorization-line.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-oil-refining-and-deodorization-line.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="installation-of-oil-winterization-freezing-line.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-oil-winterization-freezing-line.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" selection-start-line="7" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#98#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="installation-of-presses.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-presses.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-              <folding>
-                <element signature="e#0#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="installation-of-technological-lines.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-technological-lines.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" selection-start-line="7" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="installation-of-transformers-and-power-equipment.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constdata/pages/installation-of-transformers-and-power-equipment.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" selection-start-line="10" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="juice-department.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constdata/pages/juice-department.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" selection-start-line="7" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lime-burning-department.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constdata/pages/lime-burning-department.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" selection-start-line="9" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modernization-of-the-hydraulic-press.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constdata/pages/modernization-of-the-hydraulic-press.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" selection-start-line="7" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#87#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modernization-of-the-shear-press.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constdata/pages/modernization-of-the-shear-press.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -274,6 +146,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectId" id="1wwkBso3B0ofFWC0dWdQQVGqfME" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -336,10 +209,14 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spaceship.infra.load.tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -350,8 +227,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="E:\projects\citam.com.ua\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -368,18 +247,6 @@
       <recent name="E:\projects\citam.com.ua\src\images\pages\installation-of-transformers-and-power-equipment" />
       <recent name="E:\projects\citam.com.ua\src\images\pages\installation-of-machine" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -439,6 +306,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -569,13 +437,7 @@
       <workItem from="1628757266494" duration="1798000" />
       <workItem from="1629317094442" duration="5581000" />
       <workItem from="1629357714543" duration="885000" />
-    </task>
-    <task id="LOCAL-00017" summary="feat: add PageTemplates types and use it as array">
-      <created>1617273203746</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1617273203746</updated>
+      <workItem from="1629376907440" duration="239000" />
     </task>
     <task id="LOCAL-00018" summary="some fixes and minor improvements">
       <created>1617441040415</created>
@@ -913,7 +775,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629322653421</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="fix: change to https">
+      <created>1629377087106</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1629377087106</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -966,7 +835,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -977,9 +846,6 @@
         <option value="1" />
       </list>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -1005,15 +871,10 @@
     <MESSAGE value="fix: change canonical and etc" />
     <MESSAGE value="fix: change canonical for all the pages" />
     <MESSAGE value="fix: change sitemap" />
-    <MESSAGE value="fix: change to https" />
     <MESSAGE value="fix: change to https 2" />
     <MESSAGE value="fix: add meta" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: add meta" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="7" />
-    </breakpoint-manager>
+    <MESSAGE value="fix: change to https" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: change to https" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">
