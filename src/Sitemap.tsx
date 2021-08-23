@@ -30,6 +30,6 @@ ${routes.reduce((acc: string, route: SitemapRoute) => `${acc}
 `;
 
     return (
-        <>{xml}</>
+        <pre>{xml}</pre>
     )
 };

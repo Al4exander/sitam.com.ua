@@ -18,7 +18,7 @@ export const ContactsFooter = () => {
         await message.success('Скопировано');
     };
 
-    return <div className='contacts-top'>
+    return (
         <div className='contacts'>
             <div className='d-flex justify-content-center'>
                 <p className='contacts-header'>Контакты</p>
@@ -58,5 +58,5 @@ export const ContactsFooter = () => {
                 </div>
             </div>
         </div>
-    </div>
+    )
 };
