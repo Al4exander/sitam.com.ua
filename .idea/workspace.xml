@@ -4,15 +4,17 @@
     <bookmark url="file://$PROJECT_DIR$/src/constdata/pages/silo-repair.ts" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="fix: change">
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.5c1238e0.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.5c1238e0.chunk.js.map" afterDir="false" />
+    <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.76925934.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.76925934.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.383b061c.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.383b061c.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-technological-lines.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-technological-lines.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.5c1238e0.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.5c1238e0.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/assembly-of-the-conveyor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/assembly-of-the-conveyor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/bending-press.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/bending-press.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constdata/pages/oil-cleaning-line-installation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/oil-cleaning-line-installation.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/elements/HelmetComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/HelmetComponent.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -450,14 +452,9 @@
       <workItem from="1629376907440" duration="239000" />
       <workItem from="1629472823281" duration="13620000" />
       <workItem from="1629706585753" duration="9393000" />
-      <workItem from="1630776473113" duration="2888000" />
-    </task>
-    <task id="LOCAL-00026" summary="fixes">
-      <created>1617450938807</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1617450938807</updated>
+      <workItem from="1630776473113" duration="4587000" />
+      <workItem from="1630932471419" duration="641000" />
+      <workItem from="1630941745789" duration="701000" />
     </task>
     <task id="LOCAL-00027" summary="fixes">
       <created>1617722322442</created>
@@ -795,7 +792,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629713425150</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="fix: change helmet">
+      <created>1630780383670</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1630780383671</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -862,7 +866,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="some extra files" />
     <MESSAGE value="new files" />
     <MESSAGE value="added new files" />
     <MESSAGE value="added new files, changed tg" />
@@ -887,7 +890,8 @@
     <MESSAGE value="fix: add map, unskip send" />
     <MESSAGE value="fix: add missed files" />
     <MESSAGE value="fix: update robots txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: update robots txt" />
+    <MESSAGE value="fix: change helmet" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: change helmet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">
