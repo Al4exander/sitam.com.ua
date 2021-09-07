@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.76925934.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.76925934.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.5c1238e0.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.5c1238e0.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/assembly-of-the-conveyor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/assembly-of-the-conveyor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/bending-press.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/bending-press.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/oil-cleaning-line-installation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/oil-cleaning-line-installation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/HelmetComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/HelmetComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/ContactsAndAsk.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/ContactsAndAsk.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/components/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/components/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/styles/ContactsAndAsk.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/styles/ContactsAndAsk.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/header/MobileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/MobileMenu.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -454,21 +448,9 @@
       <workItem from="1629706585753" duration="9393000" />
       <workItem from="1630776473113" duration="4587000" />
       <workItem from="1630932471419" duration="641000" />
-      <workItem from="1630941745789" duration="701000" />
-    </task>
-    <task id="LOCAL-00027" summary="fixes">
-      <created>1617722322442</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1617722322442</updated>
-    </task>
-    <task id="LOCAL-00028" summary="fixes">
-      <created>1617722894661</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1617722894661</updated>
+      <workItem from="1630941745789" duration="1474000" />
+      <workItem from="1631003113224" duration="41000" />
+      <workItem from="1631024961701" duration="4979000" />
     </task>
     <task id="LOCAL-00029" summary="fixes">
       <created>1617723283285</created>
@@ -799,7 +781,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630780383671</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="fix: change helmet">
+      <created>1630942459500</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1630942459501</updated>
+    </task>
+    <task id="LOCAL-00077" summary="fix: change helmet">
+      <created>1630942472082</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1630942472082</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

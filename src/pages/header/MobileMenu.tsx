@@ -7,9 +7,8 @@ import {Link} from "react-router-dom";
 import logoIcon from '../../images/common/LOGO.png';
 import './styles/MobileMenu.css';
 import {Icons} from "./components/socialContacts/Icons";
-import { Collapse } from 'antd';
+import {Collapse} from 'antd';
 import {Children, HeaderLinks} from "./Interfaces";
-import Plumbs from '../../images/common/Plumbs.png';
 import {mainWaysData} from "../../constdata/MainWaysData";
 
 const { Panel } = Collapse;
@@ -103,7 +102,7 @@ export function MobileMenu() {
             {!mobDropdown ? <div className='top-nav-circle' onClick={openMobDropdown}/> :
                 <div className={`top-nav-mobile ${dropdownClosing ? 'mob-nav-inactive' : ''}`}>
                     <header className='logo-name mt-2 ml-4'>
-                        <img src={logoIcon}/>
+                        <img src={logoIcon} alt='Logo'/>
                         <span className='ml-3'>Ситам</span>
                         <div className='close' onClick={openMobDropdown}/>
                     </header>
