@@ -9,7 +9,7 @@ export const noriiRepair = {
     firstImage,
     secondImage,
     thirdImage,
-    keywords: 'ремонт,монтаж,демонтаж,нория,нории',
+    keywords: 'ремонт нории,техническое обслуживание нории,демонтаж нории,установка нории',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт монтажа норий самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей:Fratelli Pedrotti, Agrex, Mecmar, Metalmont, Frame, Bonfanti, Ravaro, Scolari, Strahl, Petcus, Araj, Chelik, Mepu, Neuero, Riela, Ozsu, ДСП и др. и других производителей в т.ч. отечественных.',
     },

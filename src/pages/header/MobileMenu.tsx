@@ -109,7 +109,7 @@ export function MobileMenu() {
                     {servicesSelected ? servicesJSX :
                         mainWaysSelected ? mainWaysJSX :
                             <div className='row container m-3 show-from-right'>
-                                <Link to={'/'} key='main' className='col-6' onClick={scrollToTop}>
+                                <Link to={'/'} title='Home page' key='main' className='col-6' onClick={scrollToTop}>
                                     Главная
                                 </Link>
                                 <a key='services' className={`col-6 ${mobDropdown ? 'nav-active' : ''}`} onClick={() => setServicesSelected(true)}>
@@ -124,7 +124,7 @@ export function MobileMenu() {
                                 <a key='tender' className='col-6' href='mailto:sitam.office@gmail.com'>
                                     У Вас тендер?
                                 </a>
-                                <Link to='#contacts' key='contacts' className='col-6' onClick={scrollToContactsAndAsk}>
+                                <Link to='#contacts' title='contacts' key='contacts' className='col-6' onClick={scrollToContactsAndAsk}>
                                     Контакты
                                 </Link>
                             </div>

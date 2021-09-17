@@ -43,7 +43,7 @@ export function Contacts() {
                                 </span>
                             </div>
                             <div className='col-12 align-center-full address-box-text mt-3'>
-                                <a href={'tel:380676951098'} ref={phoneRef as React.RefObject<HTMLAnchorElement>}>+38 (067) 695 10 98</a>
+                                <a href='tel:380676951098' title='Phone' ref={phoneRef as React.RefObject<HTMLAnchorElement>}>+38 (067) 695 10 98</a>
                                 <span className='ml-2'>
                                     <Tooltip title='Скопировать номер телефона' placement='bottom'>
                                         <CopyOutlined onClick={() => copyToClipboard(phoneRef)}/>

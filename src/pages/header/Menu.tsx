@@ -77,7 +77,7 @@ export const HeaderMenu = () => {
         return (
             !smallSize ? <section className={`col-11 container ml-5 pl-5 mx-auto ${sticky ? 'sticky-top' : ''}`} ref={menuRef}>
                 <nav className='topnav align-center-full' id='myTopnav'>
-                    <Link to={'/'} key='main' className='col-2' onClick={scrollToTop}>
+                    <Link to={'/'} title='Homa page' key='main' className='col-2' onClick={scrollToTop}>
                         Главная
                     </Link>
                     <a id='services' key='services' className={`col-2 ${dropdownOpen ? 'nav-active' : ''}`} onClick={() => handleItemSelection(1)}>
@@ -86,13 +86,13 @@ export const HeaderMenu = () => {
                     <a id='main-ways' key='main-ways' className='col-2' onClick={() => handleItemSelection(2)}>
                         Основные направления
                     </a>
-                    <Link to={'/projects'} key='projects' className='col-2' onClick={scrollToTop}>
+                    <Link to={'/projects'} title='Projects' key='projects' className='col-2' onClick={scrollToTop}>
                         Проекты
                     </Link>
                     <a key='tender' className='col-2' href='mailto:sitam.office@gmail.com'>
                         У Вас тендер?
                     </a>
-                    <Link to='#contacts' key='contacts' className='col-2' onClick={scrollToContactsAndAsk}>
+                    <Link to='#contacts' title='contacts' key='contacts' className='col-2' onClick={scrollToContactsAndAsk}>
                         Контакты
                     </Link>
                 </nav>

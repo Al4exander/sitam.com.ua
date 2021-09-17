@@ -5,7 +5,7 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 export const installationOfTechnologicalLines = {
     url: '/installation-of-technological-lines',
     type: PageTemplates.TwoImagesTwoTextsType,
-    keywords: 'монтаж,технологических,производственных,линии,агрегатно-поточные',
+    keywords: 'монтаж технологических линий,монтаж сборочно-сварочных линий,монтаж линии упаковки',
     manufacturers: {
         text: 'ООО «СИТАМ»  имеет большой опыт монтажа производственных линий различных конфигураций: агрегатно-поточные линии, поточные технологические линии(Конвейерные).',
     },

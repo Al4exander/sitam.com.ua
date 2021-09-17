@@ -8,7 +8,7 @@ export const scrapProcessingEnterprises = {
     firstImage,
     secondImage,
     type: PageTemplates.TwoImagesOneTextType,
-    keywords: 'ремонт,ломоперерабатывающее,оборудование,лом,металл,переработки',
+    keywords: 'ремонт ломоперерабатывающего оборудования',
     buttons: [{
         text: 'Ремонт грейфера, перегружателя',
         url: '/repair-of-grab-reloader'

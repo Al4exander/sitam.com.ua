@@ -18,7 +18,7 @@ export function TwoImagesTwoTextsType(props: any) {
   return (
     <div>
         <HelmetComponent data={props.data}/>
-        <div className='d-flex justify-content-center page-title-text mb-4 mt-2'>{props.data.title}</div>
+        <h2 className='d-flex justify-content-center page-title-text mb-4 mt-2'>{props.data.title}</h2>
         <div className='container page-under-title-text mb-4'>{props.data.underTitle}</div>
         {props.data.buttons && props.data.buttons.length && <SubButtons buttons={props.data.buttons}/>}
         {!smallSize ? <div className='d-flex flex-wrap justify-content-center mt-5'>

@@ -5,7 +5,7 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 export const coolingTowerRepair = {
     url: '/cooling-tower-repair',
     type: PageTemplates.TwoImagesTwoTextsType,
-    keywords: 'ремонт,ремонт,вентиляторная,градирня,градирни,трубы,модернизация,металлоконструкция',
+    keywords: 'ремонт градирни,ремонт вентиляторной градирни,модернизация градирни',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт ремонта градирен самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей: Evapco, Mita, YWCT и других производителей в т.ч. отечественных.',
     },

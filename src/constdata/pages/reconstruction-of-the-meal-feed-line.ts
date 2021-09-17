@@ -6,7 +6,7 @@ export const reconstructionOfTheMealFeedLine = {
     url: '/reconstruction-of-the-meal-feed-line',
     title: 'Реконструкция линии подачи шрота',
     type: PageTemplates.TwoImagesTwoTextsType,
-    keywords: 'ремонт,линия,подача,реконструкция,шрот',
+    keywords: 'ремонт линии подачи шрота,линия подачи шрота',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт реконструкции и монтажа технологических линий разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей: Де Смет(DE SMET), Аллоко(ALLOCCO), «СРМ, ШМИДТ-ЗЕЕГЕР(Schmidt-Seeger) и других производителей в т.ч. отечественных',
     },

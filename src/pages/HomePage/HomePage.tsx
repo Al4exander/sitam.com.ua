@@ -4,7 +4,7 @@ import {WorkWithComponent} from "./WorkWIth";
 export function HomePage() {
 
     useEffect(() => {
-        document.title = 'Sitam';
+        document.title = 'Ситам - Поставщики услуг для промышленных предприятий';
     }, []);
 
     return (

@@ -16,7 +16,7 @@ export function OneImageTwoTextsSmallType(props: any) {
     return (
     <div>
         <HelmetComponent data={props.data}/>
-        <div className='d-flex justify-content-center page-title-text'>{props.data.title}</div>
+        <h2 className='d-flex justify-content-center page-title-text'>{props.data.title}</h2>
         {!smallSize ? <>
                 {props.data.firstText && <TextBoxWithShadow className='col-10 mx-auto mt-4 d-flex justify-content-center'
                                text={props.data.firstText.text}

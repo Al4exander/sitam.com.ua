@@ -29,7 +29,7 @@ export const ContactsFooter = () => {
             <div className='col-12'>
                 <div className='contact-cloud  align-center-full container'>
                     <p className='contact-cloud-text ml-3'>
-                        <a href={'tel:380676951098'} ref={phoneRef as React.RefObject<HTMLAnchorElement>}>+38 (067) 695 10 98</a>
+                        <a href='tel:380676951098' title='Phone' ref={phoneRef as React.RefObject<HTMLAnchorElement>}>+38 (067) 695 10 98</a>
                         <span className='ml-2'>
                                         <Tooltip title='Скопировать номер телефона' placement='bottom'>
                                             <CopyOutlined onClick={() => copyToClipboard(phoneRef)}/>
@@ -41,7 +41,7 @@ export const ContactsFooter = () => {
                 <div className='col-12'>
                     <div className='contact-cloud  align-center-full container'>
                         <p className='contact-cloud-text ml-4'>
-                            <a id='contacts-copy-email' href={'mailto:sitam.office@gmail.com'} ref={emailRef}>sitam.office@gmail.com</a>
+                            <a id='contacts-copy-email' href='mailto:sitam.office@gmail.com' title='email' ref={emailRef}>sitam.office@gmail.com</a>
                             <span className='ml-2'>
                                     <Tooltip title='Скопировать e-mail' placement='top'>
                                         <CopyOutlined onClick={() => copyToClipboard(emailRef)}/>

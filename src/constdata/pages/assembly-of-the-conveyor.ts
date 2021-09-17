@@ -6,7 +6,7 @@ export const assemblyOfTheConveyor = {
     url: '/assembly-of-the-conveyor',
     title: 'Монтаж и замена конвейера (транспортера)',
     type: PageTemplates.ThreeTwoImagesTwoTextsType,
-    keywords: 'монтаж,замена,конвейер,транспортер,демонтаж',
+    keywords: 'монтаж конвейера,замена конвейера,монтаж транспортера,замена транспортера',
     firstImage,
     secondImage,
     firstText: {

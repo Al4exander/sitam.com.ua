@@ -11,10 +11,12 @@ export const InnerBorderImage: React.FC<InnerBorderImageProps> = ({className, el
           <Image
               src={src}
               alt={alt}
+              title={alt}
               wrapperClassName='image-holder'
               className={className}
               preview={
                   {
+                      title: alt,
                       maskClassName: 'className',
                       mask: 'Нажмите чтобы посмотреть поближе',
                       onVisibleChange: (state: boolean) => setShowMenu(!state)

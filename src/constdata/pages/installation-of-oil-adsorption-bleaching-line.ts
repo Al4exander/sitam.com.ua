@@ -5,7 +5,7 @@ export const installationOfOilAdsorptionBleachingLine = {
     url: '/installation-of-oil-adsorption-bleaching-line',
     title: 'Монтаж линии адсорбции (отбеливания) масла',
     firstImage,
-    keywords: 'монтаж,адсорбции,линии,отбеливание,масло',
+    keywords: 'монтаж линии адсорбции масла,монтаж линии отбеливания масла,линия отбеливания масла',
     type: PageTemplates.OneImageTwoTextsSmallType,
     secondText: {
         text: `Наша компания выполнит монтаж линии адсорбции (отбеливания) масла различных культур, таких как соевое масло, арахисовое масло, подсолнечное масло, масло семян рапса, кокосовое масло, пальмовое масло и т.д.

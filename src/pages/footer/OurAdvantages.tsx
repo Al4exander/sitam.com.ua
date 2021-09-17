@@ -17,6 +17,7 @@ export function OurAdvantages() {
                       className='col-lg-4 col-md-12 col-sm-12 card-horizontal'
                       image={data.image}
                       textClassName={'advantages-text'}
+                      imageTitle={data.imageTitle}
                       text={data.text}
                   />;
               })}

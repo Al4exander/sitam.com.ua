@@ -10,8 +10,6 @@ import '../HomePage/styles/WorkWIth.css';
 import {SizeContext} from "../../lib/sizeContext";
 
 export function WorkWithComponent() {
-  const [smallSize] = useContext(SizeContext);
-
   const icons = [nibulon, mxp, astarta, interpipe, emc, kernel, cygnet];
 
   return (
@@ -22,7 +20,7 @@ export function WorkWithComponent() {
                   <div className='col-12 row d-flex justify-content-center'>
                       {icons.map((icon, index) => {
                           return <div className='col d-flex justify-content-center' key={index}>
-                              <img src={icon} className='work-with-us-img'/>
+                              <img src={icon} className='work-with-us-img' title={`Company_${index}`} alt={`Company_${index}`}/>
                           </div>
                       })}
                   </div>

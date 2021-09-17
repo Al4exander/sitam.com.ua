@@ -5,7 +5,7 @@ export const repairOfPressingEquipment = {
     url: '/repair-of-pressing-equipment',
     title: 'Ремонт и монтаж оборудования маслоэкстракционного завода',
     image,
-    keywords: 'ремонт,монтаж,маслоэкстракционный,завод,прессовый,металлобработка',
+    keywords: 'реконструкция маслоэкстракционного завода,ремонт завода,ремонт конвейера',
     type: PageTemplates.OneImageOneTextType,
     buttons: [{
         text: 'Ремонт гидравлического пресса',

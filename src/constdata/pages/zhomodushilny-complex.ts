@@ -5,7 +5,7 @@ export const zhomodushilnyComplex = {
     url: '/zhomodushilny-complex',
     title: 'Монтаж оборудования жомосушильного отделения',
     firstImage,
-    keywords: 'монтаж,жомосушильное,жомопрессовое,грануляционное,отделение,сахарный,завод',
+    keywords: 'монтаж оборудования жомосушильного отделения,оборудование жомосушильного отделения,монтаж жомосушек',
     type: PageTemplates.OneImageTwoTextsSmallType,
     maxSize: true,
     firstText: {

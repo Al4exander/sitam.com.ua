@@ -7,7 +7,7 @@ export const repairOfGrabReloader = {
     title: 'Ремонт грейфера, перегружателя',
     firstImage,
     secondImage,
-    keywords: 'ремонт,грейфер,перегружатель',
+    keywords: 'ремонт грейфера,ремонт перегружатель',
     type: PageTemplates.TwoImagesTwoTextsBigType,
     manufacturers: {
         test: 'ООО «СИТАМ» имеет большой опыт ремонта грейфером и перегружателей металлолома самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей: SMAG (S-HMG), Liebherr, Colmar, Fuchs, Велмаш-С, Atlas-Terex, ARDEN, ЕК, ПЭ, МГК и других производителей в т.ч. отечественных.'

@@ -7,7 +7,7 @@ export const elevatorAssemblyAndReplacement = {
     title: 'Монтаж / демонтаж нории',
     firstImage,
     secondImage,
-    keywords: 'монтаж,демонтаж,замена,нории,элеватор,шрот',
+    keywords: 'монтаж нории,демонтаж нории,замена нории',
     manufacturers: {
         text: 'компания ООО «СИТАМ»  имеет большой опыт монтажа норий самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей:Fratelli Pedrotti, Agrex, Mecmar, Metalmont, Frame, Bonfanti, Ravaro, Scolari, Strahl, Petcus, Araj, Chelik, Mepu, Neuero, Riela, Ozsu, ДСП и др. и других производителей в т.ч. отечественных.'
     },

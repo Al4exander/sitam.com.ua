@@ -5,7 +5,7 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 export const installationOfIndustrialEquipment = {
     url: '/installation-of-industrial-equipment',
     title: 'Монтаж промышленного оборудования',
-    keywords: 'монтаж,демонтаж,оборудование,промышленный,переезд',
+    keywords: 'монтаж промышленного,демонтаж оборудования,переезд завода',
     firstImage,
     secondImage,
     type: PageTemplates.TwoImagesOneTextType,

@@ -5,7 +5,7 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 export const modernizationOfTheShearPress = {
     url: '/modernization-of-the-shear-press',
     type: PageTemplates.TwoImagesTwoTextsType,
-    keywords: 'модернизация,реконструкция,ремонт,пресс,ножницы,пресс-ножницы',
+    keywords: 'модернизация пресс ножниц,реконструкция пресс ножниц,ремонт пресс ножниц,пресс-ножницы',
     manufacturers: {
         text: 'ООО «СИТАМ» имеет большой опыт ремонта и модернизации пресс ножниц и прессов для пакетирования металлолома самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей: Akros, Riko, Metso Lindemann, SIERRA, HuaHong, Enerpat, WANSHIDA, Dongfang и других производителей в т.ч. отечественных',
     },
