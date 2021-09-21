@@ -5,102 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.06ff8543.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.06ff8543.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.06ff8543.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.525130ee.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.525130ee.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.7a4ee19f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.7a4ee19f.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.7a4ee19f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.38bffcbb.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.38bffcbb.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/OurAdvantagesData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/OurAdvantagesData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/assembly-of-the-conveyor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/assembly-of-the-conveyor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/beet-processing-department.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/beet-processing-department.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/belt-conveyor-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/belt-conveyor-repair.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/bending-press.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/bending-press.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/boiler-room-installation-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/boiler-room-installation-repair.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/bunker-manufacturing-and-installation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/bunker-manufacturing-and-installation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/compressor-installation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/compressor-installation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/cooling-tower-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/cooling-tower-repair.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/crane-painting.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/crane-painting.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/crystallization-department.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/crystallization-department.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/cyclone-installation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/cyclone-installation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/design-project-approval-with-the-state-institution-of-emergency-situations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/design-project-approval-with-the-state-institution-of-emergency-situations.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/diffusion-department.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/diffusion-department.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/disassembly-installation-of-miscella-distiller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/disassembly-installation-of-miscella-distiller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/dismantling-and-replacement-of-the-pipeline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/dismantling-and-replacement-of-the-pipeline.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/dismantling-of-machines.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/dismantling-of-machines.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/elevator-assembly-and-replacement.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/elevator-assembly-and-replacement.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/elevator-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/elevator-repair.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/evaporation-station.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/evaporation-station.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/filtration-station.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/filtration-station.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/grocery-department.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/grocery-department.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/guillotine-press-shears.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/guillotine-press-shears.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/hydraulic-press.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/hydraulic-press.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/industrial-relocation-of-the-plant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/industrial-relocation-of-the-plant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-and-dismantling-of-car-scales.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-and-dismantling-of-car-scales.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-dismantling-of-process-pipelines-heat-carriers-steam-water.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-dismantling-of-process-pipelines-heat-carriers-steam-water.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-a-phosphatide-drying-line.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-a-phosphatide-drying-line.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-containers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-containers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-granulators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-granulators.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-industrial-boilers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-industrial-boilers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-industrial-equipment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-industrial-equipment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-lifting-equipment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-lifting-equipment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-machines.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-machines.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-oil-adsorption-bleaching-line.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-oil-adsorption-bleaching-line.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-oil-hydration-and-neutralization-line.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-oil-hydration-and-neutralization-line.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-oil-refining-and-deodorization-line.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-oil-refining-and-deodorization-line.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-oil-winterization-freezing-line.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-oil-winterization-freezing-line.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-presses.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-presses.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/installation-of-technological-lines.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/installation-of-technological-lines.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/juice-department.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/juice-department.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/lime-burning-department.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/lime-burning-department.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/modernization-of-the-hydraulic-press.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/modernization-of-the-hydraulic-press.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/modernization-of-the-shear-press.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/modernization-of-the-shear-press.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/mold-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/mold-repair.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/norii-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/norii-repair.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/oil-cleaning-line-installation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/oil-cleaning-line-installation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/oil-extraction-line-installation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/oil-extraction-line-installation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/oil-pressing-line-installation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/oil-pressing-line-installation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/oil-shop-brazier-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/oil-shop-brazier-repair.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/painting-corrosion-protection-of-the-tank.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/painting-corrosion-protection-of-the-tank.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/press-compactor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/press-compactor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/press-shears.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/press-shears.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/process-pipeline-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/process-pipeline-repair.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/reconstruction-of-the-meal-feed-line.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/reconstruction-of-the-meal-feed-line.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-and-installation-of-oil-extraction-plant-equipment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-and-installation-of-oil-extraction-plant-equipment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-a-baler-for-scrap-metal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-a-baler-for-scrap-metal.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-a-car-dumper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-a-car-dumper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-a-grain-dryer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-a-grain-dryer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-grab-reloader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-grab-reloader.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-pressing-equipment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-pressing-equipment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-steel-tanks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-steel-tanks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-the-dryer-cooler-of-meal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-the-dryer-cooler-of-meal.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/repair-of-the-seed-crusher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/repair-of-the-seed-crusher.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/scrap-processing-enterprises.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/scrap-processing-enterprises.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/scraper-conveyor-conveyor-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/scraper-conveyor-conveyor-repair.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/silo-cleaning.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/silo-cleaning.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/silo-installation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/silo-installation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/silo-repair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/silo-repair.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/sugar-drying-complex.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/sugar-drying-complex.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/sugar-factories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/sugar-factories.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/thermal-insulation-of-the-pipeline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/thermal-insulation-of-the-pipeline.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/thermal-insulation-of-the-tank.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/thermal-insulation-of-the-tank.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/toaster-repair-vat-evaporator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/toaster-repair-vat-evaporator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/washing-complex.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/washing-complex.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/waste-paper-press.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/waste-paper-press.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/welding-works.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/welding-works.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/zhomodushilny-complex.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/zhomodushilny-complex.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/WorkWIth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/WorkWIth.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/footer/HowDoWeWork.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/HowDoWeWork.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/footer/OurAdvantages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/OurAdvantages.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/footer/components/CardBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/components/CardBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/footer/components/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/components/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/HeaderText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/HeaderText.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/MobileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/MobileMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/components/socialContacts/Icons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/components/socialContacts/Icons.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/commonElements/InnerBorderImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/commonElements/InnerBorderImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -542,14 +460,9 @@
       <workItem from="1630941745789" duration="1474000" />
       <workItem from="1631003113224" duration="41000" />
       <workItem from="1631024961701" duration="5780000" />
-      <workItem from="1631895725716" duration="7114000" />
-    </task>
-    <task id="LOCAL-00030" summary="fixes">
-      <created>1617723385020</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1617723385020</updated>
+      <workItem from="1631895725716" duration="8280000" />
+      <workItem from="1632125907917" duration="599000" />
+      <workItem from="1632238443109" duration="2182000" />
     </task>
     <task id="LOCAL-00031" summary="try commit">
       <created>1617723611067</created>
@@ -887,7 +800,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631030123281</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="fix: changes in keywords and some optimizations">
+      <created>1631903069786</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1631903069786</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -954,7 +874,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="added new files" />
     <MESSAGE value="added new files, changed tg" />
     <MESSAGE value="added new files, added title for each page" />
     <MESSAGE value="fix: remove cute images" />
@@ -979,7 +898,8 @@
     <MESSAGE value="fix: update robots txt" />
     <MESSAGE value="fix: change helmet" />
     <MESSAGE value="fix: change footer for mobile view" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: change footer for mobile view" />
+    <MESSAGE value="fix: changes in keywords and some optimizations" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: changes in keywords and some optimizations" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">
