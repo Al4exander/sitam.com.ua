@@ -4,7 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/src/constdata/pages/silo-repair.ts" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="" />
+    <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.be33bb50.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.be33bb50.chunk.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.2f32c5d1.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.2f32c5d1.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/commonElements/AlsoSeeElement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/commonElements/AlsoSeeElement.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -456,14 +464,7 @@
       <workItem from="1631895725716" duration="8280000" />
       <workItem from="1632125907917" duration="599000" />
       <workItem from="1632238443109" duration="6856000" />
-      <workItem from="1632393419355" duration="10305000" />
-    </task>
-    <task id="LOCAL-00034" summary="try another yml file">
-      <created>1617732227383</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1617732227383</updated>
+      <workItem from="1632393419355" duration="10687000" />
     </task>
     <task id="LOCAL-00035" summary="try another yml file">
       <created>1617734148363</created>
@@ -801,7 +802,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632403858174</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="fix: remove loader">
+      <created>1632409175265</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1632409175265</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -879,7 +887,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="feat: add gallery" />
     <MESSAGE value="fix: add projects link to mobile view" />
     <MESSAGE value="fix: add some new pages and css fixes" />
     <MESSAGE value="fix: add sitemap" />
@@ -904,7 +911,8 @@
     <MESSAGE value="fix: add loader" />
     <MESSAGE value="fix: change small images" />
     <MESSAGE value="fix: add links to all pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: add links to all pages" />
+    <MESSAGE value="fix: remove loader" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: remove loader" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">

@@ -24,7 +24,7 @@ export const AlsoSeeElement: React.FC<SubButtonsProps> = ({url, notNeeded}) => {
 
   return (
       alsoSeeUrls.length && !notNeeded ? <div>
-          <p className='d-flex justify-content-center how-do-we-work-text'>Посмотрите так же:</p>
+          <p className='d-flex justify-content-center how-do-we-work-text'>Посмотрите также:</p>
           <section className='container box-shadow'>
             <ul>
                 {alsoSeeUrls.map((alsoSee, index) => <li key={index}>
