@@ -4,44 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/constdata/pages/silo-repair.ts" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.41c314d6.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.41c314d6.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.8be84777.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.8be84777.chunk.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.8be84777.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.06a66212.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.06a66212.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constdata/AlsoSee.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constdata/HomePageMainWaysData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePageMainWays.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/standartPages/commonElements/AlsoSeeElement.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.41b602b3.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.41b602b3.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.06ff8543.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.06ff8543.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.06ff8543.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.525130ee.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.525130ee.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constdata/pages/sugar-factories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constdata/pages/sugar-factories.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/WorkWIth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/WorkWIth.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/Interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/Interfaces.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/styles/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/commonElements/styles/Common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/commonElements/styles/Common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageOneTextType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageOneTextType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/oneImagePage/OneImageTwoTextsSmallType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextBigType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextBigType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesOneTextType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPage/TwoImagesTwoTextsType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -493,14 +456,7 @@
       <workItem from="1631895725716" duration="8280000" />
       <workItem from="1632125907917" duration="599000" />
       <workItem from="1632238443109" duration="6856000" />
-      <workItem from="1632393419355" duration="9684000" />
-    </task>
-    <task id="LOCAL-00033" summary="try another yml file">
-      <created>1617732206790</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1617732206790</updated>
+      <workItem from="1632393419355" duration="10305000" />
     </task>
     <task id="LOCAL-00034" summary="try another yml file">
       <created>1617732227383</created>
@@ -838,7 +794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632245350506</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="fix: add links to all pages">
+      <created>1632403858174</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1632403858174</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -916,7 +879,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="fix: remove cute images" />
     <MESSAGE value="feat: add gallery" />
     <MESSAGE value="fix: add projects link to mobile view" />
     <MESSAGE value="fix: add some new pages and css fixes" />
@@ -941,7 +903,8 @@
     <MESSAGE value="fix: changes in keywords and some optimizations" />
     <MESSAGE value="fix: add loader" />
     <MESSAGE value="fix: change small images" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: change small images" />
+    <MESSAGE value="fix: add links to all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: add links to all pages" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">

@@ -30,7 +30,6 @@ import {Spin} from "antd";
 
 export const App = () => {
     const [smallSize, setSmallSize] = useContext(SizeContext);
-    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         window.addEventListener('resize', handleResize);
@@ -38,12 +37,6 @@ export const App = () => {
             window.removeEventListener('resize', handleResize);
         };
     });
-
-    useLayoutEffect(() => {
-        const handler = () => setLoading(false);
-        window.addEventListener('load', handler);
-        return () => window.removeEventListener('load', handler);
-    }, []);
 
     const handleResize = () => {
         if(window.innerWidth < 850) {
@@ -73,12 +66,7 @@ export const App = () => {
     };
 
     return (
-    <Spin size="large" spinning={loading} style={{
-        textAlign: 'center',
-        position: "absolute",
-        height: '100%',
-        top: '5%'
-    }} >
+    <>
         <Helmet>
             <title>Поставщики услуг для промышленных предприятий | Ситам</title>
             <meta name="description" content="Ремонт и техническое обслуживание | Работы по монтажу и демонтажу | Изготовление металлоконструкций | Строительные работы и др." />
@@ -112,6 +100,6 @@ export const App = () => {
               <Footer/>
             </Router>
         </ShowMenuProvider>
-    </Spin>
+    </>
   );
 };
