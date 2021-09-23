@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.be33bb50.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.be33bb50.chunk.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.2f32c5d1.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.2f32c5d1.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/commonElements/AlsoSeeElement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/commonElements/AlsoSeeElement.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +226,7 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/standartPages/commonElements" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../automationtests.api" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -464,14 +458,7 @@
       <workItem from="1631895725716" duration="8280000" />
       <workItem from="1632125907917" duration="599000" />
       <workItem from="1632238443109" duration="6856000" />
-      <workItem from="1632393419355" duration="10687000" />
-    </task>
-    <task id="LOCAL-00035" summary="try another yml file">
-      <created>1617734148363</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1617734148363</updated>
+      <workItem from="1632393419355" duration="11320000" />
     </task>
     <task id="LOCAL-00036" summary="try another yml file">
       <created>1617734294562</created>
@@ -809,7 +796,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632409175265</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="fix: typo">
+      <created>1632409363425</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1632409363425</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -887,7 +881,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="fix: add projects link to mobile view" />
     <MESSAGE value="fix: add some new pages and css fixes" />
     <MESSAGE value="fix: add sitemap" />
     <MESSAGE value="fix: update robots" />
@@ -912,7 +905,8 @@
     <MESSAGE value="fix: change small images" />
     <MESSAGE value="fix: add links to all pages" />
     <MESSAGE value="fix: remove loader" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: remove loader" />
+    <MESSAGE value="fix: typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: typo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">
