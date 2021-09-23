@@ -1,4 +1,4 @@
-import React, {useContext, useEffect} from 'react';
+import React, {useContext} from 'react';
 import {TextBoxWithShadow} from "../commonElements/TextBoxWithShadow";
 import {InnerBorderImage} from "../commonElements/InnerBorderImage";
 import {SizeContext} from "../../../lib/sizeContext";
@@ -6,8 +6,8 @@ import {SizeContext} from "../../../lib/sizeContext";
 import '../commonElements/styles/Images.css';
 import '../commonElements/styles/Common.css';
 import {Manufacturers} from "../commonElements/Manufacturers";
-import {Helmet} from "react-helmet";
 import {HelmetComponent} from "../../../elements/HelmetComponent";
+import {AlsoSeeElement} from "../commonElements/AlsoSeeElement";
 
 export function TwoImagesTwoTextsBigType(props: any) {
     const [smallSize] = useContext(SizeContext);
@@ -59,6 +59,7 @@ export function TwoImagesTwoTextsBigType(props: any) {
                     </div>
                     {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
                 </section>}
+            <AlsoSeeElement url={props.data.url} notNeeded={props.data.notNeededAlsoSee}/>
         </div>
 );
 }

@@ -4,16 +4,26 @@
     justify-content: center;
     text-align: center;
 }
+
 .align-center-semi {
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
 .align-center-semi-d {
     text-align: left;
 }
+
 .ant-message {
     z-index: 1021;
+}
+
+.box-shadow {
+    padding: 1em;
+    border-radius: 25px;
+    box-shadow: -6px 0 7px 0 rgba(255, 255, 255, 0.5),
+    9px 12px 15px 2px rgba(119, 141, 217, 0.35);
 }
 
 html {

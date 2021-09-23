@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import {WorkWithComponent} from "./WorkWIth";
+import {HomePageMainWays} from "./HomePageMainWays";
 
 export function HomePage() {
 
@@ -10,6 +11,7 @@ export function HomePage() {
     return (
       <div>
           <WorkWithComponent/>
+          <HomePageMainWays/>
       </div>
   );
 }

@@ -16,7 +16,7 @@ export function WorkWithComponent() {
       <div>
           <div>
               <p className='container justify-content-center how-do-we-work-text'>С нами сотрудничают</p>
-              <div className='container row mx-auto'>
+              <div className='container row mx-auto box-shadow'>
                   <div className='col-12 row d-flex justify-content-center'>
                       {icons.map((icon, index) => {
                           return <div className='col d-flex justify-content-center' key={index}>

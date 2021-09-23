@@ -7,4 +7,5 @@ export interface HeaderLinks {
 export interface Children {
     link: string;
     title: string;
+    image?: any;
 }

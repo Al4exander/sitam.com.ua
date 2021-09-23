@@ -8,6 +8,7 @@ export const sugarFactories = {
     firstImage,
     secondImage,
     type: PageTemplates.TwoImagesTwoTextsType,
+    notNeededAlsoSee: true,
     buttons: [{
         text: 'Моечный комплекс',
         url: '/washing-complex'

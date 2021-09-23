@@ -26,6 +26,17 @@
 
     color: #000000;
 }
+.common-text {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+    color: #000000;
+}
 @media screen and (max-width: 600px) {
     .page-under-title-text {
         font-size: 14px;

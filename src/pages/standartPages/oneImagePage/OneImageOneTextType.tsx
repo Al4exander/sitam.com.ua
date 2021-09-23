@@ -7,6 +7,7 @@ import {InnerBorderImage} from "../commonElements/InnerBorderImage";
 import {Manufacturers} from "../commonElements/Manufacturers";
 import {SubButtons} from "../commonElements/SubButtons";
 import {HelmetComponent} from "../../../elements/HelmetComponent";
+import {AlsoSeeElement} from "../commonElements/AlsoSeeElement";
 
 export function OneImageOneTextType(props: any) {
   const [smallSize] = useContext(SizeContext);
@@ -40,6 +41,7 @@ export function OneImageOneTextType(props: any) {
                 </div>
                 {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
             </section>}
+        <AlsoSeeElement url={props.data.url} notNeeded={props.data.notNeededAlsoSee}/>
     </div>
 );
 }

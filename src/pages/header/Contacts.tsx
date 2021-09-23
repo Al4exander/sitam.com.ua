@@ -35,7 +35,7 @@ export function Contacts() {
                     <div className="address col-lg-5 mt-sm-5 mt-lg-0 mt-md-3 col-md-12 col-sm-12 pl-4">
                         <div className='row'>
                             <div className='col-12 align-center-full mt-3 address-box-text'>
-                                <a id='contacts-copy-email' href={'mailto:sitam.office@gmail.com'} ref={emailRef as React.RefObject<HTMLAnchorElement>}>sitam.office@gmail.com</a>
+                                <a id='contacts-copy-email' href='mailto:sitam.office@gmail.com' title='email' ref={emailRef as React.RefObject<HTMLAnchorElement>}>sitam.office@gmail.com</a>
                                 <span className='ml-2'>
                                     <Tooltip title='Скопировать e-mail' placement='top'>
                                         <CopyOutlined onClick={() => copyToClipboard(emailRef)}/>

@@ -1,14 +1,12 @@
-import React, {useContext, useEffect} from 'react';
+import React, {useContext} from 'react';
 import {TextBoxWithShadow} from "../commonElements/TextBoxWithShadow";
 import '../commonElements/styles/Common.css';
 import '../commonElements/styles/Images.css';
-import GirlWithPhone from '../../../images/common/GirlWithPhone.png';
 import {SizeContext} from "../../../lib/sizeContext";
-import {TwoImagesElement} from "../commonElements/TwoImagesElement";
 import {Manufacturers} from "../commonElements/Manufacturers";
 import {InnerBorderImage} from "../commonElements/InnerBorderImage";
-import {Helmet} from "react-helmet";
 import {HelmetComponent} from "../../../elements/HelmetComponent";
+import {AlsoSeeElement} from "../commonElements/AlsoSeeElement";
 
 export function OneImageTwoTextsSmallType(props: any) {
   const [smallSize] = useContext(SizeContext);
@@ -51,6 +49,7 @@ export function OneImageTwoTextsSmallType(props: any) {
                 />
                 {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
             </section>}
+        <AlsoSeeElement url={props.data.url} notNeeded={props.data.notNeededAlsoSee}/>
     </div>
 );
 }
