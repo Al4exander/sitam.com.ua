@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +79,11 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gatsby" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -157,7 +167,7 @@
     <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1wwkBso3B0ofFWC0dWdQQVGqfME" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -226,7 +236,7 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../automationtests.api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sitam.tech/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -239,16 +249,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\projects\citam.com.ua\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="E:\projects\citam.com.ua\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\citam.com.ua\sitam.tech\src" />
+      <recent name="E:\projects\citam.com.ua\sitam.tech\src\components" />
+      <recent name="E:\projects\citam.com.ua\sitam.tech\src\pages" />
       <recent name="E:\projects\citam.com.ua\src\pages\standartPages\commonElements" />
       <recent name="E:\projects\citam.com.ua\src\constdata" />
-      <recent name="E:\projects\citam.com.ua\src\pages\HomePage" />
-      <recent name="E:\projects\citam.com.ua\src\pages\footer\components" />
-      <recent name="E:\projects\citam.com.ua\src\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\projects\citam.com.ua\public" />
@@ -258,7 +268,7 @@
       <recent name="E:\projects\citam.com.ua\src\images\pages\installation-of-machine" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.postbuild">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -274,6 +284,16 @@
       <command value="run" />
       <scripts>
         <script value="generate-sitemap" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="postbuild" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="postbuild" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -306,13 +326,15 @@
       <item itemvalue="npm.build" />
       <item itemvalue="npm.generate-sitemap" />
       <item itemvalue="npm.sitemap" />
+      <item itemvalue="npm.postbuild" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
+        <item itemvalue="npm.postbuild" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.sitemap" />
         <item itemvalue="npm.generate-sitemap" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -458,14 +480,7 @@
       <workItem from="1631895725716" duration="8280000" />
       <workItem from="1632125907917" duration="599000" />
       <workItem from="1632238443109" duration="6856000" />
-      <workItem from="1632393419355" duration="11320000" />
-    </task>
-    <task id="LOCAL-00036" summary="try another yml file">
-      <created>1617734294562</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1617734294562</updated>
+      <workItem from="1632393419355" duration="15955000" />
     </task>
     <task id="LOCAL-00037" summary="revert">
       <created>1617734372457</created>
@@ -803,7 +818,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632409363425</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="fix: update sitemap.xml">
+      <created>1632410089493</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1632410089493</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -881,7 +903,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="fix: add some new pages and css fixes" />
     <MESSAGE value="fix: add sitemap" />
     <MESSAGE value="fix: update robots" />
     <MESSAGE value="fix: add helmet, add meta, add links, change titles" />
@@ -906,7 +927,8 @@
     <MESSAGE value="fix: add links to all pages" />
     <MESSAGE value="fix: remove loader" />
     <MESSAGE value="fix: typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: typo" />
+    <MESSAGE value="fix: update sitemap.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: update sitemap.xml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">

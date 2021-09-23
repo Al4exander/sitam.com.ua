@@ -1,14 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
 import {App} from './App';
 import {SizeProvider} from "./lib/sizeContext";
+import { hydrate, render } from "react-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-      <SizeProvider>
-          <App />
-      </SizeProvider>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const rootElement = document.getElementById("root");
+
+if (rootElement!.hasChildNodes()) {
+    hydrate(<React.StrictMode>
+        <SizeProvider>
+            <App />
+        </SizeProvider>
+    </React.StrictMode>, rootElement);
+} else {
+    render(<React.StrictMode>
+        <SizeProvider>
+            <App />
+        </SizeProvider>
+    </React.StrictMode>, rootElement);
+}
