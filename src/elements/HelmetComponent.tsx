@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import 'bootstrap/dist/css/bootstrap.css';
 
 interface HelmetComponentProps {
     data: any;
