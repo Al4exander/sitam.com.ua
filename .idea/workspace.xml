@@ -5,39 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assembly-of-the-conveyor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/assembly-of-the-conveyor/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/beet-processing-department/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/beet-processing-department/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bending-press/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/bending-press/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cooling-tower-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/cooling-tower-repair/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/design-project-approval-with-the-state-institution-of-emergency-situations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/design-project-approval-with-the-state-institution-of-emergency-situations/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/diffusion-department/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/diffusion-department/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/disassembly-installation-of-miscella-distiller/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/disassembly-installation-of-miscella-distiller/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/evaporation-station/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/evaporation-station/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/filtration-station/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/filtration-station/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/installation-and-dismantling-of-car-scales/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-and-dismantling-of-car-scales/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/installation-of-a-phosphatide-drying-line/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-a-phosphatide-drying-line/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/installation-of-granulators/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-granulators/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/installation-of-machines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-machines/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/installation-of-oil-refining-and-deodorization-line/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-oil-refining-and-deodorization-line/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/installation-of-presses/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-presses/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/installation-replacement-of-power-control-electric-lines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-replacement-of-power-control-electric-lines/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/installation-use-of-european-level-components-commissioning/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-use-of-european-level-components-commissioning/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manufacturing-and-installation-of-metal-structures/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/manufacturing-and-installation-of-metal-structures/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/norii-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/norii-repair/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/oil-extraction-line-installation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/oil-extraction-line-installation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/oil-pressing-line-installation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/oil-pressing-line-installation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/oil-shop-brazier-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/oil-shop-brazier-repair/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/painting-corrosion-protection-of-the-tank/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/painting-corrosion-protection-of-the-tank/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/process-pipeline-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/process-pipeline-repair/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repair-of-steel-tanks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/repair-of-steel-tanks/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/repair-of-the-dryer-cooler-of-meal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/repair-of-the-dryer-cooler-of-meal/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/silo-installation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/silo-installation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/silo-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/silo-repair/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sugar-drying-complex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/sugar-drying-complex/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/welding-works/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/welding-works/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assembly-of-the-conveyor/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/beet-processing-department/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bending-press/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bunker-manufacturing-and-installation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/crystallization-department/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/diffusion-department/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/disassembly-installation-of-miscella-distiller/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dismantling-of-machines/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/elevator-assembly-and-replacement/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/evaporation-station/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/filtration-station/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/grocery-department/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/guillotine-press-shears/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hydraulic-press/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-and-dismantling-of-car-scales/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-a-phosphatide-drying-line/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-a-process-pipeline/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-compresses/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-containers/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-granulators/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-industrial-equipment/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-lifting-equipment/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-machines/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-oil-adsorption-bleaching-line/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-oil-hydration-and-neutralization-line/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-oil-refining-and-deodorization-line/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-oil-winterization-freezing-line/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-presses/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-technological-lines/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-transformers-and-power-equipment/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/juice-department/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lime-burning-department/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/modernization-of-the-hydraulic-press/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/modernization-of-the-shear-press/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/oil-cleaning-line-installation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/oil-extraction-line-installation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/oil-pressing-line-installation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/press-compactor/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/press-shears/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/repair-and-installation-of-oil-extraction-plant-equipment/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/repair-of-a-baler-for-scrap-metal/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/repair-of-grab-reloader/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/repair-of-pressing-equipment/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scrap-processing-enterprises/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/silo-installation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sugar-drying-complex/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sugar-factories/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/washing-complex/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/waste-paper-press/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/zhomodushilny-complex/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +296,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\projects\citam.com.ua\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="ts.external.directory.path" value="E:\projects\citam.com.ua\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -358,9 +378,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.postbuild" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.eject" />
-        <item itemvalue="npm.postbuild" />
         <item itemvalue="npm.sitemap" />
       </list>
     </recent_temporary>
@@ -509,21 +529,7 @@
       <workItem from="1632238443109" duration="6856000" />
       <workItem from="1632393419355" duration="15955000" />
       <workItem from="1632564038850" duration="529000" />
-      <workItem from="1632675588259" duration="3718000" />
-    </task>
-    <task id="LOCAL-00038" summary="feat: add main ways pages">
-      <created>1617744588873</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1617744588873</updated>
-    </task>
-    <task id="LOCAL-00039" summary="feat: added some more pages">
-      <created>1618003162350</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1618003162350</updated>
+      <workItem from="1632675588259" duration="4033000" />
     </task>
     <task id="LOCAL-00040" summary="fix titles">
       <created>1618003673247</created>
@@ -854,7 +860,21 @@
       <option name="project" value="LOCAL" />
       <updated>1632678971236</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="fix: add all paths to react-snap">
+      <created>1632679609104</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1632679609104</updated>
+    </task>
+    <task id="LOCAL-00088" summary="fix: rollback">
+      <created>1632679785747</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1632679785747</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -933,7 +953,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="fix: update robots" />
     <MESSAGE value="fix: add helmet, add meta, add links, change titles" />
     <MESSAGE value="fix: change canonical and etc" />
     <MESSAGE value="fix: change canonical for all the pages" />
@@ -958,7 +977,8 @@
     <MESSAGE value="fix: typo" />
     <MESSAGE value="fix: update sitemap.xml" />
     <MESSAGE value="fix: add all paths to react-snap" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: add all paths to react-snap" />
+    <MESSAGE value="fix: rollback" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: rollback" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">
