@@ -2,11 +2,8 @@ import React, {useContext, useState} from 'react';
 import './styles/Faq.css'
 import {ElementWithShadow} from "./components/ElementWithShadow";
 import {faqData, IFaqData} from "../../constdata/FaqData";
-import worker from '../../images/common/Worker.png';
-import workerWithout from '../../images/common/worker-cut.png';
-import FaqInput from '../../images/common/FaqInput.png';
 
-import { Collapse } from 'antd';
+import {Collapse} from 'antd';
 import {SizeContext} from "../../lib/sizeContext";
 
 const { Panel } = Collapse;

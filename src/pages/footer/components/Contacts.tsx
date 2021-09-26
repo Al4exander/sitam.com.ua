@@ -1,6 +1,7 @@
 import React, {useRef} from "react";
 import {message, Tooltip} from "antd";
 import { CopyOutlined } from '@ant-design/icons';
+import '../styles/ContactsAndAsk.css'
 
 export const ContactsFooter = () => {
 

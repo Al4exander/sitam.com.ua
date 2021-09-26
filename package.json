@@ -36,8 +36,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "postbuild": "react-snap"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -61,7 +60,6 @@
     "@types/react-image-gallery": "^1.0.3",
     "axios": "^0.21.1",
     "eslint-plugin-prettier": "^3.3.1",
-    "gatsby-cli": "^3.14.0",
     "history": "^5.0.0",
     "react-image-gallery": "^1.1.1",
     "react-markdown": "^5.0.3",
