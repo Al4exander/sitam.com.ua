@@ -37,8 +37,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-prod": "serve -s build",
-    "postbuild": "react-snap"
+    "start-prod": "serve -s build"
   },
   "reactSnap": {
     "include" : ["/projects",
