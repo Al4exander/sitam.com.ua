@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/footer/components/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/components/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +233,7 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sitam.tech/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nc-automation-framework" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -244,7 +246,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\projects\citam.com.ua\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="ts.external.directory.path" value="E:\projects\citam.com.ua\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -263,7 +265,7 @@
       <recent name="E:\projects\citam.com.ua\src\images\pages\installation-of-machine" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start-prod">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -294,16 +296,14 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="sitemap" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start-prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="sitemap" />
+        <script value="start-prod" />
       </scripts>
       <node-interpreter value="project" />
-      <envs>
-        <env name="PUBLIC_URL" value="http://www.sitam.tech" />
-      </envs>
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -319,17 +319,17 @@
     <list>
       <item itemvalue="npm.start" />
       <item itemvalue="npm.build" />
-      <item itemvalue="npm.sitemap" />
       <item itemvalue="npm.postbuild" />
       <item itemvalue="npm.eject" />
+      <item itemvalue="npm.start-prod" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start-prod" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.postbuild" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.postbuild" />
         <item itemvalue="npm.eject" />
-        <item itemvalue="npm.sitemap" />
       </list>
     </recent_temporary>
   </component>
@@ -478,6 +478,8 @@
       <workItem from="1632393419355" duration="15955000" />
       <workItem from="1632564038850" duration="529000" />
       <workItem from="1632675588259" duration="4878000" />
+      <workItem from="1632728831130" duration="1796000" />
+      <workItem from="1632937919729" duration="1675000" />
     </task>
     <task id="LOCAL-00043" summary="some extra files">
       <created>1618815345814</created>
@@ -878,12 +880,12 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
+    <option name="COLUMN_ID_ORDER">
       <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
       </list>
     </option>
   </component>
