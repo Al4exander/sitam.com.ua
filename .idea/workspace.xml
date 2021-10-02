@@ -6,8 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.41c314d6.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.41c314d6.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.3af708d6.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.3af708d6.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.3af708d6.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.818c030b.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.818c030b.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/ContactsAndAsk.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/ContactsAndAsk.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/Faq.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/Faq.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/HowDoWeWork.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/HowDoWeWork.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/styles/ContactsAndAsk.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/styles/ContactsAndAsk.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/styles/Faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/styles/Faq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/styles/footer.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +249,7 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nc-automation-framework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dnssec.api" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -246,7 +262,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\projects\citam.com.ua\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="E:\projects\citam.com.ua\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -328,8 +344,8 @@
         <item itemvalue="npm.start-prod" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.postbuild" />
         <item itemvalue="npm.eject" />
+        <item itemvalue="npm.postbuild" />
       </list>
     </recent_temporary>
   </component>
@@ -479,21 +495,9 @@
       <workItem from="1632564038850" duration="529000" />
       <workItem from="1632675588259" duration="4878000" />
       <workItem from="1632728831130" duration="1796000" />
-      <workItem from="1632937919729" duration="1675000" />
-    </task>
-    <task id="LOCAL-00043" summary="some extra files">
-      <created>1618815345814</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1618815345814</updated>
-    </task>
-    <task id="LOCAL-00044" summary="new files">
-      <created>1619868541727</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1619868541727</updated>
+      <workItem from="1632937919729" duration="6938000" />
+      <workItem from="1632988598403" duration="1208000" />
+      <workItem from="1633194248752" duration="5172000" />
     </task>
     <task id="LOCAL-00045" summary="added new files">
       <created>1620246191343</created>
@@ -824,7 +828,21 @@
       <option name="project" value="LOCAL" />
       <updated>1632680642812</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="fix: try react-snap again">
+      <created>1632939900993</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1632939900993</updated>
+    </task>
+    <task id="LOCAL-00093" summary="fix: rollback">
+      <created>1632940097188</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1632940097188</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -926,9 +944,9 @@
     <MESSAGE value="fix: typo" />
     <MESSAGE value="fix: update sitemap.xml" />
     <MESSAGE value="fix: add all paths to react-snap" />
-    <MESSAGE value="fix: rollback" />
     <MESSAGE value="fix: try react-snap again" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: try react-snap again" />
+    <MESSAGE value="fix: rollback" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: rollback" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">

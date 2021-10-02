@@ -8,6 +8,7 @@
     "@testing-library/react": "9.3.2",
     "@testing-library/user-event": "7.1.2",
     "@types/jest": "^26.0.20",
+    "@types/jquery": "^3.5.6",
     "@types/node": "^14.0.27",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
@@ -37,10 +38,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-prod": "serve -s build"
+    "start-prod": "serve -s build",
+    "postbuild": "react-snap"
   },
   "reactSnap": {
-    "include" : ["/projects",
+    "include": [
+      "/projects",
       "/installation-of-presses",
       "/oil-extraction-line-installation",
       "/repair-and-installation-of-oil-extraction-plant-equipment",

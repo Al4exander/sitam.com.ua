@@ -268,23 +268,28 @@
     .main-form {
         position: absolute;
         width: 100%;
-        height: 686px;
+        height: 350px;
+        margin-bottom: 200px;
     }
     .main-form-frame {
         width: 100%;
         height: 320px;
-        border:20px solid rgba(255, 255, 255, 0.5);
+        border: none;
+        display: block;
 
-        border-radius: 52px;
+        border-radius: unset;
         margin-bottom: 10px;
     }
     .contacts {
+        display: block;
         position: relative;
         width: 85%;
         height: 420px;
         margin-left: .5em;
         min-width: 189px;
         top: 2%;
+        padding: 20px;
+        margin-bottom: 2.5em;
 
         background: #FFFFFF;
         border-radius: 21px;
@@ -298,7 +303,7 @@
         height: 300px;
         left: 0;
         bottom: 10px;
-        margin-left: 1.5em;
+        margin: 0 1.5em 2em;
 
         background: #FFFFFF;
         border-radius: 21px;

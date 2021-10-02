@@ -7,17 +7,6 @@
     width: 64px;
     height: 55px;
 }
-@media only screen and (max-width: 1000px) {
-    .second-faq-box {
-        left: 20%;
-    }
-}
-@media only screen and (max-width: 600px) {
-    .second-faq-box {
-        top: 0;
-        left: 0;
-    }
-}
 .faq-header-text {
     width: 299px;
 
@@ -42,4 +31,22 @@
 }
 .faq-selected-item {
     text-decoration: underline;
+}
+.faq-header-text+.faq-container {
+    max-width: 600px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .second-faq-box {
+        left: 20%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .second-faq-box {
+        top: 0;
+        left: 0;
+    }
+    .faq-header-text+.faq-container {
+        max-width: 480px;
+    }
 }
