@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/constdata/pages/silo-repair.ts" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -479,14 +477,7 @@
       <workItem from="1632728831130" duration="1796000" />
       <workItem from="1632937919729" duration="6938000" />
       <workItem from="1632988598403" duration="1208000" />
-      <workItem from="1633194248752" duration="6366000" />
-    </task>
-    <task id="LOCAL-00047" summary="added new files, added title for each page">
-      <created>1621080183415</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1621080183415</updated>
+      <workItem from="1633194248752" duration="6736000" />
     </task>
     <task id="LOCAL-00048" summary="fix: remove cute images">
       <created>1622881219632</created>
@@ -824,7 +815,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633199960107</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="fix: change ask question fields">
+      <created>1633200878303</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1633200878303</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -903,7 +901,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="fix: change canonical for all the pages" />
     <MESSAGE value="fix: change sitemap" />
     <MESSAGE value="fix: change to https 2" />
     <MESSAGE value="fix: add meta" />
@@ -928,7 +925,8 @@
     <MESSAGE value="fix: try react-snap again" />
     <MESSAGE value="fix: rollback" />
     <MESSAGE value="feat: try react-snap with css" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: try react-snap with css" />
+    <MESSAGE value="fix: change ask question fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: change ask question fields" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">
