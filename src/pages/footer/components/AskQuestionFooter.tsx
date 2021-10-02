@@ -51,7 +51,7 @@ export function AskQuestionFooter() {
             </div>
             <div className='row mt-3 ml-1 mr-1'>
                 <AskQuestionsInput className='col-4'
-                                   placeholder='Имя'
+                                   placeholder='Name'
                                    value={name}
                                    onChange={handleNameChange}
                 />
@@ -61,7 +61,7 @@ export function AskQuestionFooter() {
                                    onChange={handleEmailChange}
                 />
                 <AskQuestionsInput className='col-4'
-                                   placeholder='Тема письма'
+                                   placeholder='Theme'
                                    value={subject}
                                    onChange={handleSubjectChange}
                 />
