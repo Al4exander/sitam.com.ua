@@ -12,7 +12,7 @@
     font-family: Jura;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
 
     display: flex;
@@ -24,8 +24,8 @@
 
 @media screen and (max-width: 600px) {
     .two-images-text-box-text {
-        font-size: 14px;
-        line-height: 15px;
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .text-box-shadowed h5 {

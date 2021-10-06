@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.1306386f.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.1306386f.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.7d6c47a0.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.7d6c47a0.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/200.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/200.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/assembly-of-the-conveyor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/assembly-of-the-conveyor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/beet-processing-department/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/beet-processing-department/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/belt-conveyor-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/belt-conveyor-repair/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/bending-press/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/bending-press/index.html" afterDir="false" />
@@ -84,6 +89,10 @@
       <change beforePath="$PROJECT_DIR$/build/silo-cleaning/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/silo-cleaning/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/silo-installation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/silo-installation/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/silo-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/silo-repair/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.578d563c.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.578d563c.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.e8c70cbd.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.e8c70cbd.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/sugar-drying-complex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/sugar-drying-complex/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/sugar-factories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/sugar-factories/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/thermal-insulation-of-the-pipeline/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/thermal-insulation-of-the-pipeline/index.html" afterDir="false" />
@@ -93,7 +102,16 @@
       <change beforePath="$PROJECT_DIR$/build/waste-paper-press/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/waste-paper-press/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/welding-works/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/welding-works/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/zhomodushilny-complex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/zhomodushilny-complex/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/ContactsAndAsk.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/ContactsAndAsk.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/components/AskQuestionFooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/components/AskQuestionFooter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/components/MessageField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/components/MessageField.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/styles/ContactsAndAsk.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/styles/ContactsAndAsk.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/header/MobileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/MobileMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/header/styles/MobileMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/styles/MobileMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/header/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/styles/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/commonElements/styles/TextBoxWithShadow.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/commonElements/styles/TextBoxWithShadow.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,7 +350,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\projects\citam.com.ua\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="E:\projects\citam.com.ua\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -351,7 +369,7 @@
       <recent name="E:\projects\citam.com.ua\src\images\pages\installation-of-machine" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start-prod">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -411,10 +429,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.postbuild" />
         <item itemvalue="npm.start-prod" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.postbuild" />
         <item itemvalue="npm.eject" />
       </list>
     </recent_temporary>
@@ -570,14 +588,7 @@
       <workItem from="1633194248752" duration="7898000" />
       <workItem from="1633252892150" duration="608000" />
       <workItem from="1633514321775" duration="1696000" />
-      <workItem from="1633529878389" duration="3226000" />
-    </task>
-    <task id="LOCAL-00050" summary="fix: add projects link to mobile view">
-      <created>1623082361740</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1623082361740</updated>
+      <workItem from="1633529878389" duration="8208000" />
     </task>
     <task id="LOCAL-00051" summary="fix: add some new pages and css fixes">
       <created>1623778013142</created>
@@ -915,7 +926,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633201213111</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="fix: change html to utf-8 format">
+      <created>1633533334622</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1633533334622</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -994,7 +1012,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="fix: change sitemap" />
     <MESSAGE value="fix: change to https 2" />
     <MESSAGE value="fix: add meta" />
     <MESSAGE value="fix: change to https" />
@@ -1019,7 +1036,8 @@
     <MESSAGE value="feat: try react-snap with css" />
     <MESSAGE value="fix: change ask question fields" />
     <MESSAGE value="fix: update sitemap.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: update sitemap.xml" />
+    <MESSAGE value="fix: change html to utf-8 format" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: change html to utf-8 format" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">

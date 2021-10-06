@@ -7,7 +7,7 @@ export const MessageField: React.FC<IMessageField> = ({className, onChange, valu
           <input className='message-input-field col-12'
                  onChange={onChange}
                  value={value}
-                 placeholder='Message'
+                 placeholder='Сообщение'
           />
       </div>
   );

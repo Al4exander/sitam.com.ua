@@ -108,28 +108,28 @@ export function MobileMenu() {
                     </header>
                     {servicesSelected ? servicesJSX :
                         mainWaysSelected ? mainWaysJSX :
-                            <div className='row container m-3 show-from-right'>
-                                <Link to={'/'} title='Home page' key='main' className='col-6' onClick={scrollToTop}>
+                            <div className='row container show-from-right mt-5'>
+                                <Link to={'/'} title='Home page' key='main' className='col-12' onClick={scrollToTop}>
                                     Главная
                                 </Link>
-                                <a key='services' className={`col-6 ${mobDropdown ? 'nav-active' : ''}`} onClick={() => setServicesSelected(true)}>
+                                <a key='services' className={`col-12 ${mobDropdown ? 'nav-active' : ''}`} onClick={() => setServicesSelected(true)}>
                                     Услуги
                                 </a>
-                                <a key='industries' className='col-6' onClick={() => setMainWaysSelected(true)}>
+                                <a key='industries' className='col-12' onClick={() => setMainWaysSelected(true)}>
                                     Основные направления
                                 </a>
-                                <Link to={'/projects'} key='projects' className='col-6' onClick={scrollToTop}>
+                                <Link to={'/projects'} key='projects' className='col-12' onClick={scrollToTop}>
                                     Проекты
                                 </Link>
-                                <a key='tender' className='col-6' href='mailto:sitam.office@gmail.com'>
+                                <a key='tender' className='col-12' href='mailto:sitam.office@gmail.com'>
                                     У Вас тендер?
                                 </a>
-                                <Link to='#contacts' title='contacts' key='contacts' className='col-6' onClick={scrollToContactsAndAsk}>
+                                <Link to='#contacts' title='contacts' key='contacts' className='col-12' onClick={scrollToContactsAndAsk}>
                                     Контакты
                                 </Link>
                             </div>
                     }
-                    {!servicesSelected && <Icons iconClassName='col-4 col-sm-4 pl-3 pr-3' className='col-8 col-sm-6 row align-center-full show-from-right'/>}
+                    {!servicesSelected && <Icons iconClassName='col-4 col-sm-4 pl-3 pr-3' className='col-8 col-sm-6 row align-center-full left-bottom-element show-from-right'/>}
                 </div>}
         </>
   );

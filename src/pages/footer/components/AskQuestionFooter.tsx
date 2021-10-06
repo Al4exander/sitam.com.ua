@@ -50,18 +50,18 @@ export function AskQuestionFooter() {
                 <div className='ask-question-under-header align-center-full col-12 mt-4'>Если у Вас есть вопросы, пожалуйста, напишите нам:</div>
             </div>
             <div className='row mt-3 ml-1 mr-1'>
-                <AskQuestionsInput className='col-4'
-                                   placeholder='Name'
+                <AskQuestionsInput className='col-12 col-lg-4 col-md-4 col-sm-12'
+                                   placeholder='Имя'
                                    value={name}
                                    onChange={handleNameChange}
                 />
-                <AskQuestionsInput className='col-4'
+                <AskQuestionsInput className='col-12 col-lg-4 col-md-4 col-sm-12'
                                    placeholder='E-mail'
                                    value={email}
                                    onChange={handleEmailChange}
                 />
-                <AskQuestionsInput className='col-4'
-                                   placeholder='Theme'
+                <AskQuestionsInput className='col-12 col-lg-4 col-md-4 col-sm-12'
+                                   placeholder='Тема'
                                    value={subject}
                                    onChange={handleSubjectChange}
                 />

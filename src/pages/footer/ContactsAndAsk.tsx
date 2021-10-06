@@ -7,7 +7,7 @@ export const ContactsAndAsk = () => {
     return (
         <div id="contacts" key='contacts' className='col-12 d-flex justify-content-center main-form-frame'>
             <div className='main-form'>
-                <div className='row'>
+                <div className='row' style={{marginRight: 0, marginLeft: 0}}>
                     <ContactsFooter/>
                     <AskQuestionFooter/>
                 </div>

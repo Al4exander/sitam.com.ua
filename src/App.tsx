@@ -26,7 +26,6 @@ import {Tender} from "./pages/Tender/Tender";
 import {Sitemap} from "./Sitemap";
 import {Helmet} from "react-helmet";
 import {ShowMenuProvider} from "./lib/showMenuContext";
-import {Spin} from "antd";
 
 export const App = () => {
     const [smallSize, setSmallSize] = useContext(SizeContext);

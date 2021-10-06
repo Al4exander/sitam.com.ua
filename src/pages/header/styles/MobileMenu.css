@@ -52,18 +52,19 @@
         background: rgba(228, 234, 250, 0.9);
     }
 }
-.top-nav-mobile a.col-6{
+.top-nav-mobile a.col-12:not(.services-accordion-text){
     font-family: Yanone Kaffeesatz;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 15px;
+    font-size: 30px;
+    line-height: 60px;
 
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #2570C8;
 }
-.top-nav-mobile a.col-6:hover{
+.top-nav-mobile a.col-12:hover:not(.services-accordion-text){
     text-decoration: none;
     color: #26a3fd;
 }
@@ -163,6 +164,11 @@
     letter-spacing: 0.05em;
 
     color: #2570C8;
+}
+.align-center-full.left-bottom-element {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
 }
 .services-accordion-text {
     font-family: Jura;

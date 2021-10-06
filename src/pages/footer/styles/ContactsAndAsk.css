@@ -300,7 +300,7 @@
     .ask-question {
         position: relative;
         width: 90%;
-        height: 300px;
+        height: 500px;
         left: 0;
         bottom: 10px;
         margin: 0 1.5em 2em;
@@ -403,7 +403,8 @@
     .message-input-field {
         position: absolute;
         width: 90%;
-        height: 65px;
+        height: 100px;
+        margin-top: 10px;
         padding-left: 20px;
 
         border-radius: 24px;
