@@ -22,7 +22,7 @@ export const Sitemap = () => {
   </url>
 ${routes.reduce((acc: string, route: SitemapRoute) => `${acc}
   <url>
-    <loc>${PUBLIC_URL}${route.route}</loc>
+    <loc>${PUBLIC_URL}${route.route}/</loc>
     <lastmod>${date.toISOString()}</lastmod>
   </url>`, '')
         }
