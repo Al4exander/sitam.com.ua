@@ -20,36 +20,20 @@ export function TwoImagesOneTextType(props: any) {
         {props.data.buttons && props.data.buttons.length && <section className='mt-2'>
             <SubButtons buttons={props.data.buttons}/>
         </section>}
-        {!smallSize ? <section className='col-10 col-lg-12 col-md-12 mx-lg-auto mx-md-0 row mt-5 d-lg-flex justify-content-center'>
-                     <section className='col-5 col-md-5 col-lg-6 col-xl-5 mr-5'>
-                         <TextBoxWithShadow
-                                            text={props.data.text}
-                         />
-                         <div className='mt-4 d-flex justify-content-center'>
-                             <InnerBorderImage className='img-size' src={props.data.firstImage} alt={props.data.title}/>
-                         </div>
-                     </section>
-                    <div>
-                        <InnerBorderImage className='img-size' src={props.data.secondImage} alt={props.data.title}/>
-                    </div>
-                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
-            </section>
-            :
-            <section className='mx-auto mt-4'>
+        <section className='container mx-lg-auto mx-md-0 mx-sm-auto mx-auto row mt-5 d-lg-flex justify-content-center'>
+                 <section className='col-12 col-sm-12 col-md-5 col-lg-6 col-xl-5 mr-0 mr-lg-5 mr-md-5'>
+                     <TextBoxWithShadow
+                                        text={props.data.text}
+                     />
+                 </section>
+                <div className='mt-4 mt-lg-0 mt-md-0 d-flex justify-content-center'>
+                    <InnerBorderImage className='img-size' src={props.data.secondImage} alt={props.data.title}/>
+                </div>
                 <div className='mt-4 d-flex justify-content-center'>
                     <InnerBorderImage className='img-size' src={props.data.firstImage} alt={props.data.title}/>
                 </div>
-                <TextBoxWithShadow
-                    style={{ paddingLeft: 0}}
-                    div
-                    className='col-11 mt-3 mx-auto'
-                    text={props.data.text}
-                />
-                <div className='mt-4 d-flex justify-content-center'>
-                    <InnerBorderImage className='img-size' src={props.data.secondImage} alt={props.data.title}/>
-                </div>
-                {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
-            </section>}
+            {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
+        </section>
         <AlsoSeeElement url={props.data.url} notNeeded={props.data.notNeededAlsoSee}/>
     </div>
 );
