@@ -26,7 +26,7 @@ export function ThreeTwoImagesTwoTextsType(props: any) {
                 <div className='d-flex justify-content-center'>
                     <InnerBorderImage className='img-size' src={props.data.firstImage} alt={props.data.title}/>
                 </div>
-                <div className='mt-3'>
+                <div className='mt-3 d-flex justify-content-center mb-3 mb-sm-3 mb-lg-0 mb-md-0'>
                     {props.data.thirdImage && <InnerBorderImage className='img-size' src={props.data.thirdImage} alt={props.data.title}/>}
                 </div>
             </div>
