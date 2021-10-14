@@ -5,6 +5,7 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 export const bendingPress = {
     url: '/bending-press',
     title: 'Ремонт гидравлического листогибочного пресса',
+    description: 'Ремонту и техническое обслуживание гидравлического листогибочного пресса (кромкогиб) для гибки листового проката. Работаем с агрегатами следующих производителей: Riko, Yangli, Cormak, DURMD, Ermaksan, ЛГ и других, в т.ч. отечественных',
     type: PageTemplates.TwoImagesTwoTextsBigType,
     keywords: 'ремонт пресса,обслуживание пресса,диагностика пресса,ремонт гидравлического пресса',
     manufacturers: {

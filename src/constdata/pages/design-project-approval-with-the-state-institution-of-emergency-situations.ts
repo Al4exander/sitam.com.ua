@@ -17,6 +17,7 @@ export const designProjectApprovalWithTheStateInstitutionOfEmergencySituations =
     keywords: 'монтаж молниезащиты,монтаж заземления,ГС ЧС,установка защитного контура',
     firstImage,
     secondImage,
+    description: 'Монтаж молниезащиты, молниеотвода(громоотвода), защитного контура, заземления на профессиональном уровне. ',
     firstText: {
         text: `### Заземление – его важность и особенности
 
@@ -27,7 +28,7 @@ export const designProjectApprovalWithTheStateInstitutionOfEmergencySituations =
 
 Для правильной и безопасной работы системы необходимо изготовление проектной части и использование долговечных материалов.
 
-Предлагаем комплексное решение данного вопрса.
+Предлагаем комплексное решение данного вопроса.
 
 1. Проектирование.
 2. Монтаж системы.

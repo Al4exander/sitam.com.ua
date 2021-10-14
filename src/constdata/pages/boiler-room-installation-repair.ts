@@ -13,6 +13,7 @@ export const boilerEoomInstallationRepair = {
     underTitle: 'ООО «СИТАМ» Выполним монтаж технологических линий, конвейеров, транспортеров, инженерных и технологических систем, и другого технологического оборудования промышленного производства на профессиональном уровне. На все виды работ организация имеет необходимые разрешения и свидетельства.',
     firstImage,
     secondImage,
+    description: 'Монтажа различных типов промышленных котельных: газовых, дизельных, электрических или твердотопливных, различных марок и конфигураций (PROTHERM, VAILLANT, BUDERUS, BOSCH, BAXI, KENTATSU FURST, VIESSMANN, NAVIEN, STROPUVA, LOOS, ICI, FERROLI, OILON, WEISHAUPT, SAACKE, BROEN, NAVAL, ADL, NEMEN, VEXVE, GRUNDFOS, WILO, KSB, KRAL, ALLWEILER, SEPARTEC, JURBY WATER TECH, HENGINEERING, НВР, BWT, SWEP, ALFA-LAVAL POTOK, ETSS, UNICAL, CIB UNIGAS, ELCO и др.)',
     firstText: {
         text: `### Монтаж модульных котельных и стационарных
 Монтаж является важным этапом строительства котельной. От его качества зависит работа котельной и успешность пусконаладочных работ котельного оборудования.

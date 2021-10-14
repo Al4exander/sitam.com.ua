@@ -7,6 +7,7 @@ export const disassemblyInstallationOfMiscellaDistiller = {
     firstImage,
     type: PageTemplates.OneImageTwoTextsSmallType,
     keywords: 'монтаж дистилятора мисцеллы,монтаж дистилятора,замена дистиллятора,замена дистиллятора мисцелла,кронштейн,демонтаж трубопровода',
+    description: 'Ремонта дистилляторов самых разных марок и конфигураций. Оборудование, с которым мы работаем: Alfa Laval, Bernardini, Andreotti, Westfalia и других производителей в т.ч. отечественных.',
     manufacturers: {
         text: 'Компания ООО «СИТАМ» имеет большой опыт ремонта дистилляторов самых разных марок и конфигураций. В списке оборудования, с которым мы работаем, числятся агрегаты следующих производителей: Alfa Laval, Bernardini, Andreotti, Westfalia и других производителей в т.ч. отечественных.'
     },

@@ -18,6 +18,7 @@ export const repairOfaGrainDryer = {
 ###### При регулярном техническом обслуживании и ремонте, работа зерносушилок будет соответствовать установленным нормам изготовителя.
 `,
     },
+    description: 'Ремонт и монтаж элеваторного оборудования, включая силосы, нории, конвейеры, зерносепараторы и зерносушилки разных производителей: Fratelli Pedrotti, Agrex, Mecmar, Metalmont, Frame, Bonfanti, Ravaro, Scolari, Strahl, Petcus, Araj, Chelik, Mepu, Neuero, Riela, Ozsu, ДСП и др',
     secondText: {
         text: `### Ремонт зерносушилок может включать:
 

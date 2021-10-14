@@ -10,6 +10,7 @@ export const installationOfOilRefiningAndDeodorizationLine = {
         text: 'ООО «СИТАМ» имеет большой опыт монтажа линии дезодорации',
     },
     type: PageTemplates.OneImageTwoTextsSmallType,
+    description: 'Выполним монтаж линии и оборудования для дезодорации в комплексе с линией рафинации. Монтаж резервуаров (емкостей). Монтаж насосов. Демонтаж дезодорационных колонн',
     secondText: {
         text: `Наша компания выполнит монтаж линии и оборудования для дезодорации в комплексе с линией рафинации.
 
@@ -21,7 +22,7 @@ export const installationOfOilRefiningAndDeodorizationLine = {
 
 - Монтаж резервуаров (емкостей);
 
-- ДМонтаж дезодорационных колонн;
+- Демонтаж дезодорационных колонн;
 
 - Монтаж теплообменников;
 
@@ -33,7 +34,7 @@ export const installationOfOilRefiningAndDeodorizationLine = {
 
 - Монтаж Парогенератора;
 
-- Монтаж Каплеуловителей;
+- Монтаж каплеуловителей;
 
 - Монтаж шкафов управления;
 
