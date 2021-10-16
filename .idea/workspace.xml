@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.f6664f42.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.f6664f42.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.90c016c0.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.90c016c0.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/200.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/200.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/404.html" afterDir="false" />
@@ -87,8 +87,8 @@
       <change beforePath="$PROJECT_DIR$/build/silo-cleaning/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/silo-cleaning/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/silo-installation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/silo-installation/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/silo-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/silo-repair/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.f4724126.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.f4724126.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.f6664f42.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.f6664f42.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/sugar-drying-complex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/sugar-drying-complex/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/sugar-factories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/sugar-factories/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/thermal-insulation-of-the-pipeline/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/thermal-insulation-of-the-pipeline/index.html" afterDir="false" />
@@ -98,7 +98,7 @@
       <change beforePath="$PROJECT_DIR$/build/waste-paper-press/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/waste-paper-press/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/welding-works/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/welding-works/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/zhomodushilny-complex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/zhomodushilny-complex/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/twoImagesPageVise/ThreeTwoImagesTwoTextsType.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/HelmetComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/HelmetComponent.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -581,6 +581,8 @@
       <workItem from="1633951683884" duration="1861000" />
       <workItem from="1634051455598" duration="7204000" />
       <workItem from="1634219201567" duration="9612000" />
+      <workItem from="1634282319193" duration="1652000" />
+      <workItem from="1634403877470" duration="1160000" />
     </task>
     <task id="LOCAL-00058" summary="fix: change canonical for all the pages">
       <created>1624952769029</created>
