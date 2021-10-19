@@ -1,7 +1,6 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import {TextBoxWithShadow} from "../commonElements/TextBoxWithShadow";
 import {InnerBorderImage} from "../commonElements/InnerBorderImage";
-import {SizeContext} from "../../../lib/sizeContext";
 
 import '../commonElements/styles/Images.css';
 import '../commonElements/styles/Common.css';
@@ -11,7 +10,6 @@ import {HelmetComponent} from "../../../elements/HelmetComponent";
 import {AlsoSeeElement} from "../commonElements/AlsoSeeElement";
 
 export function TwoImagesTwoTextsType(props: any) {
-  const [smallSize] = useContext(SizeContext);
 
   return (
     <div>

@@ -2,8 +2,9 @@
     font-family: Jura;
     font-style: normal;
     font-weight: normal;
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 46px;
+    line-height: 46px;
+    margin: .5em;
 
     display: flex;
     align-items: center;
@@ -13,11 +14,12 @@
     color: #4A4A4A;
 }
 .page-under-title-text {
-    font-family: Yanone Kaffeesatz;
+    font-family: Jura;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
+    padding: .5em;
 
     display: flex;
     align-items: center;
@@ -27,7 +29,7 @@
     color: #000000;
 }
 .common-text {
-    font-family: Jura;
+    font-family: Jura, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -38,6 +40,10 @@
     color: #000000;
 }
 @media screen and (max-width: 600px) {
+    .page-title-text {
+        font-size: 36px;
+        line-height: 36px;
+    }
     .page-under-title-text {
         font-size: 14px;
     }

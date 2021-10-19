@@ -13,7 +13,7 @@ export const MenuDropdowns: React.FC<Props> = ({dropdownClosing, openDropdown, m
     let [selected, setSelected] = useState(0);
 
     const handleLinkSelection = () => {
-        const contactsRef = ReactDOM.findDOMNode(document.getElementById('text-start'));
+        const contactsRef = ReactDOM.findDOMNode(document.getElementById('extra-info'));
         (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
         openDropdown();
     };
