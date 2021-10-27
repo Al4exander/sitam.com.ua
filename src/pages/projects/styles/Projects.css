@@ -2,6 +2,7 @@
     position: absolute;
     color: white;
     text-shadow: #000000 1px 0 10px;
+    font-size: 20px;
     cursor: pointer;
 }
 .project-img {
@@ -33,5 +34,9 @@
 @media screen and (max-width: 600px) {
     .project-container:not(:first-child) {
         margin-top: 1.5em;
+    }
+    .project-text {
+        font-size: 18px;
+        padding: 10px;
     }
 }

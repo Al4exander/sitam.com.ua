@@ -8,7 +8,7 @@ import ReactDOM from "react-dom";
 
 export const AlsoSeeElement: React.FC<SubButtonsProps> = ({url, notNeeded}) => {
     const scrollToTop = () => {
-        const contactsRef = ReactDOM.findDOMNode(document.getElementById('text-start'));
+        const contactsRef = ReactDOM.findDOMNode(document.getElementById('extra-info'));
         (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
 

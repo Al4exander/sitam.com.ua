@@ -24,7 +24,7 @@ export function Contacts() {
 
     return (
         <div id='text-start' className='mt-5'>
-            {!smallSize && <div className='container mx-auto row mb-5'>
+            {!smallSize && <div className='container mx-auto row mb-5' style={{paddingRight: 0}}>
                 <div className='row col-lg-7 col-md-8 mt-2 d-flex justify-content-between'>
                     <div className="address col-lg-6 col-md-12">
                         <div className='row'>
@@ -35,7 +35,7 @@ export function Contacts() {
                     <div className="address col-lg-5 mt-sm-5 mt-lg-0 mt-md-3 col-md-12 col-sm-12 pl-4">
                         <div className='row'>
                             <div className='col-12 align-center-full mt-3 address-box-text'>
-                                <a id='contacts-copy-email' href='mailto:sitam.office@gmail.com' title='email' ref={emailRef as React.RefObject<HTMLAnchorElement>}>sitam.office@gmail.com</a>
+                                <a id='contacts-copy-email' href='mailto:sitam.office@gmail.com' title='Email' ref={emailRef as React.RefObject<HTMLAnchorElement>}>sitam.office@gmail.com</a>
                                 <span className='ml-2'>
                                     <Tooltip title='Скопировать e-mail' placement='top'>
                                         <CopyOutlined onClick={() => copyToClipboard(emailRef)}/>

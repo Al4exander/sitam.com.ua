@@ -1,6 +1,5 @@
 .address {
     height: 106px;
-    /*background: #E4EAFA;*/
     border-radius: 27px;
 
     box-shadow:
@@ -13,11 +12,12 @@
     width: inherit;
     height: inherit;
 
-    font-family: Jura;
+    font-family: Yanone Kaffeesatz;
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
+    font-size: 18px;
     line-height: 15px;
+    letter-spacing: 1px;
 
     display: flex;
     align-items: center;

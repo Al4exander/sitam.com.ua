@@ -42,7 +42,7 @@ export const ContactsFooter = () => {
                 <div className='col-12'>
                     <div className='contact-cloud  align-center-full container'>
                         <p className='contact-cloud-text ml-4'>
-                            <a id='contacts-copy-email' href='mailto:sitam.office@gmail.com' title='email' ref={emailRef}>sitam.office@gmail.com</a>
+                            <a id='contacts-copy-email' href='mailto:sitam.office@gmail.com' title='Email' ref={emailRef}>sitam.office@gmail.com</a>
                             <span className='ml-2'>
                                     <Tooltip title='Скопировать e-mail' placement='top'>
                                         <CopyOutlined onClick={() => copyToClipboard(emailRef)}/>

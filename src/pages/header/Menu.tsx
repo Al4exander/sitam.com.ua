@@ -6,6 +6,7 @@ import {MobileMenu} from "./MobileMenu";
 import {SizeContext} from "../../lib/sizeContext";
 import {MenuDropdowns} from "./MenuDropdowns";
 import {ShowMenuContext} from "../../lib/showMenuContext";
+import cx from "classnames";
 
 export const HeaderMenu = () => {
     let [dropdownOpen, setDropdownOpen] = useState(false);
@@ -15,6 +16,7 @@ export const HeaderMenu = () => {
     const [smallSize] = useContext(SizeContext);
     const menuRef = useRef<HTMLAnchorElement>(null);
     const [showMenu] = useContext(ShowMenuContext);
+    const [y, setY] = useState(window.scrollY);
 
     const scrollToContactsAndAsk = () => {
         const contactsRef = ReactDOM.findDOMNode(document.getElementById('contacts'));
@@ -43,12 +45,20 @@ export const HeaderMenu = () => {
     };
 
     const handleScroll = () => {
-        if(window.scrollY > 220) {
-            !sticky && setSticky(true);
-        } else {
-            sticky && setSticky(false);
-        }
+        if(window.scrollY > 200) {
+            if(y > window.scrollY + 10) {
+                !sticky && setSticky(true);
+            } else if (y < window.scrollY - 10){
+                sticky && setSticky(false);
+            }
+        } else sticky && setSticky(false);
+
+        diffInTen(y) && setY(window.scrollY);
     };
+
+    const diffInTen = (y: number) => {
+        return window.scrollY + 10 < y || window.scrollY - 10 > y;
+    }
 
     const openDropdown = () => {
         dropdownOpen ? setTimeout(() => {
@@ -75,24 +85,24 @@ export const HeaderMenu = () => {
 
     if(showMenu) {
         return (
-            !smallSize ? <section className={`col-11 container ml-5 pl-5 mx-auto ${sticky ? 'sticky-top' : ''}`} ref={menuRef}>
+            !smallSize ? <section className={cx('col-11 container ml-5 pl-5 mx-auto', {'sticky-top': sticky || dropdownOpen && window.scrollY > 220, 'sticky-top-out': !(sticky || dropdownOpen) && window.scrollY > 220})} ref={menuRef}>
                 <nav className='topnav align-center-full' id='myTopnav'>
-                    <Link to={'/'} title='Homa page' key='main' className='col-2' onClick={scrollToTop}>
+                    <Link to={'/'} title='На главную' key='main' className='col-2' onClick={scrollToTop}>
                         Главная
                     </Link>
-                    <a id='services' key='services' className={`col-2 ${dropdownOpen ? 'nav-active' : ''}`} onClick={() => handleItemSelection(1)}>
+                    <a id='services' key='services' title='Наши услуги' className={`col-2 ${dropdownOpen ? 'nav-active' : ''}`} onClick={() => handleItemSelection(1)}>
                         Услуги
                     </a>
-                    <a id='main-ways' key='main-ways' className='col-2' onClick={() => handleItemSelection(2)}>
+                    <a id='main-ways' key='main-ways' title='Основные направления' className='col-2' onClick={() => handleItemSelection(2)}>
                         Основные направления
                     </a>
-                    <Link to={'/projects'} title='Projects' key='projects' className='col-2' onClick={scrollToTop}>
+                    <Link to={'/projects'} title='Проекты' key='projects' className='col-2' onClick={scrollToTop}>
                         Проекты
                     </Link>
-                    <a key='tender' className='col-2' href='mailto:sitam.office@gmail.com'>
+                    <a key='tender' title='У Вас тендер?' className='col-2' href='mailto:sitam.office@gmail.com'>
                         У Вас тендер?
                     </a>
-                    <Link to='#contacts' title='contacts' key='contacts' className='col-2' onClick={scrollToContactsAndAsk}>
+                    <Link to='#contacts' title='Наши контакты' key='contacts' className='col-2' onClick={scrollToContactsAndAsk}>
                         Контакты
                     </Link>
                 </nav>

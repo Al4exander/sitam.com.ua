@@ -1,7 +1,6 @@
 import React from 'react';
 import '../HomePage/styles/WorkWIth.css';
 import {homePageMainWaysData} from "../../constdata/HomePageMainWaysData";
-import cx from "classnames";
 import {Link} from "react-router-dom";
 import ReactDOM from "react-dom";
 
@@ -19,7 +18,7 @@ export function HomePageMainWays() {
                   {homePageMainWaysData.map((data, index) => {
                       return <div className='d-flex justify-content-center' key={index}>
                                   <Link to={data.link}
-                                        className={cx('col-lg-2 col-sm-6 p-3 align-center-full project-container')}
+                                        className={'col-lg-2 col-sm-6 p-3 ml-4 ml-lg-0 ml-md-0 align-center-full project-container'}
                                         title={data.title}
                                         onClick={scrollToTop}
                                   >

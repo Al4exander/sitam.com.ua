@@ -80,7 +80,6 @@
     margin-top: 2.5em;
 }
 .contact-cloud {
-    width: 270px;
     height: 90px;
 
     background: #FAFBFF;
@@ -194,7 +193,6 @@
     color: #19244D;
 }
 .message-input-field {
-    padding-left: 20px;
     padding-bottom: 10%;
 
     border-radius: 30px;
@@ -349,6 +347,7 @@
     }
     .contact-cloud-text {
         font-size: 12px;
+        margin: 0 20px 0 20px;
     }
     .input-field:focus {
         border: none;
@@ -401,11 +400,8 @@
         color: #19244D;
     }
     .message-input-field {
-        position: absolute;
-        width: 90%;
         height: 100px;
         margin-top: 10px;
-        padding-left: 20px;
 
         border-radius: 24px;
         border: none;
