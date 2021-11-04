@@ -10,7 +10,7 @@ export function OurAdvantages() {
   return (
       <>
           <div className='advantages-header d-flex justify-content-center mb-4 mt-5'>Наши преимущества</div>
-          <div className='col-12 row mx-auto'>
+          <div className='row ml-3'>
               {ourAdvantagesData.map((data: IAdvantagesData, index: number) => {
                   return <CardBlock
                       key={index}

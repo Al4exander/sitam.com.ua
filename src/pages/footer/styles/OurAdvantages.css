@@ -25,6 +25,7 @@
 .card-horizontal {
     display: flex;
     flex: 1 1 auto;
+    flex-wrap: wrap;
 }
 @media screen and (max-width: 600px) {
     .advantages-text {

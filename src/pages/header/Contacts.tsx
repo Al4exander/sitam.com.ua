@@ -25,7 +25,7 @@ export function Contacts() {
     return (
         <div id='text-start' className='mt-5'>
             {!smallSize && <div className='container mx-auto row mb-5' style={{paddingRight: 0}}>
-                <div className='row col-lg-7 col-md-8 mt-2 d-flex justify-content-between'>
+                <div className='row col-lg-7 col-md-8 mt-3 d-flex justify-content-between'>
                     <div className="address col-lg-6 col-md-12">
                         <div className='row'>
                             <p className="address-box-text col-12 align-center-full mt-3">г. Харьков, Проспект Московский, 51, офис 5</p>

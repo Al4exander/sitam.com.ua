@@ -1,4 +1,4 @@
 .card-img-sizes {
-    width: 100px;
-    height: 100px;
+    max-width: 90px;
+    max-height: 90px;
 }
