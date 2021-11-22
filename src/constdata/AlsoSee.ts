@@ -92,6 +92,9 @@ export const AlsoSee: IAlsoSee = {
     },{
         link: "/crane-painting",
         title: 'Покраска крана'
+    },{
+        link: "/welding-works",
+        title: 'Сварочные работы, сварка металлоконструкций',
     }],
     '5': [{
         link: '/process-pipeline-repair',
@@ -105,6 +108,12 @@ export const AlsoSee: IAlsoSee = {
     },{
         link: '/repair-of-a-car-dumper',
         title: 'Ремонт вагоноопрокидывателя'
+    }, {
+        link: '/thermal-insulation-of-the-tank',
+        title: 'Теплоизоляция резервуаров'
+    }, {
+        link: '/thermal-insulation-of-the-pipeline',
+        title: 'Монтаж теплоизоляции технологического трубопровода'
     }],
     '6': [{
         link: '/silo-installation',

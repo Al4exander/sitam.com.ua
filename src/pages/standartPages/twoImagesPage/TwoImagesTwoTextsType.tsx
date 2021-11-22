@@ -34,7 +34,7 @@ export function TwoImagesTwoTextsType(props: any) {
             </div>
             {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
         </div>
-        <AlsoSeeElement url={props.data.url} notNeeded={props.data.notNeededAlsoSee}/>
+        <AlsoSeeElement url={props.data.url} alsoSeeIndex={props.data.alsoSeeIndex}/>
     </div>
 );
 }

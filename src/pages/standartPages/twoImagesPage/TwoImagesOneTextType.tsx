@@ -18,7 +18,7 @@ export function TwoImagesOneTextType(props: any) {
         {props.data.buttons && props.data.buttons.length && <section className='mt-2'>
             <SubButtons buttons={props.data.buttons}/>
         </section>}
-        <section className='container mx-lg-auto mx-md-0 mx-sm-auto mx-auto row mt-5 d-lg-flex justify-content-center'>
+        <section className='mx-lg-auto mx-md-0 mx-sm-auto mx-auto row mt-5 d-lg-flex justify-content-center'>
                  <section className='col-12 col-sm-12 col-md-5 col-lg-6 col-xl-5 mr-0 mr-lg-5 mr-md-5'>
                      <TextBoxWithShadow
                                         text={props.data.text}
@@ -32,7 +32,7 @@ export function TwoImagesOneTextType(props: any) {
                 </div>
             {props.data.manufacturers && <Manufacturers text={props.data.manufacturers.text} images={props.data.manufacturers.images} title={props.data.manufacturers.title}/>}
         </section>
-        <AlsoSeeElement url={props.data.url} notNeeded={props.data.notNeededAlsoSee}/>
+        <AlsoSeeElement url={props.data.url} alsoSeeIndex={props.data.alsoSeeIndex}/>
     </div>
 );
 }

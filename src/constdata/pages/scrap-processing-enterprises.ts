@@ -7,6 +7,7 @@ export const scrapProcessingEnterprises = {
     title: 'Ломоперерабатывающие предприятия',
     firstImage,
     secondImage,
+    alsoSeeIndex: 9,
     type: PageTemplates.TwoImagesOneTextType,
     keywords: 'ремонт ломоперерабатывающего оборудования',
     buttons: [{

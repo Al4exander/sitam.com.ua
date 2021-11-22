@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './styles/Images.css';
 import {AlsoSee} from "../../../constdata/AlsoSee";
 import {Children} from "../../header/Interfaces";
@@ -6,24 +6,35 @@ import {Link} from "react-router-dom";
 import './styles/Common.css'
 import ReactDOM from "react-dom";
 
-export const AlsoSeeElement: React.FC<SubButtonsProps> = ({url, notNeeded}) => {
+export const AlsoSeeElement: React.FC<SubButtonsProps> = ({url, alsoSeeIndex}) => {
+    let [alsoSeeUrls, setAlsoSeeUrls] = useState<Children[]>([]);
+
     const scrollToTop = () => {
         const contactsRef = ReactDOM.findDOMNode(document.getElementById('extra-info'));
         (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
 
-    let alsoSeeUrls: Children[] = [];
-    Object.entries(AlsoSee).find((el, index) => {
-        const foundIndex: number = el[1].findIndex((innerChild) => innerChild.link === url);
-        if(foundIndex >= 0) {
-            alsoSeeUrls = el[1].filter((inner, index) => index !== foundIndex);
-            return true;
+    useEffect(() => {
+        if(!alsoSeeIndex) {
+            Object.entries(AlsoSee).find(([, value]) => {
+                const foundIndex: number = value.findIndex((innerChild) => innerChild.link === url);
+                if (foundIndex >= 0) {
+                    setAlsoSeeUrls(value.filter((inner, index) => index !== foundIndex));
+                    return true;
+                }
+                return false;
+            });
+        } else {
+            setAlsoSeeUrls(AlsoSee[alsoSeeIndex]);
         }
-        return false;
-    });
+    }, [])
+
+    if(!alsoSeeUrls.length) {
+        return null;
+    }
 
   return (
-      alsoSeeUrls.length && !notNeeded ? <div>
+      <div>
           <p className='d-flex justify-content-center how-do-we-work-text'>Посмотрите также:</p>
           <section className='container box-shadow'>
             <ul>
@@ -32,11 +43,11 @@ export const AlsoSeeElement: React.FC<SubButtonsProps> = ({url, notNeeded}) => {
                 </li>)}
             </ul>
           </section>
-      </div> : null
+      </div>
     );
 };
 
 interface SubButtonsProps {
     url: string;
-    notNeeded?: boolean;
+    alsoSeeIndex?: number;
 }

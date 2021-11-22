@@ -8,6 +8,7 @@ export const installationOfIndustrialEquipment = {
     keywords: 'монтаж промышленного,демонтаж оборудования,переезд завода',
     firstImage,
     secondImage,
+    alsoSeeIndex: 5,
     type: PageTemplates.TwoImagesOneTextType,
     buttons: [{
         text: 'Промышленный переезд завода',

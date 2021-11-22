@@ -4,6 +4,7 @@ import {PageTemplates} from "../../pages/standartPages/enum";
 
 export const repairAndInstallationOfOilExtractionPlantEquipment = {
     url: '/repair-and-installation-of-oil-extraction-plant-equipment',
+    alsoSeeIndex: 3,
     buttons: [{
         text: 'Монтаж линии прессования масла',
         url: '/oil-pressing-line-installation'
