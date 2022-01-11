@@ -1,14 +1,12 @@
-import React, {useState} from 'react';
-import {Contacts} from "./Contacts";
+import React from 'react';
 import {HeaderMenu} from "./Menu";
-import {HeaderText} from "./HeaderText";
+import {HeaderImage} from "./HeaderImage";
 
 export const Header = () => {
     return (
         <>
-            <Contacts />
             <HeaderMenu />
-            <HeaderText/>
+            <HeaderImage/>
         </>
     );
 };

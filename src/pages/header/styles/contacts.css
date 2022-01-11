@@ -1,56 +1,10 @@
-.address {
-    height: 106px;
-    border-radius: 27px;
-
-    box-shadow:
-            -11px -11px 7px 0 rgba(255, 255, 255, 0.5),
-            12px 13px 15px 2px rgba(119, 141, 217, 0.25),
-            inset 0 0 20px 0 #e4ebfa;
-    opacity: 0.7;
-}
-.address-box-text {
-    width: inherit;
-    height: inherit;
-
-    font-family: Yanone Kaffeesatz;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 15px;
-    letter-spacing: 1px;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: inherit;
-}
-.address-box-text span {
-    visibility: hidden;
-}
-.address-box-text:hover span {
-    visibility: visible;
-}
-.address-box-text span:hover {
-    transform: scale(1.1);
-}
-.address-box-text a {
-    color: inherit;
-}
-.address-box-text a:hover, a.address-box-text:hover {
-    color: #393638;
-    text-underline: none;
-}
-.contacts-social-net {
-    width: 100px;
-    height: 100px;
-}
 .header-icon {
-    width: 120px;
-    height: 120px;
+    width: 50px;
+    height: 50px;
 }
 .header-icon-first {
-    width: 150px;
-    height: 150px;
+    width: 60px;
+    height: 60px;
 }
 @media screen and (max-width: 600px) {
     .header-icon {
@@ -58,8 +12,8 @@
         max-height: 60px;
     }
     .header-icon-first {
-        width: 75px;
-        height: 75px;
+        width: 60px;
+        height: 60px;
     }
 }
 

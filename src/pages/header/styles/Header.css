@@ -1,5 +1,6 @@
 .header-text {
-    color: #131256;
+    color: white;
+    text-shadow: #131256 -1px -1px 10px, #131256 3px 3px 10px;
     font-family: Jura;
     font-size: 70px;
     text-align: center;
@@ -11,7 +12,8 @@
     justify-content: center;
 }
 .under-header-text {
-    color: #4A4A4A;
+    color: white;
+    text-shadow: #4A4A4A -1px -1px 20px;
     font-family: Yanone Kaffeesatz;
     font-weight: normal;
     font-size: 26px;
@@ -27,8 +29,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    text-shadow: #4A4A4A -1px -1px 10px,
+    #4A4A4A 3px 3px 10px;
 
-    color: #4A4A4A;
+    color: white;
     font-family: Yanone Kaffeesatz;
     font-weight: normal;
     font-size: 25px;
@@ -44,12 +48,11 @@
         letter-spacing: 0.05em;
     }
     .under-header-row {
-        font-size: 14px;
+        font-size: 20px;
         line-height: 16px;
-        color: #0D0F46;
     }
     .under-header-text {
-        font-size: 16px;
+        font-size: 20px;
         margin-top: 1.5em;
     }
 }

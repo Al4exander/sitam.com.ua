@@ -23,7 +23,6 @@ import {TwoImagesTwoTextsBigType} from "./pages/standartPages/twoImagesPage/TwoI
 import {TwoImagesOneTextBigType} from "./pages/standartPages/twoImagesPage/TwoImagesOneTextBigType";
 import {Projects} from "./pages/projects/Projects";
 import {Tender} from "./pages/Tender/Tender";
-import {Sitemap} from "./Sitemap";
 import {Helmet} from "react-helmet";
 import {ShowMenuProvider} from "./lib/showMenuContext";
 
@@ -89,9 +88,6 @@ export const App = () => {
                   <Route path='/tender'>
                       <Tender/>
                   </Route>
-                  {/*<Route path='/sitemap'>*/}
-                      {/*<Sitemap/>*/}
-                  {/*</Route>*/}
                   <Route path={'*'}>
                       <Navigate to='/' />
                   </Route>

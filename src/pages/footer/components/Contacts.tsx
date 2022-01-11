@@ -2,6 +2,7 @@ import React, {useRef} from "react";
 import {message, Tooltip} from "antd";
 import { CopyOutlined } from '@ant-design/icons';
 import '../styles/ContactsAndAsk.css'
+import {Icons} from "../../header/components/socialContacts/Icons";
 
 export const ContactsFooter = () => {
 
@@ -57,6 +58,9 @@ export const ContactsFooter = () => {
                         г. Харьков, Проспект Московский, 51, офис 5
                     </p>
                 </div>
+            </div>
+            <div className='mt-3'>
+                <Icons iconClassName='col-4' className="d-flex flex-wrap align-center-full"/>
             </div>
         </div>
     )

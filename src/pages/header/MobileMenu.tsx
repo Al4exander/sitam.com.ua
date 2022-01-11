@@ -28,8 +28,7 @@ export function MobileMenu() {
 
     const scrollToTop = () => {
         openMobDropdown();
-        const contactsRef = ReactDOM.findDOMNode(document.getElementById('text-start'));
-        (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        window.scrollTo({ left: 0, top: 0, behavior: 'smooth' });
     };
 
     const openMobDropdown = () => {
@@ -45,8 +44,8 @@ export function MobileMenu() {
     };
 
     const handleLinkSelection = () => {
-        const contactsRef = ReactDOM.findDOMNode(document.getElementById('text-start'));
-        (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const contactsRef = ReactDOM.findDOMNode(document.getElementById('extra-info'));
+        (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'start' });
         openMobDropdown();
     };
 
@@ -57,11 +56,11 @@ export function MobileMenu() {
                           key={index}
                           showArrow={false}
             >
-                {element.children.map((child: {link: string, title: string}, index: number) =>
-                    <Link to={child.link}
+                {element.children.map(({link, title}, index: number) =>
+                    <Link to={link}
                           onClick={handleLinkSelection}
                           className='ml-2 col-12 services-accordion-text'
-                          key={index}>{child.title}</Link>
+                          key={index}>{title}</Link>
                 )}
             </Panel>
         })
@@ -99,7 +98,9 @@ export function MobileMenu() {
 
     return (
         <>
-            {!mobDropdown ? <div className='top-nav-circle' onClick={openMobDropdown}/> :
+            {!mobDropdown ? <div className='top-nav-circle' onClick={openMobDropdown}>
+                    <img src={logoIcon} alt='Logo' style={{width: 40, height: 40, margin: 5}}/>
+                </div> :
                 <div className={`top-nav-mobile ${dropdownClosing ? 'mob-nav-inactive' : ''}`}>
                     <header className='logo-name mt-2 ml-4'>
                         <img src={logoIcon} alt='Logo'/>

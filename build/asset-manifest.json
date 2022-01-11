@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bafb129.chunk.css",
-    "main.js": "/static/js/main.6fadea81.chunk.js",
-    "main.js.map": "/static/js/main.6fadea81.chunk.js.map",
+    "main.css": "/static/css/main.6f093a9b.chunk.css",
+    "main.js": "/static/js/main.8f6819ab.chunk.js",
+    "main.js.map": "/static/js/main.8f6819ab.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c9503c.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c9503c.js.map",
     "static/css/2.d1c13c08.chunk.css": "/static/css/2.d1c13c08.chunk.css",
-    "static/js/2.61dc30ad.chunk.js": "/static/js/2.61dc30ad.chunk.js",
-    "static/js/2.61dc30ad.chunk.js.map": "/static/js/2.61dc30ad.chunk.js.map",
+    "static/js/2.2c6ffd6d.chunk.js": "/static/js/2.2c6ffd6d.chunk.js",
+    "static/js/2.2c6ffd6d.chunk.js.map": "/static/js/2.2c6ffd6d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d1c13c08.chunk.css.map": "/static/css/2.d1c13c08.chunk.css.map",
-    "static/css/main.7bafb129.chunk.css.map": "/static/css/main.7bafb129.chunk.css.map",
-    "static/js/2.61dc30ad.chunk.js.LICENSE.txt": "/static/js/2.61dc30ad.chunk.js.LICENSE.txt",
+    "static/css/main.6f093a9b.chunk.css.map": "/static/css/main.6f093a9b.chunk.css.map",
+    "static/js/2.2c6ffd6d.chunk.js.LICENSE.txt": "/static/js/2.2c6ffd6d.chunk.js.LICENSE.txt",
     "static/media/1.0078c2b4.jpeg": "/static/media/1.0078c2b4.jpeg",
     "static/media/1.053feaf2.jpg": "/static/media/1.053feaf2.jpg",
     "static/media/1.07093afb.jpg": "/static/media/1.07093afb.jpg",
@@ -171,6 +171,7 @@
     "static/media/image.aa433b1a.jpg": "/static/media/image.aa433b1a.jpg",
     "static/media/interpipe.2fe1e760.png": "/static/media/interpipe.2fe1e760.png",
     "static/media/knowledge.181ba509.svg": "/static/media/knowledge.181ba509.svg",
+    "static/media/main.cea9a3be.jpg": "/static/media/main.cea9a3be.jpg",
     "static/media/mxp.f9b1cf27.png": "/static/media/mxp.f9b1cf27.png",
     "static/media/nibulon.2aa6d714.png": "/static/media/nibulon.2aa6d714.png",
     "static/media/secondImage.0dcaef08.jpeg": "/static/media/secondImage.0dcaef08.jpeg",
@@ -195,8 +196,8 @@
   "entrypoints": [
     "static/js/runtime-main.63c9503c.js",
     "static/css/2.d1c13c08.chunk.css",
-    "static/js/2.61dc30ad.chunk.js",
-    "static/css/main.7bafb129.chunk.css",
-    "static/js/main.6fadea81.chunk.js"
+    "static/js/2.2c6ffd6d.chunk.js",
+    "static/css/main.6f093a9b.chunk.css",
+    "static/js/main.8f6819ab.chunk.js"
   ]
 }

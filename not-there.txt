@@ -2,7 +2,7 @@
 "https://sitam.tech/installation-of-presses/",
 "https://sitam.tech/oil-extraction-line-installation/",
 "https://sitam.tech/repair-and-installation-of-oil-extraction-plant-equipment/",
-"https://sitam.tech/assembly-of-the-conveyor/",
+"https://sitam.tech/assembly-of-the-conveyor/",...
 "https://sitam.tech/oil-cleaning-line-installation/",
 "https://sitam.tech/installation-of-machines/",
 "https://sitam.tech/scrap-processing-enterprises/",
@@ -37,11 +37,11 @@
 "https://sitam.tech/cooling-tower-repair/",
 "https://sitam.tech/repair-of-a-car-dumper/",
 "https://sitam.tech/installation-of-oil-hydration-and-neutralization-line/",
-"https://sitam.tech/installation-of-oil-adsorption-bleaching-line/",...
+"https://sitam.tech/installation-of-oil-adsorption-bleaching-line/",
 "https://sitam.tech/installation-of-oil-winterization-freezing-line/",
 "https://sitam.tech/installation-of-oil-refining-and-deodorization-line/",
 "https://sitam.tech/installation-of-a-phosphatide-drying-line/",
-"https://sitam.tech/zhomodushilny-complex/",...
+"https://sitam.tech/zhomodushilny-complex/",
 "https://sitam.tech/diffusion-department/",
 "https://sitam.tech/filtration-station/",
 "https://sitam.tech/installation-of-a-process-pipeline/",

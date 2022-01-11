@@ -3,7 +3,7 @@ import viber from '../socialContacts/images/viber.svg';
 import telegram from '../socialContacts/images/telegram.png';
 import whatsapp from '../socialContacts/images/whatsapp.png';
 
-export const Icons: React.FC<IIcons> = ({className, size, iconClassName}) => {
+export const Icons: React.FC<IIcons> = ({className, iconClassName}) => {
     return (
         <div className={className}>
             <a className={iconClassName} target='_blank' rel='noopener noreferrer' href='viber://chat?number=380676951098' title={'Viber'}>
@@ -21,6 +21,5 @@ export const Icons: React.FC<IIcons> = ({className, size, iconClassName}) => {
 
 interface IIcons {
     className?: string;
-    size?: number;
     iconClassName?: string;
 }

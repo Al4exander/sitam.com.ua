@@ -16,7 +16,6 @@ export const HeaderMenu = () => {
     const [smallSize] = useContext(SizeContext);
     const menuRef = useRef<HTMLAnchorElement>(null);
     const [showMenu] = useContext(ShowMenuContext);
-    const [y, setY] = useState(window.scrollY);
 
     const scrollToContactsAndAsk = () => {
         const contactsRef = ReactDOM.findDOMNode(document.getElementById('contacts'));
@@ -24,8 +23,12 @@ export const HeaderMenu = () => {
     };
 
     const scrollToTop = () => {
-        const contactsRef = ReactDOM.findDOMNode(document.getElementById('text-start'));
-        (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        window.scrollTo({ left: 0, top: 0, behavior: 'smooth' });
+    };
+
+    const scrollAfterImage = () => {
+        const contactsRef = ReactDOM.findDOMNode(document.getElementById('extra-info'));
+        (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'start' });
     };
 
     useEffect(() => {
@@ -45,20 +48,12 @@ export const HeaderMenu = () => {
     };
 
     const handleScroll = () => {
-        if(window.scrollY > 200) {
-            if(y > window.scrollY + 10) {
-                !sticky && setSticky(true);
-            } else if (y < window.scrollY - 10){
-                sticky && setSticky(false);
-            }
-        } else sticky && setSticky(false);
-
-        diffInTen(y) && setY(window.scrollY);
+        if(window.scrollY > 30) {
+            !sticky && setSticky(true);
+        } else {
+            sticky && setSticky(false);
+        }
     };
-
-    const diffInTen = (y: number) => {
-        return window.scrollY + 10 < y || window.scrollY - 10 > y;
-    }
 
     const openDropdown = () => {
         dropdownOpen ? setTimeout(() => {
@@ -85,7 +80,7 @@ export const HeaderMenu = () => {
 
     if(showMenu) {
         return (
-            !smallSize ? <section className={cx('col-11 container ml-5 pl-5 mx-auto', {'sticky-top': sticky || dropdownOpen && window.scrollY > 220, 'sticky-top-out': !(sticky || dropdownOpen) && window.scrollY > 220})} ref={menuRef}>
+            !smallSize ? <section className={cx('col-11 container ml-5 pl-5 mx-auto', {'sticky-top': sticky})} ref={menuRef}>
                 <nav className='topnav align-center-full' id='myTopnav'>
                     <Link to={'/'} title='На главную' key='main' className='col-2' onClick={scrollToTop}>
                         Главная
@@ -96,7 +91,7 @@ export const HeaderMenu = () => {
                     <a id='main-ways' key='main-ways' title='Основные направления' className='col-2' onClick={() => handleItemSelection(2)}>
                         Основные направления
                     </a>
-                    <Link to={'/projects'} title='Проекты' key='projects' className='col-2' onClick={scrollToTop}>
+                    <Link to={'/projects'} title='Проекты' key='projects' className='col-2' onClick={scrollAfterImage}>
                         Проекты
                     </Link>
                     <a key='tender' title='У Вас тендер?' className='col-2' href='mailto:sitam.office@gmail.com'>
