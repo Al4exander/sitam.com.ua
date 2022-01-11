@@ -21,9 +21,9 @@ export function HeaderImage() {
 
     return (
         <>
-            <section style={style}>
+            <header style={style}>
                 <HeaderText/>
-            </section>
+            </header>
             <div id='extra-info' style={extraStyle}/>
         </>
     );
