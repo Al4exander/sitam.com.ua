@@ -7,13 +7,13 @@ export const Icons: React.FC<IIcons> = ({className, iconClassName}) => {
     return (
         <div className={className}>
             <a className={iconClassName} target='_blank' rel='noopener noreferrer' href='viber://chat?number=380676951098' title={'Viber'}>
-                <img className='header-icon-first' src={viber}  title={'Viber'} alt={'Viber'}/>
+                <img className='header-icon-first' src={viber}  title={'Viber'} alt={'Viber'} loading='lazy'/>
             </a>
             <a href='https://t.me/Sitamtech' target='_blank' rel='noopener noreferrer' className={iconClassName} title={'Telegram'}>
-                <img className='header-icon' src={telegram} title={'Telegram'} alt={'Telegram'}/>
+                <img className='header-icon' src={telegram} title={'Telegram'} alt={'Telegram'} loading='lazy'/>
             </a>
             <a className={iconClassName} target='_blank' rel='noopener noreferrer' href='https://wa.me/+380676951098?text=Здравствуйте,%20я%20по%20поводу' title={'Whatsapp'} >
-                <img className='header-icon' src={whatsapp} title={'Whatsapp'} alt={'Whatsapp'}/>
+                <img className='header-icon' src={whatsapp} title={'Whatsapp'} alt={'Whatsapp'} loading='lazy'/>
             </a>
         </div>
     )

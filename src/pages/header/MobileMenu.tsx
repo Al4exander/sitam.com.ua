@@ -99,11 +99,11 @@ export function MobileMenu() {
     return (
         <>
             {!mobDropdown ? <div className='top-nav-circle' onClick={openMobDropdown}>
-                    <img src={logoIcon} alt='Logo' style={{width: 40, height: 40, margin: 5}}/>
+                    <img src={logoIcon} alt='Logo' style={{width: 40, height: 40, margin: 5}} loading="lazy"/>
                 </div> :
                 <div className={`top-nav-mobile ${dropdownClosing ? 'mob-nav-inactive' : ''}`}>
                     <header className='logo-name mt-2 ml-4'>
-                        <img src={logoIcon} alt='Logo'/>
+                        <img src={logoIcon} alt='Logo' loading="lazy"/>
                         <span className='ml-3'>Ситам</span>
                         <div className='close' onClick={openMobDropdown}/>
                     </header>

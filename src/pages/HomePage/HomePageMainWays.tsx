@@ -22,7 +22,10 @@ export function HomePageMainWays() {
                                         title={data.title}
                                         onClick={scrollToTop}
                                   >
-                                      <img src={data.image} className='project-img' alt={data.title}/>
+                                      <img src={data.image}
+                                           className='project-img'
+                                           alt={data.title}
+                                           loading='lazy'/>
                                       <span className='project-text'>
                                         {data.title}
                                       </span>

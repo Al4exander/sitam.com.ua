@@ -12,6 +12,7 @@ export const InnerBorderImage: React.FC<InnerBorderImageProps> = ({className, el
               src={src}
               alt={alt}
               title={alt}
+              loading="lazy"
               wrapperClassName='image-holder'
               className={className}
               preview={

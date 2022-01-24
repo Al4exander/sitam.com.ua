@@ -16,11 +16,11 @@ export const Manufacturers: React.FC<IManufacturers> = ({ children, className, t
             <section className='row mt-3 d-flex justify-content-center'>
                 {images && images.length ? images.map((image, index) => {
                     return <a className='manuf-img mr-2 d-flex justify-content-center' target='_blank' rel='noopener noreferrer' href={image.url} key={index}>
-                            <img src={image.src}/>
+                            <img src={image.src} loading="lazy" alt={`manufacure-${index}`}/>
                     </a>
                 }) : <>
-                        <img className='manuf-img mr-2' src={StandardManufacturers}/>
-                        <img className='manuf-img' src={StandardManufacturers2}/>
+                        <img className='manuf-img mr-2' src={StandardManufacturers} alt="LIEBHERR" loading="lazy"/>
+                        <img className='manuf-img' src={StandardManufacturers2} alt="Terex" loading="lazy"/>
                     </>
                 }
             </section>
