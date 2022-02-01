@@ -5,15 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build/contacts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.dfde3f07.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.dfde3f07.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.89bec5eb.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.89bec5eb.chunk.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.89bec5eb.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.8af5db70.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.8af5db70.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/footer/ExtraData.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/200.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/200.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/404.html" afterDir="false" />
@@ -25,6 +16,7 @@
       <change beforePath="$PROJECT_DIR$/build/boiler-room-installation-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/boiler-room-installation-repair/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/bunker-manufacturing-and-installation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/bunker-manufacturing-and-installation/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/compressor-installation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/compressor-installation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/contacts/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/cooling-tower-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/cooling-tower-repair/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/crane-painting/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/crane-painting/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/crystallization-department/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/crystallization-department/index.html" afterDir="false" />
@@ -92,13 +84,11 @@
       <change beforePath="$PROJECT_DIR$/build/silo-cleaning/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/silo-cleaning/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/silo-installation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/silo-installation/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/silo-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/silo-repair/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.6f093a9b.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.6f093a9b.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.2c6ffd6d.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.2c6ffd6d.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.2c6ffd6d.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.b590a0c3.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.b590a0c3.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.89bec5eb.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.89bec5eb.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.89bec5eb.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.8af5db70.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.8af5db70.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/sugar-drying-complex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/sugar-drying-complex/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/sugar-factories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/sugar-factories/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/thermal-insulation-of-the-pipeline/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/thermal-insulation-of-the-pipeline/index.html" afterDir="false" />
@@ -108,19 +98,7 @@
       <change beforePath="$PROJECT_DIR$/build/waste-paper-press/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/waste-paper-press/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/welding-works/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/welding-works/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/zhomodushilny-complex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/zhomodushilny-complex/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/footer/ContactsAndAsk.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/ContactsAndAsk.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/footer/Faq.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/Faq.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/footer/components/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/components/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/footer/styles/ContactsAndAsk.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/styles/ContactsAndAsk.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/footer/styles/ElementWithShadow.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/styles/ElementWithShadow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/footer/styles/Faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/styles/Faq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/footer/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/styles/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/HeaderImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/HeaderImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/header/MobileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/header/MobileMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/standartPages/commonElements/InnerBorderImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/standartPages/commonElements/InnerBorderImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/HowDoWeWork.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/HowDoWeWork.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -623,14 +601,7 @@
       <workItem from="1642495372042" duration="1027000" />
       <workItem from="1643050654310" duration="4707000" />
       <workItem from="1643102677182" duration="626000" />
-      <workItem from="1643711600102" duration="9782000" />
-    </task>
-    <task id="LOCAL-00065" summary="fix: add meta">
-      <created>1629322653421</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1629322653421</updated>
+      <workItem from="1643711600102" duration="12778000" />
     </task>
     <task id="LOCAL-00066" summary="fix: change to https">
       <created>1629377087106</created>
@@ -968,7 +939,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641934532575</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="fix: add changes for header and make a new footer">
+      <created>1643721500732</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1643721500732</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1047,7 +1025,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="fix: change footer for mobile view" />
     <MESSAGE value="fix: changes in keywords and some optimizations" />
     <MESSAGE value="fix: add loader" />
     <MESSAGE value="fix: change small images" />
@@ -1072,7 +1049,8 @@
     <MESSAGE value="fix: change sitemap.xml" />
     <MESSAGE value="fix: add changes for header" />
     <MESSAGE value="fix: add changes for styles not to crush" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: add changes for styles not to crush" />
+    <MESSAGE value="fix: add changes for header and make a new footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: add changes for header and make a new footer" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">

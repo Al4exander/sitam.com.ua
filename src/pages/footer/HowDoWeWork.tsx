@@ -1,12 +1,15 @@
-import React, {useEffect} from 'react';
+import React, {useContext, useEffect} from 'react';
 import { Steps } from 'antd';
 import '../footer/styles/HowDoWeWork.css';
 import circleIcon from '../../images/common/Circle.svg';
 import $ from 'jquery';
+import {SizeContext} from "../../lib/sizeContext";
 
 const { Step } = Steps;
 
 export function HowDoWeWork() {
+    const [rerender, setRerender] = React.useState(0);
+
     const stepsData = [{
         stepTitle: 'Шаг 1',
         imgTitle: 'First step',
@@ -53,13 +56,19 @@ export function HowDoWeWork() {
         };
     });
 
-    if(window.innerWidth < 1300) {
-        const element = ($ as any)('.ant-steps');
+    useEffect(() => {
+        if(!rerender) {
+            setRerender(1);
+            if(window.innerWidth < 1300) {
+                const element = ($ as any)('.ant-steps');
+                element.addClass('ant-steps-vertical');
+                element.removeClass('ant-steps-horizontal');
+                element.removeClass('ant-steps-label-vertical');
+            }
+        }
 
-        element.addClass('ant-steps-vertical');
-        element.removeClass('ant-steps-horizontal');
-        element.removeClass('ant-steps-label-vertical');
-    }
+    }, [rerender]);
+
     return (
         <div>
           <p className='d-flex justify-content-center how-do-we-work-text'>Как мы работаем</p>
