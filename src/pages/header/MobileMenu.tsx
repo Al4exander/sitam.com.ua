@@ -124,7 +124,7 @@ export function MobileMenu() {
                                 <a key='tender' className='col-12' href='mailto:sitam.office@gmail.com'>
                                     У Вас тендер?
                                 </a>
-                                <Link to='#contacts' title='contacts' key='contacts' className='col-12' onClick={scrollAfterImage}>
+                                <Link to='/contacts' title='contacts' key='contacts' className='col-12' onClick={scrollAfterImage}>
                                     Контакты
                                 </Link>
                             </div>
