@@ -28,6 +28,7 @@ export function MobileMenu() {
     const scrollAfterImage = () => {
         const contactsRef = ReactDOM.findDOMNode(document.getElementById('extra-info'));
         (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'start' });
+        openMobDropdown();
     };
 
     const openMobDropdown = () => {
