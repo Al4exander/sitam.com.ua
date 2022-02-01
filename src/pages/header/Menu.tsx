@@ -7,6 +7,7 @@ import {SizeContext} from "../../lib/sizeContext";
 import {MenuDropdowns} from "./MenuDropdowns";
 import {ShowMenuContext} from "../../lib/showMenuContext";
 import cx from "classnames";
+import logoIcon from "../../images/common/LOGO.png";
 
 export const HeaderMenu = () => {
     let [dropdownOpen, setDropdownOpen] = useState(false);
@@ -16,11 +17,6 @@ export const HeaderMenu = () => {
     const [smallSize] = useContext(SizeContext);
     const menuRef = useRef<HTMLAnchorElement>(null);
     const [showMenu] = useContext(ShowMenuContext);
-
-    const scrollToContactsAndAsk = () => {
-        const contactsRef = ReactDOM.findDOMNode(document.getElementById('contacts'));
-        (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    };
 
     const scrollToTop = () => {
         window.scrollTo({ left: 0, top: 0, behavior: 'smooth' });
@@ -48,7 +44,7 @@ export const HeaderMenu = () => {
     };
 
     const handleScroll = () => {
-        if(window.scrollY > 30) {
+        if(window.scrollY > 350) {
             !sticky && setSticky(true);
         } else {
             sticky && setSticky(false);
@@ -80,10 +76,10 @@ export const HeaderMenu = () => {
 
     if(showMenu) {
         return (
-            !smallSize ? <section className={cx('col-11 container ml-5 pl-5 mx-auto', {'sticky-top': sticky})} ref={menuRef}>
+            !smallSize ? <section className={cx('col-11 container ml-5 mx-auto p-4', {'sticky-top': sticky})} ref={menuRef}>
                 <nav className='topnav align-center-full' id='myTopnav'>
                     <Link to={'/'} title='На главную' key='main' className='col-2' onClick={scrollToTop}>
-                        Главная
+                        <img style={{width: 40, height: 40}} src={logoIcon} alt='Logo' loading="lazy"/> Sitam
                     </Link>
                     <a id='services' key='services' title='Наши услуги' className={`col-2 ${dropdownOpen ? 'nav-active' : ''}`} onClick={() => handleItemSelection(1)}>
                         Услуги
@@ -97,7 +93,7 @@ export const HeaderMenu = () => {
                     <a key='tender' title='У Вас тендер?' className='col-2' href='mailto:sitam.office@gmail.com'>
                         У Вас тендер?
                     </a>
-                    <Link to='#contacts' title='Наши контакты' key='contacts' className='col-2' onClick={scrollToContactsAndAsk}>
+                    <Link to='/contacts' title='Наши контакты' key='contacts' className='col-2' onClick={scrollAfterImage}>
                         Контакты
                     </Link>
                 </nav>

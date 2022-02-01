@@ -3,3 +3,31 @@
     width: 100%;
     height: 2.5rem;
 }
+
+.sitam-footer {
+    margin-top: 1.5em;
+    border: 0 solid #000000;
+    border-radius: 0 0 0 0;
+    -moz-border-radius: 0 0 0 0;
+    -webkit-border-radius: 0 0 0 0;
+    min-width: 30vh;
+    min-height: 30px;
+    padding: 20px;
+    background: #e4eaff none repeat scroll left top;
+    background-size: auto auto;
+    justify-items: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.16),
+    0 4px 5px 0 rgba(0, 0, 0, 0.05),
+    0 1px 10px 0 rgba(0, 0, 0, 0.08);
+}
+.sitam-layout {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    flex: 1 1 auto;
+}
+

@@ -3,9 +3,9 @@
     background: #E4EAFA;
     border-radius: 26px;
 
-    box-shadow:
-            -11px -11px 7px 0 rgba(255, 255, 255, 0.5),
-            12px 13px 15px 2px rgba(119, 141, 217, 0.35);
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.16),
+    0 4px 5px 0 rgba(0, 0, 0, 0.05),
+    0 1px 10px 0 rgba(0, 0, 0, 0.08);
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -16,6 +16,7 @@
     font-weight: normal;
     font-size: 15px;
     line-height: 20px;
+    width: 100%;
 
     align-items: center;
     letter-spacing: 0.07em;

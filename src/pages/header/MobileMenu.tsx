@@ -20,15 +20,14 @@ export function MobileMenu() {
     let [servicesSelected, setServicesSelected] = useState(false);
     let [mainWaysSelected, setMainWaysSelected ] = useState(false);
 
-    const scrollToContactsAndAsk = () => {
-        openMobDropdown();
-        const contactsRef = ReactDOM.findDOMNode(document.getElementById('contacts'));
-        (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    };
-
     const scrollToTop = () => {
         openMobDropdown();
         window.scrollTo({ left: 0, top: 0, behavior: 'smooth' });
+    };
+
+    const scrollAfterImage = () => {
+        const contactsRef = ReactDOM.findDOMNode(document.getElementById('extra-info'));
+        (contactsRef as Element)?.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'start' });
     };
 
     const openMobDropdown = () => {
@@ -125,7 +124,7 @@ export function MobileMenu() {
                                 <a key='tender' className='col-12' href='mailto:sitam.office@gmail.com'>
                                     У Вас тендер?
                                 </a>
-                                <Link to='#contacts' title='contacts' key='contacts' className='col-12' onClick={scrollToContactsAndAsk}>
+                                <Link to='#contacts' title='contacts' key='contacts' className='col-12' onClick={scrollAfterImage}>
                                     Контакты
                                 </Link>
                             </div>

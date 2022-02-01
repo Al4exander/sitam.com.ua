@@ -6,7 +6,7 @@ import mainImage from '../../images/common/main.jpg';
 export function HeaderImage() {
     const style: React.CSSProperties = {
         position: 'relative',
-        height: '75vh',
+        height: '85vh',
         backgroundImage: `url("${mainImage}")`,
         backgroundColor: 'rgba(0, 0, 0, 0.4)',
         backgroundPosition: 'center center',
@@ -16,7 +16,7 @@ export function HeaderImage() {
     }
 
     const extraStyle: React.CSSProperties = {
-        marginBottom: '3em'
+        marginBottom: '5em'
     }
 
     return (

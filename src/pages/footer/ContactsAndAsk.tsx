@@ -16,9 +16,7 @@ export const ContactsAndAsk = () => {
                     width="100%" height="100%" style={{border: 0, borderRadius: 30}} allowFullScreen={true}
                     loading="lazy"
                     className='map-responsive'
-                >
-                </iframe>
-                <div className='footer d-flex justify-content-center'>2021 © Все права защищены «Ситам»</div>
+                />
             </div>
         </div>
     );

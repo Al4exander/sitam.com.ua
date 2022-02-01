@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import {Header} from "./pages/header/Header";
 import {HomePage} from "./pages/HomePage/HomePage";
-import {Footer} from "./pages/footer/Footer";
+import {ExtraData} from "./pages/footer/ExtraData";
 import 'antd/dist/antd.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/main.css';
@@ -25,6 +25,8 @@ import {Projects} from "./pages/projects/Projects";
 import {Tender} from "./pages/Tender/Tender";
 import {Helmet} from "react-helmet";
 import {ShowMenuProvider} from "./lib/showMenuContext";
+import {ContactsAndAsk} from "./pages/footer/ContactsAndAsk";
+import {Footer} from "./pages/footer/Footer";
 
 export const App = () => {
     const [smallSize, setSmallSize] = useContext(SizeContext);
@@ -75,18 +77,33 @@ export const App = () => {
               <Header/>
               <Routes>
                   <Route path='/'>
-                      <HomePage/>
+                      <div>
+                          <HomePage/>
+                          <ExtraData/>
+                      </div>
                   </Route>
                   {routesData.map((element: any, index: number) => {
                       return <Route path={element.url} key={index}>
-                          {determineElementType(element)}
+                          <div>
+                              {determineElementType(element)}
+                              <ExtraData/>
+                          </div>
                       </Route>
                   })}
                   <Route path='/projects'>
-                      <Projects/>
+                      <div>
+                          <Projects/>
+                          <ExtraData/>
+                      </div>
+                  </Route>
+                  <Route path='/contacts'>
+                      <ContactsAndAsk/>
                   </Route>
                   <Route path='/tender'>
-                      <Tender/>
+                      <div>
+                          <Tender/>
+                          <ExtraData/>
+                      </div>
                   </Route>
                   <Route path={'*'}>
                       <Navigate to='/' />

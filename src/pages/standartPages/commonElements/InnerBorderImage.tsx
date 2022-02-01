@@ -7,7 +7,7 @@ export const InnerBorderImage: React.FC<InnerBorderImageProps> = ({className, el
   const [_, setShowMenu] = useContext(ShowMenuContext);
 
   return (
-      <div>
+      <div className='align-center-full'>
           <Image
               src={src}
               alt={alt}
