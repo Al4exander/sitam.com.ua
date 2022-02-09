@@ -4,7 +4,467 @@
     <bookmark url="file://$PROJECT_DIR$/src/constdata/pages/silo-repair.ts" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="" />
+    <list default="true" id="5caac874-ddf2-4f2d-8775-f2636683e036" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/200.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assembly-of-the-conveyor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/assembly-of-the-conveyor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/beet-processing-department/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/beet-processing-department/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/belt-conveyor-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/belt-conveyor-repair/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bending-press/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/boiler-room-installation-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/boiler-room-installation-repair/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bunker-manufacturing-and-installation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/compressor-installation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/compressor-installation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/contacts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cooling-tower-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/cooling-tower-repair/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/crane-painting/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/crystallization-department/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/crystallization-department/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cyclone-installation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/cyclone-installation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/diffusion-department/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/diffusion-department/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/disassembly-installation-of-miscella-distiller/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dismantling-and-replacement-of-the-pipeline/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/dismantling-and-replacement-of-the-pipeline/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dismantling-of-machines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/dismantling-of-machines/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/elevator-assembly-and-replacement/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/elevator-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/elevator-repair/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/evaporation-station/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/evaporation-station/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/filtration-station/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/filtration-station/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/grocery-department/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/grocery-department/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/guillotine-press-shears/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hydraulic-press/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/hydraulic-press/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-and-dismantling-of-car-scales/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-dismantling-of-process-pipelines-heat-carriers-steam-water/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-dismantling-of-process-pipelines-heat-carriers-steam-water/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-a-phosphatide-drying-line/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-a-phosphatide-drying-line/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-a-process-pipeline/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-a-process-pipeline/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-compresses/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-containers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-containers/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-granulators/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-industrial-boilers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-industrial-boilers/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-industrial-equipment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-industrial-equipment/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-lifting-equipment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-lifting-equipment/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-machines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-machines/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-oil-adsorption-bleaching-line/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-oil-adsorption-bleaching-line/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-oil-hydration-and-neutralization-line/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-oil-hydration-and-neutralization-line/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-oil-refining-and-deodorization-line/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-oil-refining-and-deodorization-line/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-oil-winterization-freezing-line/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-oil-winterization-freezing-line/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-presses/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-presses/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-technological-lines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-technological-lines/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-of-transformers-and-power-equipment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-of-transformers-and-power-equipment/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/installation-replacement-of-power-control-electric-lines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/installation-replacement-of-power-control-electric-lines/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/juice-department/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/juice-department/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lime-burning-department/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/lime-burning-department/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manufacturing-and-installation-of-metal-structures/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/modernization-of-the-hydraulic-press/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/modernization-of-the-shear-press/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mold-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/mold-repair/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/norii-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/norii-repair/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/oil-cleaning-line-installation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/oil-cleaning-line-installation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/oil-extraction-line-installation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/oil-extraction-line-installation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/oil-pressing-line-installation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/oil-pressing-line-installation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/oil-shop-brazier-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/oil-shop-brazier-repair/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/painting-corrosion-protection-of-the-tank/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/press-compactor/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/press-shears/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/press-shears/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/process-pipeline-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/process-pipeline-repair/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/production-and-installation-of-containers-for-the-food-industry/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reconstruction-of-the-meal-feed-line/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reconstruction-of-the-meal-feed-line/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/repair-and-installation-of-oil-extraction-plant-equipment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/repair-and-installation-of-oil-extraction-plant-equipment/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/repair-of-a-baler-for-scrap-metal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/repair-of-a-baler-for-scrap-metal/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/repair-of-a-car-dumper/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/repair-of-a-car-dumper/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/repair-of-a-grain-dryer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/repair-of-a-grain-dryer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/repair-of-grab-reloader/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/repair-of-grab-reloader/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/repair-of-pressing-equipment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/repair-of-pressing-equipment/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/repair-of-steel-tanks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/repair-of-steel-tanks/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/repair-of-the-dryer-cooler-of-meal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/repair-of-the-dryer-cooler-of-meal/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/repair-of-the-seed-crusher/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/repair-of-the-seed-crusher/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scrap-processing-enterprises/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/scrap-processing-enterprises/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scraper-conveyor-conveyor-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/scraper-conveyor-conveyor-repair/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/silo-cleaning/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/silo-installation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/silo-repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/silo-repair/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.dfde3f07.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.dfde3f07.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.6fa7a67b.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.6fa7a67b.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.0078c2b4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.053feaf2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.07093afb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.11708bc6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.14314a0e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.1dde6bb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.2c874c6e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.31ebad41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.33bc9f96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.347131f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.382ab9c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.39d1713a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.3bb67deb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.3ca95124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.3e03f5f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.40ddc7c5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.42958458.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.48e616ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.4c59a18e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.5d2ba031.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.5fe14c74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.6012918d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.61abd232.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.63a0fc2e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.640828d2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.66504373.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.680a7634.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.681e19e3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.68bc7679.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.74e2aa19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.771aeb0e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.7a090dec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.7af4ee7f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.7ce5193b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.84275e7a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.8a3a2ba5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.8e48dc53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.954b18d3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.97d3ee6a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.99a72c07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.a06a6f18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.ab469773.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.acf93845.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.ad50c685.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.b0a419e9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.b5fe4f05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.b8c58b44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.c30f776e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.c375fafe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.c4205fbf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.c8c21ac2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.d6a494b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.da516c16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.daacde1d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.dfa7c9a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.f50e8714.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/1.fda91dda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/10.8e0195ca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/11.95cc14e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/12.1e19f5e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/13.862457b9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/14.9b9e27b7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/15.f7a19fe8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/16.8655b721.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/17.0fd925e9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/18.a32e8fe6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/19.e9045348.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.06b50d7b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.08887c1e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.0b8bf534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.1147c1b6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.155f9c75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.1a888a88.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.1b04f7f7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.1b9bb409.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.310f329c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.315693f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.31d6b037.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.462f5a92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.495c09d6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.4f072ea8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.571ede99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.5a0abb91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.6f641835.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.6f75a519.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.757f3ac4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.7738ed47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.77f23d0c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.809e4a4b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.8a197d11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.942ba41a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.98c26b1a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.99413bf2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.99a70871.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.a13a4a4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.a9e6c7a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.b0eefc15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.b5adc77f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.b6aa951d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.b8af699d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.d8a9bd7b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.de60cd03.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.e0cc83b5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.ea1d3775.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.ecf47391.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.ed272af0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.ee07ef13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.ee0d593a.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/2.fb119e62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/20.aacbedc0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/21.effd6934.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/22.23cb716f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/23.78b9eef0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/24.39ef4c00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/25.eebd4869.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/26.ad864598.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/27.9235b011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/28.b501b8f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/3.4548b711.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/3.81632f6c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/3.a79e5efa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/3.e6156233.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/4.c63de890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/4.ef41f67f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/5.eaa2f624.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/5.f773fcd5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/6.2dbcf8af.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/6.60b0b0f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/7.99a72c07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/7.ed9b7116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/8.6016510a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/8.97f47dc2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/9.ad864598.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/9.afe05542.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/astarta.0a0c852e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cygnet.5c04b11d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/emc.36c34b9d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.006644ce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.036d43b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.06b50d7b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.31ebad41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.51ffad96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.6349c247.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.792a45cd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.7fb5adf2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.b1a5028f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.b28974cc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.de9fa0ea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.defc3651.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.f33970b9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/firstImage.f92c76a8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/image.a1eb630c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/image.aa433b1a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/interpipe.2fe1e760.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/main.cea9a3be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/mxp.f9b1cf27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/nibulon.2aa6d714.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/secondImage.0dcaef08.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/secondImage.11b2d055.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/secondImage.38e79465.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/secondImage.4f39f4e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/secondImage.7118004a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/secondImage.72960c91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/secondImage.8488f70c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/secondImage.8c17fd67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/secondImage.a06a6f18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/secondImage.e6156233.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/secondImage.fd273602.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/thirdImage.7f3a1170.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sugar-drying-complex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/sugar-drying-complex/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sugar-factories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/sugar-factories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/thermal-insulation-of-the-pipeline/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/thermal-insulation-of-the-pipeline/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/thermal-insulation-of-the-tank/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/thermal-insulation-of-the-tank/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/toaster-repair-vat-evaporator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/toaster-repair-vat-evaporator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/washing-complex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/washing-complex/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/waste-paper-press/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/welding-works/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/zhomodushilny-complex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/zhomodushilny-complex/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/common/LOGO.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/common/LOGO.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/common/Plumbs.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/common/Plumbs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/common/ShugarFactory.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/common/ShugarFactory.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/common/date_knowledge.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/common/date_knowledge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/common/hands_knowledge.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/common/hands_knowledge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/common/main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/common/main.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/common/manufacture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/common/manufacture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/common/metalurg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/common/metalurg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/rotor/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/rotor/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/rotor/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/rotor/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/rotor/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/rotor/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/rotor/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/rotor/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/rotor/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/rotor/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/rotor/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/rotor/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/rotor/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/rotor/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/rotor/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/rotor/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/rotor/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/rotor/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/steeplejack/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/steeplejack/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/assembly-of-the-conveyor/firstImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/assembly-of-the-conveyor/firstImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/assembly-of-the-conveyor/secondImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/assembly-of-the-conveyor/secondImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/belt-conveyor-repair/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/belt-conveyor-repair/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/belt-conveyor-repair/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/belt-conveyor-repair/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/bending-press/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/bending-press/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/bending-press/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/bending-press/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/boiler-room-installation-repair/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/boiler-room-installation-repair/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/boiler-room-installation-repair/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/boiler-room-installation-repair/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/bunker-manufacturing-and-installation/firstImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/bunker-manufacturing-and-installation/firstImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/compressor-installation/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/compressor-installation/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/compressor-installation/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/compressor-installation/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/cooling-tower-repair/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/cooling-tower-repair/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/cooling-tower-repair/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/cooling-tower-repair/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/crane-painting/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/crane-painting/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/crane-painting/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/crane-painting/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/crystallization-department/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/crystallization-department/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/cyclone-installation/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/cyclone-installation/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/cyclone-installation/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/cyclone-installation/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/design-project-approval-with-the-state-institution-of-emergency-situations/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/design-project-approval-with-the-state-institution-of-emergency-situations/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/design-project-approval-with-the-state-institution-of-emergency-situations/2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/design-project-approval-with-the-state-institution-of-emergency-situations/2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/design-project-approval-with-the-state-institution-of-emergency-situations/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/design-project-approval-with-the-state-institution-of-emergency-situations/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/diffusion-department/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/diffusion-department/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/diffusion-department/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/diffusion-department/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/disassembly-installation-of-miscella-distiller/firstImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/disassembly-installation-of-miscella-distiller/firstImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/dismantling-and-replacement-of-the-pipeline/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/dismantling-and-replacement-of-the-pipeline/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/dismantling-and-replacement-of-the-pipeline/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/dismantling-and-replacement-of-the-pipeline/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/dismantling-of-machines/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/dismantling-of-machines/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/dismantling-of-machines/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/dismantling-of-machines/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/elevator-assembly-and-replacement/firstImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/elevator-assembly-and-replacement/firstImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/elevator-assembly-and-replacement/secondImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/elevator-assembly-and-replacement/secondImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/elevator-repair/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/elevator-repair/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/elevator-repair/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/elevator-repair/2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/evaporation-station/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/evaporation-station/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/filtration-station/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/filtration-station/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/grocery-department/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/grocery-department/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/guillotine-press-shears/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/guillotine-press-shears/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/guillotine-press-shears/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/guillotine-press-shears/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/hydraulic-press/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/hydraulic-press/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/hydraulic-press/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/hydraulic-press/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-and-dismantling-of-car-scales/firstImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-and-dismantling-of-car-scales/firstImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-and-dismantling-of-car-scales/secondImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-and-dismantling-of-car-scales/secondImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-dismantling-of-process-pipelines-heat-carriers-steam-water/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-dismantling-of-process-pipelines-heat-carriers-steam-water/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-dismantling-of-process-pipelines-heat-carriers-steam-water/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-dismantling-of-process-pipelines-heat-carriers-steam-water/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-a-phosphatide-drying-line/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-a-phosphatide-drying-line/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-a-process-pipeline/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-a-process-pipeline/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-a-process-pipeline/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-a-process-pipeline/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-containers/firstImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-containers/firstImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-containers/thirdImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-containers/thirdImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-granulators/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-granulators/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-granulators/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-granulators/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-granulators/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-granulators/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-industrial-boilers/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-industrial-boilers/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-industrial-boilers/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-industrial-boilers/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-industrial-equipment/firstImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-industrial-equipment/firstImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-industrial-equipment/secondImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-industrial-equipment/secondImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-lifting-equipment/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-lifting-equipment/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-lifting-equipment/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-lifting-equipment/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-machine/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-machine/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-machine/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-machine/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-machine/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-machine/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-machines/firstImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-machines/firstImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-machines/secondImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-machines/secondImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-oil-adsorption-bleaching-line/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-oil-adsorption-bleaching-line/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-oil-hydration-and-neutralization-line/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-oil-hydration-and-neutralization-line/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-oil-refining-and-deodorization-line/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-oil-refining-and-deodorization-line/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-oil-winterization-freezing-line/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-oil-winterization-freezing-line/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-presses/firstImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-presses/firstImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-presses/secondImage.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-presses/secondImage.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-technological-lines/firstImage.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-technological-lines/firstImage.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-technological-lines/secondImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-technological-lines/secondImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-transformers-and-power-equipment/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-transformers-and-power-equipment/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/installation-of-transformers-and-power-equipment/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/installation-of-transformers-and-power-equipment/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/juice-department/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/juice-department/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/lime-burning-department/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/lime-burning-department/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/modernization-of-the-hydraulic-press/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/modernization-of-the-hydraulic-press/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/modernization-of-the-hydraulic-press/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/modernization-of-the-hydraulic-press/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/modernization-of-the-shear-press/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/modernization-of-the-shear-press/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/modernization-of-the-shear-press/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/modernization-of-the-shear-press/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/mold-repair/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/mold-repair/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/mold-repair/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/mold-repair/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/norii-repair/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/norii-repair/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/norii-repair/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/norii-repair/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/norii-repair/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/norii-repair/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/oil-cleaning-line-installation/firstImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/oil-cleaning-line-installation/firstImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/oil-cleaning-line-installation/secondImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/oil-cleaning-line-installation/secondImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/oil-extraction-line-installation/firstImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/oil-extraction-line-installation/firstImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/oil-pressing-line-installation/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/oil-pressing-line-installation/image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/oil-shop-brazier-repair/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/oil-shop-brazier-repair/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/painting-corrosion-protection-of-the-tank/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/painting-corrosion-protection-of-the-tank/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/painting-corrosion-protection-of-the-tank/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/painting-corrosion-protection-of-the-tank/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/press-compactor/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/press-compactor/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/press-compactor/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/press-compactor/2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/press-shears/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/press-shears/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/press-shears/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/press-shears/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/process-pipeline-repair/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/process-pipeline-repair/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/process-pipeline-repair/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/process-pipeline-repair/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/reconstruction-of-the-meal-feed-line/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/reconstruction-of-the-meal-feed-line/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/reconstruction-of-the-meal-feed-line/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/reconstruction-of-the-meal-feed-line/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-and-installation-of-oil-extraction-plant-equipment/firstImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-and-installation-of-oil-extraction-plant-equipment/firstImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-and-installation-of-oil-extraction-plant-equipment/secondImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-and-installation-of-oil-extraction-plant-equipment/secondImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-a-baler-for-scrap-metal/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-a-baler-for-scrap-metal/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-a-baler-for-scrap-metal/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-a-baler-for-scrap-metal/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-a-car-dumper/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-a-car-dumper/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-a-car-dumper/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-a-car-dumper/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-a-grain-dryer/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-a-grain-dryer/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-a-grain-dryer/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-a-grain-dryer/2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-grab-reloader/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-grab-reloader/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-grab-reloader/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-grab-reloader/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-pressing-equipment/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-pressing-equipment/image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-steel-tanks/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-steel-tanks/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-the-dryer-cooler-of-meal/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-the-dryer-cooler-of-meal/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-the-dryer-cooler-of-meal/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-the-dryer-cooler-of-meal/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-the-seed-crusher/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-the-seed-crusher/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/repair-of-the-seed-crusher/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/repair-of-the-seed-crusher/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/scrap-processing-enterprises/firstImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/scrap-processing-enterprises/firstImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/scrap-processing-enterprises/secondImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/scrap-processing-enterprises/secondImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/scraper-conveyor-conveyor-repair/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/scraper-conveyor-conveyor-repair/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/scraper-conveyor-conveyor-repair/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/scraper-conveyor-conveyor-repair/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/silo-cleaning/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/silo-cleaning/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/silo-cleaning/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/silo-cleaning/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/silo-installation/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/silo-installation/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/silo-installation/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/silo-installation/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/silo-repair/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/silo-repair/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/silo-repair/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/silo-repair/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/standardManufacturers/StandardManufacturers.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/standardManufacturers/StandardManufacturers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/standardManufacturers/StandardManufacturers2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/standardManufacturers/StandardManufacturers2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/sugar-drying-complex/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/sugar-drying-complex/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/sugar-drying-complex/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/sugar-drying-complex/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/sugar-factories/firstImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/sugar-factories/firstImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/sugar-factories/secondImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/sugar-factories/secondImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/thermal-insulation-of-the-pipeline/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/thermal-insulation-of-the-pipeline/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/thermal-insulation-of-the-pipeline/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/thermal-insulation-of-the-pipeline/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/thermal-insulation-of-the-tank/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/thermal-insulation-of-the-tank/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/thermal-insulation-of-the-tank/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/thermal-insulation-of-the-tank/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/toaster-repair-vat-evaporator/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/toaster-repair-vat-evaporator/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/washing-complex/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/washing-complex/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/waste-paper-press/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/waste-paper-press/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/waste-paper-press/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/waste-paper-press/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/welding-works/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/welding-works/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/welding-works/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/welding-works/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pages/zhomodushilny-complex/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pages/zhomodushilny-complex/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/workWithUs/astarta.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/workWithUs/astarta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/workWithUs/cygnet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/workWithUs/cygnet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/workWithUs/emc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/workWithUs/emc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/workWithUs/interpipe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/workWithUs/interpipe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/workWithUs/kernel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/workWithUs/kernel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/workWithUs/mxp.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/workWithUs/mxp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/workWithUs/nibulon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/workWithUs/nibulon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/styles/WorkWIth.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/styles/WorkWIth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/Faq.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/Faq.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/styles/ElementWithShadow.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/styles/ElementWithShadow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/footer/styles/Faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/footer/styles/Faq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/styles/Projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/styles/Projects.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,7 +689,7 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/footer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images/pages/repair-of-a-baler-for-scrap-metal" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -247,21 +707,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\projects\citam.com.ua\src\pages\footer" />
-      <recent name="E:\projects\citam.com.ua\src\images\common" />
-      <recent name="E:\projects\citam.com.ua\src\pages\header" />
-      <recent name="E:\projects\citam.com.ua\src\constdata" />
-      <recent name="E:\projects\citam.com.ua\src\pages\footer\components" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\repair-of-a-baler-for-scrap-metal" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\welding-works" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\zhomodushilny-complex" />
+      <recent name="E:\projects\citam.com.ua\src\images\workWithUs" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\repair-of-pressing-equipment" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\projects\citam.com.ua" />
-      <recent name="E:\projects\citam.com.ua\public" />
-      <recent name="E:\projects\citam.com.ua\src\images\pages\repair-of-grab-reloader" />
-      <recent name="E:\projects\citam.com.ua\src\images\pages\installation-of-lifting-equipment" />
-      <recent name="E:\projects\citam.com.ua\src\images\pages\installation-of-transformers-and-power-equipment" />
+      <recent name="E:\projects\citam.com.ua\src\images\common" />
+      <recent name="E:\projects\citam.com.ua\src\images\gallery\steeplejack" />
+      <recent name="E:\projects\citam.com.ua\src\images\gallery\rotor" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\assembly-of-the-conveyor" />
+      <recent name="E:\projects\citam.com.ua\src\images\pages\belt-conveyor-repair" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start-prod">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -321,8 +781,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start-prod" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.postbuild" />
         <item itemvalue="npm.generate-sitemap" />
@@ -507,14 +967,9 @@
       <workItem from="1643050654310" duration="4707000" />
       <workItem from="1643102677182" duration="626000" />
       <workItem from="1643711600102" duration="12778000" />
-      <workItem from="1643733920772" duration="491000" />
-    </task>
-    <task id="LOCAL-00067" summary="fix: fix typo">
-      <created>1629473055780</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1629473055780</updated>
+      <workItem from="1643733920772" duration="1135000" />
+      <workItem from="1643793470611" duration="721000" />
+      <workItem from="1644432922399" duration="5132000" />
     </task>
     <task id="LOCAL-00068" summary="fix: fix typo">
       <created>1629473104885</created>
@@ -852,7 +1307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643734211399</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="fix: add final changes for contacts">
+      <created>1643734440489</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1643734440489</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -931,7 +1393,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="fix: add loader" />
     <MESSAGE value="fix: change small images" />
     <MESSAGE value="fix: add links to all pages" />
     <MESSAGE value="fix: remove loader" />
@@ -956,7 +1417,8 @@
     <MESSAGE value="fix: add changes for styles not to crush" />
     <MESSAGE value="fix: add changes for header and make a new footer" />
     <MESSAGE value="fix: add changes for contacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: add changes for contacts" />
+    <MESSAGE value="fix: add final changes for contacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: add final changes for contacts" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/header/MenuDropdowns.tsx">

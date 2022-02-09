@@ -20,7 +20,7 @@ export function FaqComponent() {
                                           bordered={false}
                                           ghost
                                           expandIconPosition="right"
-                          style={{flexGrow: 1}}>
+                                          style={{flexGrow: 1}}>
                               {
                                   faqData.map((element: IFaqData, index: number) => {
                                       return <Panel header={element.buttonText}
