@@ -1,16 +1,43 @@
 import React, {useContext, useEffect} from 'react';
-import { Steps } from 'antd';
+import {Steps} from 'antd';
 import '../footer/styles/HowDoWeWork.css';
 import circleIcon from '../../images/common/Circle.svg';
 import $ from 'jquery';
-import {SizeContext} from "../../lib/sizeContext";
+import {LanguageContext} from "../../lib/languageContext";
 
 const { Step } = Steps;
 
 export function HowDoWeWork() {
     const [rerender, setRerender] = React.useState(0);
+    const [language] = useContext(LanguageContext);
+    const title = language === 'ua' ? 'Як ми працюємо' : 'Как мы работаем';
 
-    const stepsData = [{
+    const stepsData = language === 'ua' ? [{
+        stepTitle: 'Крок 1',
+        imgTitle: 'Перший крок',
+        subTitle: 'Консультація менеджера',
+        description: 'Наш менеджер проконсультує вас і відповість на всі ваші питання, уточнить всі можливі деталі, пов\'язані з вашим проектом, і затвердить подальше співробітництво.',
+    },{
+        stepTitle: 'Крок 2',
+        imgTitle: 'Другий крок',
+        subTitle: 'Діагностика обладнання',
+        description: 'Наші технічні спеціалісти приїдуть до вас на об\'єкт для уточнення умов роботи або попередньої діагностики вашого обладнання і складуть технологічну карту можливих робіт.',
+    },{
+        stepTitle: 'Крок 3',
+        imgTitle: 'Третій крок',
+        subTitle: 'Комерційна пропозиція',
+        description: 'Ми складемо для вас індивідуальну комерційну пропозицію з урахуванням всіх ваших вимог і побажань до виконуваних робіт.',
+    },{
+        stepTitle: 'Крок 4',
+        imgTitle: 'Четвертий крок',
+        subTitle: 'Укладання договору',
+        description: 'Найближчим часом підпишемо всі необхідні документи для укладання договору і відправимо поштою.',
+    },{
+        stepTitle: 'Крок 5',
+        imgTitle: 'П\'ятий крок',
+        subTitle: 'Виконання робіт',
+        description: 'Підготуємо все необхідне і розпочнемо виконання робіт у точно визначений строк без затримок.',
+    }] : [{
         stepTitle: 'Шаг 1',
         imgTitle: 'First step',
         subTitle: 'Консультация менеджера',
@@ -71,7 +98,7 @@ export function HowDoWeWork() {
 
     return (
         <div>
-          <p className='d-flex justify-content-center how-do-we-work-text'>Как мы работаем</p>
+          <p className='d-flex justify-content-center how-do-we-work-text'>{title}</p>
           <div className='d-flex justify-content-center col-11 mx-auto'>
               <Steps current={6} labelPlacement='vertical' direction={'horizontal'}>
                   {stepsData.map(step => (<Step title={step.stepTitle}

@@ -18,6 +18,7 @@ import {ThreeTwoImagesTwoTextsType} from "./pages/standartPages/twoImagesPageVis
 import {OneImageOneTextType} from "./pages/standartPages/oneImagePage/OneImageOneTextType";
 import {TwoImagesOneTextType} from "./pages/standartPages/twoImagesPage/TwoImagesOneTextType";
 import { data as routesData } from './constdata/pages';
+import { data as uaRoutesData } from './constdata/uaPages';
 import {PageTemplates} from "./pages/standartPages/enum";
 import {TwoImagesTwoTextsBigType} from "./pages/standartPages/twoImagesPage/TwoImagesTwoTextsBigType";
 import {TwoImagesOneTextBigType} from "./pages/standartPages/twoImagesPage/TwoImagesOneTextBigType";
@@ -27,9 +28,12 @@ import {Helmet} from "react-helmet";
 import {ShowMenuProvider} from "./lib/showMenuContext";
 import {ContactsAndAsk} from "./pages/footer/ContactsAndAsk";
 import {Footer} from "./pages/footer/Footer";
+import {LanguageContext} from "./lib/languageContext";
 
 export const App = () => {
     const [smallSize, setSmallSize] = useContext(SizeContext);
+    const [language] = useContext(LanguageContext);
+    const routes = language === 'ua' ? uaRoutesData : routesData;
 
     useEffect(() => {
         window.addEventListener('resize', handleResize);
@@ -82,7 +86,7 @@ export const App = () => {
                           <ExtraData/>
                       </div>
                   </Route>
-                  {routesData.map((element: any, index: number) => {
+                  {routes.map((element: any, index: number) => {
                       return <Route path={element.url} key={index}>
                           <div>
                               {determineElementType(element)}

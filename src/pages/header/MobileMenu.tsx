@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useContext, useState} from 'react';
 import ReactDOM from 'react-dom';
 import {ShadowButton} from './components/ShadowButton';
 import {montageDemontageLinks} from '../../constdata/MontageDemontageData';
@@ -10,6 +10,8 @@ import {Icons} from "./components/socialContacts/Icons";
 import {Collapse} from 'antd';
 import {Children, HeaderLinks} from "./Interfaces";
 import {mainWaysData} from "../../constdata/MainWaysData";
+import LanguageSelector from "./components/LanguageSelector/LanguageSelector";
+import {LanguageContext} from "../../lib/languageContext";
 
 const { Panel } = Collapse;
 
@@ -19,6 +21,23 @@ export function MobileMenu() {
     let [selected, setSelected] = useState(0);
     let [servicesSelected, setServicesSelected] = useState(false);
     let [mainWaysSelected, setMainWaysSelected ] = useState(false);
+    const [language] = useContext(LanguageContext);
+    const links = language === 'ua' ? {
+        main: 'Головна',
+        services: 'Послуги',
+        directions: 'Основні напрямки',
+        projects: 'Проекти',
+        tender: 'У Вас тендер?',
+        contacts: 'Контакти',
+    } : {
+        main: 'Главная',
+        services: 'Услуги',
+        directions: 'Основные направления',
+        projects: 'Проекты',
+        tender: 'У Вас тендер?',
+        contacts: 'Контакты',
+    };
+
 
     const scrollToTop = () => {
         openMobDropdown();
@@ -111,26 +130,27 @@ export function MobileMenu() {
                         mainWaysSelected ? mainWaysJSX :
                             <div className='row container show-from-right mt-5'>
                                 <Link to={'/'} title='Home page' key='main' className='col-12' onClick={scrollToTop}>
-                                    Главная
+                                    {links.main}
                                 </Link>
                                 <a key='services' className={`col-12 ${mobDropdown ? 'nav-active' : ''}`} onClick={() => setServicesSelected(true)}>
-                                    Услуги
+                                    {links.services}
                                 </a>
                                 <a key='industries' className='col-12' onClick={() => setMainWaysSelected(true)}>
-                                    Основные направления
+                                    {links.directions}
                                 </a>
                                 <Link to={'/projects'} key='projects' className='col-12' onClick={scrollToTop}>
-                                    Проекты
+                                    {links.projects}
                                 </Link>
                                 <a key='tender' className='col-12' href='mailto:sitam.office@gmail.com'>
-                                    У Вас тендер?
+                                    {links.tender}
                                 </a>
                                 <Link to='/contacts' title='contacts' key='contacts' className='col-12' onClick={scrollAfterImage}>
-                                    Контакты
+                                    {links.contacts}
                                 </Link>
                             </div>
                     }
                     {!servicesSelected && <Icons iconClassName='col-4 col-sm-4 pl-3 pr-3' className='col-8 col-sm-6 row align-center-full left-bottom-element show-from-right'/>}
+                    <LanguageSelector />
                 </div>}
         </>
   );

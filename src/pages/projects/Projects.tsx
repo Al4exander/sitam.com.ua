@@ -5,14 +5,19 @@ import ImageGallery, {ReactImageGalleryItem} from 'react-image-gallery';
 import {Project} from "./Project";
 import {rotor} from "../../images/gallery/rotor";
 import {steeplejack} from "../../images/gallery/steeplejack";
+import {steeplejack as steeplejackUA} from "../../images/gallery/steeplejack/indexUA";
 import "react-image-gallery/styles/css/image-gallery.css";
 import cx from 'classnames';
+import {LanguageContext} from "../../lib/languageContext";
 
 export function Projects() {
-  const projects = [rotor, steeplejack];
   let [selectedProject, setSelectedProject] = useState<number | undefined>();
   let [smallSize] = useContext(SizeContext);
   let carouselRef = useRef<any>();
+  const [language] = useContext(LanguageContext);
+
+  const title = language === 'ua' ? 'Наші нещодавні проекти' : 'Наши недавние проекты';
+  const projects = language === 'ua' ? [rotor, steeplejackUA] : [rotor, steeplejack];
 
   const mapImages = (): ReactImageGalleryItem[] => {
       if(selectedProject !== undefined) {
@@ -41,7 +46,7 @@ export function Projects() {
   return (
       <div>
           <div>
-              <p className='container justify-content-center how-do-we-work-text'>Наши недавние проекты</p>
+              <p className='container justify-content-center how-do-we-work-text'>{title}</p>
               <div className='row mx-auto d-flex justify-content-center'>
                   {projects.map((project, index) => {
                       return <Project src={project.thumb}

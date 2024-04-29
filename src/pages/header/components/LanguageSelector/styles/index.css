@@ -1,0 +1,68 @@
+/* Стили для языкового селектора */
+.language-selector {
+    position: absolute;
+    top: 32px; /* Регулируйте это значение в зависимости от высоты вашего хедера */
+    right: 25px; /* Расстояние от правого края */
+    z-index: 1000; /* Убедитесь, что селектор находится над другими элементами */
+    border-radius: 15px; /* Скругление углов */
+}
+
+.language-button {
+    background: #E4EAFA;
+    padding: 5px 10px; /* Внутренние отступы */
+    border: none; /* Без границ */
+    cursor: pointer; /* Курсор в виде указателя */
+    border-radius: 5px; /* Скругление углов */
+    margin: 0 5px; /* Отступы вокруг кнопок */
+    display: inline-block;
+    vertical-align: middle;
+    transition: background-color 0.3s ease; /* Анимация фона при наведении */
+    text-decoration: none;
+}
+.language-button:focus {
+    border: none;
+    outline: none;
+}
+
+.language-button.active,
+.language-button:hover {
+    color: #7f7f7f;
+}
+
+.language-button svg {
+    width: 20px; /* Ширина иконки флага */
+    height: auto; /* Автоматическая высота, чтобы сохранить пропорции */
+    margin-right: 5px; /* Отступ справа от иконки */
+    vertical-align: middle;
+}
+
+/* Стили для выпадающего списка */
+.language-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.language-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E4EAFA;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px; /* Скругление углов */
+}
+
+.language-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.language-dropdown-content a svg {
+    width: 20px;
+    height: auto;
+}
+
+.language-dropdown:hover .language-dropdown-content {
+    display: block;
+}

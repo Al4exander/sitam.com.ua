@@ -1,13 +1,18 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import './styles/Images.css';
 import {AlsoSee} from "../../../constdata/AlsoSee";
+import {AlsoSee as AlsoSeeUA} from "../../../constdata/AlsoSeeUA";
 import {Children} from "../../header/Interfaces";
 import {Link} from "react-router-dom";
 import './styles/Common.css'
 import ReactDOM from "react-dom";
+import {LanguageContext} from "../../../lib/languageContext";
 
 export const AlsoSeeElement: React.FC<SubButtonsProps> = ({url, alsoSeeIndex}) => {
     let [alsoSeeUrls, setAlsoSeeUrls] = useState<Children[]>([]);
+    const [language] = useContext(LanguageContext);
+    const content = language === 'ua' ?  AlsoSeeUA : AlsoSee;
+    const title = language === 'ua' ? 'Можливо також зацікавить:' : 'Посмотрите также:';
 
     const scrollToTop = () => {
         const contactsRef = ReactDOM.findDOMNode(document.getElementById('extra-info'));
@@ -16,7 +21,7 @@ export const AlsoSeeElement: React.FC<SubButtonsProps> = ({url, alsoSeeIndex}) =
 
     useEffect(() => {
         if(!alsoSeeIndex) {
-            Object.entries(AlsoSee).find(([, value]) => {
+            Object.entries(content).find(([, value]) => {
                 const foundIndex: number = value.findIndex((innerChild) => innerChild.link === url);
                 if (foundIndex >= 0) {
                     setAlsoSeeUrls(value.filter((inner, index) => index !== foundIndex));
@@ -25,7 +30,7 @@ export const AlsoSeeElement: React.FC<SubButtonsProps> = ({url, alsoSeeIndex}) =
                 return false;
             });
         } else {
-            setAlsoSeeUrls(AlsoSee[alsoSeeIndex]);
+            setAlsoSeeUrls(content[alsoSeeIndex]);
         }
     }, [])
 
@@ -35,7 +40,7 @@ export const AlsoSeeElement: React.FC<SubButtonsProps> = ({url, alsoSeeIndex}) =
 
   return (
       <div>
-          <p className='d-flex justify-content-center how-do-we-work-text'>Посмотрите также:</p>
+          <p className='d-flex justify-content-center how-do-we-work-text'>{title}</p>
           <section className='container box-shadow'>
             <ul>
                 {alsoSeeUrls.map((alsoSee, index) => <li key={index}>

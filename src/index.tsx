@@ -3,6 +3,7 @@ import './index.css';
 import {App} from './App';
 import {SizeProvider} from "./lib/sizeContext";
 import { hydrate, render } from "react-dom";
+import {LanguageProvider} from "./lib/languageContext";
 
 const rootElement = document.getElementById("root");
 
@@ -15,7 +16,9 @@ if (rootElement!.hasChildNodes()) {
 } else {
     render(<React.StrictMode>
         <SizeProvider>
+          <LanguageProvider>
             <App />
+          </LanguageProvider>
         </SizeProvider>
     </React.StrictMode>, rootElement);
 }

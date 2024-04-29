@@ -1,16 +1,25 @@
-import React, {useState} from 'react';
+import React, {useContext, useState} from 'react';
 import ReactDOM from 'react-dom';
 import {ShadowButton} from './components/ShadowButton';
 import {MenuList} from './MenuList';
 import {montageDemontageLinks} from '../../constdata/MontageDemontageData';
+import {montageDemontageLinks as montageDemontageLinksUA} from '../../constdata/MontageDemontageDataUA';
 import {repairsLinks} from '../../constdata/RepairsData';
+import {repairsLinks as repairsLinksUA} from '../../constdata/RepairsDataUA';
 import {Link} from "react-router-dom";
-import './styles/Menu.css';
+import './styles/menu.css';
 import {mainWaysData} from "../../constdata/MainWaysData";
+import {mainWaysData as mainWaysDataUA} from "../../constdata/MainWaysDataUA";
 import {Children} from "./Interfaces";
+import {LanguageContext} from "../../lib/languageContext";
 
 export const MenuDropdowns: React.FC<Props> = ({dropdownClosing, openDropdown, menuItem}) => {
+    const [language] = useContext(LanguageContext);
     let [selected, setSelected] = useState(0);
+
+    const data = language === 'ua' ? mainWaysDataUA : mainWaysData;
+    const montageData = language === 'ua' ? montageDemontageLinksUA : montageDemontageLinks;
+    const repairsData = language === 'ua' ? repairsLinksUA : repairsLinks;
 
     const handleLinkSelection = () => {
         const contactsRef = ReactDOM.findDOMNode(document.getElementById('extra-info'));
@@ -18,7 +27,7 @@ export const MenuDropdowns: React.FC<Props> = ({dropdownClosing, openDropdown, m
         openDropdown();
     };
 
-    const mainWaysJSX = mainWaysData.map((child: Children, index: number) =>
+    const mainWaysJSX = data.map((child: Children, index: number) =>
         <Link to={child.link} className='col-3'
               onClick={handleLinkSelection}
               key={index}
@@ -35,7 +44,7 @@ export const MenuDropdowns: React.FC<Props> = ({dropdownClosing, openDropdown, m
                     </div>
                     <div className='row col-lg-9 col-md-7 col-sm-8 mt-1'>
                         <MenuList onClick={handleLinkSelection}
-                                  links={selected === 0 ? montageDemontageLinks : repairsLinks}/>
+                                  links={selected === 0 ? montageData : repairsData}/>
                     </div>
                 </div>
             </div>

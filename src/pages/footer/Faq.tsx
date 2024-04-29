@@ -1,16 +1,22 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import './styles/Faq.css'
 import {ElementWithShadow} from "./components/ElementWithShadow";
 import {faqData, IFaqData} from "../../constdata/FaqData";
+import {faqData as faqDataUA} from "../../constdata/FaqDataUA";
 
 import {Collapse} from 'antd';
+import {LanguageContext} from "../../lib/languageContext";
 
 const { Panel } = Collapse;
 
 export function FaqComponent() {
+    const [language] = useContext(LanguageContext);
+    const data = language === 'ua' ? faqDataUA : faqData;
+    const title = language === 'ua' ? 'Поширені запитання' : 'Часто задаваемые вопросы';
+
     return (
       <>
-          <p className='faq-header-text mx-auto'>Часто задаваемые вопросы</p>
+          <p className='faq-header-text mx-auto'>{title}</p>
           <div className='d-flex justify-content-center container faq-container'>
               <div className='col-12' style={{paddingRight: "0", paddingLeft: "0"}}>
                       <ElementWithShadow
@@ -22,7 +28,7 @@ export function FaqComponent() {
                                           expandIconPosition="right"
                                           style={{flexGrow: 1}}>
                               {
-                                  faqData.map((element: IFaqData, index: number) => {
+                                  data.map((element: IFaqData, index: number) => {
                                       return <Panel header={element.buttonText}
                                                     key={index}
                                                     showArrow={true}

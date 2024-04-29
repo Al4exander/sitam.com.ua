@@ -1,15 +1,18 @@
 import React, {useContext, useEffect, useRef, useState} from 'react';
 import ReactDOM from 'react-dom';
 import {Link} from "react-router-dom";
-import './styles/Menu.css';
+import './styles/menu.css';
 import {MobileMenu} from "./MobileMenu";
 import {SizeContext} from "../../lib/sizeContext";
 import {MenuDropdowns} from "./MenuDropdowns";
 import {ShowMenuContext} from "../../lib/showMenuContext";
 import cx from "classnames";
 import logoIcon from "../../images/common/LOGO.png";
+import LanguageSelector from "./components/LanguageSelector/LanguageSelector";
+import {LanguageContext} from "../../lib/languageContext";
 
 export const HeaderMenu = () => {
+    const [language] = useContext(LanguageContext);
     let [dropdownOpen, setDropdownOpen] = useState(false);
     let [dropdownClosing, setDropdownClosing] = useState(false);
     let [sticky, setSticky] = useState(false);
@@ -17,6 +20,20 @@ export const HeaderMenu = () => {
     const [smallSize] = useContext(SizeContext);
     const menuRef = useRef<HTMLAnchorElement>(null);
     const [showMenu] = useContext(ShowMenuContext);
+
+    const links = language === 'ua' ? {
+        services: 'Послуги',
+        directions: 'Основні напрямки',
+        projects: 'Проекти',
+        tender: 'У Вас тендер?',
+        contacts: 'Контакти',
+    } : {
+        services: 'Услуги',
+        directions: 'Основные направления',
+        projects: 'Проекты',
+        tender: 'У Вас тендер?',
+        contacts: 'Контакты',
+    };
 
     const scrollToTop = () => {
         window.scrollTo({ left: 0, top: 0, behavior: 'smooth' });
@@ -82,21 +99,22 @@ export const HeaderMenu = () => {
                         <img style={{width: 40, height: 40}} src={logoIcon} alt='Logo' loading="lazy"/> Sitam
                     </Link>
                     <a id='services' key='services' title='Наши услуги' className={`col-2 ${dropdownOpen ? 'nav-active' : ''}`} onClick={() => handleItemSelection(1)}>
-                        Услуги
+                        {links.services}
                     </a>
                     <a id='main-ways' key='main-ways' title='Основные направления' className='col-2' onClick={() => handleItemSelection(2)}>
-                        Основные направления
+                        {links.directions}
                     </a>
                     <Link to={'/projects'} title='Проекты' key='projects' className='col-2' onClick={scrollAfterImage}>
-                        Проекты
+                        {links.projects}
                     </Link>
                     <a key='tender' title='У Вас тендер?' className='col-2' href='mailto:sitam.office@gmail.com'>
-                        У Вас тендер?
+                        {links.tender}
                     </a>
                     <Link to='/contacts' title='Наши контакты' key='contacts' className='col-2' onClick={scrollAfterImage}>
-                        Контакты
+                        {links.contacts}
                     </Link>
                 </nav>
+                <LanguageSelector />
                 {dropdownOpen && <MenuDropdowns dropdownClosing={dropdownClosing} menuItem={menuItem} openDropdown={openDropdown}/>}
             </section> : <MobileMenu/>
         );
