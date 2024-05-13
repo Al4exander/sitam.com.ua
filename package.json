@@ -133,7 +133,8 @@
       "/installation-of-a-process-pipeline",
       "/installation-of-transformers-and-power-equipment",
       "/installation-of-lifting-equipment",
-      "/repair-of-grab-reloader"
+      "/repair-of-grab-reloader",
+      "/otkaz"
     ]
   },
   "eslintConfig": {

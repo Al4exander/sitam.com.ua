@@ -5,5 +5,6 @@ export enum PageTemplates {
     TwoImagesTwoTextsBigType = 4,
     TwoImagesTwoTextsType = 5,
     ThreeTwoImagesTwoTextsType = 6,
-    TwoImagesOneTextBigType = 7
+    TwoImagesOneTextBigType = 7,
+    SimpleText = 8,
 }

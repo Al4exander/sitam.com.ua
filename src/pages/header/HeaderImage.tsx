@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/Header.css';
 import {HeaderText} from "./HeaderText";
 import mainImage from '../../images/common/main.jpg';
+import {useLocation} from "react-router-dom";
 
 export function HeaderImage() {
     const style: React.CSSProperties = {
@@ -17,6 +18,17 @@ export function HeaderImage() {
 
     const extraStyle: React.CSSProperties = {
         marginBottom: '5em'
+    }
+    const location = useLocation();
+
+    const notNeededLocations = [
+        '/privacy',
+        '/oferta',
+        '/otkaz',
+    ];
+
+    if (notNeededLocations.includes(location.pathname)) {
+        return null;
     }
 
     return (

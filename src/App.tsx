@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useLayoutEffect, useState} from 'react';
+import React, {useContext, useEffect} from 'react';
 import {
     BrowserRouter as Router,
     Routes,
@@ -29,6 +29,7 @@ import {ShowMenuProvider} from "./lib/showMenuContext";
 import {ContactsAndAsk} from "./pages/footer/ContactsAndAsk";
 import {Footer} from "./pages/footer/Footer";
 import {LanguageContext} from "./lib/languageContext";
+import {SimpleTextType} from "./pages/standartPages/simpleText/SimpleTextType";
 
 export const App = () => {
     const [smallSize, setSmallSize] = useContext(SizeContext);
@@ -66,6 +67,8 @@ export const App = () => {
                 return <TwoImagesTwoTextsBigType data={element}/>;
             case PageTemplates.TwoImagesOneTextBigType:
                 return <TwoImagesOneTextBigType data={element}/>;
+            case PageTemplates.SimpleText:
+                return <SimpleTextType data={element}/>;
         }
     };
 

@@ -76,6 +76,9 @@ import {installationOfAProcessPipeline} from "./industrial-relocation-of-the-pla
 import {installationOfTransformersAndPowerEquipment} from "./installation-of-transformers-and-power-equipment";
 import {installationOfLiftingEquipment} from "./installation-of-lifting-equipment";
 import {repairOfGrabReloader} from "./repair-of-grab-reloader";
+import {otkaz} from "./otkaz";
+import {oferta} from "./oferta";
+import {privacy} from "./privacy";
 
 export const data = [
     installationOfPresses,
@@ -156,4 +159,7 @@ export const data = [
     installationOfTransformersAndPowerEquipment,
     installationOfLiftingEquipment,
     repairOfGrabReloader,
+    otkaz,
+    oferta,
+    privacy,
 ];
