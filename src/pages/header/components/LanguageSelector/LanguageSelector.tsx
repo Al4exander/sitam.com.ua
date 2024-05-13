@@ -3,6 +3,7 @@ import './styles/index.css';
 import {ReactComponent as FlagUA} from './flags/ua.svg';
 import {ReactComponent as FlagRU} from './flags/ru.svg';
 import {LanguageContext} from "../../../../lib/languageContext";
+import Cookies from 'js-cookie';
 
 const LanguageSelector = () => {
     const [language, setLanguage] = useContext(LanguageContext);
@@ -13,16 +14,16 @@ const LanguageSelector = () => {
     };
 
     const selectLanguage = (lang: string) => {
-        localStorage.setItem('language', language);
+        Cookies.set('language', lang, { expires: 365, path: '/', SameSite: 'Lax', secure: true });
         setLanguage(lang);
         setDropdownOpen(false);
     };
 
     return (
         <div className="language-selector">
-            <div className="language-dropdown" onMouseLeave={() => setDropdownOpen(false)}>
-                <button className="language-button" onClick={toggleDropdown}>
-                    {language === 'ua' ? <FlagUA/> : <FlagRU/>} {language === 'ua' ? 'Укр' : 'Рус'}
+            <div className="language-dropdown" onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
+                <button className="language-button">
+                    {language === 'ua' ? <FlagUA/> : <FlagRU/>} {language === 'ua' ? 'Укр' : 'рус'}
                 </button>
                 {dropdownOpen && (
                     <div className="language-dropdown-content">
