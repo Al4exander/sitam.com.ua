@@ -9,10 +9,10 @@ export function HomePage() {
     }, []);
 
     return (
-      <div>
+      <>
           <WorkWithComponent/>
           <HomePageMainWays/>
-      </div>
+      </>
   );
 }
 

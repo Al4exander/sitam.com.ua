@@ -16,7 +16,7 @@ export function OurAdvantages() {
     const title = language === 'ua' ? 'Наші переваги' : 'Наши преимущества';
 
     return (
-      <>
+      <div className='adwantages'>
           <div className='advantages-header d-flex justify-content-center mb-4 mt-5'>{title}</div>
           <div className='d-flex flex-wrap ml-3'>
               {data.map((data: IAdvantagesData, index: number) => {
@@ -30,6 +30,6 @@ export function OurAdvantages() {
                   />;
               })}
           </div>
-      </>
+      </div>
   );
 }

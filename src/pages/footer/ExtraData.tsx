@@ -22,10 +22,10 @@ export function ExtraData() {
     }
 
     return (
-      <div>
+      <>
           <HowDoWeWork/>
           <OurAdvantages/>
           <FaqComponent />
-      </div>
+      </>
   );
 }

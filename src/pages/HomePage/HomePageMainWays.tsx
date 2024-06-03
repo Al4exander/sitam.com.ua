@@ -16,7 +16,7 @@ export function HomePageMainWays() {
     const title = language === 'ua' ? 'Наші основні напрями' : 'Наши основные направления';
 
     return (
-      <div>
+      <div className='main-ways'>
           <p className='container justify-content-center how-do-we-work-text'>{title}</p>
           <div className='container row mx-auto box-shadow'>
               <div className='col-12 row d-flex justify-content-center'>

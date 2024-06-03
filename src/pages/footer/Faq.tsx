@@ -15,7 +15,7 @@ export function FaqComponent() {
     const title = language === 'ua' ? 'Поширені запитання' : 'Часто задаваемые вопросы';
 
     return (
-      <>
+      <div className='faq-q'>
           <p className='faq-header-text mx-auto'>{title}</p>
           <div className='d-flex justify-content-center container faq-container'>
               <div className='col-12' style={{paddingRight: "0", paddingLeft: "0"}}>
@@ -42,6 +42,6 @@ export function FaqComponent() {
                       />
                   </div>
           </div>
-      </>
+      </div>
   );
 }

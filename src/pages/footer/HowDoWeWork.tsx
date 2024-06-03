@@ -97,7 +97,7 @@ export function HowDoWeWork() {
     }, [rerender]);
 
     return (
-        <div>
+        <div className='how-do-we-work'>
           <p className='d-flex justify-content-center how-do-we-work-text'>{title}</p>
           <div className='d-flex justify-content-center col-11 mx-auto'>
               <Steps current={6} labelPlacement='vertical' direction={'horizontal'}>
