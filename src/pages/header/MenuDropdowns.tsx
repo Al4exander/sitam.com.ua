@@ -28,7 +28,7 @@ export const MenuDropdowns: React.FC<Props> = ({dropdownClosing, openDropdown, m
     };
 
     const mainWaysJSX = data.map((child: Children, index: number) =>
-        <Link to={child.link} className='col-3'
+        <Link to={`/${language}/${child.link}`} className='col-3'
               onClick={handleLinkSelection}
               key={index}
         > <h6 className="card-header-text-style">{child.title}</h6>

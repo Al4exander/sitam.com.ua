@@ -16,9 +16,7 @@ if (rootElement!.hasChildNodes()) {
 } else {
     render(<React.StrictMode>
         <SizeProvider>
-          <LanguageProvider>
             <App />
-          </LanguageProvider>
         </SizeProvider>
     </React.StrictMode>, rootElement);
 }

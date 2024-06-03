@@ -1,17 +1,27 @@
-/* Core */
-import Cookies from 'js-cookie';
-import React, {createContext, useState, SetStateAction} from 'react';
+import React, { createContext, useState, useEffect, ReactNode } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export const LanguageContext = createContext<SettingsProviderShape>([
-    Cookies.get('language') || 'ua',
+    'ua',
     () => null,
 ]);
 
-export const LanguageProvider: React.FC = props => {
-    let [language, setLanguage] = useState(Cookies.get('language') || 'ua');
+export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+    const location = useLocation();
+    const [language, setLanguage] = React.useState<string>('ua');
 
-    return <LanguageContext.Provider value={[language, setLanguage]}>{props.children}</LanguageContext.Provider>;
+    useEffect(() => {
+        const pathLanguage = location.pathname.split('/')[1];
+
+        if (pathLanguage === 'ru' || pathLanguage === 'ua') {
+            setLanguage(pathLanguage);
+        } else {
+            setLanguage('ua');
+        }
+    }, [location]);
+
+    return <LanguageContext.Provider value={[language, setLanguage]}>{children}</LanguageContext.Provider>;
 };
 
 /* Types */
-type SettingsProviderShape = [string, React.Dispatch<SetStateAction<string>>];
+type SettingsProviderShape = [string, React.Dispatch<React.SetStateAction<string>>];

@@ -44,7 +44,7 @@ export const AlsoSeeElement: React.FC<SubButtonsProps> = ({url, alsoSeeIndex}) =
           <section className='container box-shadow'>
             <ul>
                 {alsoSeeUrls.map((alsoSee, index) => <li key={index}>
-                    <Link to={alsoSee.link} className='common-text' onClick={scrollToTop} title={alsoSee.title}>{alsoSee.title}</Link>
+                    <Link to={`/${language}/${alsoSee.link}`} className='common-text' onClick={scrollToTop} title={alsoSee.title}>{alsoSee.title}</Link>
                 </li>)}
             </ul>
           </section>

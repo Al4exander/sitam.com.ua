@@ -22,7 +22,7 @@ export function HomePageMainWays() {
               <div className='col-12 row d-flex justify-content-center'>
                   {data.map((data, index) => {
                       return <div className='d-flex justify-content-center' key={index}>
-                                  <Link to={data.link}
+                                  <Link to={`/${language}/${data.link}`}
                                         className={'col-lg-2 col-sm-6 p-3 ml-4 ml-lg-0 ml-md-0 align-center-full project-container'}
                                         title={data.title}
                                         onClick={scrollToTop}

@@ -9,9 +9,12 @@ export function ExtraData() {
     const location = useLocation();
 
     const notNeededLocations = [
-        '/privacy',
-        '/oferta',
-        '/otkaz',
+        '/ua/privacy',
+        '/ua/oferta',
+        '/ua/otkaz',
+        '/ru/privacy',
+        '/ru/oferta',
+        '/ru/otkaz',
     ];
 
     if (notNeededLocations.includes(location.pathname)) {

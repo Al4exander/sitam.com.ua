@@ -1,21 +1,20 @@
-import React, {useContext, useState} from 'react';
+import React, { useContext, useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './styles/index.css';
-import {ReactComponent as FlagUA} from './flags/ua.svg';
-import {ReactComponent as FlagRU} from './flags/ru.svg';
-import {LanguageContext} from "../../../../lib/languageContext";
-import Cookies from 'js-cookie';
+import { ReactComponent as FlagUA } from './flags/ua.svg';
+import { ReactComponent as FlagRU } from './flags/ru.svg';
+import { LanguageContext } from '../../../../lib/languageContext';
 
 const LanguageSelector = () => {
     const [language, setLanguage] = useContext(LanguageContext);
     const [dropdownOpen, setDropdownOpen] = useState(false);
-
-    const toggleDropdown = () => {
-        setDropdownOpen(!dropdownOpen);
-    };
+    const navigate = useNavigate();
+    const location = useLocation();
 
     const selectLanguage = (lang: string) => {
-        Cookies.set('language', lang, { expires: 365, path: '/', SameSite: 'Lax', secure: true });
         setLanguage(lang);
+        const newPath = `/${lang}${location.pathname.substring(3)}`;
+        navigate(newPath);
         setDropdownOpen(false);
     };
 
@@ -23,12 +22,12 @@ const LanguageSelector = () => {
         <div className="language-selector">
             <div className="language-dropdown" onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
                 <button className="language-button">
-                    {language === 'ua' ? <FlagUA/> : <FlagRU/>} {language === 'ua' ? 'Укр' : 'рус'}
+                    {language === 'ua' ? <FlagUA /> : <FlagRU />} {language === 'ua' ? 'Укр' : 'рус'}
                 </button>
                 {dropdownOpen && (
                     <div className="language-dropdown-content">
-                        <a onClick={() => selectLanguage('ua')}><FlagUA/> Укр</a>
-                        <a onClick={() => selectLanguage('ru')}><FlagRU/> рус</a>
+                        <a onClick={() => selectLanguage('ua')}><FlagUA /> Укр</a>
+                        <a onClick={() => selectLanguage('ru')}><FlagRU /> рус</a>
                     </div>
                 )}
             </div>

@@ -76,7 +76,7 @@ export function MobileMenu() {
                           showArrow={false}
             >
                 {element.children.map(({link, title}, index: number) =>
-                    <Link to={link}
+                    <Link to={`/${language}/${link}`}
                           onClick={handleLinkSelection}
                           className='ml-2 col-12 services-accordion-text'
                           key={index}>{title}</Link>
@@ -108,7 +108,7 @@ export function MobileMenu() {
             Основные направления
         </span>
         <div className='row container align-center-semi-d col-12 mt-3'>
-            {mainWaysData.map((child: Children, index: number) => <Link to={child.link}
+            {mainWaysData.map((child: Children, index: number) => <Link to={`/${language}/${child.link}`}
                                                                         className='col-6'
                                                                         key={index}
                                                                         onClick={handleLinkSelection}>{child.title}</Link>)}
@@ -138,13 +138,13 @@ export function MobileMenu() {
                                 <a key='industries' className='col-12' onClick={() => setMainWaysSelected(true)}>
                                     {links.directions}
                                 </a>
-                                <Link to={'/projects'} key='projects' className='col-12' onClick={scrollToTop}>
+                                <Link to={`/${language}/projects`} key='projects' className='col-12' onClick={scrollToTop}>
                                     {links.projects}
                                 </Link>
                                 <a key='tender' className='col-12' href='mailto:sitam.office@gmail.com'>
                                     {links.tender}
                                 </a>
-                                <Link to='/contacts' title='contacts' key='contacts' className='col-12' onClick={scrollAfterImage}>
+                                <Link to={`/${language}/contacts`} title='contacts' key='contacts' className='col-12' onClick={scrollAfterImage}>
                                     {links.contacts}
                                 </Link>
                             </div>

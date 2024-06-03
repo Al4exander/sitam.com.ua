@@ -104,13 +104,13 @@ export const HeaderMenu = () => {
                     <a id='main-ways' key='main-ways' title='Основные направления' className='col-2' onClick={() => handleItemSelection(2)}>
                         {links.directions}
                     </a>
-                    <Link to={'/projects'} title='Проекты' key='projects' className='col-2' onClick={scrollAfterImage}>
+                    <Link to={`/${language}/projects`} title='Проекты' key='projects' className='col-2' onClick={scrollAfterImage}>
                         {links.projects}
                     </Link>
                     <a key='tender' title='У Вас тендер?' className='col-2' href='mailto:sitam.office@gmail.com'>
                         {links.tender}
                     </a>
-                    <Link to='/contacts' title='Наши контакты' key='contacts' className='col-2' onClick={scrollAfterImage}>
+                    <Link to={`${language}/contacts`} title='Наши контакты' key='contacts' className='col-2' onClick={scrollAfterImage}>
                         {links.contacts}
                     </Link>
                 </nav>

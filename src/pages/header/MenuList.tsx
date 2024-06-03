@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import { Link } from "react-router-dom";
 import {Children, HeaderLinks} from "./Interfaces";
+import {LanguageContext} from "../../lib/languageContext";
 
 export const MenuList: React.FC<IMenuList> = ({links, onClick}) => {
+    const [language] = useContext(LanguageContext);
+
   return (
       <div className="site-card-wrapper row">
               {links.map((link: HeaderLinks, index) => {
@@ -11,7 +14,7 @@ export const MenuList: React.FC<IMenuList> = ({links, onClick}) => {
                               <h6 className="card-title card-header-text-style">{link.Type}</h6>
                               <div className="card-text row">
                                   {link.children.map((child: Children, childIndex: number) => {
-                                      return <Link onClick={onClick} className='col-12 mt-1 card-text-style' to={child.link} key={childIndex}>{child.title}</Link>
+                                      return <Link onClick={onClick} className='col-12 mt-1 card-text-style' to={`/${language}/${child.link}`} key={childIndex}>{child.title}</Link>
                                   })}
                               </div>
                           </div>
