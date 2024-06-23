@@ -2,7 +2,6 @@ import React from 'react';
 import viber from '../socialContacts/images/viber.svg';
 import telegram from '../socialContacts/images/telegram.png';
 import whatsapp from '../socialContacts/images/whatsapp.png';
-import LanguageSelector from "../LanguageSelector/LanguageSelector";
 
 export const Icons: React.FC<IIcons> = ({className, iconClassName}) => {
     return (
