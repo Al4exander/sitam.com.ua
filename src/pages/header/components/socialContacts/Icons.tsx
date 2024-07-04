@@ -7,7 +7,7 @@ export const Icons = ({ className, iconClassName }: IIcons) => {
     return (
         <>
             <div className={className}>
-                <a className={iconClassName} target='_blank' rel='noopener noreferrer'
+                <a target='_blank' rel='noopener noreferrer'
                    href='viber://chat?number=380676951098' title={'Viber'}>
                     <img className='header-icon-first' src={viber} title={'Viber'} alt={'Viber'} loading='lazy' />
                 </a>
