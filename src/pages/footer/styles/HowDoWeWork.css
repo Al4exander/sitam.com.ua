@@ -69,30 +69,48 @@
 .ml-p-10 {
     margin-left: 2%;
 }
+.ant-steps-item-title .ant-steps-item-subtitle {
+    font-family: Yanone Kaffeesatz;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.ml-p-10 {
+    margin-left: 2%;
+}
+
 .ant-steps.ant-steps-label-vertical .ant-steps-item-tail {
     margin-right: 5px;
     margin-left: 70px;
     padding: 10px 24px;
 }
+
 .ant-steps:not(.ant-steps-vertical) .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-tail::after {
-    background-color: #B622CE;
+    background-color: #808080;  /* Changed to gray */
     height: 11px;
     border-radius: 4px;
-
     box-shadow: inset 0 5px 6px 0 #ffffff;
 }
+
 .ant-steps.ant-steps-vertical > .ant-steps-item .ant-steps-item-icon {
     margin-right: 40px;
 }
+
 .ant-steps.ant-steps-vertical > .ant-steps-item:not(:last-child) > .ant-steps-item-container > .ant-steps-item-tail::after {
-    background-color: #B622CE;
+    background-color: #808080;  /* Changed to gray */
     border-radius: 4px;
     width: 10px;
     margin-left: 10px;
     margin-top: 10px;
-
     box-shadow: inset 3px 5px 6px 0 #ffffff;
 }
+
 @media screen and (max-width: 1299px) {
     .ant-steps-item-title {
         margin-left: 0;

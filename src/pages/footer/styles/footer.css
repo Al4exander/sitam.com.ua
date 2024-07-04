@@ -3,6 +3,32 @@
     width: 100%;
     height: 2.5rem;
 }
+.sitam-footer {
+    position: relative;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.sitam-footer .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .sitam-footer .icon-container {
+        justify-content: center;
+    }
+}
+
+.sitam-footer .section {
+    padding: 20px 0;
+    border-top: 1px solid #bfbfbf;
+}
+
+.sitam-footer .section:first-child {
+    border-top: none;
+}
 
 .sitam-footer {
     margin-top: 1.5em;
