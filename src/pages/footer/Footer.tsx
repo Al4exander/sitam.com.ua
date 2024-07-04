@@ -81,19 +81,19 @@ export function Footer() {
                                 const email = ['email'];
 
                                 if (phoneNumber.includes(key)) {
-                                    return <span key={value}>
-                                        <a href={`tel:${value}`} title='Phone' className='ml-3'>
+                                    return <div key={value} className='mt-3'>
+                                        <a href={`tel:${value}`} title='Phone'>
                                             {value}
                                         </a>
-                                    </span>;
+                                    </div>;
                                 }
 
                                 if (email.includes(key)) {
-                                    return <span key={value}>
-                                        <a href={`mailto:${value}`} title='Email' className='ml-3'>
+                                    return <div key={value} className='mt-3'>
+                                        <a href={`mailto:${value}`} title='Email'>
                                             {value}
                                         </a>
-                                    </span>;
+                                    </div>;
                                 }
 
                                 return null;
